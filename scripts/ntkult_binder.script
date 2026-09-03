@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+--| ntkult_binder.script
+--| Encrypted manager for default ShOC functions
+--| lunxr(matrix), 2025, OGSR Gunslinger Adaptation
+-------------------------------------------------------------------------------
+
+function ntk_cmd()
+	cmd("cam_inert 0")
+	cmd("cam_inert_sprint 0.4")
+	cmd("g_cop_death_anim 0")
+	cmd("r2_exp_donttest_shad off")
+	cmd("r_terrain_parallax_enable off")
+	cmd("hud_fov 0.7")
+	cmd("r2_sun_lumscale 2")
+	cmd("g_dof_zoom off")
+end

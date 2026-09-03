@@ -1,0 +1,74 @@
+--[[----------------------------------------------------------------
+ ui_enemy_health.script
+ Ўкала здоровь€ врага. Source: Call Of Chernobyl / Alundaio
+----------------------------------------------------------------]]
+
+local progress = nil
+local hide = 0
+
+function IsHelicopter(object, class_id)
+	local id = class_id or get_clsid(object)
+	if id == clsid.helicopter or id == clsid.script_heli then
+		return true
+	end
+	return false
+end
+
+function on_hit(obj, amount, local_direction, who, bone_index)
+	if obj:who_hit_name() == "single_player" then
+		local hud = get_hud()
+		local cls = obj:clsid()
+		local hp = obj.health or 0
+		local cs = hud:GetCustomStatic("cs_enemy_health")
+
+		if cs == nil then
+			hud:AddCustomStatic("cs_enemy_health", true)
+			local xml = CScriptXmlInit()
+			xml:ParseFile("ui_custom_msgs.xml")
+			cs = hud:GetCustomStatic("cs_enemy_health")
+			local w = cs:wnd()
+			progress = xml:InitProgressBar("cs_enemy_health:enemy_health", w)
+		end
+
+		if hp > 0.005 then
+			progress:Show(true)
+			progress:SetProgressPos(hp * 100)
+			local text = ""
+			if IsStalker(nil, cls) or IsMonster(nil, cls) then
+				text = obj:character_name()
+			elseif IsHelicopter(nil, cls) then
+				text = "Helicopter"
+			else
+				local sid = get_object_story_id(obj:id())
+				if sid then
+					text = game.translate_string(sid)
+				end
+			end
+			cs:wnd():SetText(text)
+			wait()
+		end
+	end
+end
+
+function on_death(victim, who)
+	if not (victim:alive()) then
+		cs_remove()
+	end
+end
+
+function wait()
+	hide = time_global() + 20000
+	local function check_timer()
+		return time_global() > hide
+	end
+	level.add_call(check_timer, cs_remove)
+end
+
+function cs_remove()
+	hide = 0
+	local hud = get_hud()
+	local cs = hud and hud:GetCustomStatic("cs_enemy_health")
+	if cs then
+		hud:RemoveCustomStatic("cs_enemy_health")
+	end
+end

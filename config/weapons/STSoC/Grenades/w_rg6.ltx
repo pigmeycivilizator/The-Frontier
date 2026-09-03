@@ -1,0 +1,44 @@
+; Револьверный ручной гранатомет 6Г30
+;-(TrickSR, Ga2z)-----------------------------------------
+; калибр 									40 мм
+; длина ствола 							---
+; количество комор							6
+; вес с пустым магазином					6.2 кг
+; максимальная дальность стрельбы			550 м
+; эффективная дальность стрельбы			400 м
+; прицельная дальность						400 м
+; начальная скорость гранаты				76 м/с
+; темп стрельбы								15-18 в/м
+; ресурс живучести							2500-3000 выстрелов
+;---------------------------------------------------
+[wpn_rg-6]:identity_immunities
+description									= st_wpn_rg6_descr
+
+icon_group									= 1
+
+GroupControlSection		= spawn_group
+discovery_dependency	=
+$spawn					= "food and drugs\bread_a"
+cform                   = skeleton
+class					= II_ATTCH
+
+
+attach_angle_offset		= -0.287979, 1.560923, 1.544060
+attach_position_offset	= 0.096910, -0.013594, 0.107925
+attach_bone_name		= bip01_r_hand
+auto_attach				= false
+
+// should be deleted after update
+bone_name				= bip01_r_hand
+position_offset			 = 0.0,0.0,0.0
+angle_offset			 = 1.570790,1.570790,3.92699
+
+inv_name									= st_wpn_rg6
+inv_name_short								= st_wpn_rg6
+inv_grid_width								= 4
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 8
+visual										= dynamics\weapons\wpn_rg6\wpn_rg6.ogf
+cost										= 20000
+inv_weight									= 6.2

@@ -1,0 +1,5 @@
+
+	<val_sos_location2 hint="val_sos_help_main_hint" store="1">
+		<level_map spot="blue_spot" pointer="quest_pointer"></level_map>
+		<mini_map  spot="blue_mini_spot" pointer="quest_pointer"></mini_map>
+	</val_sos_location2>

@@ -1,0 +1,99 @@
+-- Забрать КПК у игрока и отключить интерфейс
+function take_pda_disable_ui(first_speaker, second_speaker)
+	level.block_action(key_bindings.kMAP)
+	level.block_action(key_bindings.kACTIVE_JOBS)
+	level.block_action(key_bindings.kCONTACTS)
+	level.block_action(key_bindings.kCONSOLE)
+	level.block_action(key_bindings.kTORCH)
+	level.set_weather("default_np_foggy_nosun", true)
+	get_console():execute("hud_draw 0")
+end
+
+-- Вернуть КПК и включить интерфейс обратно
+function give_pda_enable_ui(first_speaker, second_speaker)
+	level.unblock_action(key_bindings.kMAP)
+	level.unblock_action(key_bindings.kACTIVE_JOBS)
+	level.unblock_action(key_bindings.kCONTACTS)
+	level.unblock_action(key_bindings.kCONSOLE)
+	level.unblock_action(key_bindings.kTORCH)
+	level.set_weather("default_np_alpha", true)
+	get_console():execute("hud_draw 1")
+end
+
+
+function wc_has_bandage2(a, b)
+	return sak.have_item_namber("bandage",3)
+end
+function wc_zabral_bandage2(a, b)
+	sak.out_item_namber("bandage",3)
+end
+
+function wc_has_bandage1(a, b)
+	return sak.have_item_namber("bandage",1)
+end
+function wc_zabral_bandage1(a, b)
+	sak.out_item_namber("bandage",1)
+end
+
+function wc_has_medkit(a, b)
+	return sak.have_item_namber("medkit",2)
+end
+function wc_zabral_medkit(a, b)
+	sak.out_item_namber("medkit",2)
+end
+
+function wc_has_medkit_army(a, b)
+	return sak.have_item_namber("medkit_army",1)
+end
+function wc_zabral_medkit_army(a, b)
+	sak.out_item_namber("medkit_army",1)
+end
+
+function wc_has_antirad(a, b)
+	return sak.have_item_namber("antirad",1)
+end
+function wc_zabral_antirad(a, b)
+	sak.out_item_namber("antirad",1)
+end
+
+function wc_has_vodka2(a, b)
+	return sak.have_item_namber("vodka",2)
+end
+function wc_zabral_vodka2(a, b)
+	sak.out_item_namber("vodka",2)
+end
+
+function wc1_complete()
+	if db.actor ~= nil then
+		if has_alife_info("wc1_s1_done") and has_alife_info("wc1_s2_done")
+		   and has_alife_info("wc1_s3_done") and has_alife_info("wc1_s4_done")
+		   and has_alife_info("wc1_s5_done")
+		then
+			db.actor:give_info_portion("wc_check1_done")
+		return true
+		end
+	end
+	return false
+end
+
+function wc2_complete()
+	if db.actor ~= nil then
+		if has_alife_info("wc2_s1_done") and has_alife_info("wc2_s2_done")
+		   and has_alife_info("wc2_s3_done") and has_alife_info("wc2_s4_done")
+		   and has_alife_info("wc2_s5_done") and has_alife_info("wc2_s6_done")
+		then
+			db.actor:give_info_portion("wc_check2_done")
+		return true
+		end
+	end
+	return false
+end
+
+
+function cam_earthquake()
+	level.add_cam_effector("camera_effects\\earthquake.anm", 9101, false, "")
+end
+
+function fx_radar_psi()
+       level.add_pp_effector("radar_psi.ppe", 9005, false)
+end

@@ -1,0 +1,17 @@
+<!-- bar rostok locations and spots -->
+	<volkodav_location>
+		<level_map spot="crlc_mdl_spot"></level_map>
+		<mini_map spot="crlc_small"></mini_map>
+	</volkodav_location>
+
+	<arni_location hint="bar_arena_locator" store="1">
+		<level_map spot="blue_spot" pointer="quest_pointer"></level_map>
+	</arni_location>
+
+	<base_location hint="bar_voronin_name" store="1">
+		<level_map spot="blue_spot" pointer="quest_pointer"></level_map>
+	</base_location>
+
+	<bar_location hint="bar_bar_locator" store="1">
+		<level_map spot="blue_spot" pointer="quest_pointer"></level_map>
+	</bar_location>

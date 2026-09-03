@@ -1,0 +1,88 @@
+; Ручная граната для мгновенной постановки дымовой завесы ГД-5
+;-(TrickSR)-----------------------------------------
+; общий все гранаты с запалом 			630 гр
+; заряд химический  					-- гр
+; возможная дальность броска			25-30 м
+; задержка перед взрывом 				-- сек
+; плотность дымовой завесы			
+;---------------------------------------------------
+[grenade_gd-05]:grenade_f1,grenade_gd-05_sounds
+$spawn 				= "weapons\grenades\gd-05"
+inv_name								= st_grenade_smoke
+inv_name_short							= st_grenade_smoke
+description			= st_grenade_smoke_descr
+inv_grid_x			= 19
+inv_grid_y			= 3
+hud					= grenade_rdg-m_hud
+
+blast				= 0;150
+blast_r				= 0;8
+blast_impulse		= 0
+;delete
+blast_impulse_factor = 0
+
+frags				= 0;12
+frags_r				= 0
+frag_hit			= 0;50
+frag_hit_impulse	= 0
+
+hit_type_blast		= strike
+hit_type_frag		= fire_wound
+
+up_throw_factor		= 0
+;-----------------------------------------------------------------------------------
+
+
+explode_particles		 = explosions\explosion_dym
+
+
+light_color		         = 0.9,0.6,0.5
+light_range		         = 2.0
+light_time 		         = 2.85
+
+;трассы от осколков
+fragment_speed				= 50
+
+hide_in_explosion = false
+explode_duration		 = 12		;подолжительность взрыва (с)
+explode_hide_duration	 = 10		;время, через которое гранату надо сделать невидимой (с)
+dynamic_explosion_particles = true
+
+snd_explode = weapons\grenade_gd05
+
+visual									= dynamics\weapons\wpn_grenades\wpn_gd5.ogf
+
+[grenade_rdg-m_hud]:hud_base
+attach_place_idx						= 0
+item_visual								= dynamics\weapons\wpn_grenades\wpn_gd5_hud.ogf
+
+hands_position							= -0.016204,-0.102241,0.023000
+hands_orientation						= -0.500000,1.000000,-2.000000
+
+hands_position_16x9						= -0.016204,-0.102241,0.023000
+hands_orientation_16x9					= -0.500000,1.000000,-2.000000
+
+item_position               			= -0.001, 0.004, 0.009391
+item_orientation            			= 18.5, 1.5, 0
+
+disable_bore							= true
+
+anm_hide                    			= he_hide, rdgm_hide
+anm_idle                    			= he_idle, idle
+
+anm_idle_moving             			= he_walk, rdgm_walk
+anm_idle_moving_slow             		= he_slow, rdgm_walk
+anm_idle_moving_crouch             		= he_crouch, rdgm_walk
+anm_idle_moving_slow_crouch      		= he_crouch_slow, rdgm_walk
+anm_idle_sprint             			= he_sprint, rdgm_sprint
+anm_show                    			= he_draw, rdgm_draw
+anm_throw                   			= he_throw_end, rdgm_throw_quick
+anm_throw_begin             			= he_throw_start, rdgm_throw_start
+anm_throw_idle              			= he_throw_idle, rdgm_throw_idle
+
+fire_bone                   			= wpn_body
+fire_point                  			= 0, 0, 0
+
+throw_point				 				=  0.4, 0.3, 0.1
+throw_dir				 				= 0,0,1
+third_person_throw_point_offset 		= -0.198,1.8,-0.833

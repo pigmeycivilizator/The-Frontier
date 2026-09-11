@@ -406,12 +406,12 @@
 		
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-		<actor_dialog>agr_swamp_ratcatcher_talks</actor_dialog>
+	<actor_dialog>agr_krot_about_agroprom</actor_dialog>
 	
 	</specific_character>
 	
 	<specific_character id="agr_nii_commander" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+		<name>GENERATE_NAME_captain</name>
 		<icon>ui_npc_u_soldier_beret</icon>
 		<map_icon x="2" y="0"></map_icon>
 		<bio>sim_soldier_commander_bio</bio>
@@ -438,8 +438,10 @@
 #include "gameplay\character_food.xml"
 		</supplies>
 		
-#include "gameplay\character_criticals_4.xml"				
-#include "gameplay\character_dialogs.xml"	
+
+
+	<actor_dialog>agr_krot_about_agroprom</actor_dialog>
+
 		
 	</specific_character>
 	

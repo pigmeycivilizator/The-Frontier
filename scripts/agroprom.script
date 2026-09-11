@@ -1,5 +1,6 @@
 -- Забрать КПК у игрока и отключить интерфейс
 function take_pda_disable_ui(first_speaker, second_speaker)
+	force_torch_off()
 	level.block_action(key_bindings.kMAP)
 	level.block_action(key_bindings.kACTIVE_JOBS)
 	level.block_action(key_bindings.kCONTACTS)
@@ -18,6 +19,72 @@ function give_pda_enable_ui(first_speaker, second_speaker)
 	level.unblock_action(key_bindings.kTORCH)
 	level.set_weather("default_np_alpha", true)
 	get_console():execute("hud_draw 1")
+end
+
+
+-- Выставить конкретное время (перемотка вперёд до ближайшего такого времени)
+function set_game_time(target_h, target_m)
+	local h = level.get_time_hours()
+	local m = level.get_time_minutes()
+
+	local now_min    = h * 60 + m
+	local target_min = target_h * 60 + target_m
+	local diff = target_min - now_min
+
+	-- если целевое время уже прошло сегодня, мотаем до него на следующие сутки
+	if diff <= 0 then
+		diff = diff + 24 * 60
+	end
+
+	level.advance_game_time(diff * 60 * 1000)
+end
+
+function jump_to_16()
+	set_game_time(16, 0)
+end
+
+function jump_to_18()
+	set_game_time(18, 0)
+end
+
+function jump_to_23()
+	set_game_time(23, 0)
+end
+
+function jump_to_0630()
+	set_game_time(6, 30)
+end
+
+-- Принудительно выключить фонарь игрока
+function force_torch_off()
+	local torch_item = db.actor:object("device_torch")
+	if torch_item ~= nil then
+		local torch = torch_item:get_torch()
+		if torch ~= nil then
+			torch:enable(false)
+		end
+	end
+end
+
+local saved_tf = nil
+
+function freeze_time()
+	saved_tf = level.get_time_factor()
+	level.set_time_factor(0)
+end
+
+function unfreeze_time()
+	level.set_time_factor(saved_tf or 10)
+	saved_tf = nil
+end
+
+function freeze_at(target_h, target_m)
+	set_game_time(target_h, target_m)
+	freeze_time()
+end
+
+function freeze_at_midnight()
+	freeze_at(0, 0)
 end
 
 

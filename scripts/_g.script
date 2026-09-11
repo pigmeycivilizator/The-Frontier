@@ -23,6 +23,14 @@ string.trim_r = function(s) return s:gsub("%s*$", '') end
 --Срезать пробелы слева и справа
 string.trim   = function(s) return s:match( "^%s*(.*%S)" ) or "" end
 ------------------------------------------------------------------------------------------------
+function mylog(msg)
+end
+
+function dbglog(fmt, ...)
+	local msg = string.format(fmt, ...)
+	get_console():execute("dbg:" .. string.gsub(msg, "%s", "_"))
+end
+
 --Возвращает кол-во элементов в таблице. Для массивов надо использовать оператор #.
 table.size = function(t)
 	local size = 0

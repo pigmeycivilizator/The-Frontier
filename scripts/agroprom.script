@@ -164,3 +164,21 @@ end
 function fx_radar_psi()
        level.add_pp_effector("radar_psi.ppe", 9005, false)
 end
+
+-- ===== HUD-маска ПНВ по надетому костюму =====
+local mask_shown = false
+
+function nvd_mask_update()
+	local outfit = db.actor:item_in_slot(6)
+	local need = (outfit ~= nil and outfit:section() == "stalker_outfit")
+	local hud = get_hud()
+	if need and not mask_shown then
+		hud:AddCustomStatic("cs_nvd_mask", true)
+		mask_shown = true
+	elseif not need and mask_shown then
+		if hud:GetCustomStatic("cs_nvd_mask") then
+			hud:RemoveCustomStatic("cs_nvd_mask")
+		end
+		mask_shown = false
+	end
+end

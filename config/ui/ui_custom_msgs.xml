@@ -10,6 +10,10 @@
 		</enemy_health>
 	</cs_enemy_health>
 
+	<cs_nvd_mask x="0" y="0" width="1024" height="768" stretch="1">
+		<texture>ui\ui_nvd_mask_3</texture>
+	</cs_nvd_mask>
+
     <hud_timer x="852" y="15" width="157" height="67">
         <text x="-15" y="23it" font="graffiti32" r="238" g="155" b="23" a="255" align="r"/>
         <texture>ui_hud_frame_clock</texture>

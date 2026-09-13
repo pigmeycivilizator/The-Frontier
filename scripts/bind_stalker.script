@@ -352,7 +352,10 @@ function actor_binder:update(delta)
 		level_tasks.add_lchanger_location()
 
 		self.bCheckStart = false		
-	end		
+	end	
+
+	agroprom.nvd_mask_update()
+	
 end
 ----------------------------------------------------------------------------------------------------------------------
 function actor_binder:save(packet)

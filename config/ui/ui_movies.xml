@@ -148,11 +148,10 @@
 		</global_wnd>
 
 		<item type="video">
-			<sound>characters_voice\scenario\video\intro_stalker</sound>
+			<sound>intro_game</sound>
 			<pause_state>on</pause_state>
-			<video_wnd x="0" y="0" width="1024" height="768" stretch="1">
-				<!--texture x="0" y="1" width="512" height="286">intro\intro_stalker</texture-->
-				<texture x="0" y="1" width="1918" height="1080" stretch="1">intro\intro_stalker</texture>
+			<video_wnd x="0" y="0" width="1920" height="1080" stretch="1">
+				<texture x="0" y="1" width="1920" height="1078">intro_game</texture>
 			</video_wnd>
 		</item>
 	</intro_game>

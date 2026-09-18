@@ -22,8 +22,33 @@
 	</info_portion>
 	<info_portion id="wc_check2_done"></info_portion>
 
+ 
+	<info_portion id="fr_agr_intro_done">
+		<task>task_fr_agr_to_hq</task>
+	</info_portion>
 
+	<info_portion id="fr_agr_hq_done">
+		<task>task_fr_agr_gear</task>
+	</info_portion>
 
+	<info_portion id="fr_agr_gear_done"></info_portion>
+
+	<info_portion id="fr_agr_underground_start">
+		<task>task_fr_agr_underground</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_underground_entered"></info_portion>
+
+	<!-- снабженец рассказал про сделку с бандитами, второй визит -->
+	<info_portion id="fr_agr_snab_deal_start"></info_portion>
+
+	<!-- заданные вопросы -->
+	<info_portion id="fr_agr_kuz_asked_1"></info_portion>
+	<info_portion id="fr_agr_kuz_asked_2"></info_portion>
+	<info_portion id="fr_agr_kuz_asked_3"></info_portion>
+	<info_portion id="fr_agr_snab_asked_1"></info_portion>
+	<info_portion id="fr_agr_snab_asked_2"></info_portion>
+	<info_portion id="fr_agr_snab_asked_3"></info_portion>
 
 
 	<info_portion id="agroprom_military_case">

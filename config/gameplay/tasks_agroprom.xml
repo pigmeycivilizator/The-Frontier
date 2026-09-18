@@ -27,7 +27,54 @@
 	</game_task>
 
 
-
+	<game_task id="task_fr_agr_to_hq" prio="1">
+		<title>task_fr_agr_to_hq</title>
+		<objective>
+			<text>task_fr_agr_to_hq</text>
+			<icon>ui_iconsTotal_val_captive_help</icon>
+			<infoportion_complete>fr_agr_hq_done</infoportion_complete>
+			<article>task_fr_agr_to_hq</article>
+		</objective>
+ 
+		<objective>
+			<text>task_fr_agr_to_hq_1</text>
+			<map_location_type hint="fr_agr_kuznetsov">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_hq_done</infoportion_complete>
+		</objective>
+	</game_task>
+ 
+	<game_task id="task_fr_agr_gear" prio="1">
+		<title>task_fr_agr_gear</title>
+		<objective>
+			<text>task_fr_agr_gear</text>
+			<icon>ui_iconsTotal_weapons</icon>
+			<infoportion_complete>fr_agr_gear_done</infoportion_complete>
+			<article>task_fr_agr_gear</article>
+		</objective>
+ 
+		<objective>
+			<text>task_fr_agr_gear_1</text>
+			<map_location_type hint="fr_agr_snab">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab</object_story_id>
+			<infoportion_complete>fr_agr_gear_done</infoportion_complete>
+		</objective>
+	</game_task>
+ 
+	<game_task id="task_fr_agr_underground" prio="1">
+		<title>task_fr_agr_underground</title>
+		<objective>
+			<text>task_fr_agr_underground</text>
+			<icon>ui_iconsTotal_yan_kill_brain_task_2</icon>
+			<infoportion_complete>fr_agr_underground_entered</infoportion_complete>
+			<article>task_fr_agr_underground</article>
+		</objective>
+ 
+		<objective>
+			<text>task_fr_agr_underground_1</text>
+			<infoportion_complete>fr_agr_underground_entered</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

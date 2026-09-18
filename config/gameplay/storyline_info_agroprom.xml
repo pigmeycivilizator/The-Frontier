@@ -22,7 +22,23 @@
     <article id="agr_military_case" name="agr_military_case_name" article_type="journal" group="st_operation_agroprom">
         <text>agr_military_case</text>
     </article>
+	
+	
+	<article id="task_fr_agr_to_hq" name="task_fr_agr_to_hq" group="task_fr_agr_to_hq" article_type="task">
+		<text>task_fr_agr_to_hq_artcl</text>
+	</article>
 
+	<article id="task_fr_agr_gear" name="task_fr_agr_gear" group="task_fr_agr_gear" article_type="task">
+		<text>task_fr_agr_gear_artcl</text>
+	</article>
+
+	<article id="task_fr_agr_underground" name="task_fr_agr_underground" group="task_fr_agr_underground" article_type="task">
+		<text>task_fr_agr_underground_artcl</text>
+	</article>
+	
+	
+	
+	
     <article id="agr_journal_krot" name="article_agr_krot_sos_name" article_type="journal" group="memuars">
         <text>agr_journal_krot</text>
     </article>

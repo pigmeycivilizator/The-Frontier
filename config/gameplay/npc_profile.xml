@@ -16,46 +16,17 @@
 
 <!-- rubezh-->
 
-	<character id="agr_visual_test">
-		<class>agr_visual_test</class>
+	<!-- FRONTIER -->
+	<character id="fr_agr_soldier_intro">
+		<class>fr_agr_soldier_intro</class>
+	</character>
+	<character id="fr_agr_kuznetsov">
+		<class>fr_agr_kuznetsov</class>
+	</character>
+	<character id="fr_agr_snab">
+		<class>fr_agr_snab</class>
 	</character>
 
-<character id="agr_t_do_antigas">
-		<class>agr_t_do_antigas</class>
-	</character>
-	<character id="agr_t_do_balon_8">
-		<class>agr_t_do_balon_8</class>
-	</character>
-	<character id="agr_t_do_exoskeleton">
-		<class>agr_t_do_exoskeleton</class>
-	</character>
-	<character id="agr_t_do_mask">
-		<class>agr_t_do_mask</class>
-	</character>
-	<character id="agr_t_do_mask_1">
-		<class>agr_t_do_mask_1</class>
-	</character>
-	<character id="agr_t_do_nauchniy">
-		<class>agr_t_do_nauchniy</class>
-	</character>
-	<character id="agr_lohmatiy">
-		<class>agr_lohmatiy</class>
-	</character>
-	<character id="agr_t_sol_antigas">
-		<class>agr_t_sol_antigas</class>
-	</character>
-	<character id="agr_t_sol_bandana_1">
-		<class>agr_t_sol_bandana_1</class>
-	</character>
-	<character id="agr_t_sol_bandana_2">
-		<class>agr_t_sol_bandana_2</class>
-	</character>
-	<character id="agr_t_sol_bandana_3">
-		<class>agr_t_sol_bandana_3</class>
-	</character>
-	<character id="agr_order_head">
-		<class>agr_order_head</class>
-	</character>
 
 <!-- Escape -->
 	<character id="escape_trader">	

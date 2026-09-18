@@ -15,15 +15,14 @@
 			wpn_oc33 \n
 			ammo_9x18_fmj = 2 \n
 			specops_outfit \n
-			stalker_outfit \n
-			medkit = 12 \n
-			medkit_army = 6 \n
-			medkit_scientic = 3 \n
-			bandage = 18 \n
-			antirad = 8 \n
-			vodka = 5 \n
-			bread = 4 \n
-			conserva = 3 \n
+			medkit = 10 \n
+			medkit_army = 5 \n
+			medkit_scientic = 2 \n
+			bandage = 16 \n
+			antirad = 6 \n
+			vodka = 4 \n
+			bread = 3 \n
+			conserva = 2 \n
 			kolbasa = 2 \n
 			energy_drink = 3 \n
 

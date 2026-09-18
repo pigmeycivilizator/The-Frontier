@@ -1,3 +1,30 @@
+	
+<string id="fr_agr_soldier_intro_name">
+	<text>Рядовой Кравец</text>
+</string>
+<string id="fr_agr_soldier_intro_bio">
+	<text>Рядовой гарнизона НИИ Агропром. Ранен на патрулировании, снят с нарядов до конца недели.</text>
+</string>
+<string id="fr_agr_kuznetsov_name">
+	<text>Полковник Кузнецов</text>
+</string>
+<string id="fr_agr_kuznetsov_bio">
+	<text>Командир последней крупной базы Вооружённых Сил в Зоне. Служит здесь с 2011 года.</text>
+</string>
+<string id="fr_agr_snab_name">
+	<text>Сержант Малевич</text>
+</string>
+<string id="fr_agr_snab_bio">
+	<text>Начальник склада. В Зоне пять лет, пережил три базы. Знает всех, кто возит сюда хоть что-то.</text>
+</string>
+	
+	
+	
+	
+	
+	
+	
+	
 	<string id="aes_Monolit_master_bio">
 		<text>Хранитель группировки "Монолит". Лучше держаться от него подальше. Детальная информация отсутствует.</text>
 	</string>

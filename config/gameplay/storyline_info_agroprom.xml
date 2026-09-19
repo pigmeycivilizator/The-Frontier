@@ -36,7 +36,21 @@
 		<text>task_fr_agr_underground_artcl</text>
 	</article>
 	
-	
+	<article id="task_fr_agr_sergeant" name="task_fr_agr_sergeant" group="task_fr_agr_sergeant" article_type="task">
+		<text>task_fr_agr_sergeant_artcl</text>
+	</article>
+	<article id="task_fr_agr_krovosos" name="task_fr_agr_krovosos" group="task_fr_agr_krovosos" article_type="task">
+		<text>task_fr_agr_krovosos_artcl</text>
+	</article>
+	<article id="task_fr_agr_pistol" name="task_fr_agr_pistol" group="task_fr_agr_pistol" article_type="task">
+		<text>task_fr_agr_pistol_artcl</text>
+	</article>
+	<article id="task_fr_agr_north" name="task_fr_agr_north" group="task_fr_agr_north" article_type="task">
+		<text>task_fr_agr_north_artcl</text>
+	</article>
+	<article id="task_fr_agr_back" name="task_fr_agr_back" group="task_fr_agr_back" article_type="task">
+		<text>task_fr_agr_back_artcl</text>
+	</article>
 	
 	
     <article id="agr_journal_krot" name="article_agr_krot_sos_name" article_type="journal" group="memuars">

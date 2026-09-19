@@ -66,20 +66,126 @@
 		<objective>
 			<text>task_fr_agr_underground</text>
 			<icon>ui_iconsTotal_yan_kill_brain_task_2</icon>
-			<infoportion_complete>fr_agr_underground_entered</infoportion_complete>
+			<infoportion_complete>fr_agr_und_requests_done</infoportion_complete>
 			<article>task_fr_agr_underground</article>
 		</objective>
- 
+
 		<objective>
 			<text>task_fr_agr_underground_1</text>
-			<infoportion_complete>fr_agr_underground_entered</infoportion_complete>
+			<infoportion_complete>fr_agr_serg_talk_done</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_underground_2</text>
+			<function_complete>agroprom.und_requests_done</function_complete>
 		</objective>
 	</game_task>
 
 
 
+	<game_task id="task_fr_agr_sergeant" prio="1">
+		<title>task_fr_agr_sergeant</title>
+		<objective>
+			<text>task_fr_agr_sergeant</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<function_complete>agroprom.wc_all_done</function_complete>
+			<article>task_fr_agr_sergeant</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_sergeant_1</text>
+			<map_location_type hint="fr_agr_und_sergeant">blue_location</map_location_type>
+			<object_story_id>fr_agr_und_sergeant</object_story_id>
+			<infoportion_complete>fr_agr_serg_talk_done</infoportion_complete>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_sergeant_2</text>
+			<function_complete>agroprom.wc_all_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_krovosos" prio="1">
+		<title>task_fr_agr_krovosos</title>
+		<objective>
+			<text>task_fr_agr_krovosos</text>
+			<icon>ui_iconsTotal_val_sos_help</icon>
+			<infoportion_complete>fr_agr_krovosos_done</infoportion_complete>
+			<article>task_fr_agr_krovosos</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_krovosos_1</text>
+			<map_location_type hint="fr_agr_dead_soldier">blue_location</map_location_type>
+			<object_story_id>fr_agr_dead_soldier</object_story_id>
+			<infoportion_complete>fr_agr_corpse_looted</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_krovosos_2</text>
+			<map_location_type hint="fr_agr_und_sergeant">blue_location</map_location_type>
+			<object_story_id>fr_agr_und_sergeant</object_story_id>
+			<infoportion_complete>fr_agr_krovosos_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_pistol" prio="1">
+		<title>task_fr_agr_pistol</title>
+		<objective>
+			<text>task_fr_agr_pistol</text>
+			<icon>ui_iconsTotal_weapons</icon>
+			<infoportion_complete>fr_agr_pistol_done</infoportion_complete>
+			<article>task_fr_agr_pistol</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_pistol_1</text>
+			<map_location_type hint="fr_agr_und_pistol">blue_location</map_location_type>
+			<object_story_id>fr_agr_und_pistol</object_story_id>
+			<infoportion_complete>fr_agr_pistol_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_north" prio="1">
+		<title>task_fr_agr_north</title>
+		<objective>
+			<text>task_fr_agr_north</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<infoportion_complete>fr_agr_north_done</infoportion_complete>
+			<article>task_fr_agr_north</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_north_1</text>
+			<map_location_type hint="fr_agr_dead_digger">blue_location</map_location_type>
+			<object_story_id>fr_agr_dead_digger</object_story_id>
+			<function_complete>agroprom.north_items_found</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_north_2</text>
+			<map_location_type hint="fr_agr_und_north">blue_location</map_location_type>
+			<object_story_id>fr_agr_und_north</object_story_id>
+			<infoportion_complete>fr_agr_north_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_back" prio="1">
+		<title>task_fr_agr_back</title>
+		<objective>
+			<text>task_fr_agr_back</text>
+			<icon>ui_iconsTotal_agroprom_get_military_documents</icon>
+			<infoportion_complete>fr_agr_back_done</infoportion_complete>
+			<article>task_fr_agr_back</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_back_1</text>
+			<map_location_type hint="fr_agr_kuznetsov">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_back_done</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

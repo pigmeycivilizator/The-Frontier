@@ -2,26 +2,6 @@
 
 <game_information_portions>
 
-<info_portion id="wc1_s1_done"></info_portion>
-	<info_portion id="wc1_s2_done"></info_portion>
-	<info_portion id="wc1_s3_done"></info_portion>
-	<info_portion id="wc1_s4_done"></info_portion>
-	<info_portion id="wc1_s5_done"></info_portion>
-	<info_portion id="wc2_s1_done"></info_portion>
-	<info_portion id="wc2_s2_done"></info_portion>
-	<info_portion id="wc2_s3_done"></info_portion>
-	<info_portion id="wc2_s4_done"></info_portion>
-	<info_portion id="wc2_s5_done"></info_portion>
-	<info_portion id="wc2_s6_done"></info_portion>
-	<info_portion id="wc_check1_start">
-		<task>wc_check1_start</task>
-	</info_portion>
-	<info_portion id="wc_check1_done"></info_portion>
-	<info_portion id="wc_check2_start">
-		<task>wc_check2_start</task>
-	</info_portion>
-	<info_portion id="wc_check2_done"></info_portion>
-
  
 	<info_portion id="fr_agr_intro_done">
 		<task>task_fr_agr_to_hq</task>
@@ -37,18 +17,49 @@
 		<task>task_fr_agr_underground</task>
 	</info_portion>
 
-	<info_portion id="fr_agr_underground_entered"></info_portion>
-
 	<!-- снабженец рассказал про сделку с бандитами, второй визит -->
 	<info_portion id="fr_agr_snab_deal_start"></info_portion>
 
-	<!-- заданные вопросы -->
-	<info_portion id="fr_agr_kuz_asked_1"></info_portion>
-	<info_portion id="fr_agr_kuz_asked_2"></info_portion>
-	<info_portion id="fr_agr_kuz_asked_3"></info_portion>
-	<info_portion id="fr_agr_snab_asked_1"></info_portion>
-	<info_portion id="fr_agr_snab_asked_2"></info_portion>
-	<info_portion id="fr_agr_snab_asked_3"></info_portion>
+	<info_portion id="fr_agr_underground_entered">
+		<task>task_fr_agr_sergeant</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_serg_talk_done">
+		<task>task_fr_agr_krovosos</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_corpse_near"></info_portion>
+	<info_portion id="fr_agr_corpse_looted"></info_portion>
+	<info_portion id="fr_agr_krovosos_done"></info_portion>
+
+	<info_portion id="fr_wc_checked"></info_portion>
+	<info_portion id="fr_wc_done_1"></info_portion>
+	<info_portion id="fr_wc_done_2"></info_portion>
+	<info_portion id="fr_wc_done_3"></info_portion>
+	<info_portion id="fr_wc_done_4"></info_portion>
+	<info_portion id="fr_wc_done_5"></info_portion>
+	<info_portion id="fr_wc_done_6"></info_portion>
+	<info_portion id="fr_wc_done_7"></info_portion>
+	<info_portion id="fr_wc_done_8"></info_portion>
+	<info_portion id="fr_agr_wc_done"></info_portion>
+
+	<info_portion id="fr_agr_pistol_start">
+		<task>task_fr_agr_pistol</task>
+	</info_portion>
+	<info_portion id="fr_agr_pistol_done"></info_portion>
+
+	<info_portion id="fr_agr_north_start">
+		<task>task_fr_agr_north</task>
+	</info_portion>
+	<info_portion id="fr_agr_north_checked"></info_portion>
+	<info_portion id="fr_agr_north_done"></info_portion>
+
+	<info_portion id="fr_agr_und_requests_done">
+		<task>task_fr_agr_back</task>
+	</info_portion>
+	<info_portion id="fr_agr_back_done"></info_portion>
+
+
 
 
 	<info_portion id="agroprom_military_case">

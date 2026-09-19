@@ -510,12 +510,11 @@
 
       <phrase id="10">
         <text>fr_agr_kuz_q_10</text>
-        <dont_has_info>fr_agr_kuz_asked_1</dont_has_info>
-        <give_info>fr_agr_kuz_asked_1</give_info>
         <next>11</next>
       </phrase>
       <phrase id="11">
         <text>fr_agr_kuz_q_11</text>
+        <next>10</next>
         <next>20</next>
         <next>30</next>
         <next>40</next>
@@ -523,27 +522,25 @@
 
       <phrase id="20">
         <text>fr_agr_kuz_q_20</text>
-        <dont_has_info>fr_agr_kuz_asked_2</dont_has_info>
-        <give_info>fr_agr_kuz_asked_2</give_info>
         <next>21</next>
       </phrase>
       <phrase id="21">
         <text>fr_agr_kuz_q_21</text>
         <next>10</next>
+        <next>20</next>
         <next>30</next>
         <next>40</next>
       </phrase>
 
       <phrase id="30">
         <text>fr_agr_kuz_q_30</text>
-        <dont_has_info>fr_agr_kuz_asked_3</dont_has_info>
-        <give_info>fr_agr_kuz_asked_3</give_info>
         <next>31</next>
       </phrase>
       <phrase id="31">
         <text>fr_agr_kuz_q_31</text>
         <next>10</next>
         <next>20</next>
+        <next>30</next>
         <next>40</next>
       </phrase>
 
@@ -624,8 +621,6 @@
 
       <phrase id="10">
         <text>fr_agr_snab_q_10</text>
-        <dont_has_info>fr_agr_snab_asked_1</dont_has_info>
-        <give_info>fr_agr_snab_asked_1</give_info>
         <next>11</next>
       </phrase>
       <phrase id="11">
@@ -637,8 +632,6 @@
 
       <phrase id="20">
         <text>fr_agr_snab_q_20</text>
-        <dont_has_info>fr_agr_snab_asked_2</dont_has_info>
-        <give_info>fr_agr_snab_asked_2</give_info>
         <next>21</next>
       </phrase>
       <phrase id="21">
@@ -650,8 +643,6 @@
 
       <phrase id="30">
         <text>fr_agr_snab_q_30</text>
-        <dont_has_info>fr_agr_snab_asked_3</dont_has_info>
-        <give_info>fr_agr_snab_asked_3</give_info>
         <next>31</next>
       </phrase>
       <phrase id="31">
@@ -671,8 +662,522 @@
     </phrase_list>
   </dialog>
 
+  <!-- ================= ÑÅÐÆÀÍÒ: ÏÅÐÂÛÉ ÐÀÇÃÎÂÎÐ ================= -->
+  <dialog id="fr_agr_serg_talk">
+    <has_info>fr_agr_underground_entered</has_info>
+    <dont_has_info>fr_agr_serg_talk_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_serg_talk_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_serg_talk_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_serg_talk_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_serg_talk_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_serg_talk_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_serg_talk_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_serg_talk_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_serg_talk_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_serg_talk_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_serg_talk_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_serg_talk_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_serg_talk_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_serg_talk_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_serg_talk_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_serg_talk_14</text>
+        <give_info>fr_agr_serg_talk_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <!-- ================= ÑÅÐÆÀÍÒ: ÄÎÊËÀÄ ================= -->
+  <dialog id="fr_agr_serg_report">
+    <has_info>fr_agr_corpse_looted</has_info>
+    <dont_has_info>fr_agr_krovosos_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_serg_rep_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_serg_rep_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_serg_rep_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_serg_rep_3</text>
+        <action>agroprom.krovosos_reward</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_serg_rep_4</text>
+        <give_info>fr_agr_krovosos_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <!-- ================= ÑÅÐÆÀÍÒ: ÂÎÏÐÎÑÛ ================= -->
+  <dialog id="fr_agr_serg_questions">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_serg_q_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_serg_q_1</text>
+        <next>10</next>
+        <next>20</next>
+        <next>30</next>
+        <next>40</next>
+        <next>50</next>
+      </phrase>
+
+      <phrase id="10">
+        <text>fr_serg_q_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_serg_q_11</text>
+        <next>10</next>
+        <next>20</next>
+        <next>30</next>
+        <next>40</next>
+        <next>50</next>
+      </phrase>
+
+      <phrase id="20">
+        <text>fr_serg_q_20</text>
+        <next>21</next>
+      </phrase>
+      <phrase id="21">
+        <text>fr_serg_q_21</text>
+        <next>22</next>
+      </phrase>
+      <phrase id="22">
+        <text>fr_serg_q_22</text>
+        <next>23</next>
+      </phrase>
+      <phrase id="23">
+        <text>fr_serg_q_23</text>
+        <next>10</next>
+        <next>20</next>
+        <next>30</next>
+        <next>40</next>
+        <next>50</next>
+      </phrase>
+
+      <phrase id="30">
+        <text>fr_serg_q_30</text>
+        <next>31</next>
+      </phrase>
+      <phrase id="31">
+        <text>fr_serg_q_31</text>
+        <next>32</next>
+      </phrase>
+      <phrase id="32">
+        <text>fr_serg_q_32</text>
+        <next>33</next>
+      </phrase>
+      <phrase id="33">
+        <text>fr_serg_q_33</text>
+        <next>10</next>
+        <next>20</next>
+        <next>30</next>
+        <next>40</next>
+        <next>50</next>
+      </phrase>
+
+      <phrase id="40">
+        <text>fr_serg_q_40</text>
+        <next>41</next>
+      </phrase>
+      <phrase id="41">
+        <text>fr_serg_q_41</text>
+        <next>10</next>
+        <next>20</next>
+        <next>30</next>
+        <next>40</next>
+        <next>50</next>
+      </phrase>
+
+      <phrase id="50">
+        <text>fr_serg_q_50</text>
+        <next>51</next>
+      </phrase>
+      <phrase id="51">
+        <text>fr_serg_q_51</text>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÎÑÌÎÒÐ ÁÎÉÖÎÂ ================= -->
+  <dialog id="fr_wc_1">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_1</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_1</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_1</precondition>
+        <action>agroprom.wc_give_1</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_1</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_2">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_2</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_2</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_2</precondition>
+        <action>agroprom.wc_give_2</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_2</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_3">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_3</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_3</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_3</precondition>
+        <action>agroprom.wc_give_3</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_3</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_4">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_4</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_4</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_4</precondition>
+        <action>agroprom.wc_give_4</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_4</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_5">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_5</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_5</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_5</precondition>
+        <action>agroprom.wc_give_5</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_5</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_6">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_6</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_6</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_6</precondition>
+        <action>agroprom.wc_give_6</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_6</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_7">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_7</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_7</text>
+        <next>2</next>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give</text>
+        <precondition>agroprom.wc_has_7</precondition>
+        <action>agroprom.wc_give_7</action>
+        <next>4</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_later</text>
+      </phrase>
+      <phrase id="4">
+        <text>wc_thx</text>
+        <give_info>fr_wc_done_7</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_wc_8">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_wc_done_8</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>wc_ask</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>wc_need_8</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>wc_give_nothing</text>
+        <action>agroprom.wc_give_8</action>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>wc_thx_nothing</text>
+        <give_info>fr_wc_done_8</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÁÎÅÖ Ñ ÏÈÑÒÎËÅÒÎÌ ================= -->
+  <dialog id="fr_agr_pistol_ask">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_agr_pistol_start</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_pistol_ask_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_pistol_ask_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_pistol_ask_2</text>
+        <give_info>fr_agr_pistol_start</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_agr_pistol_return">
+    <has_info>fr_agr_pistol_start</has_info>
+    <dont_has_info>fr_agr_pistol_done</dont_has_info>
+    <precondition>agroprom.has_deagle</precondition>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_pistol_ret_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_pistol_ret_1</text>
+        <action>agroprom.pistol_reward</action>
+        <give_info>fr_agr_pistol_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÁÎÅÖ Ñ ÏÅÍÈÅÌ ================= -->
+  <dialog id="fr_agr_north_ask">
+    <has_info>fr_agr_serg_talk_done</has_info>
+    <dont_has_info>fr_agr_north_start</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_north_ask_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_north_ask_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_north_ask_2</text>
+        <give_info>fr_agr_north_start</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <dialog id="fr_agr_north_return">
+    <has_info>fr_agr_north_checked</has_info>
+    <dont_has_info>fr_agr_north_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_north_ret_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_north_ret_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_north_ret_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_north_ret_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_north_ret_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_north_ret_5</text>
+        <action>agroprom.north_reward</action>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_north_ret_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_north_ret_7</text>
+        <give_info>fr_agr_north_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 

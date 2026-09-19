@@ -26,6 +26,52 @@
 	<character id="fr_agr_snab">
 		<class>fr_agr_snab</class>
 	</character>
+	
+	<character id="fr_agr_und_soldier_1">
+		<class>fr_agr_und_soldier_1</class>
+	</character>
+	<character id="fr_agr_und_soldier_2">
+		<class>fr_agr_und_soldier_2</class>
+	</character>
+	<character id="fr_agr_und_soldier_3">
+		<class>fr_agr_und_soldier_3</class>
+	</character>
+	<character id="fr_agr_und_soldier_4">
+		<class>fr_agr_und_soldier_4</class>
+	</character>
+	<character id="fr_agr_und_soldier_5">
+		<class>fr_agr_und_soldier_5</class>
+	</character>
+	<character id="fr_agr_und_soldier_6">
+		<class>fr_agr_und_soldier_6</class>
+	</character>
+	<character id="fr_agr_und_pistol">
+		<class>fr_agr_und_pistol</class>
+	</character>
+	<character id="fr_agr_und_north">
+		<class>fr_agr_und_north</class>
+	</character>
+	<character id="fr_agr_und_sergeant">
+		<class>fr_agr_und_sergeant</class>
+	</character>
+	<character id="fr_agr_dead_soldier">
+		<class>fr_agr_dead_soldier</class>
+	</character>
+	<character id="fr_agr_dead_digger">
+		<class>fr_agr_dead_digger</class>
+	</character>
+	<character id="fr_agr_dead_cultist">
+		<class>fr_agr_dead_cultist</class>
+	</character>
+	<character id="fr_agr_cultist_1">
+		<class>fr_agr_cultist_1</class>
+	</character>
+	<character id="fr_agr_cultist_2">
+		<class>fr_agr_cultist_2</class>
+	</character>
+	<character id="fr_agr_cultist_3">
+		<class>fr_agr_cultist_3</class>
+	</character>
 
 
 <!-- Escape -->

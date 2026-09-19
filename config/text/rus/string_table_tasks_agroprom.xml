@@ -39,6 +39,89 @@
 		<text>Полковник Кузнецов</text>
 	</string>
 	
+	<string id="task_fr_agr_underground_1">
+		<text>Спуститься в подземку и проведать отряд военных</text>
+	</string>
+	<string id="task_fr_agr_underground_2">
+		<text>Выполнить просьбы сослуживцев</text>
+	</string>
+
+	<string id="task_fr_agr_sergeant">
+		<text>Подземный гарнизон</text>
+	</string>
+	<string id="task_fr_agr_sergeant_1">
+		<text>Поговорить с сержантом</text>
+	</string>
+	<string id="task_fr_agr_sergeant_2">
+		<text>Проверить состояние всех бойцов</text>
+	</string>
+	<string id="task_fr_agr_sergeant_artcl">
+		<text>Командир подземного отряда просит осмотреть бойцов и помочь им, чем получится.</text>
+	</string>
+
+	<string id="task_fr_agr_krovosos">
+		<text>Разобраться с монстром</text>
+	</string>
+	<string id="task_fr_agr_krovosos_1">
+		<text>Найти труп военного и убить мутанта</text>
+	</string>
+	<string id="task_fr_agr_krovosos_2">
+		<text>Вернуться к сержанту</text>
+	</string>
+	<string id="task_fr_agr_krovosos_artcl">
+		<text>Тварь, утащившая бойца в северную часть подземки, всё ещё там.</text>
+	</string>
+
+	<string id="task_fr_agr_pistol">
+		<text>Найти пистолет бойца</text>
+	</string>
+	<string id="task_fr_agr_pistol_1">
+		<text>Найти пистолет в тоннеле с электрами и вернуть бойцу</text>
+	</string>
+	<string id="task_fr_agr_pistol_artcl">
+		<text>Боец обронил наградной пистолет в тоннеле, где теперь аномалии.</text>
+	</string>
+
+	<string id="task_fr_agr_north">
+		<text>Узнать, что беспокоило военного</text>
+	</string>
+	<string id="task_fr_agr_north_1">
+		<text>Проверить северную часть подземелий</text>
+	</string>
+	<string id="task_fr_agr_north_2">
+		<text>Вернуться к солдату</text>
+	</string>
+	<string id="task_fr_agr_north_artcl">
+		<text>Боец слышал из северной части подземки пение, а потом крики и выстрелы.</text>
+	</string>
+
+	<string id="task_fr_agr_back">
+		<text>Вернуться на базу</text>
+	</string>
+	<string id="task_fr_agr_back_1">
+		<text>Подняться на поверхность и доложить полковнику</text>
+	</string>
+	<string id="task_fr_agr_back_artcl">
+		<text>Дела в подземелье закончены, пора наверх.</text>
+	</string>
+	
+	
+	
+	<string id="fr_agr_und_sergeant">
+		<text>Сержант Слободенюк</text>
+	</string>
+	<string id="fr_agr_dead_soldier">
+		<text>Пропавшний боец</text>
+	</string>
+	<string id="fr_agr_und_pistol">
+		<text>Боец, потерявший пистолет</text>
+	</string>
+	<string id="fr_agr_dead_digger">
+		<text>Место, что нужно разведать</text>
+	</string>
+	<string id="fr_agr_und_north">
+		<text>Постовой</text>
+	</string>	
 	
 	
 	

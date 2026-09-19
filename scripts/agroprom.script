@@ -196,11 +196,102 @@ end
 function give_start_gear(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "wpn_ak74u", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
-	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
-	dialogs.relocate_item_section(first_speaker, "ammo_9x18_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_9x18_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "wpn_binoc", "in")
 	dialogs.relocate_item_section(first_speaker, "wpn_knife", "in")
 end
 
 
+-- ===================== ПОДЗЕМКА =====================
+-- ===================== ОСМОТР БОЙЦОВ =====================
+
+wc_rewards = {
+	"ammo_5.45x39_fmj",
+	"ammo_9x18_fmj",
+	"ammo_9x19_fmj",
+	"ammo_7.62x54_7h1",
+	"grenade_rgd5",
+	"grenade_f1",
+}
+
+local function wc_reward(npc)
+	dialogs.relocate_item_section(npc, wc_rewards[math.random(#wc_rewards)], "in")
+end
+
+function wc_has_1(a, b) return sak.have_item_namber("bandage", 2)     end
+function wc_has_2(a, b) return sak.have_item_namber("bandage", 1)     end
+function wc_has_3(a, b) return sak.have_item_namber("medkit", 1)      end
+function wc_has_4(a, b) return sak.have_item_namber("medkit", 2)      end
+function wc_has_5(a, b) return sak.have_item_namber("medkit_army", 1) end
+function wc_has_6(a, b) return sak.have_item_namber("antirad", 1)     end
+function wc_has_7(a, b) return sak.have_item_namber("vodka", 1)       end
+
+function wc_give_1(a, b) sak.out_item_namber("bandage", 2)     wc_reward(a) end
+function wc_give_2(a, b) sak.out_item_namber("bandage", 1)     wc_reward(a) end
+function wc_give_3(a, b) sak.out_item_namber("medkit", 1)      wc_reward(a) end
+function wc_give_4(a, b) sak.out_item_namber("medkit", 2)      wc_reward(a) end
+function wc_give_5(a, b) sak.out_item_namber("medkit_army", 1) wc_reward(a) end
+function wc_give_6(a, b) sak.out_item_namber("antirad", 1)     wc_reward(a) end
+function wc_give_7(a, b) sak.out_item_namber("vodka", 1)       wc_reward(a) end
+function wc_give_8(a, b)                                       wc_reward(a) end
+
+function wc_all_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+	for i = 1, 8 do
+		if not a:has_info("fr_wc_done_" .. i) then return false end
+	end
+	return true
+end
+
+-- ---------- проверки для заданий ----------
+
+function north_items_found(actor, npc)
+	local a = db.actor
+	if not a then return false end
+	if not sak.have_item_namber("fr_agr_maps_part", 1) then return false end
+	if not sak.have_item_namber("fr_agr_cult_pda", 1) then return false end
+
+	if not a:has_info("fr_agr_north_checked") then
+		a:give_info_portion("fr_agr_north_checked")
+	end
+	return true
+end
+
+function und_requests_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+	if not wc_all_done()                      then return false end
+	if not a:has_info("fr_agr_krovosos_done") then return false end
+	if not a:has_info("fr_agr_pistol_done")   then return false end
+	if not a:has_info("fr_agr_north_done")    then return false end
+
+	if not a:has_info("fr_agr_und_requests_done") then
+		a:give_info_portion("fr_agr_und_requests_done")
+	end
+	return true
+end
+
+function has_deagle(a, b)
+	return db.actor:object("wpn_desert_eagle") ~= nil
+end
+
+-- ---------- награды ----------
+
+function krovosos_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_ap", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_ap", "in")
+end
+
+function pistol_reward(first_speaker, second_speaker)
+	sak.out_item_namber("wpn_desert_eagle", 1)
+	dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+end
+
+function north_reward(first_speaker, second_speaker)
+	sak.out_item_namber("fr_agr_maps_part", 1)
+	sak.out_item_namber("fr_agr_cult_pda", 1)
+	dialogs.relocate_item_section(first_speaker, "af_electra_sparkler", "in")
+end

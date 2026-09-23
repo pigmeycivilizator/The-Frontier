@@ -17,9 +17,6 @@
 		<task>task_fr_agr_underground</task>
 	</info_portion>
 
-	<!-- снабженец рассказал про сделку с бандитами, второй визит -->
-	<info_portion id="fr_agr_snab_deal_start"></info_portion>
-
 	<info_portion id="fr_agr_underground_entered">
 		<task>task_fr_agr_sergeant</task>
 	</info_portion>
@@ -57,8 +54,55 @@
 	<info_portion id="fr_agr_und_requests_done">
 		<task>task_fr_agr_back</task>
 	</info_portion>
-	<info_portion id="fr_agr_back_done"></info_portion>
+	
+	<info_portion id="fr_agr_back_done">
+		<task>task_fr_agr_crates</task>
+	</info_portion>
 
+	<info_portion id="fr_agr_crates_taken">
+		<task>task_fr_agr_signal</task>
+		<task>task_fr_agr_posts</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_post1_delivered"></info_portion>
+	<info_portion id="fr_wc_p1_done_1"></info_portion>
+	<info_portion id="fr_wc_p1_done_2"></info_portion>
+	<info_portion id="fr_wc_p1_done_3"></info_portion>
+	<info_portion id="fr_wc_p1_done_4"></info_portion>
+	<info_portion id="fr_wc_p1_done_5"></info_portion>
+	<info_portion id="fr_wc_p1_done_6"></info_portion>
+
+	<info_portion id="fr_agr_post2_delivered"></info_portion>
+	<info_portion id="fr_agr_p2_k1"></info_portion>
+	<info_portion id="fr_agr_p2_k2"></info_portion>
+	<info_portion id="fr_agr_p2_k3"></info_portion>
+	<info_portion id="fr_agr_p2_k4"></info_portion>
+
+	<info_portion id="fr_agr_post3_delivered"></info_portion>
+	<info_portion id="fr_agr_p3_k1"></info_portion>
+	<info_portion id="fr_agr_p3_k2"></info_portion>
+	<info_portion id="fr_agr_p3_k3"></info_portion>
+	<info_portion id="fr_agr_p3_k4"></info_portion>
+	<info_portion id="fr_agr_p3_k5"></info_portion>
+	<info_portion id="fr_agr_p3_k6"></info_portion>
+	<info_portion id="fr_agr_p3_k7"></info_portion>
+	<info_portion id="fr_agr_p3_k8"></info_portion>
+	<info_portion id="fr_agr_p3_k9"></info_portion>
+	<info_portion id="fr_agr_p3_k10"></info_portion>
+	<info_portion id="fr_agr_p3_k11"></info_portion>
+
+	<info_portion id="fr_agr_posts_done">
+		<task>task_fr_agr_to_sery</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_bandits_signal">
+		<task>task_fr_agr_bandits</task>
+	</info_portion>
+	<info_portion id="fr_agr_bandit_pda_taken"></info_portion>
+	<info_portion id="fr_agr_bandits_done"></info_portion>
+
+	<info_portion id="fr_agr_horus_booth_talked"></info_portion>
+	<info_portion id="fr_agr_sery_talk_done"></info_portion>
 
 
 

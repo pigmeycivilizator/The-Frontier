@@ -73,6 +73,40 @@
 		<class>fr_agr_cultist_3</class>
 	</character>
 
+	<character id="fr_agr_post1_chief">		<class>fr_agr_post1_chief</class>	</character>
+	<character id="fr_agr_post1_sold_1">	<class>fr_agr_post1_sold_1</class>	</character>
+	<character id="fr_agr_post1_sold_2">	<class>fr_agr_post1_sold_2</class>	</character>
+	<character id="fr_agr_post1_sold_3">	<class>fr_agr_post1_sold_3</class>	</character>
+	<character id="fr_agr_post1_sold_4">	<class>fr_agr_post1_sold_4</class>	</character>
+	<character id="fr_agr_post1_sold_5">	<class>fr_agr_post1_sold_5</class>	</character>
+	<character id="fr_agr_post1_sold_6">	<class>fr_agr_post1_sold_6</class>	</character>
+	<character id="fr_agr_post2_chief">		<class>fr_agr_post2_chief</class>	</character>
+	<character id="fr_agr_post3_chief">		<class>fr_agr_post3_chief</class>	</character>
+	<character id="fr_agr_post3_akm">		<class>fr_agr_post3_akm</class>		</character>
+	<character id="fr_agr_post3_ak104">		<class>fr_agr_post3_ak104</class>	</character>
+	<character id="fr_agr_post3_rpd">		<class>fr_agr_post3_rpd</class>		</character>
+	<character id="fr_agr_post_soldier">	<class>fr_agr_post_soldier</class>	</character>
+	<character id="fr_agr_bandit_bait">		<class>fr_agr_bandit_bait</class>	</character>
+	<character id="fr_agr_bandit_master">	<class>fr_agr_bandit_master</class>	</character>
+	<character id="fr_agr_bandit_veteran">	<class>fr_agr_bandit_veteran</class></character>
+	<character id="fr_agr_zombie_1">		<class>fr_agr_zombie_1</class>		</character>
+	<character id="fr_agr_zombie_2">		<class>fr_agr_zombie_2</class>		</character>
+	<character id="fr_agr_zombie_3">		<class>fr_agr_zombie_3</class>		</character>
+	<character id="fr_agr_zombie_4">		<class>fr_agr_zombie_4</class>		</character>
+	<character id="fr_agr_pastukh">			<class>fr_agr_pastukh</class>		</character>
+	<character id="fr_agr_sery">			<class>fr_agr_sery</class>			</character>
+	<character id="fr_agr_horus_booth">		<class>fr_agr_horus_booth</class>	</character>
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Escape -->
 	<character id="escape_trader">	

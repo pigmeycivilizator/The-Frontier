@@ -123,6 +123,94 @@
 		<text>Постовой</text>
 	</string>	
 	
+	<string id="task_fr_agr_crates">
+		<text>Забрать ящики у снабженца</text>
+	</string>
+	<string id="task_fr_agr_crates_1">
+		<text>Забрать ящики</text>
+	</string>
+	<string id="task_fr_agr_crates_artcl">
+		<text>Полковник поручил забрать у снабженца три ящика с припасами для блокпостов и особый кейс для Серого.</text>
+	</string>
+
+	<string id="task_fr_agr_signal">
+		<text>Ждать сигнала</text>
+	</string>
+	<string id="task_fr_agr_signal_1">
+		<text>Ждать сигнала от снабженца</text>
+	</string>
+	<string id="task_fr_agr_signal_artcl">
+		<text>Снабженец договорился о "сделке" с бандитами и свяжется, когда они будут на месте.</text>
+	</string>
+
+	<string id="task_fr_agr_posts">
+		<text>Разнести ящики по блокпостам</text>
+	</string>
+	<string id="task_fr_agr_posts_1">
+		<text>Блокпост 1</text>
+	</string>
+	<string id="task_fr_agr_posts_2">
+		<text>Блокпост 2</text>
+	</string>
+	<string id="task_fr_agr_posts_3">
+		<text>Блокпост 3</text>
+	</string>
+	<string id="task_fr_agr_posts_artcl">
+		<text>Три ящика с припасами нужно доставить на блокпосты гарнизона.</text>
+	</string>
+
+	<string id="task_fr_agr_bandits">
+		<text>Разобраться с бандитами</text>
+	</string>
+	<string id="task_fr_agr_bandits_1">
+		<text>Прийти на точку встречи и разобраться с бандитами</text>
+	</string>
+	<string id="task_fr_agr_bandits_2">
+		<text>Вернуться к сержанту</text>
+	</string>
+	<string id="task_fr_agr_bandits_artcl">
+		<text>Бандиты пришли на место встречи. Нужно перебить их и забрать боеприпасы.</text>
+	</string>
+
+	<string id="task_fr_agr_to_sery">
+		<text>Отправиться на сталкерскую базу</text>
+	</string>
+	<string id="task_fr_agr_to_sery_1">
+		<text>Поговорить с Серым</text>
+	</string>
+	<string id="task_fr_agr_to_sery_artcl">
+		<text>Кейс полковника нужно передать Серому, главному у сталкеров на заводе.</text>
+	</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	<string id="agr_find_ghost">

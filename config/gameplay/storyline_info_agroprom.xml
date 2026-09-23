@@ -52,6 +52,33 @@
 		<text>task_fr_agr_back_artcl</text>
 	</article>
 	
+	<article id="task_fr_agr_crates" name="task_fr_agr_crates" group="task_fr_agr_crates" article_type="task">
+		<text>task_fr_agr_crates_artcl</text>
+	</article>
+	<article id="task_fr_agr_signal" name="task_fr_agr_signal" group="task_fr_agr_signal" article_type="task">
+		<text>task_fr_agr_signal_artcl</text>
+	</article>
+	<article id="task_fr_agr_posts" name="task_fr_agr_posts" group="task_fr_agr_posts" article_type="task">
+		<text>task_fr_agr_posts_artcl</text>
+	</article>
+	<article id="task_fr_agr_bandits" name="task_fr_agr_bandits" group="task_fr_agr_bandits" article_type="task">
+		<text>task_fr_agr_bandits_artcl</text>
+	</article>
+	<article id="task_fr_agr_to_sery" name="task_fr_agr_to_sery" group="task_fr_agr_to_sery" article_type="task">
+		<text>task_fr_agr_to_sery_artcl</text>
+	</article>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
     <article id="agr_journal_krot" name="article_agr_krot_sos_name" article_type="journal" group="memuars">
         <text>agr_journal_krot</text>

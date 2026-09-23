@@ -1,3 +1,80 @@
+<string id="lname_wild_0"><text>Грязи</text></string>
+<string id="lname_wild_1"><text>Трухи</text></string>
+<string id="lname_wild_2"><text>Ржавчины</text></string>
+<string id="lname_wild_3"><text>Пыли</text></string>
+<string id="lname_wild_4"><text>Золы</text></string>
+<string id="lname_wild_5"><text>Сажи</text></string>
+<string id="lname_wild_6"><text>Плесени</text></string>
+<string id="lname_wild_7"><text>Слизи</text></string>
+<string id="lname_wild_8"><text>Смрада</text></string>
+<string id="lname_wild_9"><text>Голода</text></string>
+<string id="lname_wild_10"><text>Холода</text></string>
+<string id="lname_wild_11"><text>Слёз</text></string>
+<string id="lname_wild_12"><text>Тоски</text></string>
+<string id="lname_wild_13"><text>Боли</text></string>
+<string id="lname_wild_14"><text>Стыда</text></string>
+<string id="lname_wild_15"><text>Страха</text></string>
+<string id="lname_wild_16"><text>Пустоты</text></string>
+<string id="lname_wild_17"><text>Ямы</text></string>
+<string id="lname_wild_18"><text>Канавы</text></string>
+<string id="lname_wild_19"><text>Помоев</text></string>
+<string id="lname_wild_20"><text>Отбросов</text></string>
+<string id="lname_wild_21"><text>Костей</text></string>
+<string id="lname_wild_22"><text>Кострища</text></string>
+<string id="lname_wild_23"><text>Червоточины</text></string>
+<string id="lname_wild_24"><text>Гнилья</text></string>
+<string id="lname_wild_25"><text>Объедков</text></string>
+<string id="lname_wild_26"><text>Лохмотьев</text></string>
+<string id="lname_wild_27"><text>Безнадёги</text></string>
+<string id="lname_wild_28"><text>Могилы</text></string>
+<string id="lname_wild_29"><text>Сырости</text></string>
+
+
+<string id="lname_herd_0"><text>номер 001</text></string>
+<string id="lname_herd_1"><text>номер 002</text></string>
+<string id="lname_herd_2"><text>номер 003</text></string>
+<string id="lname_herd_3"><text>номер 004</text></string>
+<string id="lname_herd_4"><text>номер 005</text></string>
+<string id="lname_herd_5"><text>номер 006</text></string>
+<string id="lname_herd_6"><text>номер 007</text></string>
+<string id="lname_herd_7"><text>номер 008</text></string>
+<string id="lname_herd_8"><text>номер 009</text></string>
+<string id="lname_herd_9"><text>номер 010</text></string>
+<string id="lname_herd_10"><text>номер 011</text></string>
+<string id="lname_herd_11"><text>номер 012</text></string>
+<string id="lname_herd_12"><text>номер 013</text></string>
+<string id="lname_herd_13"><text>номер 014</text></string>
+<string id="lname_herd_14"><text>номер 015</text></string>
+<string id="lname_herd_15"><text>номер 016</text></string>
+<string id="lname_herd_16"><text>номер 017</text></string>
+<string id="lname_herd_17"><text>номер 018</text></string>
+<string id="lname_herd_18"><text>номер 019</text></string>
+<string id="lname_herd_19"><text>номер 020</text></string>
+<string id="lname_herd_20"><text>номер 021</text></string>
+<string id="lname_herd_21"><text>номер 022</text></string>
+<string id="lname_herd_22"><text>номер 023</text></string>
+<string id="lname_herd_23"><text>номер 024</text></string>
+<string id="lname_herd_24"><text>номер 025</text></string>
+<string id="lname_herd_25"><text>номер 026</text></string>
+<string id="lname_herd_26"><text>номер 027</text></string>
+<string id="lname_herd_27"><text>номер 028</text></string>
+<string id="lname_herd_28"><text>номер 029</text></string>
+<string id="lname_herd_29"><text>номер 030</text></string>
+<string id="lname_herd_30"><text>номер 031</text></string>
+<string id="lname_herd_31"><text>номер 032</text></string>
+<string id="lname_herd_32"><text>номер 033</text></string>
+<string id="lname_herd_33"><text>номер 034</text></string>
+<string id="lname_herd_34"><text>номер 035</text></string>
+<string id="lname_herd_35"><text>номер 036</text></string>
+<string id="lname_herd_36"><text>номер 037</text></string>
+<string id="lname_herd_37"><text>номер 038</text></string>
+<string id="lname_herd_38"><text>номер 039</text></string>
+<string id="lname_herd_39"><text>номер 040</text></string>
+
+
+
+
+
 	<string id="lname_chaos_0">
 		<text>Зова</text>
 	</string>

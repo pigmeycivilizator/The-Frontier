@@ -1,3 +1,41 @@
+<string id="name_wild_0"><text>Послушник</text></string>
+<string id="name_wild_1"><text>Причастник</text></string>
+<string id="name_wild_2"><text>Обречённый</text></string>
+<string id="name_wild_3"><text>Безымянный</text></string>
+<string id="name_wild_4"><text>Немой</text></string>
+<string id="name_wild_5"><text>Босой</text></string>
+<string id="name_wild_6"><text>Слепой</text></string>
+<string id="name_wild_7"><text>Отброс</text></string>
+<string id="name_wild_8"><text>Огрызок</text></string>
+<string id="name_wild_9"><text>Ветошь</text></string>
+<string id="name_wild_10"><text>Холоп</text></string>
+<string id="name_wild_11"><text>Раб</text></string>
+<string id="name_wild_12"><text>Падший</text></string>
+<string id="name_wild_13"><text>Пустой</text></string>
+<string id="name_wild_14"><text>Лишний</text></string>
+<string id="name_wild_15"><text>Порченый</text></string>
+<string id="name_wild_16"><text>Недостойный</text></string>
+<string id="name_wild_17"><text>Кающийся</text></string>
+<string id="name_wild_18"><text>Грешник</text></string>
+<string id="name_wild_19"><text>Жертва</text></string>
+<string id="name_wild_20"><text>Искупающий</text></string>
+<string id="name_wild_21"><text>Червь</text></string>
+
+
+
+<string id="name_herd_0"><text>Стадо 1,</text></string>
+<string id="name_herd_1"><text>Стадо 2,</text></string>
+<string id="name_herd_2"><text>Стадо 3,</text></string>
+<string id="name_herd_3"><text>Стадо 4,</text></string>
+<string id="name_herd_4"><text>Стадо 5,</text></string>
+<string id="name_herd_5"><text>Стадо 6,</text></string>
+<string id="name_herd_6"><text>Стадо 7,</text></string>
+<string id="name_herd_7"><text>Стадо 8,</text></string>
+<string id="name_herd_8"><text>Стадо 9,</text></string>
+
+
+
+
 	<string id="name_chaos_0">
 		<text>Брат</text>
 	</string>

@@ -187,8 +187,109 @@
 		</objective>
 	</game_task>
 
+	<game_task id="task_fr_agr_crates" prio="1">
+		<title>task_fr_agr_crates</title>
+		<objective>
+			<text>task_fr_agr_crates</text>
+			<icon>ui_iconsTotal_esc_blockpost_case_to_trader</icon>
+			<infoportion_complete>fr_agr_crates_taken</infoportion_complete>
+			<article>task_fr_agr_crates</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_crates_1</text>
+			<map_location_type hint="fr_agr_snab">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab</object_story_id>
+			<infoportion_complete>fr_agr_crates_taken</infoportion_complete>
+		</objective>
+	</game_task>
 
+	<game_task id="task_fr_agr_signal" prio="1">
+		<title>task_fr_agr_signal</title>
+		<objective>
+			<text>task_fr_agr_signal</text>
+			<icon>ui_iconsTotal_gar_help_dymon</icon>
+			<infoportion_complete>fr_agr_bandits_signal</infoportion_complete>
+			<article>task_fr_agr_signal</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_signal_1</text>
+			<infoportion_complete>fr_agr_bandits_signal</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_posts" prio="1">
+		<title>task_fr_agr_posts</title>
+		<objective>
+			<text>task_fr_agr_posts</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<function_complete>agroprom.posts_all_done</function_complete>
+			<article>task_fr_agr_posts</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_posts_1</text>
+			<map_location_type hint="fr_agr_post1_chief">green_location</map_location_type>
+			<object_story_id>fr_agr_post1_chief</object_story_id>
+			<function_complete>agroprom.post1_done</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_posts_2</text>
+			<map_location_type hint="fr_agr_post2_chief">green_location</map_location_type>
+			<object_story_id>fr_agr_post2_chief</object_story_id>
+			<infoportion_complete>fr_agr_post2_delivered</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_posts_3</text>
+			<map_location_type hint="fr_agr_post3_chief">green_location</map_location_type>
+			<object_story_id>fr_agr_post3_chief</object_story_id>
+			<function_complete>agroprom.post3_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_bandits" prio="1">
+		<title>task_fr_agr_bandits</title>
+		<objective>
+			<text>task_fr_agr_bandits</text>
+			<icon>ui_iconsTotal_kill_stalker</icon>
+			<infoportion_complete>fr_agr_bandits_done</infoportion_complete>
+			<article>task_fr_agr_bandits</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_bandits_1</text>
+			<map_location_type hint="fr_agr_bandit_bait">green_location</map_location_type>
+			<object_story_id>fr_agr_bandit_bait</object_story_id>
+			<function_complete>agroprom.bandit_pda_taken</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_bandits_2</text>
+			<map_location_type hint="fr_agr_snab">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab</object_story_id>
+			<infoportion_complete>fr_agr_bandits_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_to_sery" prio="1">
+		<title>task_fr_agr_to_sery</title>
+		<objective>
+			<text>task_fr_agr_to_sery</text>
+			<icon>ui_iconsTotal_agr_agr_help_krot</icon>
+			<infoportion_complete>fr_agr_sery_talk_done</infoportion_complete>
+			<article>task_fr_agr_to_sery</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_to_sery_1</text>
+			<map_location_type hint="fr_agr_sery">green_location</map_location_type>
+			<object_story_id>fr_agr_sery</object_story_id>
+			<infoportion_complete>fr_agr_sery_talk_done</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

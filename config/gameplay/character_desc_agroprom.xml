@@ -1180,8 +1180,8 @@
 		<visual>actors\neytral\stalker_neytral_hood_4</visual>
 		<supplies>
 			[spawn] \n
-			wpn_spas12 \n
-			ammo_12x76_zhekan = 2 \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 3 \n
 		</supplies>
 
 #include "gameplay\character_criticals_5.xml"
@@ -1311,53 +1311,55 @@
 	
 	
 	<!---------------------------STALKER GENERAL---------------------->
-
-	<specific_character id="agr_stalker_general_default1" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+	
+	<specific_character id="agr_stalker_general_default1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_hood_uzor</icon>
 		<map_icon x="1" y="0"></map_icon>
 		<bio>sim_stalker_general_bio</bio>
 
 		<class>agr_Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
-		
+
 		<rank>423</rank>
 		<reputation>27</reputation>
 		<money min="600" max="2000" infinitive="0"></money>
-		
+
 		<visual>actors\neytral\stalker_neytral_hood_uzor</visual>
 		<snd_config>characters_voice\human_01\stalker\</snd_config>
 		<crouch_type>-1</crouch_type>
 
 		<supplies>
 			[spawn] \n
-			wpn_pm \n
+			wpn_fort \n
 			ammo_9x18_pmm = 1 \n
-			wpn_uzi_mini \n
-			ammo_9x19_fmj \n
+			wpn_bizon \n
+			ammo_9x18_fmj = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_items.xml"
 		</supplies>
 
-#include "gameplay\character_criticals_4.xml"				
-#include "gameplay\character_dialogs.xml"
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
 	</specific_character>
 
-<specific_character id="agr_stalker_general_default2" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+	<specific_character id="agr_stalker_general_default2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_balon_8</icon>
 		<map_icon x="1" y="0"></map_icon>
 		<bio>sim_stalker_general_bio</bio>
 
 		<class>agr_Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
-		
+
 		<rank>462</rank>
 		<reputation>42</reputation>
 		<money min="600" max="2000" infinitive="0"></money>
-		
+
 		<visual>actors\neytral\stalker_neytral_balon_8</visual>
 		<snd_config>characters_voice\human_02\stalker\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -1366,31 +1368,33 @@
 			[spawn] \n
 			wpn_pm \n
 			ammo_9x18_pmm = 1 \n
-			wpn_pp2000_ac10632 = 1, scope \n
-			ammo_9x19_fmj = 1 \n
+			wpn_toz34 \n
+			ammo_12x70_buck = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_items.xml"
 		</supplies>
 
-#include "gameplay\character_criticals_4.xml"				
-#include "gameplay\character_dialogs.xml"		
-</specific_character>
+#include "gameplay\character_criticals_4.xml"
 
-<specific_character id="agr_stalker_general_default3" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+
+	<specific_character id="agr_stalker_general_default3" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_rukzak_2</icon>
 		<map_icon x="1" y="0"></map_icon>
 		<bio>sim_stalker_general_bio</bio>
 
 		<class>agr_Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
-		
+
 		<rank>482</rank>
 		<reputation>18</reputation>
 		<money min="600" max="2000" infinitive="0"></money>
-		
+
 		<visual>actors\neytral\stalker_neytral_rukzak_2</visual>
 		<snd_config>characters_voice\human_01\stalker\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -1399,8 +1403,8 @@
 			[spawn] \n
 			wpn_pm \n
 			ammo_9x18_pmm = 1 \n
-			wpn_vityaz \n
-			ammo_9x19_pbp = 1 \n
+			wpn_ak74u \n
+			ammo_5.45x39_fmj = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_food.xml"
@@ -1408,32 +1412,34 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
-#include "gameplay\character_dialogs.xml"
-</specific_character>
 
-	<specific_character id="agr_stalker_general_default4" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+
+	<specific_character id="agr_stalker_general_default4" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_hood_2</icon>
 		<map_icon x="1" y="0"></map_icon>
 		<bio>sim_stalker_general_bio</bio>
 
 		<class>agr_Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
-		
+
 		<rank>466</rank>
 		<reputation>36</reputation>
 		<money min="600" max="2000" infinitive="0"></money>
-		
+
 		<visual>actors\neytral\stalker_neytral_hood_2</visual>
 		<snd_config>characters_voice\human_02\stalker\</snd_config>
 		<crouch_type>-1</crouch_type>
 
 		<supplies>
 			[spawn] \n
-			wpn_pm \n
-			ammo_9x18_pmm = 1 \n
-			wpn_ak74_okp = 1, scope \n
-			ammo_5.45x39_ap = 1 \n
+			wpn_tt33 \n
+			ammo_7.62x25_p = 1 \n
+			wpn_akm \n
+			ammo_7.62x39_fmj = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_food.xml"
@@ -1441,22 +1447,24 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
-#include "gameplay\character_dialogs.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
 	</specific_character>
-	
-	<specific_character id="agr_stalker_general_default5" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+
+	<specific_character id="agr_stalker_general_default5" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_hood_8</icon>
 		<map_icon x="1" y="0"></map_icon>
 		<bio>sim_stalker_general_bio</bio>
 
 		<class>agr_Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
-		
+
 		<rank>423</rank>
 		<reputation>23</reputation>
 		<money min="600" max="2000" infinitive="0"></money>
-		
+
 		<visual>actors\neytral\stalker_neytral_hood_8</visual>
 		<snd_config>characters_voice\human_02\stalker\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -1465,8 +1473,8 @@
 			[spawn] \n
 			wpn_pm \n
 			ammo_9x18_pmm = 1 \n
-			wpn_ak74u \n
-			ammo_5.45x39_fmj \n
+			wpn_mp5 \n
+			ammo_9x19_fmj = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_food.xml"
@@ -1474,32 +1482,34 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
-#include "gameplay\character_dialogs.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
 	</specific_character>
 
-	<specific_character id="agr_stalker_general_default6" team_default = "1">
-		<name>GENERATE_NAME_chaos</name>
+	<specific_character id="agr_stalker_general_default6" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_rukzak_2</icon>
 		<map_icon x="1" y="0"></map_icon>
 		<bio>sim_stalker_general_bio</bio>
 
 		<class>agr_Stalker_general</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
-		
+
 		<rank>447</rank>
 		<reputation>33</reputation>
 		<money min="600" max="2000" infinitive="0"></money>
-		
+
 		<visual>actors\neytral\stalker_neytral_rukzak_2</visual>
 		<snd_config>characters_voice\human_01\stalker\</snd_config>
 		<crouch_type>-1</crouch_type>
 
 		<supplies>
 			[spawn] \n
-			wpn_pm \n
+			wpn_fort \n
 			ammo_9x18_pmm = 1 \n
-			wpn_ak105 \n
-			ammo_5.45x39_fmj \n
+			wpn_bm16 \n
+			ammo_12x70_buck = 1 \n
 			device_torch \n
 #include "gameplay\character_drugs.xml"
 #include "gameplay\character_food.xml"
@@ -1507,7 +1517,208 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
-#include "gameplay\character_dialogs.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+	
+	
+		<specific_character id="fr_agr_fanat" team_default="1">
+		<name>esc_fanat_name</name>
+		<icon>ui_npc_u_stalker_neytral_rukzak_3</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>esc_fanat_bio</bio>
+
+		<class>fr_agr_fanat</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>502</rank>
+		<reputation>10</reputation>
+		<money min="600" max="2000" infinitive="0"></money>
+
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<panic_treshold>0</panic_treshold>
+
+		<visual>actors\neytral\stalker_neytral_rukzak_3</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 3 \n
+			device_torch \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+	</specific_character>
+	
+	<specific_character id="fr_agr_fanat_group_1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<class>fr_agr_fanat_group</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>520</rank>
+		<reputation>0</reputation>
+		<money min="300" max="900" infinitive="0"></money>
+
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+			wpn_scar \n
+			ammo_7.62x51_fmj = 3 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+
+	<specific_character id="fr_agr_fanat_group_2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<class>fr_agr_fanat_group</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>470</rank>
+		<reputation>0</reputation>
+		<money min="300" max="900" infinitive="0"></money>
+
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+			wpn_ak105 \n
+			ammo_5.45x39_fmj = 3 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+
+	<specific_character id="fr_agr_fanat_group_3" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<class>fr_agr_fanat_group</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>490</rank>
+		<reputation>0</reputation>
+		<money min="300" max="900" infinitive="0"></money>
+
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<supplies>
+			[spawn] \n
+			wpn_tt33 \n
+			ammo_7.62x25_p = 1 \n
+			wpn_ak104 \n
+			ammo_7.62x39_fmj = 3 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+
+	<specific_character id="fr_agr_fanat_group_4" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<class>fr_agr_fanat_group</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<money min="300" max="900" infinitive="0"></money>
+
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj = 1 \n
+			wpn_saiga \n
+			ammo_12x70_buck = 2 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
+		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
+	</specific_character>
+	
+		<specific_character id="fr_agr_radist" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_nauchniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<class>fr_agr_radist</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>350</rank>
+		<reputation>0</reputation>
+		<money min="200" max="600" infinitive="0"></money>
+
+		<visual>actors\neytral\stalker_neytral_nauchniy</visual>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<supplies>
+			[spawn] \n
+			wpn_protecta \n
+			ammo_12x70_buck = 2 \n
+			device_torch \n
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_stalker_hello</start_dialog>
 	</specific_character>
 	
 

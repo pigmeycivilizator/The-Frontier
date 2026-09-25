@@ -108,24 +108,28 @@
 
 
 
-	<!-- смена состояний базы -->
+	<!-- смена состояний -->
 	<info_portion id="fr_agr_emp_start"></info_portion>
+	<info_portion id="fr_agr_recon_start"></info_portion>
 	<info_portion id="fr_agr_scout_start"></info_portion>
+	<info_portion id="fr_agr_devices_search_start"></info_portion>
 
 	<!-- сокращение лагеря Серого -->
 	<info_portion id="fr_agr_camp_cut1"></info_portion>
 	<info_portion id="fr_agr_camp_cut2"></info_portion>
 	<info_portion id="fr_agr_camp_cut3"></info_portion>
-	<info_portion id="fr_agr_camp_cut4"></info_portion>
 
-	<!-- смерть бойцов спасаемых патрулей -->
+	<!-- патрули -->
+	<info_portion id="fr_agr_patrols_start"></info_portion>
 	<info_portion id="fr_agr_patA_s1_dead"></info_portion>
 	<info_portion id="fr_agr_patA_s2_dead"></info_portion>
 	<info_portion id="fr_agr_patA_s3_dead"></info_portion>
 	<info_portion id="fr_agr_patB_s1_dead"></info_portion>
 	<info_portion id="fr_agr_patB_s2_dead"></info_portion>
 	<info_portion id="fr_agr_patB_s3_dead"></info_portion>
-
+	<info_portion id="fr_agr_patC_s1_dead"></info_portion>
+	<info_portion id="fr_agr_patC_s2_dead"></info_portion>
+	<info_portion id="fr_agr_patC_s3_dead"></info_portion>
 
 
 

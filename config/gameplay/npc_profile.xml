@@ -98,7 +98,15 @@
 	<character id="fr_agr_horus_booth">		<class>fr_agr_horus_booth</class>	</character>
 
 
-
+	<character id="fr_agr_fanat">
+		<class>fr_agr_fanat</class>
+	</character>
+	<character id="fr_agr_fanat_group">
+		<class>fr_agr_fanat_group</class>
+	</character>
+	<character id="fr_agr_radist">
+		<class>fr_agr_radist</class>
+	</character>
 
 
 

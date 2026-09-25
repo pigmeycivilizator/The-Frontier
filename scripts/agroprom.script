@@ -39,8 +39,8 @@ function set_game_time(target_h, target_m)
 	level.advance_game_time(diff * 60 * 1000)
 end
 
-function jump_to_16()
-	set_game_time(16, 0)
+function jump_to_12()
+	set_game_time(12, 0)
 end
 
 function jump_to_18()
@@ -209,7 +209,7 @@ wc_rewards = {
 	"ammo_5.45x39_fmj",
 	"ammo_9x18_fmj",
 	"ammo_9x19_fmj",
-	"ammo_7.62x54_7h1",
+	"ammo_7.62x39_fmj",
 	"ammo_12x70_buck",
 	"grenade_rgd5",
 	"grenade_f1",
@@ -422,10 +422,63 @@ end
 
 function sery_take_case(first_speaker, second_speaker)
 	sak.out_item_namber("fr_agr_kuz_case", 1)
+end
 
-	-- Хорус в будке исчезает после разговора с Серым
-	local se = alife():story_object(222)
-	if se ~= nil then
-		alife():release(se, true)
-	end
+-- Поставить сюжетную погоду и запустить цикл с этого места.
+-- period  - период из dynamic_weather_graphs.ltx: "1_good", "2_neutral", "3_alpha", "4_bad", "5_foggy"
+-- weather - погода из этого периода, без "default_": "np_clear2", "np_thunder" и т.д.
+-- hold    - сколько игровых часов держится этот период, дальше цикл идёт сам
+function set_story_weather(period, weather, hold)
+	local binder = db.actor and db.actor:binded_object()
+	local wm = binder and binder.weather_manager
+	if not wm then return end
+
+	local h = level.get_time_hours()
+
+	wm.current_period = period
+	wm.transition_period = false
+	wm.pre_blowout_period = false
+	wm.levelWeather = period
+	wm.last_period_change_hour = h
+	wm.next_period_change_hour = math.mod(h + hold, 24)
+	wm.last_hour = h
+	wm.state = {}
+	wm.state[period] = {
+		current_state = weather,
+		next_state = weather,
+		graph_name = period,
+		graph = wm:get_graph_by_name(period)
+	}
+
+	level.set_weather("default_"..weather, true)
+end
+
+
+-- 1. Старт, диалог с раненым бойцом. 07:30, пасмурное утро без дождя
+function weather_start(a, b)
+	set_story_weather("3_alpha", "np_alpha3", 3)
+end
+
+-- 2. После первой встречи с Серым. 11:00, ясно
+function weather_sery(a, b)
+	set_game_time(11, 20)
+	set_story_weather("1_good", "np_clear2", 4)
+end
+
+-- 3. После доклада Кузнецову о бое с зомби. 16:00, облачный вечер, ночью красная луна
+function weather_kuznetsov_report(a, b)
+	set_game_time(16, 0)
+	set_story_weather("2_neutral", "np_cloudy2_redmoon", 5)
+end
+
+-- 4. ЭМИ. 20:00, гроза с ливнем
+function weather_emp(a, b)
+	set_game_time(20, 0)
+	set_story_weather("5_foggy", "np_foggy", 4)
+end
+
+-- 5. Выход из тоннеля. 23:00, туманный рассвет
+function weather_tunnel_exit(a, b)
+	set_game_time(23, 0)
+	set_story_weather("4_bad", "np_thunder", 3)
 end

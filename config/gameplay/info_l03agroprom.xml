@@ -110,7 +110,6 @@
 
 	<!-- смена состояний -->
 	<info_portion id="fr_agr_emp_start"></info_portion>
-	<info_portion id="fr_agr_recon_start"></info_portion>
 	<info_portion id="fr_agr_scout_start"></info_portion>
 	<info_portion id="fr_agr_devices_search_start"></info_portion>
 
@@ -132,7 +131,20 @@
 	<info_portion id="fr_agr_patC_s3_dead"></info_portion>
 
 
+	<info_portion id="fr_agr_recon_start">
+		<task>task_fr_agr_recon</task>
+	</info_portion>
+	<info_portion id="fr_agr_recon_ambush"></info_portion>
+	<info_portion id="fr_agr_recon_pda_taken"></info_portion>
+	<info_portion id="fr_agr_recon_done">
+		<task>task_fr_agr_fanat</task>
+	</info_portion>
 
+	<info_portion id="fr_agr_fanat_talk_done">
+		<task>task_fr_agr_fanat_stash</task>
+	</info_portion>
+	<info_portion id="fr_agr_fanat_box_taken"></info_portion>
+	<info_portion id="fr_agr_fanat_stash_done"></info_portion>
 
 
 

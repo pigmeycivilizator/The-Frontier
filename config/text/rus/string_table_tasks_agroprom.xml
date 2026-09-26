@@ -183,7 +183,41 @@
 	</string>
 	
 	
-	
+	<string id="task_fr_agr_recon">
+		<text>Встретить сталкеров-разведчиков</text>
+	</string>
+	<string id="task_fr_agr_recon_1">
+		<text>Встретиться с группой сталкеров</text>
+	</string>
+	<string id="task_fr_agr_recon_2">
+		<text>Вернуться к Серому</text>
+	</string>
+	<string id="task_fr_agr_recon_artcl">
+		<text>Разведчики Серого возвращаются с Янтаря с важными сведениями о неизвестных сталкерах. Нужно встретить их и сопроводить до лагеря.</text>
+	</string>
+
+	<string id="task_fr_agr_fanat">
+		<text>Поговорить с Фанатом</text>
+	</string>
+	<string id="task_fr_agr_fanat_1">
+		<text>Расспросить Фаната о его группе</text>
+	</string>
+	<string id="task_fr_agr_fanat_artcl">
+		<text>Погибшие разведчики были из группы Фаната. Серый просит расспросить его: может, он замечал в их повадках что-то странное.</text>
+	</string>
+
+	<string id="task_fr_agr_fanat_stash">
+		<text>Найти и забрать тайник Фаната</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_1">
+		<text>Найти тайник</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_2">
+		<text>Вернуться к Фанату</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_artcl">
+		<text>Группа Фаната заложила схрон на верхнем уровне подземелий, недалеко от аномального тоннеля. Фанат обещал поделить содержимое пополам.</text>
+	</string>	
 	
 	
 	

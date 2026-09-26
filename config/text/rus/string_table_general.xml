@@ -52,7 +52,7 @@
 		<text>нейтрал</text>
 	</string>
 	<string id="killer">
-		<text>Наемник</text>
+		<text>Одиночка</text>
 	</string>
 	<string id="l01_escape">
 		<text>Кордон</text>

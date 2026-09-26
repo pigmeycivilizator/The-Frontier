@@ -67,7 +67,15 @@
 	<article id="task_fr_agr_to_sery" name="task_fr_agr_to_sery" group="task_fr_agr_to_sery" article_type="task">
 		<text>task_fr_agr_to_sery_artcl</text>
 	</article>
-	
+	<article id="task_fr_agr_recon" name="task_fr_agr_recon" group="task_fr_agr_recon" article_type="task">
+		<text>task_fr_agr_recon_artcl</text>
+	</article>
+	<article id="task_fr_agr_fanat" name="task_fr_agr_fanat" group="task_fr_agr_fanat" article_type="task">
+		<text>task_fr_agr_fanat_artcl</text>
+	</article>
+	<article id="task_fr_agr_fanat_stash" name="task_fr_agr_fanat_stash" group="task_fr_agr_fanat_stash" article_type="task">
+		<text>task_fr_agr_fanat_stash_artcl</text>
+	</article>	
 	
 	
 	

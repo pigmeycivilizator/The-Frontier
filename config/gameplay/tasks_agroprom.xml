@@ -292,6 +292,82 @@
 	</game_task>
 
 
+	<game_task id="task_fr_agr_recon" prio="1">
+		<title>task_fr_agr_recon</title>
+		<objective>
+			<text>task_fr_agr_recon</text>
+			<icon>ui_iconsTotal_locations</icon>
+			<infoportion_complete>fr_agr_recon_done</infoportion_complete>
+			<article>task_fr_agr_recon</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_recon_1</text>
+			<map_location_type hint="fr_agr_recon_leader">blue_location</map_location_type>
+			<object_story_id>fr_agr_recon_leader</object_story_id>
+			<function_complete>agroprom.recon_pda_taken</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_recon_2</text>
+			<map_location_type hint="fr_agr_sery">blue_location</map_location_type>
+			<object_story_id>fr_agr_sery</object_story_id>
+			<infoportion_complete>fr_agr_recon_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_fanat" prio="1">
+		<title>task_fr_agr_fanat</title>
+		<objective>
+			<text>task_fr_agr_fanat</text>
+			<icon>ui_iconsTotal_yan_provodnik_task</icon>
+			<infoportion_complete>fr_agr_fanat_talk_done</infoportion_complete>
+			<article>task_fr_agr_fanat</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_fanat_1</text>
+			<map_location_type hint="fr_agr_fanat">blue_location</map_location_type>
+			<object_story_id>fr_agr_fanat</object_story_id>
+			<infoportion_complete>fr_agr_fanat_talk_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_fanat_stash" prio="1">
+		<title>task_fr_agr_fanat_stash</title>
+		<objective>
+			<text>task_fr_agr_fanat_stash</text>
+			<icon>ui_iconsTotal_lost_thing</icon>
+			<infoportion_complete>fr_agr_fanat_stash_done</infoportion_complete>
+			<article>task_fr_agr_fanat_stash</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_fanat_stash_1</text>
+			<map_location_type hint="fr_agr_fanat_box">blue_location</map_location_type>
+			<object_story_id>fr_agr_fanat_box</object_story_id>
+			<function_complete>agroprom.fanat_box_taken</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_fanat_stash_2</text>
+			<map_location_type hint="fr_agr_fanat">blue_location</map_location_type>
+			<object_story_id>fr_agr_fanat</object_story_id>
+			<infoportion_complete>fr_agr_fanat_stash_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -12,8 +12,13 @@
 <supplies>
 			[spawn] \n
 			device_torch \n
+			wpn_ak74_kobra \n
+			wpn_spas12 \n
 			wpn_oc33 \n
-			ammo_9x18_fmj = 2 \n
+			ammo_5.45x39_fmj = 3 \n
+			ammo_5.45x39_ap = 2 \n
+			ammo_12x70_buck = 3 \n
+			ammo_9x18_fmj = 3 \n
 			specops_outfit \n
 			medkit = 10 \n
 			medkit_army = 5 \n
@@ -25,6 +30,8 @@
 			conserva = 2 \n
 			kolbasa = 2 \n
 			energy_drink = 3 \n
+			wpn_binoc \n
+			wpn_knife \n
 
 		</supplies>
 		

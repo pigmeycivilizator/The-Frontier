@@ -108,7 +108,12 @@
 		<class>fr_agr_radist</class>
 	</character>
 
-
+	<character id="fr_agr_recon_leader">
+		<class>fr_agr_recon_leader</class>
+	</character>
+	<character id="fr_agr_recon_traitor">
+		<class>fr_agr_recon_traitor</class>
+	</character>
 
 
 

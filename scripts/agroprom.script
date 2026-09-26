@@ -482,3 +482,110 @@ function weather_tunnel_exit(a, b)
 	set_game_time(23, 0)
 	set_story_weather("4_bad", "np_thunder", 3)
 end
+
+
+-- ===================== РАЗВЕДКА И ФАНАТ =====================
+
+-- ---------- работа у Серого ----------
+
+-- Серый забирает КПК орденца из подземки и даёт награду за погибших диггеров
+function sery_job_reward(first_speaker, second_speaker)
+	sak.out_item_namber("fr_agr_cult_pda", 1)
+	dialogs.relocate_item_section(first_speaker, "medkit", "in")
+	dialogs.relocate_item_section(first_speaker, "medkit", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_ap", "in")
+end
+
+-- ---------- засада разведки ----------
+
+-- разговор обрывается, спокойный разведчик падает замертво,
+-- трое остальных становятся врагами по поршню в своей логике
+function recon_ambush(first_speaker, second_speaker)
+	dialogs.break_dialog(first_speaker, second_speaker)
+
+	local npc = level_object_by_sid(223)
+	if npc == nil then
+		return
+	end
+	local h = hit()
+	h.power = 100
+	h.direction = npc:direction()
+	h.draftsman = npc
+	h.impulse = 1
+	h.type = hit.wound
+	npc:hit(h)
+	
+    relation_registry.set_community_goodwill("killer", db.actor:id(), -5000)
+	
+end
+
+function recon_pda_taken(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if sak.have_item_namber("fr_agr_recon_pda", 1) then
+		if not a:has_info("fr_agr_recon_pda_taken") then
+			a:give_info_portion("fr_agr_recon_pda_taken")
+		end
+		return true
+	end
+
+	return false
+end
+
+-- Серый смотрит КПК, забирает его и даёт компенсацию
+function sery_recon_reward(first_speaker, second_speaker)
+	sak.out_item_namber("fr_agr_recon_pda", 1)
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "medkit", "in")
+	dialogs.relocate_item_section(first_speaker, "medkit", "in")
+end
+
+-- ---------- схрон Фаната ----------
+
+function fanat_box_taken(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if sak.have_item_namber("fr_agr_fanat_box", 1) then
+		if not a:has_info("fr_agr_fanat_box_taken") then
+			a:give_info_portion("fr_agr_fanat_box_taken")
+		end
+		return true
+	end
+
+	return false
+end
+
+function fanat_choose_meds(first_speaker, second_speaker)
+	sak.out_item_namber("fr_agr_fanat_box", 1)
+	dialogs.relocate_item_section(first_speaker, "medkit", "in")
+	dialogs.relocate_item_section(first_speaker, "medkit", "in")
+	dialogs.relocate_item_section(first_speaker, "medkit_army", "in")
+	dialogs.relocate_item_section(first_speaker, "medkit_army", "in")
+	dialogs.relocate_item_section(first_speaker, "bandage", "in")
+	dialogs.relocate_item_section(first_speaker, "bandage", "in")
+	dialogs.relocate_item_section(first_speaker, "bandage", "in")
+	dialogs.relocate_item_section(first_speaker, "bandage", "in")
+	dialogs.relocate_item_section(first_speaker, "antirad", "in")
+	dialogs.relocate_item_section(first_speaker, "antirad", "in")
+	dialogs.relocate_item_section(first_speaker, "antirad", "in")
+end
+
+function fanat_choose_ammo(first_speaker, second_speaker)
+	sak.out_item_namber("fr_agr_fanat_box", 1)
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+end
+
+-- "небольшой презент": артефакт, который Фанату "туда, куда мы пойдём, не пригодится"
+function fanat_gift(first_speaker, second_speaker)
+	dialogs.relocate_item_section(first_speaker, "af_electra_flash", "in")
+end

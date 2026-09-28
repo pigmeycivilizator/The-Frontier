@@ -14,6 +14,10 @@
 		<texture>ui\ui_nvd_mask_3</texture>
 	</cs_nvd_mask>
 
+	<fr_thought x="150" y="700" width="700" height="80" complex_mode="1">
+		<text font="graffiti50" r="215" g="210" b="195" a="255" align="c"/>
+	</fr_thought>
+
     <hud_timer x="852" y="15" width="157" height="67">
         <text x="-15" y="23it" font="graffiti32" r="238" g="155" b="23" a="255" align="r"/>
         <texture>ui_hud_frame_clock</texture>

@@ -72,7 +72,14 @@
       </phrase>
     </phrase_list>
   </dialog>
-
+  
+  <dialog id="fr_recon_hello">
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_recon_hello_0</text>
+      </phrase>
+    </phrase_list>
+  </dialog>
   <!-- ================= ÑÎÑËÓÆÈÂÅÖ Ó ÐÀÄÈÎ ================= -->
   <dialog id="fr_agr_soldier_intro">
     <dont_has_info>fr_agr_intro_done</dont_has_info>
@@ -1927,7 +1934,118 @@
   </dialog>
 
 
-
+  <!-- ================= ÊÓÇÍÅÖÎÂ: ÄÎÊËÀÄ ÏÎ ÐÀÇÂÅÄ×ÈÊÓ ================= -->
+  <dialog id="fr_agr_kuz_report">
+    <has_info>fr_agr_scout_done</has_info>
+    <dont_has_info>fr_agr_kuz_report_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_kuz_rep_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_kuz_rep_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_kuz_rep_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_kuz_rep_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_kuz_rep_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_kuz_rep_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_kuz_rep_6</text>
+        <action>agroprom.kuz_take_scout_pda</action>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_kuz_rep_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_kuz_rep_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_kuz_rep_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_kuz_rep_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_kuz_rep_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_kuz_rep_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_kuz_rep_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_kuz_rep_14</text>
+        <next>15</next>
+      </phrase>
+      <phrase id="15">
+        <text>fr_kuz_rep_15</text>
+        <next>16</next>
+      </phrase>
+      <phrase id="16">
+        <text>fr_kuz_rep_16</text>
+        <next>17</next>
+      </phrase>
+      <phrase id="17">
+        <text>fr_kuz_rep_17</text>
+        <next>18</next>
+      </phrase>
+      <phrase id="18">
+        <text>fr_kuz_rep_18</text>
+        <next>19</next>
+      </phrase>
+      <phrase id="19">
+        <text>fr_kuz_rep_19</text>
+        <next>20</next>
+      </phrase>
+      <phrase id="20">
+        <text>fr_kuz_rep_20</text>
+        <next>21</next>
+      </phrase>
+      <phrase id="21">
+        <text>fr_kuz_rep_21</text>
+        <next>22</next>
+      </phrase>
+      <phrase id="22">
+        <text>fr_kuz_rep_22</text>
+        <next>23</next>
+      </phrase>
+      <phrase id="23">
+        <text>fr_kuz_rep_23</text>
+        <next>24</next>
+      </phrase>
+      <phrase id="24">
+        <text>fr_kuz_rep_24</text>
+        <next>25</next>
+      </phrase>
+      <phrase id="25">
+        <text>fr_kuz_rep_25</text>
+        <give_info>fr_agr_kuz_report_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 

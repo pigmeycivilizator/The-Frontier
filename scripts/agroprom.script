@@ -500,13 +500,31 @@ end
 
 -- разговор обрывается, спокойный разведчик падает замертво,
 -- трое остальных становятся врагами по поршню в своей логике
+-- ===================== ЗАСАДА РАЗВЕДКИ =====================
+
+local recon_shots = {}
+
+-- очередь: count выстрелов с интервалом step секунд, начиная через start секунд
+local function play_burst(path, start, count, step)
+	for i = 0, count - 1 do
+		local snd = sound_object(path .. math.random(1, 4))
+		table.insert(recon_shots, snd)
+		snd:play(db.actor, start + i * step, sound_object.s2d)
+	end
+end
+
 function recon_ambush(first_speaker, second_speaker)
 	dialogs.break_dialog(first_speaker, second_speaker)
+
+	recon_shots = {}
+	play_burst("weapons\\_gunfire\\mono\\trg\\Close_",  0.0,  6, 0.10)
+
 
 	local npc = level_object_by_sid(223)
 	if npc == nil then
 		return
 	end
+
 	local h = hit()
 	h.power = 100
 	h.direction = npc:direction()
@@ -514,9 +532,8 @@ function recon_ambush(first_speaker, second_speaker)
 	h.impulse = 1
 	h.type = hit.wound
 	npc:hit(h)
-	
-    relation_registry.set_community_goodwill("killer", db.actor:id(), -5000)
-	
+
+	relation_registry.set_community_goodwill("killer", db.actor:id(), -5000)
 end
 
 function recon_pda_taken(actor, npc)
@@ -588,4 +605,64 @@ end
 -- "небольшой презент": артефакт, который Фанату "туда, куда мы пойдём, не пригодится"
 function fanat_gift(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "af_electra_flash", "in")
+end
+
+-- ===================== ПРОПАВШИЙ РАЗВЕДЧИК =====================
+
+function scout_pda_taken(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if sak.have_item_namber("fr_agr_scout_pda", 1) then
+		if not a:has_info("fr_agr_scout_pda_taken") then
+			a:give_info_portion("fr_agr_scout_pda_taken")
+		end
+		return true
+	end
+
+	return false
+end
+
+function kuz_take_scout_pda(first_speaker, second_speaker)
+	sak.out_item_namber("fr_agr_scout_pda", 1)
+end
+
+
+-- ===================== МЫСЛИ ГГ =====================
+
+local thought_id = "fr_thought"
+
+local function thought_show(text, seconds)
+	local hud = get_hud()
+	if not hud then return end
+
+	local cs = hud:GetCustomStatic(thought_id)
+	if cs == nil then
+		cs = hud:AddCustomStatic(thought_id, true)
+	end
+
+	cs:wnd():SetTextST(text)
+	cs.m_endTime = time_global() / 1000 + seconds
+end
+
+-- text - id строки из string table (или просто текст), seconds - сколько висит
+-- если игрок в диалоге или в КПК, мысль дождётся, пока он их закроет
+function thought(text, seconds)
+	seconds = seconds or 7
+
+	if xr_conditions.can_send_tutorial() then
+		thought_show(text, seconds)
+	else
+		level.add_call(
+			function() return xr_conditions.can_send_tutorial() end,
+			function() thought_show(text, seconds) end
+		)
+	end
+end
+
+function thought_hide()
+	local hud = get_hud()
+	if hud and hud:GetCustomStatic(thought_id) then
+		hud:RemoveCustomStatic(thought_id)
+	end
 end

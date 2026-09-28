@@ -871,3 +871,25 @@ inv_grid_height    = 2
 inv_grid_x         = 4
 inv_grid_y         = 18
 cost				= 0
+
+[fr_agr_scout_pda]:identity_immunities
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn 				= "devices\quest_items\fr_agr_scout_pda"
+class				= II_ATTCH
+cform				= skeleton
+visual				= equipments\item_pda.ogf
+radius				= 1
+quest_item			= true
+
+description			= fr_agr_scout_pda_desc
+
+inv_name			= fr_agr_scout_pda_name
+inv_name_short		= fr_agr_scout_pda_name
+inv_weight			= 0
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 6
+inv_grid_y			= 13
+cost				= 0

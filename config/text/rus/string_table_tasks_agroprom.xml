@@ -218,7 +218,28 @@
 	<string id="task_fr_agr_fanat_stash_artcl">
 		<text>Группа Фаната заложила схрон на верхнем уровне подземелий, недалеко от аномального тоннеля. Фанат обещал поделить содержимое пополам.</text>
 	</string>	
-	
+	<string id="task_fr_agr_scout">
+		<text>Отыскать пропавшего военного</text>
+	</string>
+	<string id="task_fr_agr_scout_1">
+		<text>Найти военного</text>
+	</string>
+	<string id="task_fr_agr_scout_2">
+		<text>Вернуться на базу</text>
+	</string>
+	<string id="task_fr_agr_scout_artcl">
+		<text>К западу от сталкерского комплекса пропал сигнал разведчика полковника. Нужно найти его и забрать КПК с важной информацией.</text>
+	</string>
+
+	<string id="task_fr_agr_kuz_report">
+		<text>Поговорить с Кузнецовым</text>
+	</string>
+	<string id="task_fr_agr_kuz_report_1">
+		<text>Доложить полковнику</text>
+	</string>
+	<string id="task_fr_agr_kuz_report_artcl">
+		<text>Разведчик мёртв, его КПК уничтожен. Нужно доложить полковнику о случившемся.</text>
+	</string>	
 	
 	
 	

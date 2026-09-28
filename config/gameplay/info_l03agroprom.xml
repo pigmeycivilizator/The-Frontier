@@ -110,7 +110,6 @@
 
 	<!-- смена состояний -->
 	<info_portion id="fr_agr_emp_start"></info_portion>
-	<info_portion id="fr_agr_scout_start"></info_portion>
 	<info_portion id="fr_agr_devices_search_start"></info_portion>
 
 	<!-- сокращение лагеря Серого -->
@@ -148,7 +147,14 @@
 
 
 
-
+	<info_portion id="fr_agr_scout_start">
+		<task>task_fr_agr_scout</task>
+	</info_portion>
+	<info_portion id="fr_agr_scout_pda_taken"></info_portion>
+	<info_portion id="fr_agr_scout_done">
+		<task>task_fr_agr_kuz_report</task>
+	</info_portion>
+	<info_portion id="fr_agr_kuz_report_done"></info_portion>
 
 
 

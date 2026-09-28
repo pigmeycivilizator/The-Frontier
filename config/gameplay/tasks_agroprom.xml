@@ -357,7 +357,46 @@
 		</objective>
 	</game_task>
 
+	<game_task id="task_fr_agr_scout" prio="1">
+		<title>task_fr_agr_scout</title>
+		<objective>
+			<text>task_fr_agr_scout</text>
+			<icon>ui_iconsTotal_locations</icon>
+			<infoportion_complete>fr_agr_scout_done</infoportion_complete>
+			<article>task_fr_agr_scout</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_scout_1</text>
+			<map_location_type hint="fr_agr_dead_scout">blue_location</map_location_type>
+			<object_story_id>fr_agr_dead_scout</object_story_id>
+			<function_complete>agroprom.scout_pda_taken</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_scout_2</text>
+			<map_location_type hint="fr_agr_north_gate">blue_location</map_location_type>
+			<object_story_id>fr_agr_north_gate</object_story_id>
+			<infoportion_complete>fr_agr_scout_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_kuz_report" prio="1">
+		<title>task_fr_agr_kuz_report</title>
+		<objective>
+			<text>task_fr_agr_kuz_report</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<infoportion_complete>fr_agr_kuz_report_done</infoportion_complete>
+			<article>task_fr_agr_kuz_report</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_kuz_report_1</text>
+			<map_location_type hint="fr_agr_kuznetsov">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_kuz_report_done</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

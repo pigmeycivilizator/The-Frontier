@@ -115,7 +115,12 @@
 		<class>fr_agr_recon_traitor</class>
 	</character>
 
-
+	<character id="fr_agr_dead_scout">
+		<class>fr_agr_dead_scout</class>
+	</character>
+	<character id="fr_agr_zombie_shooter">
+		<class>fr_agr_zombie_shooter</class>
+	</character>
 
 
 

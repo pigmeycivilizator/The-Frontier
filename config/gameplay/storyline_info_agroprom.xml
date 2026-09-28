@@ -76,7 +76,12 @@
 	<article id="task_fr_agr_fanat_stash" name="task_fr_agr_fanat_stash" group="task_fr_agr_fanat_stash" article_type="task">
 		<text>task_fr_agr_fanat_stash_artcl</text>
 	</article>	
-	
+	<article id="task_fr_agr_scout" name="task_fr_agr_scout" group="task_fr_agr_scout" article_type="task">
+		<text>task_fr_agr_scout_artcl</text>
+	</article>
+	<article id="task_fr_agr_kuz_report" name="task_fr_agr_kuz_report" group="task_fr_agr_kuz_report" article_type="task">
+		<text>task_fr_agr_kuz_report_artcl</text>
+	</article>	
 	
 	
 	

@@ -65,6 +65,7 @@
 		<actor_dialog>fr_agr_kuz_brief</actor_dialog>
 		<actor_dialog>fr_agr_kuz_back</actor_dialog>
 		<actor_dialog>fr_agr_kuz_report</actor_dialog>
+		<actor_dialog>fr_agr_kuz_strike</actor_dialog>
 		
 		<actor_dialog>fr_agr_kuz_questions</actor_dialog>
 	</specific_character>
@@ -103,6 +104,8 @@
 		<actor_dialog>fr_agr_snab_gear</actor_dialog>
 		<actor_dialog>fr_agr_snab_crates</actor_dialog>
 		<actor_dialog>fr_agr_snab_bandits</actor_dialog>
+		<actor_dialog>fr_agr_snab_reward</actor_dialog>
+		<actor_dialog>fr_agr_snab_brother_return</actor_dialog>
 		
 		<actor_dialog>fr_agr_snab_questions</actor_dialog>
 	</specific_character>
@@ -1192,6 +1195,8 @@
 		<actor_dialog>fr_agr_sery_meet</actor_dialog>
 		<actor_dialog>fr_agr_sery_job</actor_dialog>
 		<actor_dialog>fr_agr_sery_recon</actor_dialog>
+		<actor_dialog>fr_agr_sery_back</actor_dialog>
+		<actor_dialog>fr_agr_sery_radist</actor_dialog>
 		
 		<actor_dialog>fr_agr_sery_questions</actor_dialog>
 	</specific_character>
@@ -1225,9 +1230,512 @@
 	
 	
 	
+	<specific_character id="fr_agr_pastukh_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<map_icon x="3" y="0"></map_icon>
+		<bio>fr_agr_cultist_bio</bio>
+
+		<class>fr_agr_pastukh_2</class>
+		<community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>700</rank>
+		<reputation>-591</reputation>
+
+		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<snd_config>characters_voice\human_01\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<supplies>
+			[spawn] \n
+			wpn_usp \n
+			ammo_11.43x23_fmj = 1 \n
+			wpn_g36 \n
+			ammo_5.56x45_ss190 = 2 \n
+			fr_agr_pastukh2_pda \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_brother" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_brother</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pkm \n
+			ammo_pkm_100 = 4 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
 	
-	
-	
+		<!-- ============ ÊÀÏÈÒÀÍ ÀÊÅÐÀÍ ============ -->
+	<specific_character id="fr_agr_akeran" team_default="1">
+		<name>fr_agr_akeran_name</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_akeran_bio</bio>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_akeran</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>800</rank>
+		<reputation>100</reputation>
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_groza \n
+			ammo_9x39_ap = 2 \n
+			wpn_gsh18 \n
+			ammo_9x19_pbp = 1 \n
+			device_torch \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+		<start_dialog>fr_mil_soldier_hello</start_dialog>
+		<actor_dialog>fr_agr_akeran_talk</actor_dialog>
+	</specific_character>
+
+	<!-- ============ ØÒÓÐÌÎÂÎÉ ÎÒÐßÄ, Áåðèëë ============ -->
+	<specific_character id="fr_agr_strike_soldier_1" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_strike_soldier</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak12 \n
+			ammo_5.45x39_ap = 2 \n
+			medkit_army \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_strike_soldier_2" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_strike_soldier</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_aek971 \n
+			ammo_5.45x39_ap = 2 \n
+			medkit_army \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_strike_soldier_3" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_strike_soldier</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_ap = 2 \n
+			medkit_army \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_strike_soldier_4" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_strike_soldier</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 3 \n
+			medkit_army \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_strike_soldier_5" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_strike_soldier</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_val \n
+			ammo_9x39_ap = 2 \n
+			medkit_army \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ============ ËÎÃÎÂÎ: ÇÎÌÁÈ ============ -->
+	<specific_character id="fr_agr_lair_zombie_1" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_akm \n
+			ammo_7.62x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_2" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_zombie2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_3" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_zombie4</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie4</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak104 \n
+			ammo_7.62x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_4" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_zombie5</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie5</visual>
+		<supplies>
+			[spawn] \n
+			wpn_saiga \n
+			ammo_12x70_buck = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_5" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_zombie6</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie6</visual>
+		<supplies>
+			[spawn] \n
+			wpn_rpd \n
+			ammo_7.62x39_fmj = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_6" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_stalker_zombie8</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie8</visual>
+		<supplies>
+			[spawn] \n
+			wpn_sks \n
+			ammo_7.62x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_7" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_zombie_fresh_0</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\zombie_fresh_0</visual>
+		<supplies>
+			[spawn] \n
+			wpn_spas12 \n
+			ammo_12x70_buck = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_8" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_zombie_fresh_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\zombie_fresh_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_9" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_zombie_exoskeleton</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\zombie_exoskeleton</visual>
+		<supplies>
+			[spawn] \n
+			wpn_g3 \n
+			ammo_7.62x51_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ============ ËÎÃÎÂÎ: ÇÎÌÁÈÐÎÂÀÍÍÛÅ ÂÎÅÍÍÛÅ, Áåðèëë ============ -->
+	<specific_character id="fr_agr_lair_zombie_mil_1" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie_mil</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>500</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_mil_2" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie_mil</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>500</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_lair_zombie_mil_3" team_default="1">
+		<name>GENERATE_NAME_herd</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_zombie_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_lair_zombie_mil</class>
+		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<rank>500</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak105 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ============ ËÎÃÎÂÎ: ÊÓËÜÒÈÑÒ-ÏÀÑÒÓÕ ============ -->
+	<specific_character id="fr_agr_strike_cultist" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<map_icon x="3" y="0"></map_icon>
+		<bio>fr_agr_cultist_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_strike_cultist</class>
+		<community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>700</rank>
+		<reputation>-591</reputation>
+		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_sig550 \n
+			ammo_5.56x45_ap = 2 \n
+			wpn_usp \n
+			ammo_11.43x23_fmj = 1 \n
+			medkit \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ============ ÏÐÅÄÀÒÅËÈ Ñ ÑÅÂÅÐÍÎÃÎ ÏÎÑÒÀ, Áåðèëë ============ -->
+	<specific_character id="fr_agr_traitor_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_traitor</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak105 \n
+			ammo_5.45x39_ap = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_traitor_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_traitor</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_ap = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_traitor_3" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_traitor</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_vihr \n
+			ammo_9x39_ap = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
 	
 	
 	

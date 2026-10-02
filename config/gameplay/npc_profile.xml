@@ -122,9 +122,31 @@
 		<class>fr_agr_zombie_shooter</class>
 	</character>
 
+	<character id="fr_agr_pastukh_2">
+		<class>fr_agr_pastukh_2</class>
+	</character>
 
-
-
+	<character id="fr_agr_akeran">
+		<class>fr_agr_akeran</class>
+	</character>
+	<character id="fr_agr_strike_soldier">
+		<class>fr_agr_strike_soldier</class>
+	</character>
+	<character id="fr_agr_lair_zombie">
+		<class>fr_agr_lair_zombie</class>
+	</character>
+	<character id="fr_agr_lair_zombie_mil">
+		<class>fr_agr_lair_zombie_mil</class>
+	</character>
+	<character id="fr_agr_strike_cultist">
+		<class>fr_agr_strike_cultist</class>
+	</character>
+	<character id="fr_agr_traitor">
+		<class>fr_agr_traitor</class>
+	</character>
+	<character id="fr_agr_brother">
+		<class>fr_agr_brother</class>
+	</character>
 
 <!-- Escape -->
 	<character id="escape_trader">	

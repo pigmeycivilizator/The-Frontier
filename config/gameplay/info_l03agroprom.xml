@@ -110,7 +110,6 @@
 
 	<!-- смена состояний -->
 	<info_portion id="fr_agr_emp_start"></info_portion>
-	<info_portion id="fr_agr_devices_search_start"></info_portion>
 
 	<!-- сокращение лагеря Серого -->
 	<info_portion id="fr_agr_camp_cut1"></info_portion>
@@ -118,7 +117,6 @@
 	<info_portion id="fr_agr_camp_cut3"></info_portion>
 
 	<!-- патрули -->
-	<info_portion id="fr_agr_patrols_start"></info_portion>
 	<info_portion id="fr_agr_patA_s1_dead"></info_portion>
 	<info_portion id="fr_agr_patA_s2_dead"></info_portion>
 	<info_portion id="fr_agr_patA_s3_dead"></info_portion>
@@ -154,16 +152,95 @@
 	<info_portion id="fr_agr_scout_done">
 		<task>task_fr_agr_kuz_report</task>
 	</info_portion>
-	<info_portion id="fr_agr_kuz_report_done"></info_portion>
+
+
+	<info_portion id="fr_agr_kuz_report_done">
+		<task>task_fr_agr_snab_reward</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_snab_brother_start">
+		<task>task_fr_agr_brother</task>
+	</info_portion>
+	<info_portion id="fr_agr_brother_killed"></info_portion>
+	<info_portion id="fr_agr_brother_mg_taken"></info_portion>
+	<info_portion id="fr_agr_brother_done"></info_portion>
+
+	<info_portion id="fr_agr_patrols_start">
+		<task>task_fr_agr_patrols</task>
+	</info_portion>
+	<info_portion id="fr_agr_patA_enter"></info_portion>
+	<info_portion id="fr_agr_patB_enter"></info_portion>
+	<info_portion id="fr_agr_patC_enter"></info_portion>
+	<info_portion id="fr_agr_patD_done"></info_portion>
+
+	<info_portion id="fr_agr_pA_k1"></info_portion>
+	<info_portion id="fr_agr_pA_k2"></info_portion>
+	<info_portion id="fr_agr_pA_k3"></info_portion>
+	<info_portion id="fr_agr_pA_k4"></info_portion>
+	<info_portion id="fr_agr_pA_k5"></info_portion>
+	<info_portion id="fr_agr_pA_k6"></info_portion>
+
+	<info_portion id="fr_agr_pB_k1"></info_portion>
+	<info_portion id="fr_agr_pB_k2"></info_portion>
+	<info_portion id="fr_agr_pB_k3"></info_portion>
+	<info_portion id="fr_agr_pB_k4"></info_portion>
+	<info_portion id="fr_agr_pB_k5"></info_portion>
+	<info_portion id="fr_agr_pB_k6"></info_portion>
+
+	<info_portion id="fr_agr_radist_found"></info_portion>
+	
+	<info_portion id="fr_agr_patC_near"></info_portion>
+	
+	<info_portion id="fr_agr_pC_k1"></info_portion>
+	<info_portion id="fr_agr_pC_k2"></info_portion>
+	<info_portion id="fr_agr_pC_k3"></info_portion>
+	<info_portion id="fr_agr_pC_k4"></info_portion>
+	<info_portion id="fr_agr_pC_k5"></info_portion>
+	<info_portion id="fr_agr_pC_k6"></info_portion>
+	<info_portion id="fr_agr_pC_k7"></info_portion>
+
+
+	<info_portion id="fr_agr_patrols_done">
+		<task>task_fr_agr_back_sery</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_sery_back_done">
+		<task>task_fr_agr_devices</task>
+	</info_portion>
 
 
 
+	<info_portion id="fr_agr_devices_search_start">
+		<task>task_fr_agr_find_devices</task>
+	</info_portion>
 
+	<info_portion id="fr_agr_devices_found"></info_portion>
 
+	<info_portion id="fr_agr_strike_start">
+		<task>task_fr_agr_strike</task>
+	</info_portion>
+	<info_portion id="fr_agr_strike_go"></info_portion>
+	<info_portion id="fr_agr_strike_cleared">
+		<task>task_fr_agr_strike_search</task>
+	</info_portion>
+	<info_portion id="fr_agr_strike_note_taken"></info_portion>
 
+	<info_portion id="fr_agr_traitors_spawn"></info_portion>
+	<info_portion id="fr_agr_captain_dead"></info_portion>
+	<info_portion id="fr_agr_traitors_attack">
+		<task>task_fr_agr_traitors</task>
+	</info_portion>
+	<info_portion id="fr_agr_traitors_dead"></info_portion>
+	<info_portion id="fr_agr_strike_radio_done">
+		<task>task_fr_agr_strike_back</task>
+	</info_portion>
 
-
-
+	<info_portion id="fr_agr_kuz_strike_done">
+		<task>task_fr_agr_sery_order</task>
+	</info_portion>
+	<info_portion id="fr_agr_sery_order_done"></info_portion>
+	
+	<info_portion id="fr_agr_strike_near"></info_portion>
 
 
 

@@ -666,3 +666,279 @@ function thought_hide()
 		hud:RemoveCustomStatic(thought_id)
 	end
 end
+
+-- ===================== СНАБЖЕНЕЦ, ПАТРУЛИ, ПУЛЕМЁТ БРАТА =====================
+
+-- награда от полковника: ГП-25 под АК-74 разведчика, ВОГи, патроны, гранаты
+function snab_reward_gl(first_speaker, second_speaker)
+	dialogs.relocate_item_section(first_speaker, "wpn_addon_grenade_launcher", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+end
+
+-- ---------- патрули ----------
+
+-- лагерь A: зомби перебиты
+function patA_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_pA_k1")
+	   and a:has_info("fr_agr_pA_k2")
+	   and a:has_info("fr_agr_pA_k3")
+	   and a:has_info("fr_agr_pA_k4")
+	   and a:has_info("fr_agr_pA_k5")
+	   and a:has_info("fr_agr_pA_k6") then
+		return true
+	end
+
+	return false
+end
+
+-- лагерь A: все трое бойцов мертвы
+function patA_fail(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_patA_s1_dead")
+	   and a:has_info("fr_agr_patA_s2_dead")
+	   and a:has_info("fr_agr_patA_s3_dead") then
+		return true
+	end
+
+	return false
+end
+
+-- лагерь Б: зомби и пастух перебиты
+function patB_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_pB_k1")
+	   and a:has_info("fr_agr_pB_k2")
+	   and a:has_info("fr_agr_pB_k3")
+	   and a:has_info("fr_agr_pB_k4")
+	   and a:has_info("fr_agr_pB_k5")
+	   and a:has_info("fr_agr_pB_k6") then
+		return true
+	end
+
+	return false
+end
+
+-- лагерь Б: все трое бойцов мертвы
+function patB_fail(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_patB_s1_dead")
+	   and a:has_info("fr_agr_patB_s2_dead")
+	   and a:has_info("fr_agr_patB_s3_dead") then
+		return true
+	end
+
+	return false
+end
+
+-- лагерь В: зомби перебиты
+function patC_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_pC_k1")
+	   and a:has_info("fr_agr_pC_k2")
+	   and a:has_info("fr_agr_pC_k3")
+	   and a:has_info("fr_agr_pC_k4")
+	   and a:has_info("fr_agr_pC_k5")
+	   and a:has_info("fr_agr_pC_k6")
+	   and a:has_info("fr_agr_pC_k7") then
+		return true
+	end
+
+	return false
+end
+
+-- лагерь В: все трое бойцов мертвы
+function patC_fail(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_patC_s1_dead")
+	   and a:has_info("fr_agr_patC_s2_dead")
+	   and a:has_info("fr_agr_patC_s3_dead") then
+		return true
+	end
+
+	return false
+end
+
+-- всё задание: каждый лагерь зачищен или провален, плюс пустой лагерь Г
+function patrols_all_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if (patA_done() or patA_fail())
+	   and (patB_done() or patB_fail())
+	   and (patC_done() or patC_fail())
+	   and a:has_info("fr_agr_patD_done") then
+		if not a:has_info("fr_agr_patrols_done") then
+			news_manager.send_tip(a, "fr_agr_tip_patrols_done", nil, "default", nil)
+			a:give_info_portion("fr_agr_patrols_done")
+		end
+		return true
+	end
+
+	return false
+end
+
+-- ---------- пулемёт брата ----------
+
+-- precondition диалога: пулемёт у игрока
+function has_pkm(first_speaker, second_speaker)
+	return sak.have_item_namber("wpn_pkm", 1)
+end
+
+-- цель "Забрать пулемёт": поршень ставится один раз и остаётся
+function brother_mg_taken(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_brother_mg_taken") then
+		return true
+	end
+
+	if sak.have_item_namber("wpn_pkm", 1) then
+		a:give_info_portion("fr_agr_brother_mg_taken")
+		return true
+	end
+
+	return false
+end
+
+function brother_take_mg(first_speaker, second_speaker)
+	sak.out_item_namber("wpn_pkm", 1)
+end
+
+-- Kriss Vector и "все патроны, что у нас есть под него"
+function brother_reward(first_speaker, second_speaker)
+	dialogs.relocate_item_section(first_speaker, "wpn_kriss_vector", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
+end
+
+-- ============================================================
+-- Квесты 22-26: радист, Ответный удар, предатели
+-- ============================================================
+
+local SID_CULTIST = 236
+
+local PSI_PP_ID   = 9141
+local PSI_CAM_ID  = 9142
+local VOICE_PP_ID = 9143
+
+local strike_snd = {}
+
+local function play2d(path, delay)
+	local s = sound_object(path)
+	table.insert(strike_snd, s)
+	s:play(db.actor, delay or 0, sound_object.s2d)
+end
+
+-- счётчик убийств, хранится в сейве актора
+function kill_add(key)
+	local a = db.actor
+	if not a then return end
+	local k = "fr_kc_" .. key
+	xr_logic.pstor_store(a, k, xr_logic.pstor_retrieve(a, k, 0) + 1)
+end
+
+function kill_count(key)
+	local a = db.actor
+	if not a then return 0 end
+	return xr_logic.pstor_retrieve(a, "fr_kc_" .. key, 0)
+end
+
+-- функции заданий
+function strike_note_taken(actor, npc)
+	local a = db.actor
+	if a and a:object("fr_agr_strike_note") then
+		if not a:has_info("fr_agr_strike_note_taken") then
+			a:give_info_portion("fr_agr_strike_note_taken")
+		end
+		return true
+	end
+	return false
+end
+
+function devices_taken(actor, npc)
+	local a = db.actor
+	if a and sak.have_item_namber("fr_agr_pvm14", 3) then
+		if not a:has_info("fr_agr_devices_found") then
+			a:give_info_portion("fr_agr_devices_found")
+		end
+		return true
+	end
+	return false
+end
+
+local SID_BROTHER = 237
+
+-- логово зачищено: записка и приборы в трупе культиста, запасной ПКМ в трупе брата
+function strike_cleared()
+	local a = db.actor
+	if not a or a:has_info("fr_agr_strike_cleared") then return end
+
+	local sim = alife()
+	local se = sim:story_object(SID_CULTIST)
+	if se then
+		local items = { "fr_agr_strike_note", "fr_agr_pvm14", "fr_agr_pvm14", "fr_agr_pvm14" }
+		for _, sec in ipairs(items) do
+			sim:create(sec, se.position, se.m_level_vertex_id, se.m_game_vertex_id, se.id)
+		end
+	end
+
+	local br = sim:story_object(SID_BROTHER)
+	if br then
+		sim:create("wpn_pkm", br.position, br.m_level_vertex_id, br.m_game_vertex_id, br.id)
+	end
+
+	a:give_info_portion("fr_agr_strike_cleared")
+end
+
+-- записка взята: пси-удар (только эффекты, управление забирает катсцена)
+function strike_psi()
+	level.add_pp_effector("radar_psi.ppe", PSI_PP_ID, false)
+	level.add_cam_effector("camera_effects\\earthquake.anm", PSI_CAM_ID, false, "")
+	play2d("fr\\agroprom\\strike_psi")
+end
+
+function strike_voice()
+	play2d("fr\\agroprom\\strike_voice")
+	level.add_pp_effector("radar_psi.ppe", VOICE_PP_ID, false)
+end
+
+local function strike_burst(path, start, count, step)
+	for i = 0, count - 1 do
+		play2d(path .. math.random(1, 4), start + i * step)
+	end
+end
+
+function strike_shots()
+	play_burst("weapons\\_gunfire\\mono\\trg\\Close_",  0.0,  6, 0.10)
+end
+
+-- предатель становится врагом игроку и отряду
+function traitor_turn(npc)
+	npc:set_character_community("monolith", 0, 0)
+	if db.actor then
+		npc:set_relation(game_object.enemy, db.actor)
+	end
+end

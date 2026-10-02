@@ -241,17 +241,166 @@
 		<text>Разведчик мёртв, его КПК уничтожен. Нужно доложить полковнику о случившемся.</text>
 	</string>	
 	
+	<string id="task_fr_agr_snab_reward">
+		<text>Поговорить со снабженцем</text>
+	</string>
+	<string id="task_fr_agr_snab_reward_1">
+		<text>Поговорить со снабженцем</text>
+	</string>
+	<string id="task_fr_agr_snab_reward_artcl">
+		<text>Полковник сказал, что снабженец искал меня.</text>
+	</string>
+
+	<string id="task_fr_agr_brother">
+		<text>Упокоить душу зомбированного</text>
+	</string>
+	<string id="task_fr_agr_brother_1">
+		<text>Убить зомби с уникальным пулемётом</text>
+	</string>
+	<string id="task_fr_agr_brother_2">
+		<text>Забрать пулемёт</text>
+	</string>
+	<string id="task_fr_agr_brother_3">
+		<text>Вернуть пулемёт снабженцу</text>
+	</string>
+	<string id="task_fr_agr_brother_artcl">
+		<text>Младший брат снабженца пропал с патрулём неделю назад. Если он среди зомбированных, у него будет тяжёлый пулемёт. Нужно упокоить его и вернуть пулемёт брату.</text>
+	</string>
+
+	<string id="task_fr_agr_patrols">
+		<text>Помочь патрулям отбиться от атак</text>
+	</string>
+	<string id="task_fr_agr_patrols_1">
+		<text>Помочь патрулю 1</text>
+	</string>
+	<string id="task_fr_agr_patrols_2">
+		<text>Помочь патрулю 2</text>
+	</string>
+	<string id="task_fr_agr_patrols_3">
+		<text>Помочь патрулю 3</text>
+	</string>
+	<string id="task_fr_agr_patrols_4">
+		<text>Помочь патрулю 4</text>
+	</string>
+	<string id="task_fr_agr_patrols_artcl">
+		<text>Несколько патрулей гарнизона одновременно запросили помощь: на них напали зомбированные.</text>
+	</string>
+
+	<string id="task_fr_agr_back_sery">
+		<text>Вернуться к Серому</text>
+	</string>
+	<string id="task_fr_agr_back_sery_1">
+		<text>Поговорить с Серым</text>
+	</string>
+	<string id="task_fr_agr_back_sery_artcl">
+		<text>Патрули отбились. Пора вернуться к Серому: он обещал рассказать больше об Ордене.</text>
+	</string>
+
+	<string id="task_fr_agr_devices">
+		<text>Установить прибор</text>
+	</string>
+	<string id="task_fr_agr_devices_1">
+		<text>Забрать прибор у сталкера-радиста</text>
+	</string>
+	<string id="task_fr_agr_devices_2">
+		<text>Вернуться к Серому</text>
+	</string>
+	<string id="task_fr_agr_devices_artcl">
+		<text>Серый попросил забрать у связиста три прибора PVM-14 и вернуться к нему.</text>
+	</string>	
 	
 	
 	
+	<string id="fr_agr_patA_zone">
+		<text>Первый патруль</text>
+	</string>
+	<string id="fr_agr_patB_zone">
+		<text>Второй патруль</text>
+	</string>
+	<string id="fr_agr_patC_zone">
+		<text>Третий патруль</text>
+	</string>		
+	<string id="fr_agr_patD_zone">
+		<text>Четвёртый патруль</text>
+	</string>
+	<string id="fr_agr_dead_radist">
+		<text>Радист</text>
+	</string>	
+	
+<!-- ==================== ПОДСКАЗКИ МЕТОК ==================== -->
+<string id="fr_agr_akeran">
+	<text>Капитан Акеран</text>
+</string>
+<string id="fr_agr_strike_zone">
+	<text>Логово зомбированных</text>
+</string>
+<string id="fr_agr_strike_cultist">
+	<text>Тело культиста</text>
+</string>	
 	
 	
-	
-	
-	
-	
-	
-	
+<string id="task_fr_agr_find_devices">
+	<text>Найти приборы Серого</text>
+</string>
+<string id="task_fr_agr_find_devices_1">
+	<text>Найти приборы PVM-14</text>
+</string>
+<string id="task_fr_agr_find_devices_artcl">
+	<text>Радист Серого мёртв, приборы PVM-14 пропали. Серый уверен, что это дело рук Ордена и что убийца всё ещё где-то на Агропроме. Нужно найти его и вернуть приборы.</text>
+</string>
+
+<string id="task_fr_agr_strike">
+	<text>Ответный удар</text>
+</string>
+<string id="task_fr_agr_strike_1">
+	<text>Встретиться со штурмовой группой</text>
+</string>
+<string id="task_fr_agr_strike_2">
+	<text>Зачистить логово зомбированных</text>
+</string>
+<string id="task_fr_agr_strike_artcl">
+	<text>Полковник Кузнецов выяснил, откуда приходят зомбированные: они заняли укрепточку у дороги на Янтарь. Зачистку ведёт отряд капитана Акерана. Нужно присоединиться к нему и уничтожить логово.</text>
+</string>
+
+<string id="task_fr_agr_strike_search">
+	<text>Обыскать тела</text>
+</string>
+<string id="task_fr_agr_strike_search_1">
+	<text>Обыскать тело культиста</text>
+</string>
+<string id="task_fr_agr_strike_search_artcl">
+	<text>Капитан Акеран приказал обыскать тела. Среди убитых был пастух в балахоне - если у кого и есть что-то важное, то у него.</text>
+</string>
+
+<string id="task_fr_agr_traitors">
+	<text>Убить предателей</text>
+</string>
+<string id="task_fr_agr_traitors_1">
+	<text>Уничтожить военных с северного блокпоста</text>
+</string>
+<string id="task_fr_agr_traitors_artcl">
+	<text>Пропавшие бойцы с северного блокпоста вернулись и открыли огонь по своим. Капитан Акеран погиб. Их нужно остановить.</text>
+</string>
+
+<string id="task_fr_agr_strike_back">
+	<text>Вернуться на базу</text>
+</string>
+<string id="task_fr_agr_strike_back_1">
+	<text>Доложить полковнику Кузнецову</text>
+</string>
+<string id="task_fr_agr_strike_back_artcl">
+	<text>Полковник приказал возвращаться на базу. Нужно доложить ему обо всём, что произошло у дороги на Янтарь.</text>
+</string>
+
+<string id="task_fr_agr_sery_order">
+	<text>Поговорить с Серым</text>
+</string>
+<string id="task_fr_agr_sery_order_1">
+	<text>Отправиться к Серому</text>
+</string>
+<string id="task_fr_agr_sery_order_artcl">
+	<text>Кузнецов стягивает все силы на главную базу. Нужно убедить Серого свернуть лагерь и привести сталкеров к военным.</text>
+</string>	
 	
 	
 	

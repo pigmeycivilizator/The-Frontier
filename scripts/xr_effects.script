@@ -6,6 +6,30 @@ function fr_thought(actor, npc, p)
 	agroprom.thought(p[1], p[2])
 end
 
+function fr_kill(actor, npc, p)
+	agroprom.kill_add(p[1])
+end
+
+function fr_strike_cleared(actor, npc)
+	agroprom.strike_cleared()
+end
+
+function fr_strike_psi(actor, npc)
+	agroprom.strike_psi()
+end
+
+function fr_strike_voice(actor, npc)
+	agroprom.strike_voice()
+end
+
+function fr_strike_shots(actor, npc)
+	agroprom.strike_shots()
+end
+
+function fr_traitor_turn(actor, npc)
+	agroprom.traitor_turn(npc)
+end
+
 function disable_ui_elements(actor, npc, p)
     local i, v = 0, 0
     for i, v in pairs(p) do

@@ -1455,7 +1455,7 @@
 
   <!-- ================= ÑÅÐÛÉ: ÂÎÏÐÎÑÛ ================= -->
   <dialog id="fr_agr_sery_questions">
-<!-- =================    <has_info>fr_agr_sery_talk_done</has_info> äëÿ òåñòèíãà, ïîòîì óáðàòü êîììåíò ================= -->
+	<has_info>fr_agr_sery_talk_done</has_info>
     <phrase_list>
       <phrase id="0">
         <text>fr_sery_q_0</text>
@@ -1593,7 +1593,7 @@
 
   <!-- ================= ÑÅÐÛÉ: ÐÀÁÎÒÀ ================= -->
   <dialog id="fr_agr_sery_job">
-<!-- =================    <has_info>fr_agr_sery_talk_done</has_info> äëÿ òåñòèíãà, ïîòîì óáðàòü êîììåíò ================= -->
+	<has_info>fr_agr_sery_talk_done</has_info> 
     <dont_has_info>fr_agr_recon_start</dont_has_info>
     <phrase_list>
       <phrase id="0">
@@ -2049,14 +2049,298 @@
 
 
 
+  <!-- ================= ÑÍÀÁÆÅÍÅÖ: ÍÀÃÐÀÄÀ È ÁÐÀÒ ================= -->
+  <dialog id="fr_agr_snab_reward">
+	<has_info>fr_agr_kuz_report_done</has_info>
+    <dont_has_info>fr_agr_snab_brother_start</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_snab_rw_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_snab_rw_1</text>
+        <action>agroprom.snab_reward_gl</action>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_snab_rw_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_snab_rw_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_snab_rw_4</text>
+        <give_info>fr_agr_snab_brother_start</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÑÍÀÁÆÅÍÅÖ: ÏÓËÅÌ¨Ò ÁÐÀÒÀ ================= -->
+  <dialog id="fr_agr_snab_brother_return">
+    <has_info>fr_agr_snab_brother_start</has_info>
+    <dont_has_info>fr_agr_brother_done</dont_has_info>
+    <precondition>agroprom.has_pkm</precondition>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_snab_br_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_snab_br_1</text>
+        <action>agroprom.brother_take_mg</action>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_snab_br_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_snab_br_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_snab_br_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_snab_br_5</text>
+        <action>agroprom.brother_reward</action>
+        <give_info>fr_agr_brother_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÑÅÐÛÉ: ÏÎÑËÅ ÏÀÒÐÓËÅÉ ================= -->
+  <dialog id="fr_agr_sery_back">
+    <dont_has_info>fr_agr_sery_back_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_sery_bk_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_sery_bk_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_sery_bk_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_sery_bk_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_sery_bk_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_sery_bk_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_sery_bk_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_sery_bk_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_sery_bk_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_sery_bk_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_sery_bk_10</text>
+        <give_info>fr_agr_sery_back_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 
 
 
 
+  <!-- ================= ÑÅÐÛÉ: Ì¨ÐÒÂÛÉ ÐÀÄÈÑÒ ================= -->
+  <dialog id="fr_agr_sery_radist">
+    <has_info>fr_agr_radist_found</has_info>
+    <dont_has_info>fr_agr_devices_search_start</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_sery_rd_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_sery_rd_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_sery_rd_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_sery_rd_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_sery_rd_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_sery_rd_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_sery_rd_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_sery_rd_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_sery_rd_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_sery_rd_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_sery_rd_10</text>
+        <give_info>fr_agr_devices_search_start</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <!-- ================= ÊÀÏÈÒÀÍ ÀÊÅÐÀÍ ================= -->
+  <dialog id="fr_agr_akeran_talk">
+    <has_info>fr_agr_strike_start</has_info>
+    <dont_has_info>fr_agr_strike_go</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_akeran_tk_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_akeran_tk_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_akeran_tk_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_akeran_tk_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_akeran_tk_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_akeran_tk_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_akeran_tk_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_akeran_tk_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_akeran_tk_8</text>
+        <give_info>fr_agr_strike_go</give_info>
+        <action>dialogs.break_dialog</action>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <!-- ================= ÊÓÇÍÅÖÎÂ: ÄÎÊËÀÄ ÏÎÑËÅ ÇÀ×ÈÑÒÊÈ ================= -->
+  <dialog id="fr_agr_kuz_strike">
+    <has_info>fr_agr_strike_radio_done</has_info>
+    <dont_has_info>fr_agr_kuz_strike_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_kuz_st_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_kuz_st_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_kuz_st_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_kuz_st_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_kuz_st_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_kuz_st_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_kuz_st_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_kuz_st_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_kuz_st_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_kuz_st_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_kuz_st_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_kuz_st_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_kuz_st_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_kuz_st_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_kuz_st_14</text>
+        <next>15</next>
+      </phrase>
+      <phrase id="15">
+        <text>fr_kuz_st_15</text>
+        <next>16</next>
+      </phrase>
+      <phrase id="16">
+        <text>fr_kuz_st_16</text>
+        <give_info>fr_agr_kuz_strike_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 

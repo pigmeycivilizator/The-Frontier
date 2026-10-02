@@ -82,8 +82,39 @@
 	<article id="task_fr_agr_kuz_report" name="task_fr_agr_kuz_report" group="task_fr_agr_kuz_report" article_type="task">
 		<text>task_fr_agr_kuz_report_artcl</text>
 	</article>	
-	
-	
+	<article id="task_fr_agr_snab_reward" name="task_fr_agr_snab_reward" group="task_fr_agr_snab_reward" article_type="task">
+		<text>task_fr_agr_snab_reward_artcl</text>
+	</article>
+	<article id="task_fr_agr_brother" name="task_fr_agr_brother" group="task_fr_agr_brother" article_type="task">
+		<text>task_fr_agr_brother_artcl</text>
+	</article>
+	<article id="task_fr_agr_patrols" name="task_fr_agr_patrols" group="task_fr_agr_patrols" article_type="task">
+		<text>task_fr_agr_patrols_artcl</text>
+	</article>
+	<article id="task_fr_agr_back_sery" name="task_fr_agr_back_sery" group="task_fr_agr_back_sery" article_type="task">
+		<text>task_fr_agr_back_sery_artcl</text>
+	</article>
+	<article id="task_fr_agr_devices" name="task_fr_agr_devices" group="task_fr_agr_devices" article_type="task">
+		<text>task_fr_agr_devices_artcl</text>
+	</article>	
+	<article id="task_fr_agr_find_devices" name="task_fr_agr_find_devices" group="task_fr_agr_find_devices" article_type="task">
+		<text>task_fr_agr_find_devices_artcl</text>
+	</article>
+	<article id="task_fr_agr_strike" name="task_fr_agr_strike" group="task_fr_agr_strike" article_type="task">
+		<text>task_fr_agr_strike_artcl</text>
+	</article>
+	<article id="task_fr_agr_strike_search" name="task_fr_agr_strike_search" group="task_fr_agr_strike_search" article_type="task">
+		<text>task_fr_agr_strike_search_artcl</text>
+	</article>
+	<article id="task_fr_agr_traitors" name="task_fr_agr_traitors" group="task_fr_agr_traitors" article_type="task">
+		<text>task_fr_agr_traitors_artcl</text>
+	</article>
+	<article id="task_fr_agr_strike_back" name="task_fr_agr_strike_back" group="task_fr_agr_strike_back" article_type="task">
+		<text>task_fr_agr_strike_back_artcl</text>
+	</article>
+	<article id="task_fr_agr_sery_order" name="task_fr_agr_sery_order" group="task_fr_agr_sery_order" article_type="task">
+		<text>task_fr_agr_sery_order_artcl</text>
+	</article>	
 	
 	
 	

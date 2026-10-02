@@ -398,11 +398,239 @@
 		</objective>
 	</game_task>
 
+	<game_task id="task_fr_agr_snab_reward" prio="1">
+		<title>task_fr_agr_snab_reward</title>
+		<objective>
+			<text>task_fr_agr_snab_reward</text>
+			<icon>ui_iconsTotal_deficit</icon>
+			<infoportion_complete>fr_agr_snab_brother_start</infoportion_complete>
+			<article>task_fr_agr_snab_reward</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_snab_reward_1</text>
+			<map_location_type hint="fr_agr_snab">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab</object_story_id>
+			<infoportion_complete>fr_agr_snab_brother_start</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_brother" prio="1">
+		<title>task_fr_agr_brother</title>
+		<objective>
+			<text>task_fr_agr_brother</text>
+			<icon>ui_iconsTotal_kill_stalker</icon>
+			<infoportion_complete>fr_agr_brother_done</infoportion_complete>
+			<article>task_fr_agr_brother</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_brother_1</text>
+			<infoportion_complete>fr_agr_brother_killed</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_brother_2</text>
+			<map_location_type hint="fr_agr_brother_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_brother</object_story_id>
+			<function_complete>agroprom.brother_mg_taken</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_brother_3</text>
+			<map_location_type hint="fr_agr_snab">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab</object_story_id>
+			<infoportion_complete>fr_agr_brother_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_patrols" prio="1">
+		<title>task_fr_agr_patrols</title>
+		<objective>
+			<text>task_fr_agr_patrols</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<function_complete>agroprom.patrols_all_done</function_complete>
+			<article>task_fr_agr_patrols</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_patrols_1</text>
+			<map_location_type hint="fr_agr_patA_zone">blue_location</map_location_type>
+			<object_story_id>fr_agr_patA_zone</object_story_id>
+			<function_complete>agroprom.patA_done</function_complete>
+			<function_fail>agroprom.patA_fail</function_fail>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_patrols_2</text>
+			<map_location_type hint="fr_agr_patB_zone">blue_location</map_location_type>
+			<object_story_id>fr_agr_patB_zone</object_story_id>
+			<function_complete>agroprom.patB_done</function_complete>
+			<function_fail>agroprom.patB_fail</function_fail>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_patrols_3</text>
+			<map_location_type hint="fr_agr_patC_zone">blue_location</map_location_type>
+			<object_story_id>fr_agr_patC_zone</object_story_id>
+			<function_complete>agroprom.patC_done</function_complete>
+			<function_fail>agroprom.patC_fail</function_fail>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_patrols_4</text>
+			<map_location_type hint="fr_agr_patD_zone">blue_location</map_location_type>
+			<object_story_id>fr_agr_patD_zone</object_story_id>
+			<infoportion_complete>fr_agr_patD_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_back_sery" prio="1">
+		<title>task_fr_agr_back_sery</title>
+		<objective>
+			<text>task_fr_agr_back_sery</text>
+			<icon>ui_iconsTotal_agr_meet_krot_band</icon>
+			<infoportion_complete>fr_agr_sery_back_done</infoportion_complete>
+			<article>task_fr_agr_back_sery</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_back_sery_1</text>
+			<map_location_type hint="fr_agr_sery">blue_location</map_location_type>
+			<object_story_id>fr_agr_sery</object_story_id>
+			<infoportion_complete>fr_agr_sery_back_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_devices" prio="1">
+		<title>task_fr_agr_devices</title>
+		<objective>
+			<text>task_fr_agr_devices</text>
+			<icon>ui_iconsTotal_yan_find_scientist</icon>
+			<infoportion_complete>fr_agr_devices_search_start</infoportion_complete>
+			<article>task_fr_agr_devices</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_devices_1</text>
+			<map_location_type hint="fr_agr_dead_radist">blue_location</map_location_type>
+			<object_story_id>fr_agr_dead_radist</object_story_id>
+			<infoportion_complete>fr_agr_radist_found</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_devices_2</text>
+			<map_location_type hint="fr_agr_sery">blue_location</map_location_type>
+			<object_story_id>fr_agr_sery</object_story_id>
+			<infoportion_complete>fr_agr_devices_search_start</infoportion_complete>
+		</objective>
+	</game_task>
 
 
+	<game_task id="task_fr_agr_find_devices" prio="1">
+		<title>task_fr_agr_find_devices</title>
+		<objective>
+			<text>task_fr_agr_find_devices</text>
+			<icon>ui_iconsTotal_lost_thing</icon>
+			<infoportion_complete>fr_agr_devices_found</infoportion_complete>
+			<article>task_fr_agr_find_devices</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_find_devices_1</text>
+			<function_complete>agroprom.devices_taken</function_complete>
+		</objective>
+	</game_task>
 
+	<game_task id="task_fr_agr_strike" prio="1">
+		<title>task_fr_agr_strike</title>
+		<objective>
+			<text>task_fr_agr_strike</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<infoportion_complete>fr_agr_strike_cleared</infoportion_complete>
+			<article>task_fr_agr_strike</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_strike_1</text>
+			<map_location_type hint="fr_agr_akeran">green_location</map_location_type>
+			<object_story_id>fr_agr_akeran</object_story_id>
+			<infoportion_complete>fr_agr_strike_go</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_strike_2</text>
+			<map_location_type hint="fr_agr_strike_zone">green_location</map_location_type>
+			<object_story_id>fr_agr_strike_zone</object_story_id>
+			<infoportion_complete>fr_agr_strike_cleared</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_strike_search" prio="1">
+		<title>task_fr_agr_strike_search</title>
+		<objective>
+			<text>task_fr_agr_strike_search</text>
+			<icon>ui_iconsTotal_agroprom_get_military_documents</icon>
+			<infoportion_complete>fr_agr_strike_note_taken</infoportion_complete>
+			<article>task_fr_agr_strike_search</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_strike_search_1</text>
+			<map_location_type hint="fr_agr_strike_cultist">green_location</map_location_type>
+			<object_story_id>fr_agr_strike_cultist</object_story_id>
+			<function_complete>agroprom.strike_note_taken</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_traitors" prio="1">
+		<title>task_fr_agr_traitors</title>
+		<objective>
+			<text>task_fr_agr_traitors</text>
+			<icon>ui_iconsTotal_kill_stalker</icon>
+			<infoportion_complete>fr_agr_traitors_dead</infoportion_complete>
+			<article>task_fr_agr_traitors</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_traitors_1</text>
+			<infoportion_complete>fr_agr_traitors_dead</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_strike_back" prio="1">
+		<title>task_fr_agr_strike_back</title>
+		<objective>
+			<text>task_fr_agr_strike_back</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<infoportion_complete>fr_agr_kuz_strike_done</infoportion_complete>
+			<article>task_fr_agr_strike_back</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_strike_back_1</text>
+			<map_location_type hint="fr_agr_kuznetsov">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_kuz_strike_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_sery_order" prio="1">
+		<title>task_fr_agr_sery_order</title>
+		<objective>
+			<text>task_fr_agr_sery_order</text>
+			<icon>ui_iconsTotal_agr_meet_krot_band</icon>
+			<infoportion_complete>fr_agr_sery_order_done</infoportion_complete>
+			<article>task_fr_agr_sery_order</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_sery_order_1</text>
+			<map_location_type hint="fr_agr_sery">blue_location</map_location_type>
+			<object_story_id>fr_agr_sery</object_story_id>
+			<infoportion_complete>fr_agr_sery_order_done</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

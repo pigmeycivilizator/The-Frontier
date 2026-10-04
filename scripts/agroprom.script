@@ -1,40 +1,13 @@
--- Забрать КПК у игрока и отключить интерфейс
-function take_pda_disable_ui(first_speaker, second_speaker)
-	force_torch_off()
-	level.block_action(key_bindings.kMAP)
-	level.block_action(key_bindings.kACTIVE_JOBS)
-	level.block_action(key_bindings.kCONTACTS)
-	level.block_action(key_bindings.kCONSOLE)
-	level.block_action(key_bindings.kTORCH)
-	level.set_weather("default_np_foggy_nosun", true)
-	get_console():execute("hud_draw 0")
-end
-
--- Вернуть КПК и включить интерфейс обратно
-function give_pda_enable_ui(first_speaker, second_speaker)
-	level.unblock_action(key_bindings.kMAP)
-	level.unblock_action(key_bindings.kACTIVE_JOBS)
-	level.unblock_action(key_bindings.kCONTACTS)
-	level.unblock_action(key_bindings.kCONSOLE)
-	level.unblock_action(key_bindings.kTORCH)
-	level.set_weather("default_np_alpha", true)
-	get_console():execute("hud_draw 1")
-end
 
 
 -- Выставить конкретное время (перемотка вперёд до ближайшего такого времени)
 function set_game_time(target_h, target_m)
-	local h = level.get_time_hours()
-	local m = level.get_time_minutes()
-
-	local now_min    = h * 60 + m
+	local now_min    = level.get_time_hours() * 60 + level.get_time_minutes()
 	local target_min = target_h * 60 + target_m
 	local diff = target_min - now_min
 
-	-- если целевое время уже прошло сегодня, мотаем до него на следующие сутки
-	if diff <= 0 then
-		diff = diff + 24 * 60
-	end
+	-- уже позже целевого времени: не трогаем, иначе будет прыжок на сутки
+	if diff <= 0 then return end
 
 	level.advance_game_time(diff * 60 * 1000)
 end
@@ -190,7 +163,7 @@ end
 
 function intro_end(first_speaker, second_speaker)
 	dialogs.break_dialog(first_speaker, second_speaker)
-	news_manager.send_tip(db.actor, "fr_agr_msg_hq", nil, "default", nil)
+	news_manager.send_tip(db.actor, "fr_agr_msg_hq", nil, "fr_kuznetsov", nil)
 end
 
 function give_start_gear(first_speaker, second_speaker)
@@ -456,25 +429,27 @@ end
 
 -- 1. Старт, диалог с раненым бойцом. 07:30, пасмурное утро без дождя
 function weather_start(a, b)
+	get_console():execute("hud_draw 1")
+	get_console():execute("hud_crosshair 1")
 	set_story_weather("3_alpha", "np_alpha3", 3)
 end
 
--- 2. После первой встречи с Серым. 11:00, ясно
+-- 2. После первой встречи с Серым. 11:30, ясно
 function weather_sery(a, b)
-	set_game_time(11, 20)
+	set_game_time(11, 30)
 	set_story_weather("1_good", "np_clear2", 4)
 end
 
--- 3. После доклада Кузнецову о бое с зомби. 16:00, облачный вечер, ночью красная луна
+-- 3. После доклада Кузнецову о бое с зомби. 17:00, облачный вечер, ночью красная луна
 function weather_kuznetsov_report(a, b)
-	set_game_time(16, 0)
+	set_game_time(17, 0)
 	set_story_weather("2_neutral", "np_cloudy2_redmoon", 5)
 end
 
--- 4. ЭМИ. 20:00, гроза с ливнем
+-- 4. ЭМИ. 20:30, густой туман без солнца
 function weather_emp(a, b)
-	set_game_time(20, 0)
-	set_story_weather("5_foggy", "np_foggy", 4)
+	set_game_time(20, 30)
+	set_story_weather("5_foggy", "np_foggy_nosun", 4)
 end
 
 -- 5. Выход из тоннеля. 23:00, туманный рассвет
@@ -788,7 +763,7 @@ function patrols_all_done(actor, npc)
 	   and (patC_done() or patC_fail())
 	   and a:has_info("fr_agr_patD_done") then
 		if not a:has_info("fr_agr_patrols_done") then
-			news_manager.send_tip(a, "fr_agr_tip_patrols_done", nil, "default", nil)
+			news_manager.send_tip(a, "fr_agr_tip_patrols_done", nil, "fr_kuznetsov", nil)
 			a:give_info_portion("fr_agr_patrols_done")
 		end
 		return true
@@ -831,6 +806,11 @@ function brother_reward(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
 end
 
@@ -941,4 +921,149 @@ function traitor_turn(npc)
 	if db.actor then
 		npc:set_relation(game_object.enemy, db.actor)
 	end
+end
+
+
+-- ============================================================
+-- Квесты 27-30 и ветка Ордена (52-53)
+-- ============================================================
+
+-- прибор поставлен на вышку: забирается 1 PVM-14, игроку уведомление о потере
+function tower_set()
+	sak.out_item_namber("fr_agr_pvm14", 1)
+end
+
+-- "Я... пойду." Игрок переходит в Орден, прибор остаётся в вагончике
+function order_join(first_speaker, second_speaker)
+	if db.actor then
+		db.actor:set_character_community("monolith", 0, 0)
+		if sak.have_item_namber("fr_agr_pvm14", 1) then
+			sak.out_item_namber("fr_agr_pvm14", 1)
+		end
+	end
+end
+
+-- снаряжение от Фулгрима: секция, количество, показывать ли сообщение
+local ORDER_GEAR = {
+	{ "wpn_pkm",         1, true  },
+	{ "ammo_pkm_100",    6, true },
+	{ "exo_outfit",      1, true  },
+	{ "medkit_scientic", 5, true },
+	{ "bandage",         5, true },
+	{ "grenade_f1",      3, true },
+}
+
+function order_gear(first_speaker, second_speaker)
+	for _, it in ipairs(ORDER_GEAR) do
+		if it[3] then
+			sak.create_items_actor(it[1], it[2])
+		else
+			sak.create_items_actor_nomsg(it[1], it[2])
+		end
+	end
+end
+
+-- финал Ордена: пока пусто, ролик добавишь сам
+function order_end()
+end
+
+
+
+-- ЭМИ: электроника мертва (КПК, фонарь, ПНВ, консоль, прицел)
+function emp_devices_off()
+	force_torch_off()
+	level.block_action(key_bindings.kMAP)
+	level.block_action(key_bindings.kACTIVE_JOBS)
+	level.block_action(key_bindings.kCONTACTS)
+	level.block_action(key_bindings.kCONSOLE)
+	level.block_action(key_bindings.kTORCH)
+	level.block_action(key_bindings.kNIGHT_VISION)
+	get_console():execute("hud_crosshair 0")
+end
+
+-- конец ЭМИ: всё возвращается
+function emp_devices_on()
+	level.unblock_action(key_bindings.kMAP)
+	level.unblock_action(key_bindings.kACTIVE_JOBS)
+	level.unblock_action(key_bindings.kCONTACTS)
+	level.unblock_action(key_bindings.kCONSOLE)
+	level.unblock_action(key_bindings.kTORCH)
+	level.unblock_action(key_bindings.kNIGHT_VISION)
+	get_console():execute("hud_crosshair 1")
+end
+
+-- Забрать КПК у игрока и отключить интерфейс
+function take_pda_disable_ui(first_speaker, second_speaker)
+	emp_devices_off()
+	level.set_weather("default_np_foggy_nosun", true)
+	get_console():execute("hud_draw 0")
+end
+
+-- Вернуть КПК и включить интерфейс обратно
+function give_pda_enable_ui(first_speaker, second_speaker)
+	emp_devices_on()
+	level.set_weather("default_np_alpha", true)
+	get_console():execute("hud_draw 1")
+end
+
+-- ============================================================
+-- Ветка отказа: выстрел в Хоруса и ЭМИ (тестовая версия)
+-- ============================================================
+
+local EMP_CAM_ID    = 9151
+local EMP_FLASH_ID  = 9152
+local EMP_BLINK_ID  = 9153
+local SHOT_BLINK_ID = 9154
+
+-- "Я сказал, прочь с дороги!": диалог обрывается, выстрел, Хорус пропадает,
+-- на его месте появляется труп зомби (спавнер на fr_agr_horus_gone)
+function horus_refuse_shot(first_speaker, second_speaker)
+	dialogs.break_dialog(first_speaker, second_speaker)
+	play2d("weapons\\_gunfire\\mono\\trg\\Close_1")
+	level.add_pp_effector("blink.ppe", SHOT_BLINK_ID, false)
+	db.actor:give_info_portion("fr_agr_horus_gone")
+end
+
+-- прибор установлен: управление забрано, антенна гудит
+function emp_charge()
+	level.disable_input()
+	play2d("anomaly\\electra_blast1")
+	play2d("anomaly\\electra_blast1", 2.5)
+	level.add_cam_effector("camera_effects\\earthquake.anm", EMP_CAM_ID, false, "")
+end
+
+-- импульс: вспышка, звон в ушах, глаза закрываются
+function emp_blast()
+	level.add_pp_effector("teleport.ppe", EMP_FLASH_ID, false)
+	play2d("affects\\tinnitus3a")
+	level.add_pp_effector("blink.ppe", EMP_BLINK_ID, false)
+end
+
+-- пока экран тёмный: прошло время, туман, электроника и худ мертвы
+function emp_blackout()
+	emp_devices_off()
+	get_console():execute("hud_draw 0")
+	weather_emp()
+	if not db.actor:has_info("fr_agr_emp_start") then
+		db.actor:give_info_portion("fr_agr_emp_start")
+	end
+end
+
+-- Роговец приходит в себя
+function emp_wake()
+	level.enable_input()
+	level.add_cam_effector("camera_effects\\earthquake.anm", EMP_CAM_ID, false, "")
+	play2d("affects\\psy_blackout_l")
+end
+
+-- ============================================================
+-- Ветка Ордена: музыка на штурме базы
+-- ============================================================
+
+local order_music_snd = nil
+
+function order_music()
+	if order_music_snd then return end
+	order_music_snd = sound_object("music\\disposal")
+	order_music_snd:play(db.actor, 0, sound_object.s2d)
 end

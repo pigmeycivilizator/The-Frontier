@@ -13,5 +13,9 @@
 	<color name="ui_clr_3"  r="135" g="123" b="116"/>
 	<color name="hud_enemy_name"		r="180" g="180" b="180"/>
 	<color name="hud_scale_enemy"		r="255" g="40" b="40" a="255"/>
+	
+	<color name="fr_control" r="80"  g="200" b="90"/>
+	<color name="fr_power"   r="235" g="105" b="40"/>
+	<color name="fr_chaos"   r="165" g="85"  b="230"/>
 	<!-- Use "%cDEFAULT" color when need to switch to default color of UI element -->
 </colors>

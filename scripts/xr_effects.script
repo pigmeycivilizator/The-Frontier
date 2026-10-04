@@ -30,6 +30,34 @@ function fr_traitor_turn(actor, npc)
 	agroprom.traitor_turn(npc)
 end
 
+function fr_tower_set(actor, npc)
+	agroprom.tower_set()
+end
+
+function fr_order_end(actor, npc)
+	agroprom.order_end()
+end
+
+function fr_emp_charge(actor, npc)
+	agroprom.emp_charge()
+end
+
+function fr_emp_blast(actor, npc)
+	agroprom.emp_blast()
+end
+
+function fr_emp_blackout(actor, npc)
+	agroprom.emp_blackout()
+end
+
+function fr_emp_wake(actor, npc)
+	agroprom.emp_wake()
+end
+
+function fr_order_music(actor, npc)
+	agroprom.order_music()
+end
+
 function disable_ui_elements(actor, npc, p)
     local i, v = 0, 0
     for i, v in pairs(p) do

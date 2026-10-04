@@ -147,6 +147,41 @@
 	<character id="fr_agr_brother">
 		<class>fr_agr_brother</class>
 	</character>
+	
+	
+	<character id="fr_agr_wild">
+		<class>fr_agr_wild</class>
+	</character>
+	<character id="fr_agr_forest_stalker">
+		<class>fr_agr_forest_stalker</class>
+	</character>
+	<character id="fr_agr_horus_wagon">
+		<class>fr_agr_horus_wagon</class>
+	</character>
+	<character id="fr_agr_fulgrim">
+		<class>fr_agr_fulgrim</class>
+	</character>
+	<character id="fr_agr_order_master">
+		<class>fr_agr_order_master</class>
+	</character>
+	<character id="fr_agr_order_raider">
+		<class>fr_agr_order_raider</class>
+	</character>	
+	
+	
+	<character id="fr_agr_base_traitor">
+		<class>fr_agr_base_traitor</class>
+	</character>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 <!-- Escape -->
 	<character id="escape_trader">	

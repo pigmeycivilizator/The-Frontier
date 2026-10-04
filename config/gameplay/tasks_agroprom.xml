@@ -415,12 +415,13 @@
 		</objective>
 	</game_task>
 
+	<!-- ===== Брат снабженца: найти и убить ===== -->
 	<game_task id="task_fr_agr_brother" prio="1">
 		<title>task_fr_agr_brother</title>
 		<objective>
 			<text>task_fr_agr_brother</text>
 			<icon>ui_iconsTotal_kill_stalker</icon>
-			<infoportion_complete>fr_agr_brother_done</infoportion_complete>
+			<infoportion_complete>fr_agr_brother_killed</infoportion_complete>
 			<article>task_fr_agr_brother</article>
 		</objective>
 
@@ -428,10 +429,21 @@
 			<text>task_fr_agr_brother_1</text>
 			<infoportion_complete>fr_agr_brother_killed</infoportion_complete>
 		</objective>
+	</game_task>
+
+	<!-- ===== Брат снабженца: пулемёт ===== -->
+	<game_task id="task_fr_agr_brother_mg" prio="1">
+		<title>task_fr_agr_brother_mg</title>
+		<objective>
+			<text>task_fr_agr_brother_mg</text>
+			<icon>ui_iconsTotal_weapons</icon>
+			<infoportion_complete>fr_agr_brother_done</infoportion_complete>
+			<article>task_fr_agr_brother_mg</article>
+		</objective>
 
 		<objective>
 			<text>task_fr_agr_brother_2</text>
-			<map_location_type hint="fr_agr_brother_hint">blue_location</map_location_type>
+			<map_location_type hint="fr_agr_brother">blue_location</map_location_type>
 			<object_story_id>fr_agr_brother</object_story_id>
 			<function_complete>agroprom.brother_mg_taken</function_complete>
 		</objective>
@@ -634,7 +646,107 @@
 
 
 
+	<!-- ===== Квест 28: Установить первый прибор ===== -->
+	<game_task id="task_fr_agr_tower1" prio="1">
+		<title>task_fr_agr_tower1</title>
+		<objective>
+			<text>task_fr_agr_tower1</text>
+			<icon>ui_iconsTotal_defend_lager</icon>
+			<infoportion_complete>fr_agr_tower1_done</infoportion_complete>
+			<article>task_fr_agr_tower1</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_tower1_1</text>
+			<map_location_type hint="fr_agr_tower1_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_tower1</object_story_id>
+			<infoportion_complete>fr_agr_tower1_set</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_tower1_2</text>
+			<infoportion_complete>fr_agr_tower1_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<!-- ===== Квест 29: Установить второй прибор ===== -->
+	<game_task id="task_fr_agr_tower2" prio="1">
+		<title>task_fr_agr_tower2</title>
+		<objective>
+			<text>task_fr_agr_tower2</text>
+			<icon>ui_iconsTotal_val_sos_help</icon>
+			<infoportion_complete>fr_agr_tower2_done</infoportion_complete>
+			<article>task_fr_agr_tower2</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_tower2_1</text>
+			<map_location_type hint="fr_agr_tower2_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_tower2</object_story_id>
+			<infoportion_complete>fr_agr_tower2_set</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_tower2_2</text>
+			<infoportion_complete>fr_agr_tower2_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<!-- ===== Квест 30: Установить третий прибор (проваливается при уходе в Орден) ===== -->
+	<game_task id="task_fr_agr_tower3" prio="1">
+		<title>task_fr_agr_tower3</title>
+		<objective>
+			<text>task_fr_agr_tower3</text>
+			<icon>ui_iconsTotal_bar_radar_deactivate</icon>
+			<infoportion_complete>fr_agr_tower3_set</infoportion_complete>
+			<infoportion_fail>fr_agr_order_path</infoportion_fail>
+			<article>task_fr_agr_tower3</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_tower3_1</text>
+			<map_location_type hint="fr_agr_tower3_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_tower3</object_story_id>
+			<infoportion_complete>fr_agr_tower3_set</infoportion_complete>
+			<infoportion_fail>fr_agr_order_path</infoportion_fail>
+		</objective>
+	</game_task>
+
+	<!-- ===== Квест 52: Принять свою судьбу ===== -->
+	<game_task id="task_fr_agr_order_meet" prio="1">
+		<title>task_fr_agr_order_meet</title>
+		<objective>
+			<text>task_fr_agr_order_meet</text>
+			<icon>ui_iconsTotal_sar_monolith</icon>
+			<infoportion_complete>fr_agr_order_assault</infoportion_complete>
+			<article>task_fr_agr_order_meet</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_order_meet_1</text>
+			<map_location_type hint="fr_agr_fulgrim_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_fulgrim</object_story_id>
+			<infoportion_complete>fr_agr_order_assault</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<!-- ===== Квест 53: Уничтожить базу военных ===== -->
+	<game_task id="task_fr_agr_order_kill" prio="1">
+		<title>task_fr_agr_order_kill</title>
+		<objective>
+			<text>task_fr_agr_order_kill</text>
+			<icon>ui_iconsTotal_mil_kill_lukash</icon>
+			<infoportion_complete>fr_agr_kuz_killed</infoportion_complete>
+			<article>task_fr_agr_order_kill</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_order_kill_1</text>
+			<map_location_type hint="fr_agr_kuznetsov">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_kuz_killed</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

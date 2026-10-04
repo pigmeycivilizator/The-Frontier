@@ -115,8 +115,24 @@
 	<article id="task_fr_agr_sery_order" name="task_fr_agr_sery_order" group="task_fr_agr_sery_order" article_type="task">
 		<text>task_fr_agr_sery_order_artcl</text>
 	</article>	
-	
-	
+	<article id="task_fr_agr_tower1" name="task_fr_agr_tower1" group="task_fr_agr_tower1" article_type="task">
+		<text>task_fr_agr_tower1_artcl</text>
+	</article>
+	<article id="task_fr_agr_tower2" name="task_fr_agr_tower2" group="task_fr_agr_tower2" article_type="task">
+		<text>task_fr_agr_tower2_artcl</text>
+	</article>
+	<article id="task_fr_agr_tower3" name="task_fr_agr_tower3" group="task_fr_agr_tower3" article_type="task">
+		<text>task_fr_agr_tower3_artcl</text>
+	</article>
+	<article id="task_fr_agr_order_meet" name="task_fr_agr_order_meet" group="task_fr_agr_order_meet" article_type="task">
+		<text>task_fr_agr_order_meet_artcl</text>
+	</article>
+	<article id="task_fr_agr_order_kill" name="task_fr_agr_order_kill" group="task_fr_agr_order_kill" article_type="task">
+		<text>task_fr_agr_order_kill_artcl</text>
+	</article>	
+	<article id="task_fr_agr_brother_mg" name="task_fr_agr_brother_mg" group="task_fr_agr_brother_mg" article_type="task">
+		<text>task_fr_agr_brother_mg_artcl</text>
+	</article>	
 	
 	
 	

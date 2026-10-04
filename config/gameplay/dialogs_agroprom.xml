@@ -2115,6 +2115,7 @@
 
   <!-- ================= ÑÅÐÛÉ: ÏÎÑËÅ ÏÀÒÐÓËÅÉ ================= -->
   <dialog id="fr_agr_sery_back">
+    <has_info>fr_agr_patrols_done</has_info>
     <dont_has_info>fr_agr_sery_back_done</dont_has_info>
     <phrase_list>
       <phrase id="0">
@@ -2338,13 +2339,164 @@
       <phrase id="16">
         <text>fr_kuz_st_16</text>
         <give_info>fr_agr_kuz_strike_done</give_info>
+        <action>agroprom.weather_kuznetsov_report</action>
       </phrase>
     </phrase_list>
   </dialog>
 
 
 
+  <!-- ================= ÑÅÐÛÉ: ÂÛØÊÈ (êâåñò 27) ================= -->
+  <dialog id="fr_agr_sery_order">
+	<has_info>fr_agr_kuz_strike_done</has_info>
+    <dont_has_info>fr_agr_sery_order_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0"><text>fr_sery_ord_0</text><next>1</next></phrase>
+      <phrase id="1"><text>fr_sery_ord_1</text><next>2</next></phrase>
+      <phrase id="2"><text>fr_sery_ord_2</text><next>3</next></phrase>
+      <phrase id="3"><text>fr_sery_ord_3</text><next>4</next></phrase>
+      <phrase id="4"><text>fr_sery_ord_4</text><next>5</next></phrase>
+      <phrase id="5"><text>fr_sery_ord_5</text><next>6</next></phrase>
+      <phrase id="6"><text>fr_sery_ord_6</text><next>7</next></phrase>
+      <phrase id="7"><text>fr_sery_ord_7</text><next>8</next></phrase>
+      <phrase id="8"><text>fr_sery_ord_8</text><next>9</next></phrase>
+      <phrase id="9"><text>fr_sery_ord_9</text><next>10</next></phrase>
+      <phrase id="10"><text>fr_sery_ord_10</text><next>11</next></phrase>
+      <phrase id="11"><text>fr_sery_ord_11</text><next>12</next></phrase>
+      <phrase id="12"><text>fr_sery_ord_12</text><next>13</next></phrase>
+      <phrase id="13"><text>fr_sery_ord_13</text><next>14</next></phrase>
+      <phrase id="14"><text>fr_sery_ord_14</text><next>15</next></phrase>
+      <phrase id="15"><text>fr_sery_ord_15</text><next>16</next></phrase>
+      <phrase id="16"><text>fr_sery_ord_16</text><next>17</next></phrase>
+      <phrase id="17"><text>fr_sery_ord_17</text><next>18</next></phrase>
+      <phrase id="18"><text>fr_sery_ord_18</text><next>19</next></phrase>
+      <phrase id="19"><text>fr_sery_ord_19</text><next>20</next></phrase>
+      <phrase id="20"><text>fr_sery_ord_20</text><next>21</next></phrase>
+      <phrase id="21"><text>fr_sery_ord_21</text><next>22</next></phrase>
+      <phrase id="22">
+        <text>fr_sery_ord_22</text>
+        <give_info>fr_agr_sery_order_done</give_info>
+        <action>dialogs.break_dialog</action>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <!-- ================= ÕÎÐÓÑ Â ÂÀÃÎÍ×ÈÊÅ (êâåñò 30) ================= -->
+  <dialog id="fr_agr_horus_wagon">
+    <has_info>fr_agr_tower3_start</has_info>
+    <dont_has_info>fr_agr_order_path</dont_has_info>
+    <dont_has_info>fr_agr_horus_refused</dont_has_info>
+    <phrase_list>
+      <phrase id="0"><text>fr_horus_wg_0</text><next>1</next></phrase>
+      <phrase id="1">
+        <text>fr_horus_wg_1</text>
+        <next>2</next>
+        <next>4</next>
+      </phrase>
+      <!-- ãîâîðèë ñ íèì â áóäêå -->
+      <phrase id="2">
+        <text>fr_horus_wg_2</text>
+        <has_info>fr_agr_horus_booth_talked</has_info>
+        <next>3</next>
+      </phrase>
+      <phrase id="3"><text>fr_horus_wg_3</text><next>6</next></phrase>
+      <!-- íå ãîâîðèë -->
+      <phrase id="4">
+        <text>fr_horus_wg_4</text>
+        <dont_has_info>fr_agr_horus_booth_talked</dont_has_info>
+        <next>5</next>
+      </phrase>
+      <phrase id="5"><text>fr_horus_wg_5</text><next>6</next></phrase>
+      <!-- îáùàÿ ÷àñòü -->
+      <phrase id="6"><text>fr_horus_wg_6</text><next>7</next></phrase>
+      <phrase id="7"><text>fr_horus_wg_7</text><next>8</next></phrase>
+      <phrase id="8"><text>fr_horus_wg_8</text><next>9</next></phrase>
+      <phrase id="9"><text>fr_horus_wg_9</text><next>10</next></phrase>
+      <phrase id="10"><text>fr_horus_wg_10</text><next>11</next></phrase>
+      <phrase id="11"><text>fr_horus_wg_11</text><next>12</next></phrase>
+      <phrase id="12"><text>fr_horus_wg_12</text><next>13</next></phrase>
+      <phrase id="13"><text>fr_horus_wg_13</text><next>14</next></phrase>
+      <phrase id="14"><text>fr_horus_wg_14</text><next>15</next></phrase>
+      <phrase id="15"><text>fr_horus_wg_15</text><next>16</next></phrase>
+      <phrase id="16"><text>fr_horus_wg_16</text><next>17</next></phrase>
+      <phrase id="17"><text>fr_horus_wg_17</text><next>18</next></phrase>
+      <phrase id="18"><text>fr_horus_wg_18</text><next>19</next></phrase>
+      <phrase id="19"><text>fr_horus_wg_19</text><next>20</next></phrase>
+      <phrase id="20"><text>fr_horus_wg_20</text><next>21</next></phrase>
+      <phrase id="21"><text>fr_horus_wg_21</text><next>22</next></phrase>
+      <phrase id="22"><text>fr_horus_wg_22</text><next>23</next></phrase>
+      <phrase id="23"><text>fr_horus_wg_23</text><next>24</next></phrase>
+      <phrase id="24"><text>fr_horus_wg_24</text><next>25</next></phrase>
+      <phrase id="25"><text>fr_horus_wg_25</text><next>26</next></phrase>
+      <phrase id="26"><text>fr_horus_wg_26</text><next>27</next></phrase>
+      <phrase id="27"><text>fr_horus_wg_27</text><next>28</next></phrase>
+      <phrase id="28"><text>fr_horus_wg_28</text><next>29</next></phrase>
+      <phrase id="29"><text>fr_horus_wg_29</text><next>30</next></phrase>
+      <phrase id="30"><text>fr_horus_wg_30</text><next>31</next></phrase>
+      <phrase id="31"><text>fr_horus_wg_31</text><next>32</next></phrase>
+      <phrase id="32"><text>fr_horus_wg_32</text><next>33</next></phrase>
+      <phrase id="33"><text>fr_horus_wg_33</text><next>34</next></phrase>
+      <phrase id="34"><text>fr_horus_wg_34</text><next>35</next></phrase>
+      <phrase id="35"><text>fr_horus_wg_35</text><next>36</next></phrase>
+      <phrase id="36"><text>fr_horus_wg_36</text><next>37</next></phrase>
+      <!-- âûáîð -->
+      <phrase id="37">
+        <text>fr_horus_wg_37</text>
+        <next>38</next>
+        <next>42</next>
+      </phrase>
+      <!-- 1. ïîéäó -> âåòêà Îðäåíà -->
+      <phrase id="38"><text>fr_horus_wg_38</text><next>39</next></phrase>
+      <phrase id="39"><text>fr_horus_wg_39</text><next>40</next></phrase>
+      <phrase id="40"><text>fr_horus_wg_40</text><next>41</next></phrase>
+      <phrase id="41">
+        <text>fr_horus_wg_41</text>
+        <give_info>fr_agr_order_path</give_info>
+        <action>agroprom.order_join</action>
+      </phrase>
+      <!-- 2. íåò -> âåòêà îòêàçà (ïðîäîëæåíèå â ñëåäóþùåì êóñêå) -->
+      <phrase id="42"><text>fr_horus_wg_42</text><next>43</next></phrase>
+      <phrase id="43"><text>fr_horus_wg_43</text><next>44</next></phrase>
+      <phrase id="44"><text>fr_horus_wg_44</text><next>45</next></phrase>
+      <phrase id="45"><text>fr_horus_wg_45</text><next>46</next></phrase>
+      <phrase id="46"><text>fr_horus_wg_46</text><next>47</next></phrase>
+      <phrase id="47"><text>fr_horus_wg_47</text><next>48</next></phrase>
+      <phrase id="48">
+        <text>fr_horus_wg_48</text>
+        <give_info>fr_agr_horus_refused</give_info>
+        <action>agroprom.horus_refuse_shot</action>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÔÓËÃÐÈÌ: ÏÐÈÂÅÒÑÒÂÈÅ (start_dialog) ================= -->
+  <dialog id="fr_agr_fulgrim_hello">
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_fulgrim_hello_0</text>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÔÓËÃÐÈÌ (êâåñò 52) ================= -->
+  <dialog id="fr_agr_fulgrim_meet">
+    <has_info>fr_agr_order_path</has_info>
+    <dont_has_info>fr_agr_order_assault</dont_has_info>
+    <phrase_list>
+      <phrase id="0"><text>fr_fulgrim_mt_1</text><next>1</next></phrase>
+      <phrase id="1">
+        <text>fr_fulgrim_mt_2</text>
+        <action>agroprom.order_gear</action>
+        <next>2</next>
+      </phrase>
+      <phrase id="2"><text>fr_fulgrim_mt_3</text><next>3</next></phrase>
+      <phrase id="3"><text>fr_fulgrim_mt_4</text><next>4</next></phrase>
+      <phrase id="4">
+        <text>fr_fulgrim_mt_5</text>
+        <give_info>fr_agr_order_assault</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 

@@ -161,7 +161,9 @@
 	<info_portion id="fr_agr_snab_brother_start">
 		<task>task_fr_agr_brother</task>
 	</info_portion>
-	<info_portion id="fr_agr_brother_killed"></info_portion>
+	<info_portion id="fr_agr_brother_killed">
+		<task>task_fr_agr_brother_mg</task>
+	</info_portion>
 	<info_portion id="fr_agr_brother_mg_taken"></info_portion>
 	<info_portion id="fr_agr_brother_done"></info_portion>
 
@@ -243,7 +245,39 @@
 	<info_portion id="fr_agr_strike_near"></info_portion>
 
 
+	<!-- ===== Квест 28: первая вышка ===== -->
+	<info_portion id="fr_agr_tower1_start">
+		<task>task_fr_agr_tower1</task>
+	</info_portion>
+	<info_portion id="fr_agr_tower1_set"></info_portion>
+	<info_portion id="fr_agr_tower1_done"></info_portion>
 
+	<!-- ===== Квест 29: вторая вышка ===== -->
+	<info_portion id="fr_agr_tower2_start">
+		<task>task_fr_agr_tower2</task>
+	</info_portion>
+	<info_portion id="fr_agr_tower2_set"></info_portion>
+	<info_portion id="fr_agr_tower2_w2"></info_portion>
+	<info_portion id="fr_agr_tower2_w3"></info_portion>
+	<info_portion id="fr_agr_tower2_done"></info_portion>
+
+	<!-- ===== Квест 30: третья вышка, Хорус ===== -->
+	<info_portion id="fr_agr_tower3_start">
+		<task>task_fr_agr_tower3</task>
+	</info_portion>
+	<info_portion id="fr_agr_tower3_set"></info_portion>
+	<info_portion id="fr_agr_horus_refused"></info_portion>
+	<info_portion id="fr_agr_horus_gone"></info_portion>
+
+	<!-- ===== Ветка Ордена: квесты 52-53 ===== -->
+	<info_portion id="fr_agr_order_path">
+		<task>task_fr_agr_order_meet</task>
+	</info_portion>
+	<info_portion id="fr_agr_order_assault">
+		<task>task_fr_agr_order_kill</task>
+	</info_portion>
+	<info_portion id="fr_agr_kuz_killed"></info_portion>
+	<info_portion id="fr_agr_order_near"></info_portion>
 
 
 

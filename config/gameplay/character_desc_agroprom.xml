@@ -1178,7 +1178,7 @@
 		<class>fr_agr_sery</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
 
-		<rank>750</rank>
+		<rank>550</rank>
 		<reputation>300</reputation>
 
 		<visual>actors\neytral\stalker_neytral_hood_4</visual>
@@ -1197,6 +1197,7 @@
 		<actor_dialog>fr_agr_sery_recon</actor_dialog>
 		<actor_dialog>fr_agr_sery_back</actor_dialog>
 		<actor_dialog>fr_agr_sery_radist</actor_dialog>
+		<actor_dialog>fr_agr_sery_order</actor_dialog>
 		
 		<actor_dialog>fr_agr_sery_questions</actor_dialog>
 	</specific_character>
@@ -1288,7 +1289,7 @@
 		<crouch_type>-1</crouch_type>
 		<class>fr_agr_akeran</class>
 		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
-		<rank>800</rank>
+		<rank>450</rank>
 		<reputation>100</reputation>
 		<visual>actors\militari\stalker_militari_antigas_2</visual>
 		<supplies>
@@ -1739,10 +1740,418 @@
 	
 	
 	
+	<!-- ============ ÄÈÊÈÅ (6 âàðèàíòîâ, âûáîð ñëó÷àéíûé) ============ -->
+	<specific_character id="fr_agr_wild_1" team_default="1">
+		<name>GENERATE_NAME_wild</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_wild_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_wild</class>
+		<community>monolith</community>
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_akm \n
+			ammo_7.62x39_fmj = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_wild_2" team_default="1">
+		<name>GENERATE_NAME_wild</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_wild_bio</bio>
+		<snd_config>characters_voice\human_02\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_wild</class>
+		<community>monolith</community>
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_wild_3" team_default="1">
+		<name>GENERATE_NAME_wild</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_wild_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_wild</class>
+		<community>monolith</community>
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_wild_4" team_default="1">
+		<name>GENERATE_NAME_wild</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_wild_bio</bio>
+		<snd_config>characters_voice\human_02\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_wild</class>
+		<community>monolith</community>
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_lr300 \n
+			ammo_5.56x45_ss190 = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_wild_5" team_default="1">
+		<name>GENERATE_NAME_wild</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_wild_bio</bio>
+		<snd_config>characters_voice\human_01\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_wild</class>
+		<community>monolith</community>
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_spas12 \n
+			ammo_12x70_buck = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_wild_6" team_default="1">
+		<name>GENERATE_NAME_wild</name>
+		<icon>ui_npc_u_stalker_zombie1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_wild_bio</bio>
+		<snd_config>characters_voice\human_02\zombied\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_wild</class>
+		<community>monolith</community>
+		<rank>100</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_zombi\stalker_zombie1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_l85 \n
+			ammo_5.56x45_ss190 = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ============ ÑÒÀËÊÅÐÛ Â ËÅÑÓ (2 âàðèàíòà) ============ -->
+	<specific_character id="fr_agr_forest_stalker_1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_hood_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_forest_bio</bio>
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_forest_stalker</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\neytral\stalker_neytral_hood_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_forest_stalker_2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_hood_8</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_forest_bio</bio>
+		<snd_config>characters_voice\human_03\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_forest_stalker</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<visual>actors\neytral\stalker_neytral_hood_8</visual>
+		<supplies>
+			[spawn] \n
+			wpn_spas12 \n
+			ammo_12x70_buck = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ============ ÕÎÐÓÑ Â ÂÀÃÎÍ×ÈÊÅ ============ -->
+	<specific_character id="fr_agr_horus_wagon" team_default="1">
+		<name>fr_agr_horus_booth_name</name>
+		<icon>icon_huy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_horus_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_horus_wagon</class>
+		<community>freedom</community> <terrain_sect>stalker_freedom_terrain</terrain_sect>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+		<supplies>
+			[spawn] \n
+			medkit = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+		<start_dialog>fr_horus_hello</start_dialog>
+
+		<actor_dialog>fr_agr_horus_wagon</actor_dialog>
+	</specific_character>
+
+	<!-- ============ ÔÓËÃÐÈÌ ============ -->
+	<specific_character id="fr_agr_fulgrim" team_default="1">
+		<name>fr_agr_fulgrim_name</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_fulgrim_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_fulgrim</class>
+		<community>monolith</community>
+		<rank>1000</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_gauss \n
+			ammo_gauss = 3 \n
+			wpn_desert_eagle \n
+			ammo_11.43x23_hydro = 2 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+		<start_dialog>fr_agr_fulgrim_hello</start_dialog>
+		<actor_dialog>fr_agr_fulgrim_meet</actor_dialog>
+	</specific_character>
+
+	<!-- ============ ÌÀÑÒÅÐÀ ÎÐÄÅÍÀ (ñ Ôóëãðèìîì, 4 âàðèàíòà) ============ -->
+	<specific_character id="fr_agr_order_master_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_master</class>
+		<community>monolith</community>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pkm \n
+			ammo_pkm_100 = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_master_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_master</class>
+		<community>monolith</community>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_fn2000 \n
+			ammo_5.56x45_ap = 4 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_master_3" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_master</class>
+		<community>monolith</community>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_groza \n
+			ammo_9x39_ap = 4 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_master_4" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_master</class>
+		<community>monolith</community>
+		<rank>900</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_g36 \n
+			ammo_5.56x45_ap = 4 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<!-- ============ ØÒÓÐÌÎÂÈÊÈ ÎÐÄÅÍÀ Ó ÁÀÇÛ (3 âàðèàíòà) ============ -->
+	<specific_character id="fr_agr_order_raider_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_raider</class>
+		<community>monolith</community>
+		<rank>800</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pkm \n
+			ammo_pkm_100 = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_raider_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_raider</class>
+		<community>monolith</community>
+		<rank>800</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_val \n
+			ammo_9x39_ap = 4 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_raider_3" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_order_raider</class>
+		<community>monolith</community>
+		<rank>800</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_sig550 \n
+			ammo_5.56x45_ap = 4 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>	
 	
-	
-	
-	
+	<!-- ============ ÏÐÅÄÀÒÅËÈ ÍÀ ÁÀÇÅ (3 âàðèàíòà) ============ -->
+	<specific_character id="fr_agr_base_traitor_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_base_traitor</class>
+		<community>monolith</community>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak105 \n
+			ammo_5.45x39_ap = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_base_traitor_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_bandana</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_base_traitor</class>
+		<community>monolith</community>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_bandana</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_ap = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_base_traitor_3" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_base_traitor</class>
+		<community>monolith</community>
+		<rank>600</rank>
+		<reputation>0</reputation>
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_vihr \n
+			ammo_9x39_ap = 3 \n
+		</supplies>
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>		
 	
 	
 	

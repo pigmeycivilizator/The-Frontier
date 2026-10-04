@@ -267,6 +267,13 @@
 		<text>Младший брат снабженца пропал с патрулём неделю назад. Если он среди зомбированных, у него будет тяжёлый пулемёт. Нужно упокоить его и вернуть пулемёт брату.</text>
 	</string>
 
+<string id="task_fr_agr_brother_mg">
+	<text>Вернуть пулемёт брата</text>
+</string>
+<string id="task_fr_agr_brother_mg_artcl">
+	<text>Брат снабженца был среди зомбированных. Помочь ему уже нельзя, но можно хотя бы забрать его пулемёт и отнести снабженцу.</text>
+</string>
+
 	<string id="task_fr_agr_patrols">
 		<text>Помочь патрулям отбиться от атак</text>
 	</string>
@@ -403,7 +410,66 @@
 </string>	
 	
 	
-	
+<!-- ===== Квест 28 ===== -->
+<string id="task_fr_agr_tower1">
+	<text>Установить первый прибор</text>
+</string>
+<string id="task_fr_agr_tower1_1">
+	<text>Установить прибор на крыше</text>
+</string>
+<string id="task_fr_agr_tower1_2">
+	<text>Продержаться до его активации</text>
+</string>
+<string id="task_fr_agr_tower1_artcl">
+	<text>На лагерь Серого напали дикие культисты. Сталкеры держат оборону, а мне нужно забраться на крышу, установить первый прибор на антенну и продержаться, пока он не запустится.</text>
+</string>
+
+<!-- ===== Квест 29 ===== -->
+<string id="task_fr_agr_tower2">
+	<text>Установить второй прибор</text>
+</string>
+<string id="task_fr_agr_tower2_1">
+	<text>Установить прибор в лесу</text>
+</string>
+<string id="task_fr_agr_tower2_2">
+	<text>Продержаться до его активации</text>
+</string>
+<string id="task_fr_agr_tower2_artcl">
+	<text>Сталкеров Серого, которые готовили вторую вышку в лесу, атакуют мутанты. Нужно прийти им на помощь, установить второй прибор и удержать позицию, пока он не запустится.</text>
+</string>
+
+<!-- ===== Квест 30 ===== -->
+<string id="task_fr_agr_tower3">
+	<text>Установить третий прибор</text>
+</string>
+<string id="task_fr_agr_tower3_1">
+	<text>Установить прибор в вагончике на болоте</text>
+</string>
+<string id="task_fr_agr_tower3_artcl">
+	<text>Две вышки работают. Осталась третья: антенна на вагончике посреди болота. Нужно добраться туда, установить последний прибор и вернуться к Серому.</text>
+</string>
+
+<!-- ===== Квест 52 ===== -->
+<string id="task_fr_agr_order_meet">
+	<text>Принять свою судьбу</text>
+</string>
+<string id="task_fr_agr_order_meet_1">
+	<text>Идти к месту встречи</text>
+</string>
+<string id="task_fr_agr_order_meet_artcl">
+	<text>Я ответил Хорусу "да". Недалеко от вагончика, в стороне базы, меня ждут.</text>
+</string>
+
+<!-- ===== Квест 53 ===== -->
+<string id="task_fr_agr_order_kill">
+	<text>Уничтожить базу военных</text>
+</string>
+<string id="task_fr_agr_order_kill_1">
+	<text>Убить полковника Кузнецова</text>
+</string>
+<string id="task_fr_agr_order_kill_artcl">
+	<text>Фулгрим выдал мне снаряжение Ордена. Вместе с его бойцами я должен взять базу. Ни один не должен уйти живым. Полковник - лично мой.</text>
+</string>	
 	
 	
 	

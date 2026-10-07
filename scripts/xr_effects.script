@@ -58,6 +58,26 @@ function fr_order_music(actor, npc)
 	agroprom.order_music()
 end
 
+function fr_ghost_call(actor, npc, p)
+	agroprom.ghost_call(p[1])
+end
+
+function fr_emp_end(actor, npc)
+	agroprom.emp_end()
+end
+
+function fr_kuz_signal(actor, npc, p)
+	agroprom.kuz_signal(p[1])
+end
+
+function fr_weather_tunnel(actor, npc)
+	agroprom.weather_tunnel_exit()
+end
+
+function fr_weather_dark(actor, npc)
+	agroprom.weather_dark()
+end
+
 function disable_ui_elements(actor, npc, p)
     local i, v = 0, 0
     for i, v in pairs(p) do

@@ -2845,7 +2845,266 @@
 	
 	
 	
+		<!-- ===== Серый после ЭМИ ===== -->
+	<specific_character id="fr_agr_sery_emp" team_default="1">
+		<name>gar_seryi_name</name>
+		<icon>ui_npc_u_stalker_neytral_hood_4</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_sery_bio</bio>
+
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_sery_emp</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>750</rank>
+		<reputation>300</reputation>
+
+		<visual>actors\neytral\stalker_neytral_hood_4</visual>
+		<supplies>
+			[spawn] \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 3 \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+
+		<start_dialog>fr_agr_sery_emp_hello</start_dialog>
+		
+		<actor_dialog>fr_agr_sery_emp_meet</actor_dialog>
+		<actor_dialog>fr_agr_sery_emp_truth</actor_dialog>
+	</specific_character>
+
+	<!-- ===== Выжившие Серого ===== -->
+	<specific_character id="fr_agr_sery_surv_1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_balon_8</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_sery_surv</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>450</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\neytral\stalker_neytral_balon_8</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak12 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_sery_surv_2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_hood_2</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_sery_surv</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>450</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\neytral\stalker_neytral_hood_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_akm \n
+			ammo_7.62x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ===== Трупы сталкеров в лагере ===== -->
+	<specific_character id="fr_agr_camp_dead_stalker_1" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_balon_8</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_camp_dead_stalker</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>300</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\neytral\stalker_neytral_balon_8</visual>
+		<supplies>
+			[spawn] \n
+			wpn_spas12 \n
+			ammo_12x70_buck = 1 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_camp_dead_stalker_2" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_neytral_hood_2</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>sim_stalker_general_bio</bio>
+
+		<snd_config>characters_voice\human_01\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_camp_dead_stalker</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>300</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\neytral\stalker_neytral_hood_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
 	
+	
+	<specific_character id="fr_agr_emp_traitor_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_emp_traitor</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>500</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_emp_traitor_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_emp_traitor</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>500</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_akm \n
+			ammo_7.62x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_emp_traitor_3" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_bandana_6</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_emp_traitor</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>550</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_bandana_6</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_emp_traitor_4" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_bandana</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_emp_traitor</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>550</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_bandana_1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 2 \n
+			grenade_rgd5 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_tun_dead_spec" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="0"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_tun_dead_spec</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>600</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 1 \n
+			bandage \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
 	
 	
 	

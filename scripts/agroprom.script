@@ -142,6 +142,8 @@ end
 local mask_shown = false
 
 function nvd_mask_update()
+	emp_update()
+
 	local outfit = db.actor:item_in_slot(6)
 	local need = (outfit ~= nil and outfit:section() == "stalker_outfit")
 	local hud = get_hud()
@@ -452,10 +454,15 @@ function weather_emp(a, b)
 	set_story_weather("5_foggy", "np_foggy_nosun", 4)
 end
 
--- 5. Выход из тоннеля. 23:00, туманный рассвет
+-- 5. Выход из тоннеля. 23:00, ясная ночь (игрок ещё без ПНВ)
 function weather_tunnel_exit(a, b)
 	set_game_time(23, 0)
-	set_story_weather("4_bad", "np_thunder", 3)
+	set_story_weather("1_good", "np_clear3", 2)
+end
+
+-- 6. После разговора с Серым. Гроза, без ПНВ почти ничего не видно
+function weather_dark(a, b)
+	set_story_weather("4_bad", "np_cloudy", 4)
 end
 
 
@@ -765,11 +772,66 @@ function patrols_all_done(actor, npc)
 		if not a:has_info("fr_agr_patrols_done") then
 			news_manager.send_tip(a, "fr_agr_tip_patrols_done", nil, "fr_kuznetsov", nil)
 			a:give_info_portion("fr_agr_patrols_done")
+			patrol_reward()
 		end
 		return true
 	end
 
 	return false
+end
+
+-- ---------- награда за спасённые патрули ----------
+
+local SID_PATROL_BOX = 244   -- story_id ящика у снабженца
+
+local PATROL_DEAD_INFOS = {
+	"fr_agr_patA_s1_dead", "fr_agr_patA_s2_dead", "fr_agr_patA_s3_dead",
+	"fr_agr_patB_s1_dead", "fr_agr_patB_s2_dead", "fr_agr_patB_s3_dead",
+	"fr_agr_patC_s1_dead", "fr_agr_patC_s2_dead", "fr_agr_patC_s3_dead",
+}
+
+-- что кладётся в ящик за каждого спасённого
+local PATROL_REWARD = { "medkit_army", "ammo_5.45x39_ap" }
+
+function patrols_saved_count()
+	local n = 0
+	for _, info in ipairs(PATROL_DEAD_INFOS) do
+		if not has_alife_info(info) then
+			n = n + 1
+		end
+	end
+	return n
+end
+
+-- ящик у снабженца + личное сообщение Роговцу через 12 секунд после общего
+function patrol_reward()
+	local a = db.actor
+	if not a or a:has_info("fr_agr_patrol_reward") then return end
+	a:give_info_portion("fr_agr_patrol_reward")
+
+	local n = patrols_saved_count()
+	if n == 0 then return end
+
+	local sim = alife()
+	local box = sim:story_object(SID_PATROL_BOX)
+	if box then
+		for i = 1, n do
+			for _, sec in ipairs(PATROL_REWARD) do
+				sim:create(sec, box.position, box.m_level_vertex_id, box.m_game_vertex_id, box.id)
+			end
+		end
+		if n == #PATROL_DEAD_INFOS then
+			sim:create("medkit_scientic", box.position, box.m_level_vertex_id, box.m_game_vertex_id, box.id)
+			sim:create("medkit_scientic", box.position, box.m_level_vertex_id, box.m_game_vertex_id, box.id)
+			sim:create("medkit_scientic", box.position, box.m_level_vertex_id, box.m_game_vertex_id, box.id)
+		end
+	end
+
+	if n == #PATROL_DEAD_INFOS then
+		news_manager.send_tip(a, "fr_agr_tip_patrol_thanks_all", 12, "fr_kuznetsov", 10000)
+	else
+		news_manager.send_tip(a, "fr_agr_tip_patrol_thanks", 12, "fr_kuznetsov", 10000)
+	end
 end
 
 -- ---------- пулемёт брата ----------
@@ -967,9 +1029,7 @@ end
 function order_end()
 end
 
-
-
--- ЭМИ: электроника мертва (КПК, фонарь, ПНВ, консоль, прицел)
+-- ЭМИ: электроника мертва (КПК, фонарь, консоль, прицел)
 function emp_devices_off()
 	force_torch_off()
 	level.block_action(key_bindings.kMAP)
@@ -977,7 +1037,6 @@ function emp_devices_off()
 	level.block_action(key_bindings.kCONTACTS)
 	level.block_action(key_bindings.kCONSOLE)
 	level.block_action(key_bindings.kTORCH)
-	level.block_action(key_bindings.kNIGHT_VISION)
 	get_console():execute("hud_crosshair 0")
 end
 
@@ -988,7 +1047,6 @@ function emp_devices_on()
 	level.unblock_action(key_bindings.kCONTACTS)
 	level.unblock_action(key_bindings.kCONSOLE)
 	level.unblock_action(key_bindings.kTORCH)
-	level.unblock_action(key_bindings.kNIGHT_VISION)
 	get_console():execute("hud_crosshair 1")
 end
 
@@ -1046,6 +1104,7 @@ function emp_blackout()
 	weather_emp()
 	if not db.actor:has_info("fr_agr_emp_start") then
 		db.actor:give_info_portion("fr_agr_emp_start")
+		digger_stash_fill()
 	end
 end
 
@@ -1066,4 +1125,119 @@ function order_music()
 	if order_music_snd then return end
 	order_music_snd = sound_object("music\\disposal")
 	order_music_snd:play(db.actor, 0, sound_object.s2d)
+end
+
+
+-- ============================================================
+-- Квесты 31-35: ЭМИ, лагерь Серого, тоннель, форпосты
+-- ============================================================
+
+local SID_DIGGER_STASH = 243              -- story_id ящика-схрона диггеров
+local SERY_GIFT_GUN    = "wpn_vepr"     -- поставь секцию Сайги/Протекты из пака
+
+local GHOST_PP_ID = 9161
+
+local DIGGER_STASH = {
+	{ "stalker_outfit",  4 },
+	{ "ammo_12x70_buck", 4 },
+	{ "bandage",         5 },
+	{ "medkit",          3 },
+	{ "vodka",           5 },
+	{ "conserva",        2 },
+}
+
+-- схрон диггеров наполняется в момент ЭМИ
+function digger_stash_fill()
+	local sim = alife()
+	local box = sim:story_object(SID_DIGGER_STASH)
+	if not box then return end
+	for _, it in ipairs(DIGGER_STASH) do
+		for i = 1, it[2] do
+			sim:create(it[1], box.position, box.m_level_vertex_id, box.m_game_vertex_id, box.id)
+		end
+	end
+end
+
+-- прощальный подарок Серого
+function sery_gift(first_speaker, second_speaker)
+	dialogs.relocate_item_section(first_speaker, SERY_GIFT_GUN, "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_12x76_zhekan", "in")
+end
+
+-- "зов" с мёртвой рации: шипение и лёгкий пси-эффект,
+-- на втором вызове под шипение подкладывается голос с поляны
+function ghost_call(n)
+	play2d("fr\\agroprom\\radio_static")
+	level.add_pp_effector("radar_psi.ppe", GHOST_PP_ID, false)
+	if tonumber(n) == 2 then
+		play2d("fr\\agroprom\\chant", 1)
+	end
+end
+
+-- конец ЭМИ: электроника и худ возвращаются
+function emp_end()
+	local a = db.actor
+	if not a or a:has_info("fr_agr_emp_end") then return end
+	a:give_info_portion("fr_agr_emp_end")
+	emp_devices_on()
+	get_console():execute("hud_draw 1")
+	play2d("fr\\agroprom\\radio_static")
+end
+
+-- сигнал Кузнецова сквозь помехи
+function kuz_signal(n)
+	news_manager.send_tip(db.actor, "fr_agr_tip_kuz_signal_" .. n, nil, "fr_kuznetsov", 9000)
+end
+
+function emp_active()
+	return has_alife_info("fr_agr_emp_start") and not has_alife_info("fr_agr_emp_end")
+end
+
+-- каждый кадр (из nvd_mask_update):
+-- 1) после загрузки сейва заново ставит или снимает блокировки ЭМИ
+-- 2) во время ЭМИ разрешает ПНВ только в костюме диггеров
+local emp_checked = false
+
+function emp_update()
+	if emp_checked or not db.actor then return end
+	emp_checked = true
+
+	emp_devices_on()
+	if emp_active() then
+		emp_devices_off()
+		get_console():execute("hud_draw 0")
+	else
+		get_console():execute("hud_draw 1")
+	end
+end
+
+-- пост 3: обе химеры убиты
+function p3_chimeras_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_p3_ch_k1")
+	   and a:has_info("fr_agr_p3_ch_k2") then
+		return true
+	end
+
+	return false
+end
+
+-- пост 2: все четыре предателя убиты
+function p2_traitors_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+
+	if a:has_info("fr_agr_p2_tr_k1")
+	   and a:has_info("fr_agr_p2_tr_k2")
+	   and a:has_info("fr_agr_p2_tr_k3")
+	   and a:has_info("fr_agr_p2_tr_k4") then
+		return true
+	end
+
+	return false
 end

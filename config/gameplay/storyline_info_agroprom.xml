@@ -133,7 +133,21 @@
 	<article id="task_fr_agr_brother_mg" name="task_fr_agr_brother_mg" group="task_fr_agr_brother_mg" article_type="task">
 		<text>task_fr_agr_brother_mg_artcl</text>
 	</article>	
-	
+	<article id="task_fr_agr_to_camp" name="task_fr_agr_to_camp" group="task_fr_agr_to_camp" article_type="task">
+		<text>task_fr_agr_to_camp_artcl</text>
+	</article>
+	<article id="task_fr_agr_tunnel" name="task_fr_agr_tunnel" group="task_fr_agr_tunnel" article_type="task">
+		<text>task_fr_agr_tunnel_artcl</text>
+	</article>
+	<article id="task_fr_agr_post3" name="task_fr_agr_post3" group="task_fr_agr_post3" article_type="task">
+		<text>task_fr_agr_post3_artcl</text>
+	</article>
+	<article id="task_fr_agr_post2" name="task_fr_agr_post2" group="task_fr_agr_post2" article_type="task">
+		<text>task_fr_agr_post2_artcl</text>
+	</article>
+	<article id="task_fr_agr_to_base" name="task_fr_agr_to_base" group="task_fr_agr_to_base" article_type="task">
+		<text>task_fr_agr_to_base_artcl</text>
+	</article>	
 	
 	
 	

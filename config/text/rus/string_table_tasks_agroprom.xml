@@ -474,7 +474,64 @@
 	
 	
 	
-	
+	<string id="task_fr_agr_to_camp">
+		<text>Добраться до лагеря сталкеров</text>
+	</string>
+	<string id="task_fr_agr_to_camp_1">
+		<text>Найти Серого в лагере сталкеров</text>
+	</string>
+	<string id="task_fr_agr_to_camp_artcl">
+		<text>чо пялишь сюда, электроника не работала</text>
+	</string>
+
+	<string id="task_fr_agr_tunnel">
+		<text>Отправиться в Ж/Д тоннель</text>
+	</string>
+	<string id="task_fr_agr_tunnel_1">
+		<text>Отправиться в тоннель</text>
+	</string>
+	<string id="task_fr_agr_tunnel_2">
+		<text>Вернуться к Серому</text>
+	</string>
+	<string id="task_fr_agr_tunnel_artcl">
+		<text>всё ещё не работала</text>
+	</string>
+
+	<string id="task_fr_agr_post3">
+		<text>Добраться до 3 форпоста</text>
+	</string>
+	<string id="task_fr_agr_post3_1">
+		<text>Добраться до перехода на Свалку</text>
+	</string>
+	<string id="task_fr_agr_post3_2">
+		<text>Узнать, что произошло</text>
+	</string>
+	<string id="task_fr_agr_post3_artcl">
+		<text>ну ты упрямый</text>
+	</string>
+
+	<string id="task_fr_agr_post2">
+		<text>Добраться до 2 форпоста</text>
+	</string>
+	<string id="task_fr_agr_post2_1">
+		<text>Добраться до 2 форпоста, к востоку от леса</text>
+	</string>
+	<string id="task_fr_agr_post2_2">
+		<text>Узнать, что произошло</text>
+	</string>
+	<string id="task_fr_agr_post2_artcl">
+		<text>учавствуем в конкурсе за пнг картинку на сайте....</text>
+	</string>
+
+	<string id="task_fr_agr_to_base">
+		<text>Добраться до базы</text>
+	</string>
+	<string id="task_fr_agr_to_base_1">
+		<text>Дойти до базы</text>
+	</string>
+	<string id="task_fr_agr_to_base_artcl">
+		<text>Связь вернулась. Полковник Кузнецов объявил боевую тревогу: всем бойцам немедленно вернуться на базу, оборона по плану «Крепость».</text>
+	</string>	
 	
 	
 	

@@ -1,41 +1,38 @@
-;[logic]
-;active = ph_sound@normal
-
-;[ph_sound@normal]
-;snd = music
-;on_info = {+agr_nii_alarm} ph_sound@alarm
-
-
-;[ph_sound@alarm]
-;snd = siren
-;looped = true
-;on_info = {-agr_nii_alarm} ph_sound@normal
-
 [logic]
-active = ph_sound@normal
+active = ph_idle@start
 on_hit = hit
 
 [hit]
 on_info = %+agr_nii_rupor_off%
 
-[ph_sound@normal]
+; выбор состояния (и при старте, и после загрузки)
+[ph_idle@start]
+on_info = {+agr_nii_rupor_off} nil, {+fr_agr_assault_start} ph_sound@siren, {+fr_agr_emp_end} ph_sound@soft, {+fr_agr_emp_start} ph_idle@emp, {=is_day} ph_sound@music, ph_idle@night
+
+; ===== мирное время: днём музыка, ночью тишина =====
+[ph_sound@music]
 snd = music
-on_info = {+agr_nii_alarm} ph_sound@alarm
-on_info2 = {+agr_nii_rupor_off} nil
-on_info3 = {!is_day} ph_idle
+on_info = {+agr_nii_rupor_off} nil, {+fr_agr_emp_start} ph_idle@emp, {!is_day} ph_idle@night
 
-[ph_sound@alarm]
+[ph_idle@night]
+on_info = {+agr_nii_rupor_off} nil, {+fr_agr_emp_start} ph_idle@emp, {=is_day} ph_sound@music
+
+; ===== ЭМИ: рупор мёртв =====
+[ph_idle@emp]
+on_info = {+agr_nii_rupor_off} nil, {+fr_agr_emp_end} ph_sound@soft
+
+; ===== связь вернулась: мягкая тревога, объявление и пауза по кругу =====
+[ph_sound@soft]
+snd = alarm1
+on_timer = 10000 | ph_idle@soft_pause
+on_info = {+agr_nii_rupor_off} nil, {+fr_agr_assault_start} ph_sound@siren
+
+[ph_idle@soft_pause]
+on_timer = 25000 | ph_sound@soft
+on_info = {+agr_nii_rupor_off} nil, {+fr_agr_assault_start} ph_sound@siren
+
+; ===== штурм: громкая сирена без остановки =====
+[ph_sound@siren]
 snd = siren
 looped = true
-on_info = {-agr_nii_alarm} ph_sound@normal
-on_info2 = {+agr_nii_rupor_off} nil,{=gulag_empty(agr_nii) +agr_sniper_killed_1 +agr_sniper_killed_2 +agr_sniper_killed_3} ph_sound@fade
-
-[ph_idle]
-on_info = {+agr_nii_alarm} ph_sound@alarm
-on_info2 = {+agr_nii_rupor_off} nil,{=gulag_empty(agr_nii) +agr_sniper_killed_1 +agr_sniper_killed_2 +agr_sniper_killed_3} ph_sound@fade
-on_info3 = {=is_day} ph_sound@normal
-
-[ph_sound@fade]
-snd = siren
-looped = true
-on_timer = 20000 | nil
+on_info = {+agr_nii_rupor_off} nil

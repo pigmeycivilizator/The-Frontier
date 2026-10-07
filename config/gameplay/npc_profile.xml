@@ -173,7 +173,21 @@
 		<class>fr_agr_base_traitor</class>
 	</character>	
 	
-	
+		<character id="fr_agr_sery_emp">
+		<class>fr_agr_sery_emp</class>
+	</character>
+	<character id="fr_agr_sery_surv">
+		<class>fr_agr_sery_surv</class>
+	</character>
+	<character id="fr_agr_camp_dead_stalker">
+		<class>fr_agr_camp_dead_stalker</class>
+	</character>
+	<character id="fr_agr_emp_traitor">
+		<class>fr_agr_emp_traitor</class>
+	</character>
+	<character id="fr_agr_tun_dead_spec">
+		<class>fr_agr_tun_dead_spec</class>
+	</character>
 	
 	
 	

@@ -20,6 +20,7 @@ local killCountProps = {
 	poltergeist_weak = 2,
 	pseudo_gigant_weak = 4,
 	controller_weak = 4,
+	chimera_weak = 4,
 	bloodsucker_weak = 1, bloodsucker_normal = 2, bloodsucker_strong = 3
 }
 
@@ -35,6 +36,7 @@ monster_classes = {
 			[clsid.tushkano_s    ] = "tushkano",
 			[clsid.flesh_s       ] = "flesh",
 			[clsid.boar_s        ] = "boar",
+			[clsid.chimera_s     ] = "chimera",
 			[clsid.dog_s         ] = "dog",
 			[clsid.pseudodog_s   ] = "pseudodog",
 			[clsid.psy_dog_s     ] = "psy_dog",

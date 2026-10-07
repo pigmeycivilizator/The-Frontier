@@ -40,10 +40,10 @@
     <main_task x="200" y="120" width="600" height="60" complex_mode="1">
         <text align="c" font="graffiti32" r="240" g="217" b="182" a="255"/>
     </main_task>
-    <game_saved x="100" y="680" width="800" height="30">
+    <game_saved x="100" y="50" width="800" height="30">
         <text font="graffiti22" r="240" g="217" b="182" a="255" align="c"/>
     </game_saved>
-    <autosave x="100" y="680" width="800" height="30">
+    <autosave x="100" y="50" width="800" height="30">
         <text font="graffiti22" r="240" g="217" b="182" a="255" align="c">st_autosave</text>
     </autosave>
     <item_used x="100" y="730" width="800" height="30">

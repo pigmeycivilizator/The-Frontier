@@ -128,6 +128,8 @@
 	<info_portion id="fr_agr_patC_s3_dead"></info_portion>
 
 
+	<info_portion id="fr_agr_patrol_reward"></info_portion>
+
 	<info_portion id="fr_agr_recon_start">
 		<task>task_fr_agr_recon</task>
 	</info_portion>
@@ -278,6 +280,79 @@
 	</info_portion>
 	<info_portion id="fr_agr_kuz_killed"></info_portion>
 	<info_portion id="fr_agr_order_near"></info_portion>
+
+	<!-- ===== Квесты 31-35: ЭМИ ===== -->
+	<info_portion id="fr_agr_q31_start">
+		<task>task_fr_agr_to_camp</task>
+	</info_portion>
+	<info_portion id="fr_agr_sery_emp_met"></info_portion>
+
+	<info_portion id="fr_agr_q32_start">
+		<task>task_fr_agr_tunnel</task>
+	</info_portion>
+	<info_portion id="fr_agr_tunnel_entered"></info_portion>
+	<info_portion id="fr_agr_tun_st1_done"></info_portion>
+	<info_portion id="fr_agr_tunnel_checked"></info_portion>
+	<info_portion id="fr_agr_sery_truth_done"></info_portion>
+
+	<info_portion id="fr_agr_q33_start">
+		<task>task_fr_agr_post3</task>
+	</info_portion>
+	<info_portion id="fr_agr_p3_arrived"></info_portion>
+	<info_portion id="fr_agr_p3_chimera"></info_portion>
+	<info_portion id="fr_agr_p3_ch_k1"></info_portion>
+	<info_portion id="fr_agr_p3_ch_k2"></info_portion>
+
+	<info_portion id="fr_agr_q34_start">
+		<task>task_fr_agr_post2</task>
+	</info_portion>
+	<info_portion id="fr_agr_p2_arrived"></info_portion>
+	<info_portion id="fr_agr_p2_tr_k1"></info_portion>
+	<info_portion id="fr_agr_p2_tr_k2"></info_portion>
+	<info_portion id="fr_agr_p2_tr_k3"></info_portion>
+	<info_portion id="fr_agr_p2_tr_k4"></info_portion>
+
+	<info_portion id="fr_agr_emp_end"></info_portion>
+
+	<info_portion id="fr_agr_q35_start">
+		<task>task_fr_agr_to_base</task>
+	</info_portion>
+	<info_portion id="fr_agr_base_reached"></info_portion>
+
+
+
+   <info_portion id="fr_agr_assault_start"></info_portion>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -9,6 +9,14 @@
     </phrase_list>
   </dialog>  
   
+  <dialog id="fr_agr_sery_emp_hello">
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_sery_emp_hello_0</text>
+      </phrase>
+    </phrase_list>
+  </dialog>    
+  
   <dialog id="fr_mil_soldier_hello">
     <phrase_list>
       <phrase id="0">
@@ -2383,7 +2391,7 @@
 
   <!-- ================= ÕÎÐÓÑ Â ÂÀÃÎÍ×ÈÊÅ (êâåñò 30) ================= -->
   <dialog id="fr_agr_horus_wagon">
-    <has_info>fr_agr_tower3_start</has_info>
+ <!-- =================    <has_info>fr_agr_tower3_start</has_info>================= -->
     <dont_has_info>fr_agr_order_path</dont_has_info>
     <dont_has_info>fr_agr_horus_refused</dont_has_info>
     <phrase_list>
@@ -2499,7 +2507,232 @@
   </dialog>
 
 
+  <!-- ================= ÑÅÐÛÉ ÏÎÑËÅ ÝÌÈ ================= -->
+  <dialog id="fr_agr_sery_emp_meet">
+    <dont_has_info>fr_agr_sery_emp_met</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_sery_emp_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_sery_emp_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_sery_emp_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_sery_emp_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_sery_emp_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_sery_emp_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_sery_emp_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_sery_emp_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_sery_emp_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_sery_emp_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_sery_emp_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_sery_emp_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_sery_emp_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_sery_emp_14</text>
+        <next>15</next>
+      </phrase>
+      <phrase id="15">
+        <text>fr_sery_emp_15</text>
+        <next>16</next>
+      </phrase>
+      <phrase id="16">
+        <text>fr_sery_emp_16</text>
+        <next>17</next>
+      </phrase>
+      <phrase id="17">
+        <text>fr_sery_emp_17</text>
+        <next>18</next>
+      </phrase>
+      <phrase id="18">
+        <text>fr_sery_emp_18</text>
+        <next>19</next>
+      </phrase>
+      <phrase id="19">
+        <text>fr_sery_emp_19</text>
+        <next>20</next>
+      </phrase>
+      <phrase id="20">
+        <text>fr_sery_emp_20</text>
+        <give_info>fr_agr_sery_emp_met</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <dialog id="fr_agr_sery_emp_truth">
+    <has_info>fr_agr_tunnel_checked</has_info>
+    <dont_has_info>fr_agr_sery_truth_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_sery_tr_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_sery_tr_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_sery_tr_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_sery_tr_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_sery_tr_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_sery_tr_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_sery_tr_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_sery_tr_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_sery_tr_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_sery_tr_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_sery_tr_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_sery_tr_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_sery_tr_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_sery_tr_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_sery_tr_14</text>
+        <next>15</next>
+      </phrase>
+      <phrase id="15">
+        <text>fr_sery_tr_15</text>
+        <next>16</next>
+      </phrase>
+      <phrase id="16">
+        <text>fr_sery_tr_16</text>
+        <next>17</next>
+      </phrase>
+      <phrase id="17">
+        <text>fr_sery_tr_17</text>
+        <next>18</next>
+      </phrase>
+      <phrase id="18">
+        <text>fr_sery_tr_18</text>
+        <next>19</next>
+      </phrase>
+      <phrase id="19">
+        <text>fr_sery_tr_19</text>
+        <next>20</next>
+      </phrase>
+      <phrase id="20">
+        <text>fr_sery_tr_20</text>
+        <next>21</next>
+      </phrase>
+      <phrase id="21">
+        <text>fr_sery_tr_21</text>
+        <next>22</next>
+      </phrase>
+      <phrase id="22">
+        <text>fr_sery_tr_22</text>
+        <next>23</next>
+      </phrase>
+      <phrase id="23">
+        <text>fr_sery_tr_23</text>
+        <next>24</next>
+      </phrase>
+      <phrase id="24">
+        <text>fr_sery_tr_24</text>
+        <next>25</next>
+      </phrase>
+      <phrase id="25">
+        <text>fr_sery_tr_25</text>
+        <next>26</next>
+      </phrase>
+      <phrase id="26">
+        <text>fr_sery_tr_26</text>
+        <next>27</next>
+      </phrase>
+      <phrase id="27">
+        <text>fr_sery_tr_27</text>
+        <next>28</next>
+      </phrase>
+      <phrase id="28">
+        <text>fr_sery_tr_28</text>
+        <next>29</next>
+      </phrase>
+      <phrase id="29">
+        <text>fr_sery_tr_29</text>
+        <action>agroprom.sery_gift</action>
+        <next>30</next>
+      </phrase>
+      <phrase id="30">
+        <text>fr_sery_tr_30</text>
+        <next>31</next>
+      </phrase>
+      <phrase id="31">
+        <text>fr_sery_tr_31</text>
+        <next>32</next>
+      </phrase>
+      <phrase id="32">
+        <text>fr_sery_tr_32</text>
+        <give_info>fr_agr_sery_truth_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 

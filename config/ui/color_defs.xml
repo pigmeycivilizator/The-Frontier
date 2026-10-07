@@ -17,5 +17,7 @@
 	<color name="fr_control" r="80"  g="200" b="90"/>
 	<color name="fr_power"   r="235" g="105" b="40"/>
 	<color name="fr_chaos"   r="165" g="85"  b="230"/>
+	
+	<color name="fr_radio"   r="150" g="200"  b="170"/>
 	<!-- Use "%cDEFAULT" color when need to switch to default color of UI element -->
 </colors>

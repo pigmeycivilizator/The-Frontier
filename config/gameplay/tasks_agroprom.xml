@@ -751,6 +751,109 @@
 
 
 
+	<game_task id="task_fr_agr_to_camp" prio="1">
+		<title>task_fr_agr_to_camp</title>
+		<objective>
+			<text>task_fr_agr_to_camp</text>
+			<icon>ui_iconsTotal_agr_meet_krot_band</icon>
+			<infoportion_complete>fr_agr_sery_emp_met</infoportion_complete>
+			<article>task_fr_agr_to_camp</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_to_camp_1</text>
+			<infoportion_complete>fr_agr_sery_emp_met</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_tunnel" prio="1">
+		<title>task_fr_agr_tunnel</title>
+		<objective>
+			<text>task_fr_agr_tunnel</text>
+			<icon>ui_iconsTotal_locations</icon>
+			<infoportion_complete>fr_agr_sery_truth_done</infoportion_complete>
+			<article>task_fr_agr_tunnel</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_tunnel_1</text>
+			<infoportion_complete>fr_agr_tunnel_checked</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_tunnel_2</text>
+			<infoportion_complete>fr_agr_sery_truth_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_post3" prio="1">
+		<title>task_fr_agr_post3</title>
+		<objective>
+			<text>task_fr_agr_post3</text>
+			<icon>ui_iconsTotal_val_sos_help</icon>
+			<function_complete>agroprom.p3_chimeras_done</function_complete>
+			<article>task_fr_agr_post3</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_post3_1</text>
+			<infoportion_complete>fr_agr_p3_arrived</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_post3_2</text>
+			<function_complete>agroprom.p3_chimeras_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_post2" prio="1">
+		<title>task_fr_agr_post2</title>
+		<objective>
+			<text>task_fr_agr_post2</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<function_complete>agroprom.p2_traitors_done</function_complete>
+			<article>task_fr_agr_post2</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_post2_1</text>
+			<infoportion_complete>fr_agr_p2_arrived</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_post2_2</text>
+			<function_complete>agroprom.p2_traitors_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_to_base" prio="1">
+		<title>task_fr_agr_to_base</title>
+		<objective>
+			<text>task_fr_agr_to_base</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<infoportion_complete>fr_agr_base_reached</infoportion_complete>
+			<article>task_fr_agr_to_base</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_to_base_1</text>
+			<map_location_type hint="fr_agr_kuznetsov">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_base_reached</infoportion_complete>
+		</objective>
+	</game_task>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <game_task id="agroprom_get_military_documents" prio="490">

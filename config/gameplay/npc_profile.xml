@@ -190,10 +190,65 @@
 	</character>
 	
 	
+		<character id="fr_agr_laz_duty">
+		<class>fr_agr_laz_duty</class>
+	</character>
+	<character id="fr_agr_laz_w1">
+		<class>fr_agr_laz_w1</class>
+	</character>
+	<character id="fr_agr_laz_w2">
+		<class>fr_agr_laz_w2</class>
+	</character>
+	<character id="fr_agr_laz_w3">
+		<class>fr_agr_laz_w3</class>
+	</character>
+	<character id="fr_agr_laz_w4">
+		<class>fr_agr_laz_w4</class>
+	</character>
+	<character id="fr_agr_base_saboteur">
+		<class>fr_agr_base_saboteur</class>
+	</character>
+	<character id="fr_agr_und_def_1">
+		<class>fr_agr_und_def_1</class>
+	</character>
+	<character id="fr_agr_und_def_2">
+		<class>fr_agr_und_def_2</class>
+	</character>
+	<character id="fr_agr_und_def_3">
+		<class>fr_agr_und_def_3</class>
+	</character>
+	<character id="fr_agr_und_def_4">
+		<class>fr_agr_und_def_4</class>
+	</character>
+	<character id="fr_agr_und_def_5">
+		<class>fr_agr_und_def_5</class>
+	</character>
+	<character id="fr_agr_und_traitor_1">
+		<class>fr_agr_und_traitor_1</class>
+	</character>
+	<character id="fr_agr_und_traitor_2">
+		<class>fr_agr_und_traitor_2</class>
+	</character>
+	<character id="fr_agr_und_traitor_3">
+		<class>fr_agr_und_traitor_3</class>
+	</character>
+	<character id="fr_agr_und_traitor_4">
+		<class>fr_agr_und_traitor_4</class>
+	</character>
+	<character id="fr_agr_und_cultist">
+		<class>fr_agr_und_cultist</class>
+	</character>
+	<character id="fr_agr_und_serg_w">
+		<class>fr_agr_und_serg_w</class>
+	</character>
 	
 	
-	
-	
+		<character id="fr_agr_fanat_boss">
+		<class>fr_agr_fanat_boss</class>
+	</character>
+	<character id="fr_agr_sery_dead">
+		<class>fr_agr_sery_dead</class>
+	</character>
 	
 	
 

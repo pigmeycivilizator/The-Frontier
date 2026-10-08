@@ -148,8 +148,37 @@
 	<article id="task_fr_agr_to_base" name="task_fr_agr_to_base" group="task_fr_agr_to_base" article_type="task">
 		<text>task_fr_agr_to_base_artcl</text>
 	</article>	
-	
-	
+
+	<article id="task_fr_agr_lazaret" name="task_fr_agr_lazaret" group="task_fr_agr_lazaret" article_type="task">
+		<text>task_fr_agr_lazaret_artcl</text>
+	</article>
+	<article id="task_fr_agr_saboteurs" name="task_fr_agr_saboteurs" group="task_fr_agr_saboteurs" article_type="task">
+		<text>task_fr_agr_saboteurs_artcl</text>
+	</article>
+	<article id="task_fr_agr_kuz_plan" name="task_fr_agr_kuz_plan" group="task_fr_agr_kuz_plan" article_type="task">
+		<text>task_fr_agr_kuz_plan_artcl</text>
+	</article>
+	<article id="task_fr_agr_snab_final" name="task_fr_agr_snab_final" group="task_fr_agr_snab_final" article_type="task">
+		<text>task_fr_agr_snab_final_artcl</text>
+	</article>
+	<article id="task_fr_agr_und_final" name="task_fr_agr_und_final" group="task_fr_agr_und_final" article_type="task">
+		<text>task_fr_agr_und_final_artcl</text>
+	</article>
+	<article id="task_fr_agr_und_help" name="task_fr_agr_und_help" group="task_fr_agr_und_help" article_type="task">
+		<text>task_fr_agr_und_help_artcl</text>
+	</article>
+	<article id="task_fr_agr_to_p2" name="task_fr_agr_to_p2" group="task_fr_agr_to_p2" article_type="task">
+		<text>task_fr_agr_to_p2_artcl</text>
+	</article>
+	<article id="task_fr_agr_find_maps" name="task_fr_agr_find_maps" group="task_fr_agr_find_maps" article_type="task">
+		<text>task_fr_agr_find_maps_artcl</text>
+	</article>
+	<article id="task_fr_agr_kill_fanat" name="task_fr_agr_kill_fanat" group="task_fr_agr_kill_fanat" article_type="task">
+		<text>task_fr_agr_kill_fanat_artcl</text>
+	</article>
+	<article id="task_fr_agr_to_surface" name="task_fr_agr_to_surface" group="task_fr_agr_to_surface" article_type="task">
+		<text>task_fr_agr_to_surface_artcl</text>
+	</article>	
 	
 	
 	

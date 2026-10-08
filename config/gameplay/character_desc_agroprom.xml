@@ -66,6 +66,7 @@
 		<actor_dialog>fr_agr_kuz_back</actor_dialog>
 		<actor_dialog>fr_agr_kuz_report</actor_dialog>
 		<actor_dialog>fr_agr_kuz_strike</actor_dialog>
+		<actor_dialog>fr_agr_kuz_plan</actor_dialog>
 		
 		<actor_dialog>fr_agr_kuz_questions</actor_dialog>
 	</specific_character>
@@ -106,6 +107,7 @@
 		<actor_dialog>fr_agr_snab_bandits</actor_dialog>
 		<actor_dialog>fr_agr_snab_reward</actor_dialog>
 		<actor_dialog>fr_agr_snab_brother_return</actor_dialog>
+		<actor_dialog>fr_agr_snab_final</actor_dialog>
 		
 		<actor_dialog>fr_agr_snab_questions</actor_dialog>
 	</specific_character>
@@ -3105,6 +3107,672 @@
 
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
+	
+	
+	
+	
+	
+		<!-- ===== Лазарет: раненые ===== -->
+	<specific_character id="fr_agr_laz_w1" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_laz_w1</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>300</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_bandana</visual>
+		<supplies>
+			[spawn] \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_agr_laz_wounded_hello</start_dialog>
+		<actor_dialog>fr_agr_laz_w1</actor_dialog>
+	</specific_character>
+
+	<specific_character id="fr_agr_laz_w2" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_5</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_laz_w2</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>300</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_bandana_5</visual>
+		<supplies>
+			[spawn] \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_agr_laz_wounded_hello</start_dialog>
+		<actor_dialog>fr_agr_laz_w2</actor_dialog>
+	</specific_character>
+
+	<specific_character id="fr_agr_laz_w3" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_6</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_laz_w3</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>300</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_bandana_6</visual>
+		<supplies>
+			[spawn] \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_agr_laz_wounded_hello</start_dialog>
+		<actor_dialog>fr_agr_laz_w3</actor_dialog>
+	</specific_character>
+
+	<specific_character id="fr_agr_laz_w4" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_laz_w4</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>300</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_agr_laz_wounded_hello</start_dialog>
+		<actor_dialog>fr_agr_laz_w4</actor_dialog>
+	</specific_character>
+	
+	
+		<!-- ===== Лазарет: дежурный ===== -->
+	<specific_character id="fr_agr_laz_duty" team_default="1">
+		<name>fr_agr_laz_duty_name</name>
+		<icon>ui_npc_u_soldier_obichniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_laz_duty</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>350</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\soldier\soldier_obichniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74u \n
+			ammo_5.45x39_fmj = 1 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+
+		<start_dialog>fr_agr_laz_duty_meet</start_dialog>
+		<actor_dialog>fr_agr_laz_duty_report</actor_dialog>
+	</specific_character>
+
+
+	<!-- ===== Предатели у склада: технически Долг, выглядят как военные ===== -->
+	<specific_character id="fr_agr_base_saboteur_1" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_base_saboteur</class>
+		<community>dolg</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>900</rank>
+		<reputation>-2000</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak105 \n
+			ammo_5.45x39_ap = 3 \n
+			grenade_f1 \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_base_saboteur_2" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_obichniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_base_saboteur</class>
+		<community>dolg</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>900</rank>
+		<reputation>-2000</reputation>
+
+		<visual>actors\soldier\soldier_obichniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_ap = 3 \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_base_saboteur_3" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_6</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_base_saboteur</class>
+		<community>dolg</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>900</rank>
+		<reputation>-2000</reputation>
+
+		<visual>actors\soldier\soldier_bandana_6</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_ap = 3 \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_base_saboteur_4" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_5</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_base_saboteur</class>
+		<community>dolg</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>900</rank>
+		<reputation>-2000</reputation>
+
+		<visual>actors\soldier\soldier_bandana_5</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74u \n
+			ammo_5.45x39_ap = 3 \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<!-- ===== Подземка: защитники ===== -->
+	<specific_character id="fr_agr_und_def_1" team_default="1">
+		<name>GENERATE_NAME_sergeant</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_def_1</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>520</rank>
+		<reputation>0</reputation>
+		<money min="400" max="1200" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_abakan \n
+			ammo_5.45x39_ap = 2 \n
+			grenade_rgd5 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_def_2" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_5</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_def_2</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>380</rank>
+		<reputation>0</reputation>
+		<money min="200" max="600" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_bandana_5</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 3 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_def_3" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana_6</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_def_3</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>420</rank>
+		<reputation>0</reputation>
+		<money min="200" max="600" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_bandana_6</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 4 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_def_4" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_obichniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_def_4</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>320</rank>
+		<reputation>0</reputation>
+		<money min="200" max="500" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_obichniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_ak74u \n
+			ammo_5.45x39_fmj = 2 \n
+			grenade_rgd5 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_def_5" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_soldier_bandana</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_def_5</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>400</rank>
+		<reputation>0</reputation>
+		<money min="200" max="600" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_bandana</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_spas12 \n
+			ammo_12x70_buck = 2 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+#include "gameplay\character_food.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<!-- ===== Подземка: предатели в военной форме (Орден) ===== -->
+	<specific_character id="fr_agr_und_traitor_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_traitor_1</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>650</rank>
+		<reputation>-1000</reputation>
+		<money min="400" max="1200" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_ak105 \n
+			ammo_5.45x39_ap = 2 \n
+			grenade_f1 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_traitor_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_obichniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_traitor_2</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>580</rank>
+		<reputation>-1000</reputation>
+		<money min="200" max="800" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_obichniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 3 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_traitor_3" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_soldier_bandana_6</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_traitor_3</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>600</rank>
+		<reputation>-1000</reputation>
+		<money min="200" max="800" infinitive="0"></money>
+
+		<visual>actors\soldier\soldier_bandana_6</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_ak74 \n
+			ammo_5.45x39_ap = 2 \n
+			grenade_rgd5 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_traitor_4" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_post_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_und_traitor_4</class>
+		<community>monolith</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>680</rank>
+		<reputation>-1000</reputation>
+		<money min="400" max="1200" infinitive="0"></money>
+
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_vihr \n
+			ammo_9x39_ap = 3 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+
+	<!-- ===== Подземка: Орден ===== -->
+	<specific_character id="fr_agr_und_cultist_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_und_cultist</class>
+		<community>monolith</community>
+
+		<rank>650</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<supplies>
+			[spawn] \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_und_cultist_2" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_und_cultist</class>
+		<community>monolith</community>
+
+		<rank>600</rank>
+		<reputation>0</reputation>
+
+		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 2 \n
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<!-- ===== Подземка: раненый сержант ===== -->
+	<specific_character id="fr_agr_und_serg_w" team_default="1">
+		<name>fr_agr_und_sergeant_name</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_sergeant_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_und_serg_w</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>650</rank>
+		<reputation>100</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_ak74 \n
+			ammo_5.45x39_fmj = 1 \n
+			device_torch \n
+			fr_agr_serg_pda \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+
+		<actor_dialog>fr_agr_serg_final</actor_dialog>
+	</specific_character>
+	
+	
+	
+	
+	
+			<!-- ===== П-2: Фанат, мини-босс ===== -->
+	<specific_character id="fr_agr_fanat_boss" team_default="1">
+		<name>esc_fanat_name</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_fanat_boss_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_fanat_boss</class>
+		<community>monolith</community>
+
+		<rank>900</rank>
+		<reputation>-2000</reputation>
+
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 3 \n
+			medkit_army \n
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+
+	<!-- ===== П-2: труп Серого с картами ===== -->
+	<specific_character id="fr_agr_sery_dead" team_default="1">
+		<name>gar_seryi_name</name>
+		<icon>ui_npc_u_stalker_neytral_hood_4</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_sery_bio</bio>
+
+		<snd_config>characters_voice\human_02\stalker\</snd_config>
+		<crouch_type>-1</crouch_type>
+
+		<class>fr_agr_sery_dead</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+
+		<rank>750</rank>
+		<reputation>300</reputation>
+
+		<visual>actors\neytral\stalker_neytral_hood_4</visual>
+		<supplies>
+			[spawn] \n
+			wpn_rpk74 \n
+			ammo_5.45x39_fmj = 2 \n
+			fr_agr_maps_final \n
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+	
+	
 	
 	
 	

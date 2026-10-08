@@ -78,6 +78,22 @@ function fr_weather_dark(actor, npc)
 	agroprom.weather_dark()
 end
 
+function fr_tip(actor, npc, p)
+	news_manager.send_tip(db.actor, p[1], nil, p[2], 8000)
+end
+
+function fr_base_saboteurs_turn(actor, npc)
+	agroprom.base_saboteurs_turn()
+end
+
+function fr_kill_add(actor, npc, p)
+	agroprom.kill_add(p[1])
+end
+
+function fr_p2_psi(actor, npc)
+	agroprom.p2_psi_call()
+end
+
 function disable_ui_elements(actor, npc, p)
     local i, v = 0, 0
     for i, v in pairs(p) do

@@ -1,5 +1,15 @@
 
 
+local function actor_restore()
+	local a = db.actor
+	if not a then return end
+	a.health    = 1
+	a.power     = 1
+	a.radiation = -1
+	a.bleeding  = 1
+	pcall(function() a.satiety = 1 end)
+end
+
 -- Выставить конкретное время (перемотка вперёд до ближайшего такого времени)
 function set_game_time(target_h, target_m)
 	local now_min    = level.get_time_hours() * 60 + level.get_time_minutes()
@@ -9,9 +19,9 @@ function set_game_time(target_h, target_m)
 	-- уже позже целевого времени: не трогаем, иначе будет прыжок на сутки
 	if diff <= 0 then return end
 
+	actor_restore()
 	level.advance_game_time(diff * 60 * 1000)
 end
-
 function jump_to_12()
 	set_game_time(12, 0)
 end
@@ -1164,6 +1174,8 @@ function sery_gift(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_12x70_buck", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_12x76_zhekan", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_12x76_zhekan", "in")
 end
 
@@ -1240,4 +1252,180 @@ function p2_traitors_done(actor, npc)
 	end
 
 	return false
+end
+
+-- ============================================================
+-- Квесты 35-42: лазарет, предатели, Кузнецов, снабженец,
+-- подземка, сержант, вход в П-2
+-- ============================================================
+
+local SAB_SIDS      = { 246, 247, 248, 249 } 
+local UND_ENEMIES   = 15                      -- сколько врагов в подземке (Орден + предатели)
+local UND_DEFENDERS = 8                       -- сколько военных защищает подземку
+
+-- игрок отказал: диалог закрывается, NPC получает смертельный хит
+-- диалог всегда начинает игрок, поэтому NPC это second_speaker
+function npc_let_die(first_speaker, second_speaker)
+	dialogs.break_dialog(first_speaker, second_speaker)
+	second_speaker:kill(second_speaker)
+end
+
+-- ---------- лазарет ----------
+
+function laz_can_heal(first_speaker, second_speaker)
+	return sak.have_item_namber("medkit_army", 1) and sak.have_item_namber("bandage", 1)
+end
+
+function laz_heal(first_speaker, second_speaker)
+	sak.out_item_namber("medkit_army", 1)
+	sak.out_item_namber("bandage", 1)
+end
+
+function laz_saved_count()
+	local n = 0
+	for i = 1, 4 do
+		if has_alife_info("fr_agr_laz_w" .. i .. "_saved") then
+			n = n + 1
+		end
+	end
+	return n
+end
+
+-- все четверо либо спасены, либо умерли
+function laz_all_done(actor, npc)
+	for i = 1, 4 do
+		if not has_alife_info("fr_agr_laz_w" .. i .. "_saved")
+		   and not has_alife_info("fr_agr_laz_w" .. i .. "_dead") then
+			return false
+		end
+	end
+	return true
+end
+
+function laz_all_saved(first_speaker, second_speaker)
+	return laz_saved_count() == 4
+end
+
+function laz_not_all_saved(first_speaker, second_speaker)
+	return laz_saved_count() < 4
+end
+
+-- награда дежурного: за каждого спасённого пачка 5.45 и РГД
+function laz_reward(first_speaker, second_speaker)
+	local n = laz_saved_count()
+	if n == 0 then
+		dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+		dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
+		return
+	end
+	for i = 1, n do
+		dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	end
+	if n == 4 then
+		dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+		dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+	end
+end
+
+-- ---------- предатели у склада ----------
+
+-- по первому попаданию все четверо становятся врагами только игроку
+function base_saboteurs_turn()
+	local a = db.actor
+	if not a or a:has_info("fr_agr_sab_turned") then return end
+	a:give_info_portion("fr_agr_sab_turned")
+
+	for _, sid in ipairs(SAB_SIDS) do
+		local npc = level_object_by_sid(sid)
+		if npc and npc:alive() then
+			pcall(function() npc:force_set_goodwill(-10000, a) end)
+			npc:set_relation(game_object.enemy, a)
+		end
+	end
+end
+
+function base_saboteurs_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+	return a:has_info("fr_agr_sab_k1")
+	   and a:has_info("fr_agr_sab_k2")
+	   and a:has_info("fr_agr_sab_k3")
+	   and a:has_info("fr_agr_sab_k4")
+end
+
+-- ---------- снабженец ----------
+
+function snab_final_gear(first_speaker, second_speaker)
+	dialogs.relocate_item_section(first_speaker, "military_outfit", "in")
+	dialogs.relocate_item_section(first_speaker, "wpn_groza", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_9x39_pab9", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_9x39_pab9", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_9x39_ap", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_9x39_ap", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
+
+end
+
+-- ---------- подземка ----------
+
+function und_enemies_done(actor, npc)
+	return kill_count("und") >= UND_ENEMIES
+end
+
+-- выжило больше половины защитников (для реплик наверху)
+function und_def_held()
+	local alive = UND_DEFENDERS - kill_count("und_def")
+	return alive * 2 > UND_DEFENDERS
+end
+
+-- ---------- сержант ----------
+
+function serg_can_heal(first_speaker, second_speaker)
+	return sak.have_item_namber("medkit_scientic", 1)
+end
+
+function serg_heal(first_speaker, second_speaker)
+	sak.out_item_namber("medkit_scientic", 1)
+end
+
+-- спасён (поршень из диалога) или погиб и игрок подобрал его КПК
+function serg_final_done(actor, npc)
+	local a = db.actor
+	if not a then return false end
+	if a:has_info("fr_agr_serg_final_done") then return true end
+
+	local pda = sak.have_item_namber("fr_agr_serg_pda", 1)
+	if pda and not a:has_info("fr_agr_serg_pda_taken") then
+		a:give_info_portion("fr_agr_serg_pda_taken")
+	end
+
+	if pda or a:has_info("fr_agr_serg_final_saved") then
+		a:give_info_portion("fr_agr_serg_final_done")
+		return true
+	end
+	return false
+end
+
+-- ============================================================
+-- Квесты 43-45: П-2, карты, Фанат, выход на поверхность
+-- ============================================================
+
+-- карты у игрока
+function maps_taken(actor, npc)
+	local a = db.actor
+	if not a then return false end
+	if a:has_info("fr_agr_maps_taken") then return true end
+	if sak.have_item_namber("fr_agr_maps_final", 1) then
+		a:give_info_portion("fr_agr_maps_taken")
+		return true
+	end
+	return false
+end
+
+-- после смерти Фаната: пси-удар и голос Хоруса
+function p2_psi_call()
+	strike_psi()
+	play2d("fr\\agroprom\\kill_them_all", 1)
 end

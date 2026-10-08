@@ -847,10 +847,189 @@
 
 
 
+	<game_task id="task_fr_agr_lazaret" prio="1">
+		<title>task_fr_agr_lazaret</title>
+		<objective>
+			<text>task_fr_agr_lazaret</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<infoportion_complete>fr_agr_laz_report_done</infoportion_complete>
+			<article>task_fr_agr_lazaret</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_lazaret_1</text>
+			<map_location_type hint="fr_agr_laz_duty_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_laz_duty</object_story_id>
+			<infoportion_complete>fr_agr_laz_duty_talk</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_lazaret_2</text>
+			<function_complete>agroprom.laz_all_done</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_lazaret_3</text>
+			<map_location_type hint="fr_agr_laz_duty_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_laz_duty</object_story_id>
+			<infoportion_complete>fr_agr_laz_report_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_saboteurs" prio="1">
+		<title>task_fr_agr_saboteurs</title>
+		<objective>
+			<text>task_fr_agr_saboteurs</text>
+			<icon>ui_iconsTotal_kill_stalker</icon>
+			<function_complete>agroprom.base_saboteurs_done</function_complete>
+			<article>task_fr_agr_saboteurs</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_saboteurs_1</text>
+			<function_complete>agroprom.base_saboteurs_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_kuz_plan" prio="1">
+		<title>task_fr_agr_kuz_plan</title>
+		<objective>
+			<text>task_fr_agr_kuz_plan</text>
+			<icon>ui_iconsTotal_agroprom_get_military_documents</icon>
+			<infoportion_complete>fr_agr_kuz_plan_done</infoportion_complete>
+			<article>task_fr_agr_kuz_plan</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_kuz_plan_1</text>
+			<map_location_type hint="fr_agr_kuznetsov_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_kuznetsov</object_story_id>
+			<infoportion_complete>fr_agr_kuz_plan_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_snab_final" prio="1">
+		<title>task_fr_agr_snab_final</title>
+		<objective>
+			<text>task_fr_agr_snab_final</text>
+			<icon>ui_iconsTotal_weapons</icon>
+			<infoportion_complete>fr_agr_snab_final_done</infoportion_complete>
+			<article>task_fr_agr_snab_final</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_snab_final_1</text>
+			<map_location_type hint="fr_agr_snab_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab</object_story_id>
+			<infoportion_complete>fr_agr_snab_final_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_und_final" prio="1">
+		<title>task_fr_agr_und_final</title>
+		<objective>
+			<text>task_fr_agr_und_final</text>
+			<icon>ui_iconsTotal_yan_kill_brain_task_2</icon>
+			<function_complete>agroprom.serg_final_done</function_complete>
+			<article>task_fr_agr_und_final</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_und_final_1</text>
+			<infoportion_complete>fr_agr_q40_entered</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_und_final_2</text>
+			<map_location_type hint="fr_agr_und_sergeant_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_und_serg_w</object_story_id>
+			<function_complete>agroprom.serg_final_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_und_help" prio="1">
+		<title>task_fr_agr_und_help</title>
+		<objective>
+			<text>task_fr_agr_und_help</text>
+			<icon>ui_iconsTotal_defend_lager</icon>
+			<function_complete>agroprom.und_enemies_done</function_complete>
+			<article>task_fr_agr_und_help</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_und_help_1</text>
+			<function_complete>agroprom.und_enemies_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_to_p2" prio="1">
+		<title>task_fr_agr_to_p2</title>
+		<objective>
+			<text>task_fr_agr_to_p2</text>
+			<icon>ui_iconsTotal_mil_kill_controller</icon>
+			<infoportion_complete>fr_agr_p2_entered</infoportion_complete>
+			<article>task_fr_agr_to_p2</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_to_p2_1</text>
+			<map_location_type hint="fr_agr_p2_gate_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_p2_gate</object_story_id>
+			<infoportion_complete>fr_agr_p2_entered</infoportion_complete>
+		</objective>
+	</game_task>
 
 
+	<game_task id="task_fr_agr_find_maps" prio="1">
+		<title>task_fr_agr_find_maps</title>
+		<objective>
+			<text>task_fr_agr_find_maps</text>
+			<icon>ui_iconsTotal_bar_darklab_documents</icon>
+			<function_complete>agroprom.maps_taken</function_complete>
+			<article>task_fr_agr_find_maps</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_find_maps_1</text>
+			<map_location_type hint="fr_agr_sery">green_location</map_location_type>
+			<object_story_id>fr_agr_sery_und</object_story_id>
+			<function_complete>agroprom.maps_taken</function_complete>
+		</objective>
+	</game_task>
 
+	<game_task id="task_fr_agr_kill_fanat" prio="1">
+		<title>task_fr_agr_kill_fanat</title>
+		<objective>
+			<text>task_fr_agr_kill_fanat</text>
+			<icon>ui_iconsTotal_kill_stalker</icon>
+			<infoportion_complete>fr_agr_fanat_dead</infoportion_complete>
+			<article>task_fr_agr_kill_fanat</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_kill_fanat_1</text>
+			<map_location_type hint="esc_fanat_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_fanat_boss</object_story_id>
+			<infoportion_complete>fr_agr_fanat_dead</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_to_surface" prio="1">
+		<title>task_fr_agr_to_surface</title>
+		<objective>
+			<text>task_fr_agr_to_surface</text>
+			<icon>ui_iconsTotal_aes_military_task</icon>
+			<infoportion_complete>fr_agr_surface_reached</infoportion_complete>
+			<article>task_fr_agr_to_surface</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_to_surface_1</text>
+			<map_location_type hint="fr_agr_p2_exit_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_p2_exit</object_story_id>
+			<infoportion_complete>fr_agr_surface_reached</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

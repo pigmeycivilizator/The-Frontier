@@ -327,11 +327,91 @@
 
 
 
+	<!-- ===== Квесты 35-42 ===== -->
+	<info_portion id="fr_agr_fuel_boom"></info_portion>
+	<info_portion id="fr_agr_fuel_boom_2"></info_portion>
+	<info_portion id="fr_agr_fuel_boom_3"></info_portion>
+	<info_portion id="fr_agr_fuel_boom_4"></info_portion>
+	
+	<info_portion id="fr_agr_q36_start">
+		<task>task_fr_agr_lazaret</task>
+	</info_portion>
+	<info_portion id="fr_agr_laz_duty_talk"></info_portion>
+	<info_portion id="fr_agr_laz_w1_saved"></info_portion>
+	<info_portion id="fr_agr_laz_w1_dead"></info_portion>
+	<info_portion id="fr_agr_laz_w2_saved"></info_portion>
+	<info_portion id="fr_agr_laz_w2_dead"></info_portion>
+	<info_portion id="fr_agr_laz_w3_saved"></info_portion>
+	<info_portion id="fr_agr_laz_w3_dead"></info_portion>
+	<info_portion id="fr_agr_laz_w4_saved"></info_portion>
+	<info_portion id="fr_agr_laz_w4_dead"></info_portion>
+	<info_portion id="fr_agr_laz_report_done"></info_portion>
+
+	<info_portion id="fr_agr_q37_start">
+		<task>task_fr_agr_saboteurs</task>
+	</info_portion>
+	<info_portion id="fr_agr_sab_turned"></info_portion>
+	<info_portion id="fr_agr_sab_k1"></info_portion>
+	<info_portion id="fr_agr_sab_k2"></info_portion>
+	<info_portion id="fr_agr_sab_k3"></info_portion>
+	<info_portion id="fr_agr_sab_k4"></info_portion>
+
+	<info_portion id="fr_agr_q38_start">
+		<task>task_fr_agr_kuz_plan</task>
+	</info_portion>
+	<info_portion id="fr_agr_kuz_plan_done"></info_portion>
+
+	<info_portion id="fr_agr_q39_start">
+		<task>task_fr_agr_snab_final</task>
+	</info_portion>
+	<info_portion id="fr_agr_snab_final_done"></info_portion>
+
+	<info_portion id="fr_agr_q40_start">
+		<task>task_fr_agr_und_final</task>
+	</info_portion>
+	<info_portion id="fr_agr_q40_entered"></info_portion>
+
+	<info_portion id="fr_agr_q41_start">
+		<task>task_fr_agr_und_help</task>
+	</info_portion>
+
+	<info_portion id="fr_agr_serg_final_saved"></info_portion>
+	<info_portion id="fr_agr_serg_dead"></info_portion>
+	<info_portion id="fr_agr_serg_pda_taken"></info_portion>
+	<info_portion id="fr_agr_serg_final_done"></info_portion>
+
+	<info_portion id="fr_agr_p2_open"></info_portion>
+	<info_portion id="fr_agr_q42_start">
+		<task>task_fr_agr_to_p2</task>
+	</info_portion>
+	<info_portion id="fr_agr_p2_entered"></info_portion>
 
 
 
+	<!-- ===== Квесты 43-45: П-2 ===== -->
+	<info_portion id="fr_agr_q43_start">
+		<task>task_fr_agr_find_maps</task>
+	</info_portion>
+	<info_portion id="fr_agr_maps_taken"></info_portion>
 
+	<info_portion id="fr_agr_q44_start">
+		<task>task_fr_agr_kill_fanat</task>
+	</info_portion>
+	<info_portion id="fr_agr_fanat_dead"></info_portion>
 
+	<info_portion id="fr_agr_q45_start">
+		<task>task_fr_agr_to_surface</task>
+	</info_portion>
+	<info_portion id="fr_agr_p2_exit_open"></info_portion>
+	<info_portion id="fr_agr_surface_reached"></info_portion>
+
+	<info_portion id="fr_agr_p2_mut_1"></info_portion>
+	<info_portion id="fr_agr_p2_mut_2"></info_portion>
+	<info_portion id="fr_agr_p2_mut_3"></info_portion>
+
+	<info_portion id="fr_agr_p2_th_mil"></info_portion>
+	<info_portion id="fr_agr_p2_th_st"></info_portion>
+	<info_portion id="fr_agr_p2_th_sery"></info_portion>
 
 
 

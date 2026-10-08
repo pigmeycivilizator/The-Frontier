@@ -2736,11 +2736,487 @@
 
 
 
+  <!-- ================= ËÀÇÀÐÅÒ: ÎÁÙÈÉ HELLO ÐÀÍÅÍÛÕ ================= -->
+  <dialog id="fr_agr_laz_wounded_hello">
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_wounded_hello_0</text>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ËÀÇÀÐÅÒ: ÐÀÍÅÍÛÉ 1 ================= -->
+  <dialog id="fr_agr_laz_w1">
+    <has_info>fr_agr_laz_duty_talk</has_info>
+    <dont_has_info>fr_agr_laz_w1_saved</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_a_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_laz_w1_1</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+      </phrase>
+      <phrase id="2">
+        <precondition>agroprom.laz_can_heal</precondition>
+        <text>fr_agr_laz_a_heal</text>
+        <action>agroprom.laz_heal</action>
+        <next>5</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_laz_a_refuse</text>
+        <action>agroprom.npc_let_die</action>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_laz_a_wait</text>
+        <action>dialogs.break_dialog</action>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_laz_w1_thanks</text>
+        <give_info>fr_agr_laz_w1_saved</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ËÀÇÀÐÅÒ: ÐÀÍÅÍÛÉ 2 ================= -->
+  <dialog id="fr_agr_laz_w2">
+    <has_info>fr_agr_laz_duty_talk</has_info>
+    <dont_has_info>fr_agr_laz_w2_saved</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_a_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_laz_w2_1</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+      </phrase>
+      <phrase id="2">
+        <precondition>agroprom.laz_can_heal</precondition>
+        <text>fr_agr_laz_a_heal</text>
+        <action>agroprom.laz_heal</action>
+        <next>5</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_laz_a_refuse</text>
+        <action>agroprom.npc_let_die</action>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_laz_a_wait</text>
+        <action>dialogs.break_dialog</action>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_laz_w2_thanks</text>
+        <give_info>fr_agr_laz_w2_saved</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ËÀÇÀÐÅÒ: ÐÀÍÅÍÛÉ 3 ================= -->
+  <dialog id="fr_agr_laz_w3">
+    <has_info>fr_agr_laz_duty_talk</has_info>
+    <dont_has_info>fr_agr_laz_w3_saved</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_a_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_laz_w3_1</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+      </phrase>
+      <phrase id="2">
+        <precondition>agroprom.laz_can_heal</precondition>
+        <text>fr_agr_laz_a_heal</text>
+        <action>agroprom.laz_heal</action>
+        <next>5</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_laz_a_refuse</text>
+        <action>agroprom.npc_let_die</action>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_laz_a_wait</text>
+        <action>dialogs.break_dialog</action>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_laz_w3_thanks</text>
+        <give_info>fr_agr_laz_w3_saved</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ËÀÇÀÐÅÒ: ÐÀÍÅÍÛÉ 4 ================= -->
+  <dialog id="fr_agr_laz_w4">
+    <has_info>fr_agr_laz_duty_talk</has_info>
+    <dont_has_info>fr_agr_laz_w4_saved</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_a_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_laz_w4_1</text>
+        <next>2</next>
+        <next>3</next>
+        <next>4</next>
+      </phrase>
+      <phrase id="2">
+        <precondition>agroprom.laz_can_heal</precondition>
+        <text>fr_agr_laz_a_heal</text>
+        <action>agroprom.laz_heal</action>
+        <next>5</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_laz_a_refuse</text>
+        <action>agroprom.npc_let_die</action>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_laz_a_wait</text>
+        <action>dialogs.break_dialog</action>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_laz_w4_thanks</text>
+        <give_info>fr_agr_laz_w4_saved</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 
+  <!-- ================= ËÀÇÀÐÅÒ: ÄÅÆÓÐÍÛÉ ================= -->
+  <dialog id="fr_agr_laz_duty_meet">
+    <has_info>fr_agr_q36_start</has_info>
+    <dont_has_info>fr_agr_laz_duty_talk</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_duty_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_laz_duty_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_agr_laz_duty_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_laz_duty_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_laz_duty_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_laz_duty_5</text>
+        <give_info>fr_agr_laz_duty_talk</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <dialog id="fr_agr_laz_duty_report">
+    <has_info>fr_agr_laz_duty_talk</has_info>
+    <dont_has_info>fr_agr_laz_report_done</dont_has_info>
+    <precondition>agroprom.laz_all_done</precondition>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_laz_rep_0</text>
+        <next>1</next>
+        <next>2</next>
+      </phrase>
+      <phrase id="1">
+        <precondition>agroprom.laz_not_all_saved</precondition>
+        <text>fr_agr_laz_rep_1</text>
+        <action>agroprom.laz_reward</action>
+        <next>3</next>
+      </phrase>
+      <phrase id="2">
+        <precondition>agroprom.laz_all_saved</precondition>
+        <text>fr_agr_laz_rep_2</text>
+        <action>agroprom.laz_reward</action>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_laz_rep_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_laz_rep_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_laz_rep_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_agr_laz_rep_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_agr_laz_rep_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_agr_laz_rep_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_agr_laz_rep_9</text>
+        <give_info>fr_agr_laz_report_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
+  <!-- ================= ÊÓÇÍÅÖÎÂ: ÏËÀÍ ================= -->
+  <dialog id="fr_agr_kuz_plan">
+    <has_info>fr_agr_q38_start</has_info>
+    <dont_has_info>fr_agr_kuz_plan_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_kuz_plan_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_kuz_plan_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_agr_kuz_plan_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_kuz_plan_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_kuz_plan_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_kuz_plan_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_agr_kuz_plan_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_agr_kuz_plan_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_agr_kuz_plan_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_agr_kuz_plan_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_agr_kuz_plan_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_agr_kuz_plan_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_agr_kuz_plan_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_agr_kuz_plan_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_agr_kuz_plan_14</text>
+        <next>15</next>
+      </phrase>
+      <phrase id="15">
+        <text>fr_agr_kuz_plan_15</text>
+        <next>16</next>
+      </phrase>
+      <phrase id="16">
+        <text>fr_agr_kuz_plan_16</text>
+        <next>17</next>
+      </phrase>
+      <phrase id="17">
+        <text>fr_agr_kuz_plan_17</text>
+        <next>18</next>
+      </phrase>
+      <phrase id="18">
+        <text>fr_agr_kuz_plan_18</text>
+        <next>19</next>
+      </phrase>
+      <phrase id="19">
+        <text>fr_agr_kuz_plan_19</text>
+        <next>20</next>
+      </phrase>
+      <phrase id="20">
+        <text>fr_agr_kuz_plan_20</text>
+        <next>21</next>
+      </phrase>
+      <phrase id="21">
+        <text>fr_agr_kuz_plan_21</text>
+        <next>22</next>
+      </phrase>
+      <phrase id="22">
+        <text>fr_agr_kuz_plan_22</text>
+        <next>23</next>
+      </phrase>
+      <phrase id="23">
+        <text>fr_agr_kuz_plan_23</text>
+        <give_info>fr_agr_kuz_plan_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÑÍÀÁÆÅÍÅÖ: ÑÍÀÐßÃÀ ================= -->
+  <dialog id="fr_agr_snab_final">
+    <has_info>fr_agr_q39_start</has_info>
+    <dont_has_info>fr_agr_snab_final_done</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_snab_fin_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_snab_fin_1</text>
+        <action>agroprom.snab_final_gear</action>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_agr_snab_fin_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_snab_fin_3</text>
+        <next>4</next>
+      </phrase>
+      <phrase id="4">
+        <text>fr_agr_snab_fin_4</text>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_snab_fin_5</text>
+        <give_info>fr_agr_snab_final_done</give_info>
+      </phrase>
+    </phrase_list>
+  </dialog>
+
+  <!-- ================= ÑÅÐÆÀÍÒ Â ÒÀÉÍÈÊÅ ÑÒÐÅËÊÀ ================= -->
+  <dialog id="fr_agr_serg_final">
+    <has_info>fr_agr_q40_entered</has_info>
+    <dont_has_info>fr_agr_serg_final_saved</dont_has_info>
+    <dont_has_info>fr_agr_serg_dead</dont_has_info>
+    <phrase_list>
+      <phrase id="0">
+        <text>fr_agr_serg_fin_0</text>
+        <next>1</next>
+      </phrase>
+      <phrase id="1">
+        <text>fr_agr_serg_fin_1</text>
+        <next>2</next>
+      </phrase>
+      <phrase id="2">
+        <text>fr_agr_serg_fin_2</text>
+        <next>3</next>
+      </phrase>
+      <phrase id="3">
+        <text>fr_agr_serg_fin_3</text>
+        <next>4</next>
+        <next>30</next>
+      </phrase>
+
+      <!-- åñòü íàó÷íàÿ àïòå÷êà -->
+      <phrase id="4">
+        <precondition>agroprom.serg_can_heal</precondition>
+        <text>fr_agr_serg_fin_4</text>
+        <action>agroprom.serg_heal</action>
+        <next>5</next>
+      </phrase>
+      <phrase id="5">
+        <text>fr_agr_serg_fin_5</text>
+        <next>6</next>
+      </phrase>
+      <phrase id="6">
+        <text>fr_agr_serg_fin_6</text>
+        <next>7</next>
+      </phrase>
+      <phrase id="7">
+        <text>fr_agr_serg_fin_7</text>
+        <next>8</next>
+      </phrase>
+      <phrase id="8">
+        <text>fr_agr_serg_fin_8</text>
+        <next>9</next>
+      </phrase>
+      <phrase id="9">
+        <text>fr_agr_serg_fin_9</text>
+        <next>10</next>
+      </phrase>
+      <phrase id="10">
+        <text>fr_agr_serg_fin_10</text>
+        <next>11</next>
+      </phrase>
+      <phrase id="11">
+        <text>fr_agr_serg_fin_11</text>
+        <next>12</next>
+      </phrase>
+      <phrase id="12">
+        <text>fr_agr_serg_fin_12</text>
+        <next>13</next>
+      </phrase>
+      <phrase id="13">
+        <text>fr_agr_serg_fin_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="14">
+        <text>fr_agr_serg_fin_14</text>
+        <next>15</next>
+      </phrase>
+      <phrase id="15">
+        <text>fr_agr_serg_fin_15</text>
+        <next>16</next>
+      </phrase>
+      <phrase id="16">
+        <text>fr_agr_serg_fin_16</text>
+        <next>17</next>
+      </phrase>
+      <phrase id="17">
+        <text>fr_agr_serg_fin_17</text>
+        <next>18</next>
+      </phrase>
+      <phrase id="18">
+        <text>fr_agr_serg_fin_18</text>
+        <give_info>fr_agr_serg_final_saved</give_info>
+      </phrase>
+
+      <!-- íåò àïòå÷êè / íå õî÷åò -->
+      <phrase id="30">
+        <text>fr_agr_serg_fin_30</text>
+        <next>31</next>
+      </phrase>
+      <phrase id="31">
+        <text>fr_agr_serg_fin_31</text>
+        <next>32</next>
+      </phrase>
+      <phrase id="32">
+        <text>fr_agr_serg_fin_32</text>
+        <give_info>fr_agr_serg_dead</give_info>
+        <action>agroprom.npc_let_die</action>
+      </phrase>
+    </phrase_list>
+  </dialog>
 
 
 

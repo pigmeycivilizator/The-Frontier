@@ -9,6 +9,13 @@ snd_ini = ini_file("misc\\script_sound.ltx")
 
 theme = {}
 ph_snd_themes = {}           
+
+ph_snd_themes["fr_explo_big"] 	  = {[[weapons\rpg7\rpg7_explode]]}
+ph_snd_themes["fr_explo_small_1"] = {[[weapons\_boom\mono\frag\medium_distance_2]]}
+ph_snd_themes["fr_explo_small_2"] = {[[weapons\_boom\mono\frag1\medium_distance_1]]}
+ph_snd_themes["fr_explo_small_3"] = {[[weapons\_boom\mono\vehicle\medium_distance_1]]}
+
+
 ph_snd_themes["music"] = {  "characters_voice\\scenario\\megafon\\megafon_music_1",
 	                        "characters_voice\\scenario\\megafon\\megafon_music_2",
 	                        "characters_voice\\scenario\\megafon\\megafon_music_3"

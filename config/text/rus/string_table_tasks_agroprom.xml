@@ -498,10 +498,10 @@
 	</string>
 
 	<string id="task_fr_agr_post3">
-		<text>Добраться до 3 форпоста</text>
+		<text>Добраться до 3 блокпоста</text>
 	</string>
 	<string id="task_fr_agr_post3_1">
-		<text>Добраться до перехода на Свалку</text>
+		<text>Добраться до блокпоста у перехода на Свалку</text>
 	</string>
 	<string id="task_fr_agr_post3_2">
 		<text>Узнать, что произошло</text>
@@ -511,10 +511,10 @@
 	</string>
 
 	<string id="task_fr_agr_post2">
-		<text>Добраться до 2 форпоста</text>
+		<text>Добраться до 2 блокпоста</text>
 	</string>
 	<string id="task_fr_agr_post2_1">
-		<text>Добраться до 2 форпоста, к востоку от леса</text>
+		<text>Добраться до 2 блокпоста, к востоку от леса</text>
 	</string>
 	<string id="task_fr_agr_post2_2">
 		<text>Узнать, что произошло</text>
@@ -535,9 +535,138 @@
 	
 	
 	
+		<string id="task_fr_agr_lazaret">
+		<text>Пойти в лазарет</text>
+	</string>
+	<string id="task_fr_agr_lazaret_1">
+		<text>Дойти до лазарета</text>
+	</string>
+	<string id="task_fr_agr_lazaret_2">
+		<text>Помочь бойцам</text>
+	</string>
+	<string id="task_fr_agr_lazaret_3">
+		<text>Поговорить с дежурным</text>
+	</string>
+	<string id="task_fr_agr_lazaret_artcl">
+		<text>Кто-то подорвал склад ГСМ. В лазарете раненые с ожогами, дежурный срочно зовёт медика.</text>
+	</string>
+
+	<string id="task_fr_agr_saboteurs">
+		<text>Найти предателей на базе</text>
+	</string>
+	<string id="task_fr_agr_saboteurs_1">
+		<text>Найти и разобраться с предателями</text>
+	</string>
+	<string id="task_fr_agr_saboteurs_artcl">
+		<text>Перед взрывом у топливных баков крутились двое наших. Если предатели всё ещё на базе, значит, они готовят следующую диверсию.</text>
+	</string>
+
+	<string id="task_fr_agr_kuz_plan">
+		<text>Поговорить с Кузнецовым</text>
+	</string>
+	<string id="task_fr_agr_kuz_plan_1">
+		<text>Поговорить с полковником</text>
+	</string>
+	<string id="task_fr_agr_kuz_plan_artcl">
+		<text>Полковник ждёт доклада у себя в кабинете.</text>
+	</string>
+
+	<string id="task_fr_agr_snab_final">
+		<text>Забрать снарягу у снабженца</text>
+	</string>
+	<string id="task_fr_agr_snab_final_1">
+		<text>Забрать снарягу</text>
+	</string>
+	<string id="task_fr_agr_snab_final_artcl">
+		<text>Полковник отправляет меня вниз, за последней частью карт. Снабженец выдаст лучшее снаряжение, что осталось на базе.</text>
+	</string>
+
+	<string id="task_fr_agr_und_final">
+		<text>Спуститься в подземелья Агропрома</text>
+	</string>
+	<string id="task_fr_agr_und_final_1">
+		<text>Спуститься в подземелья</text>
+	</string>
+	<string id="task_fr_agr_und_final_2">
+		<text>Поговорить с сержантом</text>
+	</string>
+	<string id="task_fr_agr_und_final_artcl">
+		<text>Нужно спуститься в подземелья, найти сержанта и вместе с подземным гарнизоном идти в П-2 за последней частью карт.</text>
+	</string>
+
+	<string id="task_fr_agr_und_help">
+		<text>Помочь гарнизону подземки</text>
+	</string>
+	<string id="task_fr_agr_und_help_1">
+		<text>Отбить атаку Ордена</text>
+	</string>
+	<string id="task_fr_agr_und_help_artcl">
+		<text>На подземный гарнизон напал Орден, и среди наших оказались предатели. Нужно отбить атаку, пока от гарнизона хоть кто-то остался.</text>
+	</string>
+
+	<string id="task_fr_agr_to_p2">
+		<text>Спуститься в П-2</text>
+	</string>
+	<string id="task_fr_agr_to_p2_1">
+		<text>Спуститься в П-2</text>
+	</string>
+	<string id="task_fr_agr_to_p2_artcl">
+		<text>Серый со своими сталкерами прошёл вниз, в П-2. Последняя часть карт где-то там. Надо спешить.</text>
+	</string>
+	<string id="fr_agr_p2_gate_hint">
+		<text>Спуск в П-2</text>
+	</string>
+
+	<!-- ===== КПК сержанта ===== -->
+	<string id="fr_agr_serg_pda_name">
+		<text>КПК сержанта</text>
+	</string>
+	<string id="fr_agr_serg_pda_descr">
+		<text>КПК сержанта подземного гарнизона. Последняя запись:\n\n"Не ожидал я такой подставы... Чтобы умереть от руки своих. Рядовой - идиот. 100 раз говорил сдать все гранаты мне, чтобы не дай Бог не подорвать здесь ничего. Не послушал... Теперь я лежу здесь, истекаю кровью, а мои бойцы умирают от рук предателей и... даже не знаю, кого ещё. Хех, может быть, мне показалось... Но я видел каких-то сталкеров, которые прошли мимо боя. Не стреляли, не прятались, просто прошли мимо. Один впереди, спокойный такой, и вниз... Я, наверное, уже в бреду... Похоже, я долго не протяну, это конец..."</text>
+	</string>
 	
 	
 	
+	<string id="task_fr_agr_find_maps">
+		<text>Найти архивные карты</text>
+	</string>
+	<string id="task_fr_agr_find_maps_1">
+		<text>Найти карты местности</text>
+	</string>
+	<string id="task_fr_agr_find_maps_artcl">
+		<text>Серый ушёл вниз, в П-2, за последней частью карт. Если он дошёл, карты должны быть у него.</text>
+	</string>
+
+	<string id="task_fr_agr_kill_fanat">
+		<text>Убить Фаната</text>
+	</string>
+	<string id="task_fr_agr_kill_fanat_1">
+		<text>Убить Фаната</text>
+	</string>
+	<string id="task_fr_agr_kill_fanat_artcl">
+		<text>Фанат, тот, кто расстрелял свою группу в тоннеле, пришёл за картами. Живым он отсюда не уйдёт.</text>
+	</string>
+
+	<string id="task_fr_agr_to_surface">
+		<text>Вернуться на поверхность</text>
+	</string>
+	<string id="task_fr_agr_to_surface_1">
+		<text>Вернуться на базу</text>
+	</string>
+	<string id="task_fr_agr_to_surface_artcl">
+		<text>Орден начал штурм. База, полковник, парни... Нужно наверх, как можно быстрее. Выход в другом конце тоннеля.</text>
+	</string>
+	<string id="fr_agr_p2_exit_hint">
+		<text>Выход на поверхность</text>
+	</string>
+
+	<!-- ===== Последняя часть карт ===== -->
+	<string id="fr_agr_maps_final_name">
+		<text>Карты местности</text>
+	</string>
+	<string id="fr_agr_maps_final_descr">
+		<text>Последняя часть архивных карт из П-2. Ради этих листов погибло слишком много людей.</text>
+	</string>	
 	
 	
 	<string id="agr_find_ghost">

@@ -1031,7 +1031,118 @@
 		</objective>
 	</game_task>
 
+	<game_task id="task_fr_agr_wave1" prio="1">
+		<title>task_fr_agr_wave1</title>
+		<objective>
+			<text>task_fr_agr_wave1</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<function_complete>agroprom.w1_done</function_complete>
+			<article>task_fr_agr_wave1</article>
+		</objective>
 
+		<objective>
+			<text>task_fr_agr_wave1_1</text>
+			<function_complete>agroprom.w1_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_hold" prio="1">
+		<title>task_fr_agr_hold</title>
+		<objective>
+			<text>task_fr_agr_hold</text>
+			<icon>ui_iconsTotal_grouping</icon>
+			<infoportion_complete>fr_agr_hold_done</infoportion_complete>
+			<article>task_fr_agr_hold</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_hold_1</text>
+			<infoportion_complete>fr_agr_hold_done</infoportion_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_wave2" prio="1">
+		<title>task_fr_agr_wave2</title>
+		<objective>
+			<text>task_fr_agr_wave2</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<function_complete>agroprom.w2_done</function_complete>
+			<article>task_fr_agr_wave2</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_wave2_1</text>
+			<function_complete>agroprom.w2_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_wave3" prio="1">
+		<title>task_fr_agr_wave3</title>
+		<objective>
+			<text>task_fr_agr_wave3</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<function_complete>agroprom.w3_done</function_complete>
+			<article>task_fr_agr_wave3</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_wave3_1</text>
+			<map_location_type hint="fr_agr_roof_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_roof</object_story_id>
+			<infoportion_complete>fr_agr_roof_reached</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_wave3_2</text>
+			<function_complete>agroprom.w3_done</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_snipers" prio="1">
+		<title>task_fr_agr_snipers</title>
+		<objective>
+			<text>task_fr_agr_snipers</text>
+			<icon>ui_iconsTotal_eliminate_lager</icon>
+			<function_complete>agroprom.q50_done</function_complete>
+			<article>task_fr_agr_snipers</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_snipers_1</text>
+			<function_complete>agroprom.snipers_done</function_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_snipers_2</text>
+			<map_location_type hint="fr_agr_snab2_name">blue_location</map_location_type>
+			<object_story_id>fr_agr_snab2</object_story_id>
+			<function_complete>agroprom.kuz_maps_taken</function_complete>
+		</objective>
+	</game_task>
+
+	<game_task id="task_fr_agr_escape" prio="1">
+		<title>task_fr_agr_escape</title>
+		<objective>
+			<text>task_fr_agr_escape</text>
+			<icon>ui_iconsTotal_locations</icon>
+			<infoportion_complete>fr_agr_escape_done</infoportion_complete>
+			<article>task_fr_agr_escape</article>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_escape_1</text>
+			<map_location_type hint="fr_agr_wall_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_wall_hole</object_story_id>
+			<infoportion_complete>fr_agr_base_left</infoportion_complete>
+		</objective>
+
+		<objective>
+			<text>task_fr_agr_escape_2</text>
+			<map_location_type hint="fr_agr_hatch_hint">blue_location</map_location_type>
+			<object_story_id>fr_agr_escape_end</object_story_id>
+			<infoportion_complete>fr_agr_escape_done</infoportion_complete>
+		</objective>
+	</game_task>
 
 
 

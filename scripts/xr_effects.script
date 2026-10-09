@@ -79,7 +79,7 @@ function fr_weather_dark(actor, npc)
 end
 
 function fr_tip(actor, npc, p)
-	news_manager.send_tip(db.actor, p[1], nil, p[2], 8000)
+	news_manager.send_tip(db.actor, p[1], nil, p[2], tonumber(p[3]) or 8000)
 end
 
 function fr_base_saboteurs_turn(actor, npc)
@@ -93,6 +93,29 @@ end
 function fr_p2_psi(actor, npc)
 	agroprom.p2_psi_call()
 end
+
+
+function fr_sniper_down(actor, npc)
+	agroprom.sniper_down()
+end
+
+function fr_snab2_down(actor, npc)
+	agroprom.snab2_down()
+end
+
+function fr_assault_reports(actor, npc)
+	agroprom.assault_reports()
+end
+
+function fr_wall_boom(actor, npc)
+	agroprom.assault_wall_boom()
+end
+
+
+
+
+
+
 
 function disable_ui_elements(actor, npc, p)
     local i, v = 0, 0

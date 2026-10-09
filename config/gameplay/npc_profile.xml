@@ -251,6 +251,45 @@
 	</character>
 	
 	
+		<character id="fr_agr_order_rpg">
+		<class>fr_agr_order_rpg</class>
+	</character>
+	<character id="fr_agr_order_sniper">
+		<class>fr_agr_order_sniper</class>
+	</character>
+	<character id="fr_agr_snab2">
+		<class>fr_agr_snab2</class>
+	</character>
+	
+	
+		<character id="fr_agr_as_kuznetsov">
+		<class>fr_agr_as_kuznetsov</class>
+	</character>
+	<character id="fr_agr_as_guard_1">
+		<class>fr_agr_as_guard_1</class>
+	</character>
+	<character id="fr_agr_as_guard_2">
+		<class>fr_agr_as_guard_2</class>
+	</character>
+	
+	
+		<character id="fr_agr_order_balon">
+		<class>fr_agr_order_balon</class>
+	</character>
+	<character id="fr_agr_order_mask">
+		<class>fr_agr_order_mask</class>
+	</character>
+	<character id="fr_agr_order_mask_1">
+		<class>fr_agr_order_mask_1</class>
+	</character>
+	<character id="fr_agr_order_nauchniy">
+		<class>fr_agr_order_nauchniy</class>
+	</character>
+	<character id="fr_agr_order_exo">
+		<class>fr_agr_order_exo</class>
+	</character>
+	
+	
 
 <!-- Escape -->
 	<character id="escape_trader">	

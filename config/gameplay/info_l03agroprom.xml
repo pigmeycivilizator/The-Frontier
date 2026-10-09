@@ -321,9 +321,6 @@
 
 
 
-   <info_portion id="fr_agr_assault_start"></info_portion>
-
-
 
 
 
@@ -415,7 +412,48 @@
 
 
 
+	<!-- ===== Квесты 46-51: штурм ===== -->
+	<info_portion id="fr_agr_assault_start"></info_portion>
+	
+	<info_portion id="fr_agr_spawn_exo"></info_portion>
 
+	<info_portion id="fr_agr_q46_start">
+		<task>task_fr_agr_wave1</task>
+	</info_portion>
+	<info_portion id="fr_agr_w1_done"></info_portion>
+
+	<info_portion id="fr_agr_q47_start">
+		<task>task_fr_agr_hold</task>
+	</info_portion>
+	<info_portion id="fr_agr_hold_done"></info_portion>
+
+	<info_portion id="fr_agr_q48_start">
+		<task>task_fr_agr_wave2</task>
+	</info_portion>
+	<info_portion id="fr_agr_w2_done"></info_portion>
+
+	<info_portion id="fr_agr_traitors_go"></info_portion>
+
+	<info_portion id="fr_agr_q49_start">
+		<task>task_fr_agr_wave3</task>
+	</info_portion>
+	<info_portion id="fr_agr_roof_reached"></info_portion>
+	<info_portion id="fr_agr_w3_done"></info_portion>
+
+	<info_portion id="fr_agr_rpg_go"></info_portion>
+	<info_portion id="fr_agr_heli_boom"></info_portion>
+	<info_portion id="fr_agr_heli_boom_done"></info_portion>
+
+	<info_portion id="fr_agr_q50_start">
+		<task>task_fr_agr_snipers</task>
+	</info_portion>
+	<info_portion id="fr_agr_q50_done"></info_portion>
+
+	<info_portion id="fr_agr_q51_start">
+		<task>task_fr_agr_escape</task>
+	</info_portion>
+	<info_portion id="fr_agr_base_left"></info_portion>
+	<info_portion id="fr_agr_escape_done"></info_portion>
 
 
 

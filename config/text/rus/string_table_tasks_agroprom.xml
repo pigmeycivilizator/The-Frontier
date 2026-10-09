@@ -669,6 +669,130 @@
 	</string>	
 	
 	
+	
+		<string id="task_fr_agr_wave1">
+		<text>Первая волна</text>
+	</string>
+	<string id="task_fr_agr_wave1_1">
+		<text>Отбиться от первой волны</text>
+	</string>
+	<string id="task_fr_agr_wave1_artcl">
+		<text>Орден начал штурм. Зомбированные лезут на базу со всех сторон.</text>
+	</string>
+
+	<string id="task_fr_agr_hold">
+		<text>Продержаться</text>
+	</string>
+	<string id="task_fr_agr_hold_1">
+		<text>Держать оборону</text>
+	</string>
+	<string id="task_fr_agr_hold_artcl">
+		<text>Техники пытаются починить вертолёт: топлива хватит на один перелёт. Нужно продержаться столько, сколько сможем.</text>
+	</string>
+
+	<string id="task_fr_agr_wave2">
+		<text>Вторая волна</text>
+	</string>
+	<string id="task_fr_agr_wave2_1">
+		<text>Уничтожить диких у северного входа</text>
+	</string>
+	<string id="task_fr_agr_wave2_artcl">
+		<text>Северный вход прорывают. Что-то, что раньше было людьми.</text>
+	</string>
+
+	<string id="task_fr_agr_wave3">
+		<text>Третья волна</text>
+	</string>
+	<string id="task_fr_agr_wave3_1">
+		<text>Занять снайперскую позицию</text>
+	</string>
+	<string id="task_fr_agr_wave3_2">
+		<text>Отбить атаку Ордена</text>
+	</string>
+	<string id="task_fr_agr_wave3_artcl">
+		<text>Основные силы Ордена идут с северо-востока. Нашего снайпера выбили, его место на крыше теперь моё.</text>
+	</string>
+
+	<string id="task_fr_agr_snipers">
+		<text>Убить вражеских снайперов</text>
+	</string>
+	<string id="task_fr_agr_snipers_1">
+		<text>Убить снайперов</text>
+	</string>
+	<string id="task_fr_agr_snipers_2">
+		<text>Забрать карты</text>
+	</string>
+	<string id="task_fr_agr_snipers_artcl">
+		<text>Сержанта, который забирал карты из кабинета полковника, снял снайпер с холма. Нужно убрать снайперов и забрать документы.</text>
+	</string>
+
+	<string id="task_fr_agr_escape">
+		<text>Побег</text>
+	</string>
+	<string id="task_fr_agr_escape_1">
+		<text>Покинуть базу</text>
+	</string>
+	<string id="task_fr_agr_escape_2">
+		<text>Добраться до люка</text>
+	</string>
+	<string id="task_fr_agr_escape_artcl">
+		<text>Полковник приказал уходить. Через дыру в южной стене, к люку, оттуда подземным тоннелем на Кордон. Карты не должны попасть к Ордену.</text>
+	</string>
+
+	<string id="fr_agr_roof_hint">
+		<text>Снайперская позиция</text>
+	</string>
+	<string id="fr_agr_wall_hint">
+		<text>Дыра в южной стене</text>
+	</string>
+	<string id="fr_agr_hatch_hint">
+		<text>Люк</text>
+	</string>
+
+	<!-- ===== Карты полковника ===== -->
+	<string id="fr_agr_maps_kuz_name">
+		<text>Карты полковника</text>
+	</string>
+	<string id="fr_agr_maps_kuz_descr">
+		<text>Карты местности со стола полковника Кузнецова, все части, собранные за последние недели. Среди них та, что когда-то сняли с трупа диггера.</text>
+	</string>
+	<string id="fr_agr_snab2_name">
+		<text>Сержант Малевич</text>
+	</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<string id="agr_find_ghost">
 		<text>Узнать о судьбе Призрака</text>
 	</string>

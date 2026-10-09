@@ -466,7 +466,7 @@
 		<rank>600</rank>
 		<reputation>0</reputation>
 
-		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<visual>actors\dolg\stalker_do_mask_1</visual>
 		<supplies>
 			[spawn] \n
 			fr_agr_cult_pda \n
@@ -489,7 +489,7 @@
 		<rank>550</rank>
 		<reputation>-591</reputation>
 
-		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<visual>actors\dolg\stalker_do_nauchniy</visual>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>0</crouch_type>
 		<supplies>
@@ -517,7 +517,7 @@
 		<rank>450</rank>
 		<reputation>-591</reputation>
 
-		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<visual>actors\dolg\stalker_do_balon_7</visual>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>0</crouch_type>
 		<supplies>
@@ -543,7 +543,7 @@
 		<rank>530</rank>
 		<reputation>-591</reputation>
 
-		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<visual>actors\dolg\stalker_do_mask</visual>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>0</crouch_type>
 		<supplies>
@@ -1152,7 +1152,7 @@
 		<rank>550</rank>
 		<reputation>-591</reputation>
 
-		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<visual>actors\dolg\stalker_do_nauchniy</visual>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>0</crouch_type>
 		<supplies>
@@ -1245,7 +1245,7 @@
 		<rank>700</rank>
 		<reputation>-591</reputation>
 
-		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<visual>actors\dolg\stalker_do_balon_7</visual>
 		<snd_config>characters_voice\human_01\monolith\</snd_config>
 		<crouch_type>0</crouch_type>
 
@@ -1667,7 +1667,7 @@
 		<community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
 		<rank>700</rank>
 		<reputation>-591</reputation>
-		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<visual>actors\dolg\stalker_do_nauchniy</visual>
 		<supplies>
 			[spawn] \n
 			wpn_sig550 \n
@@ -1964,7 +1964,7 @@
 		<community>monolith</community>
 		<rank>900</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_pkm \n
@@ -1984,7 +1984,7 @@
 		<community>monolith</community>
 		<rank>900</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_fn2000 \n
@@ -2004,7 +2004,7 @@
 		<community>monolith</community>
 		<rank>900</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_groza \n
@@ -2024,7 +2024,7 @@
 		<community>monolith</community>
 		<rank>900</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_g36 \n
@@ -2045,7 +2045,7 @@
 		<community>monolith</community>
 		<rank>800</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_pkm \n
@@ -2065,7 +2065,7 @@
 		<community>monolith</community>
 		<rank>800</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_val \n
@@ -2085,7 +2085,7 @@
 		<community>monolith</community>
 		<rank>800</rank>
 		<reputation>0</reputation>
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_sig550 \n
@@ -3647,7 +3647,7 @@
 		<rank>650</rank>
 		<reputation>0</reputation>
 
-		<visual>actors\monolit\stalker_mo_hood_9</visual>
+		<visual>actors\dolg\stalker_do_balon_7</visual>
 		<supplies>
 			[spawn] \n
 			wpn_abakan \n
@@ -3672,7 +3672,7 @@
 		<rank>600</rank>
 		<reputation>0</reputation>
 
-		<visual>actors\monolit\stalker_mo_nauchniy</visual>
+		<visual>actors\dolg\stalker_do_mask</visual>
 		<supplies>
 			[spawn] \n
 			wpn_ak74 \n
@@ -3732,7 +3732,7 @@
 		<rank>900</rank>
 		<reputation>-2000</reputation>
 
-		<visual>actors\monolit\stalker_mo_exo</visual>
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
 		<supplies>
 			[spawn] \n
 			wpn_pb \n
@@ -3758,7 +3758,7 @@
 		<class>fr_agr_sery_dead</class>
 		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
 
-		<rank>750</rank>
+		<rank>300</rank>
 		<reputation>300</reputation>
 
 		<visual>actors\neytral\stalker_neytral_hood_4</visual>
@@ -3770,6 +3770,339 @@
 		</supplies>
 
 #include "gameplay\character_criticals_5.xml"
+	</specific_character>
+	
+	
+	
+	
+	
+		<!-- ===== Орден: новые модели ===== -->
+	<specific_character id="fr_agr_order_balon" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_balon_7</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_balon</class>
+		<community>monolith</community>
+
+		<rank>600</rank>
+		<reputation>-1000</reputation>
+		<money min="200" max="800" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_balon_7</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_abakan \n
+			ammo_5.45x39_fmj = 3 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_mask" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_mask</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_mask</class>
+		<community>monolith</community>
+
+		<rank>650</rank>
+		<reputation>-1000</reputation>
+		<money min="200" max="800" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_mask</visual>
+		<supplies>
+			[spawn] \n
+			wpn_fort \n
+			ammo_9x18_fmj \n
+			wpn_ak74 \n
+			ammo_5.45x39_ap = 2 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_mask_1" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_mask_1</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_mask_1</class>
+		<community>monolith</community>
+
+		<rank>550</rank>
+		<reputation>-1000</reputation>
+		<money min="200" max="600" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_mask_1</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			wpn_ak74u \n
+			ammo_5.45x39_fmj = 2 \n
+			grenade_rgd5 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_4.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_nauchniy" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_nauchniy</class>
+		<community>monolith</community>
+
+		<rank>700</rank>
+		<reputation>-1000</reputation>
+		<money min="400" max="1200" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_nauchniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_fort \n
+			ammo_9x18_fmj \n
+			wpn_val \n
+			ammo_9x39_ap = 2 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_order_exo" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_exo</class>
+		<community>monolith</community>
+
+		<rank>900</rank>
+		<reputation>-1000</reputation>
+		<money min="800" max="2000" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_exoskeleton</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_pkm \n
+			ammo_pkm_100 = 2 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+	
+	
+	
+	
+		<!-- ===== Штурм: Орден с РПГ ===== -->
+	<specific_character id="fr_agr_order_rpg" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_mask</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_rpg</class>
+		<community>monolith</community>
+
+		<rank>650</rank>
+		<reputation>-1000</reputation>
+		<money min="200" max="800" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_mask</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_rpg7 \n
+			ammo_og-7b = 3 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<!-- ===== Штурм: снайпер Ордена на холме ===== -->
+	<specific_character id="fr_agr_order_sniper" team_default="1">
+		<name>GENERATE_NAME_chaos</name>
+		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_order_sniper</class>
+		<community>monolith</community>
+
+		<rank>750</rank>
+		<reputation>-1000</reputation>
+		<money min="400" max="1200" infinitive="0"></money>
+
+		<visual>actors\dolg\stalker_do_nauchniy</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pb \n
+			ammo_9x18_fmj \n
+			wpn_svd \n
+			ammo_7.62x54_7h1 = 3 \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<!-- ===== Штурм: сержант-снабженец, погибает в кабинете ===== -->
+	<specific_character id="fr_agr_snab2" team_default="1">
+		<name>fr_agr_snab2_name</name>
+		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_snab2</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>500</rank>
+		<reputation>100</reputation>
+
+		<visual>actors\soldier\soldier_spetsnaz</visual>
+		<supplies>
+			[spawn] \n
+			wpn_pm \n
+			ammo_9x18_fmj \n
+			fr_agr_maps_kuz \n
+			fr_agr_maps_part \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+	
+	
+	
+		<!-- ===== Штурм: бессмертные союзники в «Булатах» ===== -->
+	<specific_character id="fr_agr_as_kuznetsov" team_default="1">
+		<name>fr_agr_kuznetsov_name</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_kuznetsov_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_as_kuznetsov</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>50</rank>
+		<reputation>200</reputation>
+
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_gsh18 \n
+			ammo_9x19_pbp = 2 \n
+			wpn_rpk74 \n
+			ammo_5.45x39_ap = 4 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_as_guard_1" team_default="1">
+		<name>GENERATE_NAME_captain</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_02\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_as_guard_1</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>800</rank>
+		<reputation>100</reputation>
+
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_gsh18 \n
+			ammo_9x19_pbp = 2 \n
+			wpn_val \n
+			ammo_9x39_ap = 4 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_as_guard_2" team_default="1">
+		<name>GENERATE_NAME_captain</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>0</crouch_type>
+
+		<class>fr_agr_as_guard_2</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+
+		<rank>800</rank>
+		<reputation>100</reputation>
+
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_gsh18 \n
+			ammo_9x19_pbp = 2 \n
+			wpn_groza \n
+			ammo_9x39_ap = 4 \n
+			device_torch \n
+#include "gameplay\character_drugs.xml"
+		</supplies>
+
+#include "gameplay\character_criticals_6.xml"
 	</specific_character>
 	
 	

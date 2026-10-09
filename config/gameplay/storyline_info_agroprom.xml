@@ -178,6 +178,25 @@
 	</article>
 	<article id="task_fr_agr_to_surface" name="task_fr_agr_to_surface" group="task_fr_agr_to_surface" article_type="task">
 		<text>task_fr_agr_to_surface_artcl</text>
+	</article>
+
+	<article id="task_fr_agr_wave1" name="task_fr_agr_wave1" group="task_fr_agr_wave1" article_type="task">
+		<text>task_fr_agr_wave1_artcl</text>
+	</article>
+	<article id="task_fr_agr_hold" name="task_fr_agr_hold" group="task_fr_agr_hold" article_type="task">
+		<text>task_fr_agr_hold_artcl</text>
+	</article>
+	<article id="task_fr_agr_wave2" name="task_fr_agr_wave2" group="task_fr_agr_wave2" article_type="task">
+		<text>task_fr_agr_wave2_artcl</text>
+	</article>
+	<article id="task_fr_agr_wave3" name="task_fr_agr_wave3" group="task_fr_agr_wave3" article_type="task">
+		<text>task_fr_agr_wave3_artcl</text>
+	</article>
+	<article id="task_fr_agr_snipers" name="task_fr_agr_snipers" group="task_fr_agr_snipers" article_type="task">
+		<text>task_fr_agr_snipers_artcl</text>
+	</article>
+	<article id="task_fr_agr_escape" name="task_fr_agr_escape" group="task_fr_agr_escape" article_type="task">
+		<text>task_fr_agr_escape_artcl</text>
 	</article>	
 	
 	

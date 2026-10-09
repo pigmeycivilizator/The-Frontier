@@ -1429,3 +1429,142 @@ function p2_psi_call()
 	strike_psi()
 	play2d("fr\\agroprom\\kill_them_all", 1)
 end
+
+
+-- ============================================================
+-- Квесты 46-51: штурм базы и побег
+-- ============================================================
+
+local W1_TOTAL   = 28     -- зомбированных в первой волне
+local W2_TOTAL   = 28     -- диких у северного входа
+local W3_TOTAL   = 26     -- орденовцев с холмов
+local SNIP_TOTAL = 2      -- вражеских снайперов на холме
+local WAVE_PART  = 0.5   -- какую часть волны нужно перебить
+
+local SID_ROOF_SNIPER = 255   -- наш снайпер на крыше
+local SID_SNAB2       = 256   -- сержант-снабженец в кабинете полковника
+local SID_SNIPER_BOX = 260
+
+local SNIPER_GUN  = "wpn_svd"            -- СВД с ночным прицелом из пака
+local SNIPER_AMMO = "ammo_7.62x54_7h1"
+local SNIPER_SCOPE = "1pn93-4"
+local SHOT_SND    = "weapons\\_gunfire\\mono\\trg\\Close_1"  -- поставь звук СВД
+
+local function give_info_once(info)
+	local a = db.actor
+	if a and not a:has_info(info) then
+		a:give_info_portion(info)
+	end
+end
+
+local function wave_need(total)
+	return math.ceil(total * WAVE_PART)
+end
+
+-- ---------- волны ----------
+
+function w1_done(actor, npc)
+	if kill_count("w1") >= wave_need(W1_TOTAL) then
+		give_info_once("fr_agr_w1_done")
+		return true
+	end
+	return false
+end
+
+function w2_done(actor, npc)
+	if kill_count("w2") >= wave_need(W2_TOTAL) then
+		give_info_once("fr_agr_w2_done")
+		return true
+	end
+	return false
+end
+
+-- третья волна: считаются только убийства игрока
+function w3_done(actor, npc)
+	if kill_count("w3") >= wave_need(W3_TOTAL) then
+		give_info_once("fr_agr_w3_done")
+		return true
+	end
+	return false
+end
+
+-- ---------- снайперы и карты ----------
+
+function snipers_done(actor, npc)
+	return kill_count("snip") >= SNIP_TOTAL
+end
+
+function kuz_maps_taken(actor, npc)
+	return sak.have_item_namber("fr_agr_maps_kuz", 1)
+end
+
+function q50_done(actor, npc)
+	if snipers_done() and kuz_maps_taken() then
+		give_info_once("fr_agr_q50_done")
+		return true
+	end
+	return false
+end
+
+-- ---------- события штурма ----------
+
+-- взрывы под стенами
+function assault_wall_boom()
+	play2d("weapons\\_boom\\mono\\vehicle\\medium_distance_1")
+	play2d("weapons\\_boom\\mono\\frag\\medium_distance_2", 1.1)
+	play2d("weapons\\_boom\\mono\\frag\\medium_distance_1", 1.5)
+	play2d("weapons\\_boom\\mono\\frag\\medium_distance_2", 1.9)
+end
+
+-- нашего снайпера на крыше выбили: в трупе СВД и патроны
+function sniper_down()
+	play2d(SHOT_SND)
+	local npc = level_object_by_sid(SID_ROOF_SNIPER)
+	if npc and npc:alive() then
+		npc:kill(npc)
+	end
+
+	local box = level_object_by_sid(SID_SNIPER_BOX)
+	if box then
+		local sim = alife()
+		local items = { SNIPER_GUN, SNIPER_AMMO, SNIPER_AMMO, SNIPER_AMMO, SNIPER_AMMO, SNIPER_AMMO, SNIPER_SCOPE }
+		for _, sec in ipairs(items) do
+			sim:create(sec, box:position(), box:level_vertex_id(), box:game_vertex_id(), box:id())
+		end
+	end
+end
+
+-- сержанта в кабинете снимает снайпер
+function snab2_down()
+	play2d(SHOT_SND)
+	local npc = level_object_by_sid(SID_SNAB2)
+	if npc and npc:alive() then
+		npc:kill(npc)
+	end
+end
+
+-- реплики спасённых: лазарет и подземка
+function assault_reports()
+	local laz = laz_saved_count()
+	local laz_id = "fr_agr_tip_rep_laz_none"
+	if laz >= 3 then
+		laz_id = "fr_agr_tip_rep_laz_good"
+	elseif laz >= 1 then
+		laz_id = "fr_agr_tip_rep_laz_some"
+	end
+	news_manager.send_tip(db.actor, laz_id, nil, nil, 10000)
+
+	local serg = has_alife_info("fr_agr_serg_final_saved")
+	local held = und_def_held()
+	local und_id
+	if serg and held then
+		und_id = "fr_agr_tip_rep_und_serg_held"
+	elseif serg then
+		und_id = "fr_agr_tip_rep_und_serg_lost"
+	elseif held then
+		und_id = "fr_agr_tip_rep_und_noserg_held"
+	else
+		und_id = "fr_agr_tip_rep_und_noserg_lost"
+	end
+	news_manager.send_tip(db.actor, und_id, 13, nil, 10000)
+end

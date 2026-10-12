@@ -623,6 +623,18 @@ end
 -- ===================== МЫСЛИ ГГ =====================
 
 local thought_id = "fr_thought"
+local THOUGHT_SND = "fr\\agroprom\\thought"   -- sounds\fr\thought.ogg
+local thought_snd = nil
+
+-- мысли без звука: голос Ордена во время пси-ударов
+local THOUGHT_SILENT = {
+	fr_agr_th_voice    = true,
+	fr_agr_th_p2_voice = true,
+	fr_agr_th_order_burn = true,
+	fr_agr_th_order_road = true,
+	fr_agr_call_2 = true,
+	fr_agr_call_1 = true,
+}
 
 local function thought_show(text, seconds)
 	local hud = get_hud()
@@ -635,6 +647,11 @@ local function thought_show(text, seconds)
 
 	cs:wnd():SetTextST(text)
 	cs.m_endTime = time_global() / 1000 + seconds
+
+	if not THOUGHT_SILENT[text] then
+		thought_snd = sound_object(THOUGHT_SND)
+		thought_snd:play(db.actor, 0, sound_object.s2d)
+	end
 end
 
 -- text - id строки из string table (или просто текст), seconds - сколько висит
@@ -1435,8 +1452,8 @@ end
 -- Квесты 46-51: штурм базы и побег
 -- ============================================================
 
-local W1_TOTAL   = 28     -- зомбированных в первой волне
-local W2_TOTAL   = 28     -- диких у северного входа
+local W1_TOTAL   = 26     -- зомбированных в первой волне
+local W2_TOTAL   = 26     -- диких у северного входа
 local W3_TOTAL   = 26     -- орденовцев с холмов
 local SNIP_TOTAL = 2      -- вражеских снайперов на холме
 local WAVE_PART  = 0.5   -- какую часть волны нужно перебить
@@ -1567,4 +1584,25 @@ function assault_reports()
 		und_id = "fr_agr_tip_rep_und_noserg_lost"
 	end
 	news_manager.send_tip(db.actor, und_id, 13, nil, 10000)
+end
+
+-- первый артефакт на поясе игрока или nil
+local function belt_artefact()
+	local a = db.actor
+	if not a then return nil end
+	for i = 0, a:belt_count() - 1 do
+		local it = a:item_on_belt(i)
+		if it and string.find(it:section(), "^af_") then
+			return it
+		end
+	end
+	return nil
+end
+
+function snab_has_belt_art(first_speaker, second_speaker)
+	return belt_artefact() ~= nil
+end
+
+function snab_no_belt_art(first_speaker, second_speaker)
+	return belt_artefact() == nil
 end

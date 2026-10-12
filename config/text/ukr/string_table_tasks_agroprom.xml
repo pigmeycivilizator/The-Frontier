@@ -1,0 +1,873 @@
+	
+	
+	
+	<string id="task_fr_agr_to_hq">
+		<text>Вирушити до штабу</text>
+	</string>
+	<string id="task_fr_agr_to_hq_1">
+		<text>Поговорити з полковником Кузнецовим</text>
+	</string>
+	<string id="task_fr_agr_to_hq_artcl">
+		<text>Полковник Кузнецов викликав мене до штабу по нові вказівки.</text>
+	</string>
+
+	<string id="task_fr_agr_gear">
+		<text>Забрати спорядження</text>
+	</string>
+	<string id="task_fr_agr_gear_1">
+		<text>Забрати спорядження в постачальника</text>
+	</string>
+	<string id="task_fr_agr_gear_artcl">
+		<text>Полковник перевів мене в піхоту. Спорядження треба забрати в постачальника на складі.</text>
+	</string>
+
+	<string id="task_fr_agr_underground">
+		<text>Провідати загін у підземеллі</text>
+	</string>
+	<string id="task_fr_agr_underground_1">
+		<text>Спуститися в підземку й провідати загін військових</text>
+	</string>
+	<string id="task_fr_agr_underground_artcl">
+		<text>Перше завдання: спуститися в тунелі під базою, перевірити стан гарнізону й допомогти, якщо буде потреба.</text>
+	</string>
+	
+	
+	<string id="fr_agr_snab">
+		<text>Сержант Малевич</text>
+	</string>
+	<string id="fr_agr_kuznetsov">
+		<text>Полковник Кузнецов</text>
+	</string>
+	
+	<string id="task_fr_agr_underground_1">
+		<text>Спуститися в підземку й провідати загін військових</text>
+	</string>
+	<string id="task_fr_agr_underground_2">
+		<text>Виконати прохання побратимів</text>
+	</string>
+
+	<string id="task_fr_agr_sergeant">
+		<text>Підземний гарнізон</text>
+	</string>
+	<string id="task_fr_agr_sergeant_1">
+		<text>Поговорити із сержантом</text>
+	</string>
+	<string id="task_fr_agr_sergeant_2">
+		<text>Перевірити стан усіх бійців</text>
+	</string>
+	<string id="task_fr_agr_sergeant_artcl">
+		<text>Командир підземного загону просить оглянути бійців і допомогти їм, чим вийде.</text>
+	</string>
+
+	<string id="task_fr_agr_krovosos">
+		<text>Розібратися з монстром</text>
+	</string>
+	<string id="task_fr_agr_krovosos_1">
+		<text>Знайти труп військового й убити мутанта</text>
+	</string>
+	<string id="task_fr_agr_krovosos_2">
+		<text>Повернутися до сержанта</text>
+	</string>
+	<string id="task_fr_agr_krovosos_artcl">
+		<text>Тварюка, що затягла бійця в північну частину підземки, досі там.</text>
+	</string>
+
+	<string id="task_fr_agr_pistol">
+		<text>Знайти пістолет бійця</text>
+	</string>
+	<string id="task_fr_agr_pistol_1">
+		<text>Знайти пістолет у тунелі з електрами й повернути бійцеві</text>
+	</string>
+	<string id="task_fr_agr_pistol_artcl">
+		<text>Боєць згубив нагородний пістолет у тунелі, де тепер аномалії.</text>
+	</string>
+
+	<string id="task_fr_agr_north">
+		<text>Дізнатися, що непокоїло військового</text>
+	</string>
+	<string id="task_fr_agr_north_1">
+		<text>Перевірити північну частину підземель</text>
+	</string>
+	<string id="task_fr_agr_north_2">
+		<text>Повернутися до солдата</text>
+	</string>
+	<string id="task_fr_agr_north_artcl">
+		<text>Боєць чув із північної частини підземки спів, а потім крики й постріли.</text>
+	</string>
+
+	<string id="task_fr_agr_back">
+		<text>Повернутися на базу</text>
+	</string>
+	<string id="task_fr_agr_back_1">
+		<text>Піднятися на поверхню й доповісти полковникові</text>
+	</string>
+	<string id="task_fr_agr_back_artcl">
+		<text>Справи в підземеллі завершено, час нагору.</text>
+	</string>
+	
+	
+	
+	<string id="fr_agr_und_sergeant">
+		<text>Сержант Слободенюк</text>
+	</string>
+	<string id="fr_agr_dead_soldier">
+		<text>Зниклий боєць</text>
+	</string>
+	<string id="fr_agr_und_pistol">
+		<text>Боєць, який загубив пістолет</text>
+	</string>
+	<string id="fr_agr_dead_digger">
+		<text>Місце, яке треба розвідати</text>
+	</string>
+	<string id="fr_agr_und_north">
+		<text>Постовий</text>
+	</string>	
+	
+	<string id="task_fr_agr_crates">
+		<text>Забрати ящики в постачальника</text>
+	</string>
+	<string id="task_fr_agr_crates_1">
+		<text>Забрати ящики</text>
+	</string>
+	<string id="task_fr_agr_crates_artcl">
+		<text>Полковник доручив забрати в постачальника три ящики з припасами для блокпостів і особливий кейс для Сірого.</text>
+	</string>
+
+	<string id="task_fr_agr_signal">
+		<text>Чекати на сигнал</text>
+	</string>
+	<string id="task_fr_agr_signal_1">
+		<text>Чекати на сигнал від постачальника</text>
+	</string>
+	<string id="task_fr_agr_signal_artcl">
+		<text>Постачальник домовився з бандитами про "угоду" і вийде на зв'язок, коли вони будуть на місці.</text>
+	</string>
+
+	<string id="task_fr_agr_posts">
+		<text>Рознести ящики по блокпостах</text>
+	</string>
+	<string id="task_fr_agr_posts_1">
+		<text>Блокпост 1</text>
+	</string>
+	<string id="task_fr_agr_posts_2">
+		<text>Блокпост 2</text>
+	</string>
+	<string id="task_fr_agr_posts_3">
+		<text>Блокпост 3</text>
+	</string>
+	<string id="task_fr_agr_posts_artcl">
+		<text>Три ящики з припасами треба доставити на блокпости гарнізону.</text>
+	</string>
+
+	<string id="task_fr_agr_bandits">
+		<text>Розібратися з бандитами</text>
+	</string>
+	<string id="task_fr_agr_bandits_1">
+		<text>Прийти на місце зустрічі й розібратися з бандитами</text>
+	</string>
+	<string id="task_fr_agr_bandits_2">
+		<text>Повернутися до сержанта</text>
+	</string>
+	<string id="task_fr_agr_bandits_artcl">
+		<text>Бандити прийшли на місце зустрічі. Треба перебити їх і забрати боєприпаси.</text>
+	</string>
+
+	<string id="task_fr_agr_to_sery">
+		<text>Вирушити на сталкерську базу</text>
+	</string>
+	<string id="task_fr_agr_to_sery_1">
+		<text>Поговорити із Сірим</text>
+	</string>
+	<string id="task_fr_agr_to_sery_artcl">
+		<text>Кейс полковника треба передати Сірому, ватажкові сталкерів на заводі.</text>
+	</string>
+	
+	
+	<string id="task_fr_agr_recon">
+		<text>Зустріти сталкерів-розвідників</text>
+	</string>
+	<string id="task_fr_agr_recon_1">
+		<text>Зустрітися з групою сталкерів</text>
+	</string>
+	<string id="task_fr_agr_recon_2">
+		<text>Повернутися до Сірого</text>
+	</string>
+	<string id="task_fr_agr_recon_artcl">
+		<text>Розвідники Сірого повертаються з Янтаря з важливими відомостями про невідомих сталкерів. Треба зустріти їх і супроводити до табору.</text>
+	</string>
+
+	<string id="task_fr_agr_fanat">
+		<text>Поговорити з Фанатом</text>
+	</string>
+	<string id="task_fr_agr_fanat_1">
+		<text>Розпитати Фаната про його групу</text>
+	</string>
+	<string id="task_fr_agr_fanat_artcl">
+		<text>Загиблі розвідники були з групи Фаната. Сірий просить розпитати його: може, він помічав у їхній поведінці щось дивне.</text>
+	</string>
+
+	<string id="task_fr_agr_fanat_stash">
+		<text>Знайти й забрати схованку Фаната</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_1">
+		<text>Знайти схованку</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_2">
+		<text>Повернутися до Фаната</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_artcl">
+		<text>Група Фаната заклала схрон на верхньому рівні підземель, неподалік від аномального тунелю. Фанат пообіцяв поділити вміст навпіл.</text>
+	</string>	
+	<string id="task_fr_agr_scout">
+		<text>Розшукати зниклого військового</text>
+	</string>
+	<string id="task_fr_agr_scout_1">
+		<text>Знайти військового</text>
+	</string>
+	<string id="task_fr_agr_scout_2">
+		<text>Повернутися на базу</text>
+	</string>
+	<string id="task_fr_agr_scout_artcl">
+		<text>На захід від сталкерського комплексу зник сигнал полковникового розвідника. Треба знайти його й забрати КПК із важливою інформацією.</text>
+	</string>
+
+	<string id="task_fr_agr_kuz_report">
+		<text>Поговорити з Кузнецовим</text>
+	</string>
+	<string id="task_fr_agr_kuz_report_1">
+		<text>Доповісти полковникові</text>
+	</string>
+	<string id="task_fr_agr_kuz_report_artcl">
+		<text>Розвідник мертвий, його КПК знищено. Треба доповісти полковникові про те, що сталося.</text>
+	</string>	
+	
+	<string id="task_fr_agr_snab_reward">
+		<text>Поговорити з постачальником</text>
+	</string>
+	<string id="task_fr_agr_snab_reward_1">
+		<text>Поговорити з постачальником</text>
+	</string>
+	<string id="task_fr_agr_snab_reward_artcl">
+		<text>Полковник сказав, що мене шукав постачальник.</text>
+	</string>
+
+	<string id="task_fr_agr_brother">
+		<text>Упокоїти душу зомбованого</text>
+	</string>
+	<string id="task_fr_agr_brother_1">
+		<text>Убити зомбі з унікальним кулеметом</text>
+	</string>
+	<string id="task_fr_agr_brother_2">
+		<text>Забрати кулемет</text>
+	</string>
+	<string id="task_fr_agr_brother_3">
+		<text>Повернути кулемет постачальникові</text>
+	</string>
+	<string id="task_fr_agr_brother_artcl">
+		<text>Молодший брат постачальника зник разом із патрулем тиждень тому. Якщо він серед зомбованих, то при ньому буде важкий кулемет. Треба упокоїти його й повернути кулемет братові.</text>
+	</string>
+
+<string id="task_fr_agr_brother_mg">
+	<text>Повернути кулемет брата</text>
+</string>
+<string id="task_fr_agr_brother_mg_artcl">
+	<text>Брат постачальника був серед зомбованих. Допомогти йому вже не можна, але можна хоча б забрати його кулемет і віднести постачальникові.</text>
+</string>
+
+	<string id="task_fr_agr_patrols">
+		<text>Допомогти патрулям відбитися від атак</text>
+	</string>
+	<string id="task_fr_agr_patrols_1">
+		<text>Допомогти патрулю 1</text>
+	</string>
+	<string id="task_fr_agr_patrols_2">
+		<text>Допомогти патрулю 2</text>
+	</string>
+	<string id="task_fr_agr_patrols_3">
+		<text>Допомогти патрулю 3</text>
+	</string>
+	<string id="task_fr_agr_patrols_4">
+		<text>Допомогти патрулю 4</text>
+	</string>
+	<string id="task_fr_agr_patrols_artcl">
+		<text>Кілька патрулів гарнізону водночас попросили допомоги: на них напали зомбовані.</text>
+	</string>
+
+	<string id="task_fr_agr_back_sery">
+		<text>Повернутися до Сірого</text>
+	</string>
+	<string id="task_fr_agr_back_sery_1">
+		<text>Поговорити із Сірим</text>
+	</string>
+	<string id="task_fr_agr_back_sery_artcl">
+		<text>Патрулі відбилися. Час повернутися до Сірого: він обіцяв розповісти більше про Орден.</text>
+	</string>
+
+	<string id="task_fr_agr_devices">
+		<text>Встановити прилад</text>
+	</string>
+	<string id="task_fr_agr_devices_1">
+		<text>Забрати прилад у сталкера-радиста</text>
+	</string>
+	<string id="task_fr_agr_devices_2">
+		<text>Повернутися до Сірого</text>
+	</string>
+	<string id="task_fr_agr_devices_artcl">
+		<text>Сірий попросив забрати у зв'язківця три прилади PVM-14 і повернутися до нього.</text>
+	</string>	
+	
+	
+	
+	<string id="fr_agr_patA_zone">
+		<text>Перший патруль</text>
+	</string>
+	<string id="fr_agr_patB_zone">
+		<text>Другий патруль</text>
+	</string>
+	<string id="fr_agr_patC_zone">
+		<text>Третій патруль</text>
+	</string>		
+	<string id="fr_agr_patD_zone">
+		<text>Четвертий патруль</text>
+	</string>
+	<string id="fr_agr_dead_radist">
+		<text>Радист</text>
+	</string>	
+	
+<!-- ==================== ПОДСКАЗКИ МЕТОК ==================== -->
+<string id="fr_agr_akeran">
+	<text>Капітан Акеран</text>
+</string>
+<string id="fr_agr_strike_zone">
+	<text>Лігво зомбованих</text>
+</string>
+<string id="fr_agr_strike_cultist">
+	<text>Тіло культиста</text>
+</string>	
+	
+	
+<string id="task_fr_agr_find_devices">
+	<text>Знайти прилади Сірого</text>
+</string>
+<string id="task_fr_agr_find_devices_1">
+	<text>Знайти прилади PVM-14</text>
+</string>
+<string id="task_fr_agr_find_devices_artcl">
+	<text>Радист Сірого мертвий, прилади PVM-14 зникли. Сірий певен, що це справа рук Ордену і що вбивця досі десь на Агропромі. Треба знайти його й повернути прилади.</text>
+</string>
+
+<string id="task_fr_agr_strike">
+	<text>Удар у відповідь</text>
+</string>
+<string id="task_fr_agr_strike_1">
+	<text>Зустрітися зі штурмовою групою</text>
+</string>
+<string id="task_fr_agr_strike_2">
+	<text>Зачистити лігво зомбованих</text>
+</string>
+<string id="task_fr_agr_strike_artcl">
+	<text>Полковник Кузнецов з'ясував, звідки приходять зомбовані: вони засіли в укріпточці біля дороги на Янтар. Зачистку проводить загін капітана Акерана. Треба приєднатися до нього й знищити лігво.</text>
+</string>
+
+<string id="task_fr_agr_strike_search">
+	<text>Обшукати тіла</text>
+</string>
+<string id="task_fr_agr_strike_search_1">
+	<text>Обшукати тіло культиста</text>
+</string>
+<string id="task_fr_agr_strike_search_artcl">
+	<text>Капітан Акеран наказав обшукати тіла. Серед убитих був пастух у балахоні - якщо в когось і є щось важливе, то в нього.</text>
+</string>
+
+<string id="task_fr_agr_traitors">
+	<text>Убити зрадників</text>
+</string>
+<string id="task_fr_agr_traitors_1">
+	<text>Знищити військових із північного блокпоста</text>
+</string>
+<string id="task_fr_agr_traitors_artcl">
+	<text>Зниклі бійці з північного блокпоста повернулися й відкрили вогонь по своїх. Капітан Акеран загинув. Їх треба зупинити.</text>
+</string>
+
+<string id="task_fr_agr_strike_back">
+	<text>Повернутися на базу</text>
+</string>
+<string id="task_fr_agr_strike_back_1">
+	<text>Доповісти полковникові Кузнецову</text>
+</string>
+<string id="task_fr_agr_strike_back_artcl">
+	<text>Полковник наказав повертатися на базу. Треба доповісти йому про все, що сталося біля дороги на Янтар.</text>
+</string>
+
+<string id="task_fr_agr_sery_order">
+	<text>Поговорити із Сірим</text>
+</string>
+<string id="task_fr_agr_sery_order_1">
+	<text>Вирушити до Сірого</text>
+</string>
+<string id="task_fr_agr_sery_order_artcl">
+	<text>Кузнецов стягує всі сили на головну базу. Треба переконати Сірого згорнути табір і привести сталкерів до військових.</text>
+</string>	
+	
+	
+<!-- ===== Квест 28 ===== -->
+<string id="task_fr_agr_tower1">
+	<text>Встановити перший прилад</text>
+</string>
+<string id="task_fr_agr_tower1_1">
+	<text>Встановити прилад на даху</text>
+</string>
+<string id="task_fr_agr_tower1_2">
+	<text>Протриматися до його активації</text>
+</string>
+<string id="task_fr_agr_tower1_artcl">
+	<text>На табір Сірого напали дикі культисти. Сталкери тримають оборону, а мені треба вилізти на дах, встановити перший прилад на антену й протриматися, доки він не запуститься.</text>
+</string>
+
+<!-- ===== Квест 29 ===== -->
+<string id="task_fr_agr_tower2">
+	<text>Встановити другий прилад</text>
+</string>
+<string id="task_fr_agr_tower2_1">
+	<text>Встановити прилад у лісі</text>
+</string>
+<string id="task_fr_agr_tower2_2">
+	<text>Протриматися до його активації</text>
+</string>
+<string id="task_fr_agr_tower2_artcl">
+	<text>На сталкерів Сірого, які готували другу вишку в лісі, напали мутанти. Треба прийти їм на допомогу, встановити другий прилад і втримати позицію, доки він не запуститься.</text>
+</string>
+
+<!-- ===== Квест 30 ===== -->
+<string id="task_fr_agr_tower3">
+	<text>Встановити третій прилад</text>
+</string>
+<string id="task_fr_agr_tower3_1">
+	<text>Встановити прилад у вагончику на болоті</text>
+</string>
+<string id="task_fr_agr_tower3_artcl">
+	<text>Дві вишки працюють. Лишилася третя: антена на вагончику посеред болота. Треба дістатися туди, встановити останній прилад і повернутися до Сірого.</text>
+</string>
+
+<!-- ===== Квест 52 ===== -->
+<string id="task_fr_agr_order_meet">
+	<text>Прийняти свою долю</text>
+</string>
+<string id="task_fr_agr_order_meet_1">
+	<text>Іти до місця зустрічі</text>
+</string>
+<string id="task_fr_agr_order_meet_artcl">
+	<text>Я відповів Хорусові "так". Неподалік від вагончика, у бік бази, на мене чекають.</text>
+</string>
+
+<!-- ===== Квест 53 ===== -->
+<string id="task_fr_agr_order_kill">
+	<text>Знищити базу військових</text>
+</string>
+<string id="task_fr_agr_order_kill_1">
+	<text>Убити полковника Кузнецова</text>
+</string>
+<string id="task_fr_agr_order_kill_artcl">
+	<text>Фулгрим видав мені спорядження Ордену. Разом із його бійцями я маю взяти базу. Жоден не повинен піти живим. Полковник - особисто мій.</text>
+</string>	
+	
+	
+	
+	
+	<string id="task_fr_agr_to_camp">
+		<text>Дістатися до табору сталкерів</text>
+	</string>
+	<string id="task_fr_agr_to_camp_1">
+		<text>Знайти Сірого в таборі сталкерів</text>
+	</string>
+	<string id="task_fr_agr_to_camp_artcl">
+		<text>шо вирячився сюди, електроніка не працювала</text>
+	</string>
+
+	<string id="task_fr_agr_tunnel">
+		<text>Вирушити до залізничного тунелю</text>
+	</string>
+	<string id="task_fr_agr_tunnel_1">
+		<text>Вирушити до тунелю</text>
+	</string>
+	<string id="task_fr_agr_tunnel_2">
+		<text>Повернутися до Сірого</text>
+	</string>
+	<string id="task_fr_agr_tunnel_artcl">
+		<text>досі не працювала</text>
+	</string>
+
+	<string id="task_fr_agr_post3">
+		<text>Дістатися до 3-го блокпоста</text>
+	</string>
+	<string id="task_fr_agr_post3_1">
+		<text>Дістатися до блокпоста біля переходу на Смітник</text>
+	</string>
+	<string id="task_fr_agr_post3_2">
+		<text>Дізнатися, що сталося</text>
+	</string>
+	<string id="task_fr_agr_post3_artcl">
+		<text>ну ти й упертий</text>
+	</string>
+
+	<string id="task_fr_agr_post2">
+		<text>Дістатися до 2-го блокпоста</text>
+	</string>
+	<string id="task_fr_agr_post2_1">
+		<text>Дістатися до 2-го блокпоста, на схід від лісу</text>
+	</string>
+	<string id="task_fr_agr_post2_2">
+		<text>Дізнатися, що сталося</text>
+	</string>
+	<string id="task_fr_agr_post2_artcl">
+		<text>беремо участь у конкурсі за пнг картинку на сайті....</text>
+	</string>
+
+	<string id="task_fr_agr_to_base">
+		<text>Дістатися до бази</text>
+	</string>
+	<string id="task_fr_agr_to_base_1">
+		<text>Дійти до бази</text>
+	</string>
+	<string id="task_fr_agr_to_base_artcl">
+		<text>Зв'язок відновився. Полковник Кузнецов оголосив бойову тривогу: усім бійцям негайно повернутися на базу, оборона за планом «Фортеця».</text>
+	</string>	
+	
+	
+	
+		<string id="task_fr_agr_lazaret">
+		<text>Піти до лазарету</text>
+	</string>
+	<string id="task_fr_agr_lazaret_1">
+		<text>Дійти до лазарету</text>
+	</string>
+	<string id="task_fr_agr_lazaret_2">
+		<text>Допомогти бійцям</text>
+	</string>
+	<string id="task_fr_agr_lazaret_3">
+		<text>Поговорити з черговим</text>
+	</string>
+	<string id="task_fr_agr_lazaret_artcl">
+		<text>Хтось підірвав склад ПММ. У лазареті поранені з опіками, черговий терміново кличе медика.</text>
+	</string>
+
+	<string id="task_fr_agr_saboteurs">
+		<text>Знайти зрадників на базі</text>
+	</string>
+	<string id="task_fr_agr_saboteurs_1">
+		<text>Знайти зрадників і розібратися з ними</text>
+	</string>
+	<string id="task_fr_agr_saboteurs_artcl">
+		<text>Перед вибухом біля паливних баків крутилися двоє наших. Якщо зрадники досі на базі, то вони готують наступну диверсію.</text>
+	</string>
+
+	<string id="task_fr_agr_kuz_plan">
+		<text>Поговорити з Кузнецовим</text>
+	</string>
+	<string id="task_fr_agr_kuz_plan_1">
+		<text>Поговорити з полковником</text>
+	</string>
+	<string id="task_fr_agr_kuz_plan_artcl">
+		<text>Полковник чекає на доповідь у своєму кабінеті.</text>
+	</string>
+
+	<string id="task_fr_agr_snab_final">
+		<text>Забрати спорядження в постачальника</text>
+	</string>
+	<string id="task_fr_agr_snab_final_1">
+		<text>Забрати спорядження</text>
+	</string>
+	<string id="task_fr_agr_snab_final_artcl">
+		<text>Полковник відправляє мене вниз, по останню частину карт. Постачальник видасть найкраще спорядження, яке лишилося на базі.</text>
+	</string>
+
+	<string id="task_fr_agr_und_final">
+		<text>Спуститися в підземелля Агропрому</text>
+	</string>
+	<string id="task_fr_agr_und_final_1">
+		<text>Спуститися в підземелля</text>
+	</string>
+	<string id="task_fr_agr_und_final_2">
+		<text>Поговорити із сержантом</text>
+	</string>
+	<string id="task_fr_agr_und_final_artcl">
+		<text>Треба спуститися в підземелля, знайти сержанта й разом із підземним гарнізоном іти в П-2 по останню частину карт.</text>
+	</string>
+
+	<string id="task_fr_agr_und_help">
+		<text>Допомогти гарнізону підземки</text>
+	</string>
+	<string id="task_fr_agr_und_help_1">
+		<text>Відбити атаку Ордену</text>
+	</string>
+	<string id="task_fr_agr_und_help_artcl">
+		<text>На підземний гарнізон напав Орден, і серед наших виявилися зрадники. Треба відбити атаку, поки від гарнізону ще хтось лишився.</text>
+	</string>
+
+	<string id="task_fr_agr_to_p2">
+		<text>Спуститися в П-2</text>
+	</string>
+	<string id="task_fr_agr_to_p2_1">
+		<text>Спуститися в П-2</text>
+	</string>
+	<string id="task_fr_agr_to_p2_artcl">
+		<text>Сірий зі своїми сталкерами пройшов униз, у П-2. Остання частина карт десь там. Треба поспішати.</text>
+	</string>
+	<string id="fr_agr_p2_gate_hint">
+		<text>Спуск у П-2</text>
+	</string>
+
+	<!-- ===== КПК сержанта ===== -->
+	<string id="fr_agr_serg_pda_name">
+		<text>КПК сержанта</text>
+	</string>
+	<string id="fr_agr_serg_pda_descr">
+		<text>КПК сержанта підземного гарнізону. Останній запис:\n\n"Не чекав я такої підстави... Щоб отак померти від руки своїх. Рядовий - ідіот. 100 разів казав здати всі гранати мені, щоб, не дай Боже, нічого тут не підірвати. Не послухав... Тепер я лежу тут, стікаю кров'ю, а мої бійці гинуть від рук зрадників і... навіть не знаю, кого ще. Хех, може, мені здалося... Але я бачив якихось сталкерів, які пройшли повз бій. Не стріляли, не ховалися, просто пройшли повз. Один попереду, такий спокійний, і вниз... Я, мабуть, уже марю... Схоже, я довго не протягну, це кінець..."</text>
+	</string>
+	
+	
+	
+	<string id="task_fr_agr_find_maps">
+		<text>Знайти архівні карти</text>
+	</string>
+	<string id="task_fr_agr_find_maps_1">
+		<text>Знайти карти місцевості</text>
+	</string>
+	<string id="task_fr_agr_find_maps_artcl">
+		<text>Сірий пішов униз, у П-2, по останню частину карт. Якщо він дійшов, карти мають бути в нього.</text>
+	</string>
+
+	<string id="task_fr_agr_kill_fanat">
+		<text>Убити Фаната</text>
+	</string>
+	<string id="task_fr_agr_kill_fanat_1">
+		<text>Убити Фаната</text>
+	</string>
+	<string id="task_fr_agr_kill_fanat_artcl">
+		<text>Фанат, той, хто розстріляв свою групу в тунелі, прийшов по карти. Живим він звідси не піде.</text>
+	</string>
+
+	<string id="task_fr_agr_to_surface">
+		<text>Повернутися на поверхню</text>
+	</string>
+	<string id="task_fr_agr_to_surface_1">
+		<text>Повернутися на базу</text>
+	</string>
+	<string id="task_fr_agr_to_surface_artcl">
+		<text>Орден почав штурм. База, полковник, хлопці... Треба нагору, якомога швидше. Вихід на іншому кінці тунелю.</text>
+	</string>
+	<string id="fr_agr_p2_exit_hint">
+		<text>Вихід на поверхню</text>
+	</string>
+
+	<!-- ===== Последняя часть карт ===== -->
+	<string id="fr_agr_maps_final_name">
+		<text>Карти місцевості</text>
+	</string>
+	<string id="fr_agr_maps_final_descr">
+		<text>Остання частина архівних карт із П-2. Заради цих аркушів загинуло надто багато людей.</text>
+	</string>	
+	
+	
+	
+		<string id="task_fr_agr_wave1">
+		<text>Перша хвиля</text>
+	</string>
+	<string id="task_fr_agr_wave1_1">
+		<text>Відбитися від першої хвилі</text>
+	</string>
+	<string id="task_fr_agr_wave1_artcl">
+		<text>Орден почав штурм. Зомбовані лізуть на базу з усіх боків.</text>
+	</string>
+
+	<string id="task_fr_agr_hold">
+		<text>Протриматися</text>
+	</string>
+	<string id="task_fr_agr_hold_1">
+		<text>Тримати оборону</text>
+	</string>
+	<string id="task_fr_agr_hold_artcl">
+		<text>Техніки намагаються полагодити вертоліт: пального вистачить на один переліт. Треба протриматися стільки, скільки зможемо.</text>
+	</string>
+
+	<string id="task_fr_agr_wave2">
+		<text>Друга хвиля</text>
+	</string>
+	<string id="task_fr_agr_wave2_1">
+		<text>Знищити диких біля північного входу</text>
+	</string>
+	<string id="task_fr_agr_wave2_artcl">
+		<text>Північний вхід проривають. Щось, що колись було людьми.</text>
+	</string>
+
+	<string id="task_fr_agr_wave3">
+		<text>Третя хвиля</text>
+	</string>
+	<string id="task_fr_agr_wave3_1">
+		<text>Зайняти снайперську позицію</text>
+	</string>
+	<string id="task_fr_agr_wave3_2">
+		<text>Відбити атаку Ордену</text>
+	</string>
+	<string id="task_fr_agr_wave3_artcl">
+		<text>Основні сили Ордену йдуть із північного сходу. Нашого снайпера вибили, його місце на даху тепер моє.</text>
+	</string>
+
+	<string id="task_fr_agr_snipers">
+		<text>Убити ворожих снайперів</text>
+	</string>
+	<string id="task_fr_agr_snipers_1">
+		<text>Убити снайперів</text>
+	</string>
+	<string id="task_fr_agr_snipers_2">
+		<text>Забрати карти</text>
+	</string>
+	<string id="task_fr_agr_snipers_artcl">
+		<text>Сержанта, який забирав карти з кабінету полковника, зняв снайпер із пагорба. Треба прибрати снайперів і забрати документи.</text>
+	</string>
+
+	<string id="task_fr_agr_escape">
+		<text>Втеча</text>
+	</string>
+	<string id="task_fr_agr_escape_1">
+		<text>Покинути базу</text>
+	</string>
+	<string id="task_fr_agr_escape_2">
+		<text>Дістатися до люка</text>
+	</string>
+	<string id="task_fr_agr_escape_artcl">
+		<text>Полковник наказав відходити. Через діру в південній стіні, до люка, а звідти підземним тунелем на Кордон. Карти не повинні потрапити до рук Ордену.</text>
+	</string>
+
+	<string id="fr_agr_roof_hint">
+		<text>Снайперська позиція</text>
+	</string>
+	<string id="fr_agr_wall_hint">
+		<text>Діра в південній стіні</text>
+	</string>
+	<string id="fr_agr_hatch_hint">
+		<text>Люк</text>
+	</string>
+
+	<!-- ===== Карты полковника ===== -->
+	<string id="fr_agr_maps_kuz_name">
+		<text>Карти полковника</text>
+	</string>
+	<string id="fr_agr_maps_kuz_descr">
+		<text>Карти місцевості зі столу полковника Кузнецова, усі частини, зібрані за останні тижні. Серед них і та, яку колись зняли з трупа диггера.</text>
+	</string>
+	<string id="fr_agr_snab2_name">
+		<text>Сержант Малевич</text>
+	</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string id="agr_find_ghost">
+		<text>Дізнатися про долю Привида</text>
+	</string>
+	<string id="agr_gunslinger_cache">
+		<text>Схованка Стрільця</text>
+	</string>
+	<string id="agr_help_krot">
+		<text>Врятувати Крота</text>
+	</string>
+	<string id="agr_help_krot_0">
+		<text>Допомогти Кротові відбитися від військових</text>
+	</string>
+	<string id="agr_help_krot_1">
+		<text>Знищити військових</text>
+	</string>
+	<string id="agr_help_krot_2">
+		<text>Врятувати Крота</text>
+	</string>
+	<string id="agr_help_stalkers">
+		<text>Допомогти сталкерам</text>
+	</string>
+	<string id="agr_help_stalkers_0">
+		<text>Допомогти сталкерам відбитися від військових</text>
+	</string>
+	<string id="agr_help_stalkers_1">
+		<text>Знищити військових</text>
+	</string>
+	<string id="agr_help_stalkers_2">
+		<text>Допомогти сталкерам відбитися від військових</text>
+	</string>
+	<string id="agr_krot">
+		<text>Зустрітися зі сталкерами</text>
+	</string>
+	<string id="agr_meet_krot_band">
+		<text>Отримати інформацію про Стрільця</text>
+	</string>
+	<string id="agr_meet_krot_band_0">
+		<text>Отримати від Крота інформацію</text>
+	</string>
+	<string id="agr_meet_krot_band_1">
+		<text>Зустрітися з угрупованням Крота</text>
+	</string>
+	<string id="agr_meet_krot_band_2">
+		<text>Отримати інформацію від Крота</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache">
+		<text>Знайти схованку угруповання Стрільця</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_0">
+		<text>Знайти схованку угруповання Стрільця.</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_1">
+		<text>Знайти схованку</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_2">
+		<text>Знайти в схованці інформацію про Стрільця</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_3">
+		<text>Вибратися з підземелля</text>
+	</string>
+	<string id="agroprom_find_stalker_phantom">
+		<text>Знайти Привида</text>
+	</string>
+	<string id="agroprom_find_stalker_phantom_0">
+		<text>Привид знає, де Стрілець.</text>
+	</string>
+	<string id="agroprom_get_military_documents">
+		<text>Знайти документи військових</text>
+	</string>
+	<string id="agroprom_get_military_documents_0">
+		<text>НДІ Агропром</text>
+	</string>
+	<string id="agroprom_get_military_documents_1">
+		<text>Викрасти військові документи</text>
+	</string>
+	<string id="agroprom_get_military_documents_2">
+		<text>Віднести документи барменові</text>
+	</string>

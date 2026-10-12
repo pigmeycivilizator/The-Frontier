@@ -453,7 +453,7 @@
 
 	<specific_character id="fr_agr_dead_cultist" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<icon>ui_npc_u_stalker_do_mask_1</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -479,7 +479,7 @@
 
 	<specific_character id="fr_agr_cultist_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_nauchniy</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -507,7 +507,7 @@
 
 	<specific_character id="fr_agr_cultist_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<icon>ui_npc_u_stalker_do_balon_7</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -533,7 +533,7 @@
 
 	<specific_character id="fr_agr_cultist_3" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<icon>ui_npc_u_stalker_do_mask</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -548,8 +548,8 @@
 		<crouch_type>0</crouch_type>
 		<supplies>
 			[spawn] \n
-			wpn_uzi \n
-			ammo_9x19_fmj = 2 \n
+			wpn_p90 \n
+			ammo_5.7x28_ap = 2 \n
 			bandage \n
 #include "gameplay\character_food.xml"
 		</supplies>
@@ -1142,7 +1142,7 @@
 
 	<specific_character id="fr_agr_pastukh" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_nauchniy</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -1235,7 +1235,7 @@
 	
 	<specific_character id="fr_agr_pastukh_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_balon_7</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -1281,7 +1281,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 	
-		<!-- ============ ÊÀÏÈÒÀÍ ÀÊÅÐÀÍ ============ -->
+		<!-- ============ ÐšÐÐŸÐ˜Ð¢ÐÐ ÐÐšÐ•Ð ÐÐ ============ -->
 	<specific_character id="fr_agr_akeran" team_default="1">
 		<name>fr_agr_akeran_name</name>
 		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
@@ -1307,7 +1307,7 @@
 		<actor_dialog>fr_agr_akeran_talk</actor_dialog>
 	</specific_character>
 
-	<!-- ============ ØÒÓÐÌÎÂÎÉ ÎÒÐßÄ, Áåðèëë ============ -->
+	<!-- ============ Ð¨Ð¢Ð£Ð ÐœÐžÐ’ÐžÐ™ ÐžÐ¢Ð Ð¯Ð”, Ð‘ÐµÑ€Ð¸Ð»Ð» ============ -->
 	<specific_character id="fr_agr_strike_soldier_1" team_default="1">
 		<name>GENERATE_NAME_sergeant</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -1413,7 +1413,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ËÎÃÎÂÎ: ÇÎÌÁÈ ============ -->
+	<!-- ============ Ð›ÐžÐ“ÐžÐ’Ðž: Ð—ÐžÐœÐ‘Ð˜ ============ -->
 	<specific_character id="fr_agr_lair_zombie_1" team_default="1">
 		<name>GENERATE_NAME_herd</name>
 		<icon>ui_npc_u_stalker_zombie1</icon>
@@ -1594,7 +1594,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ËÎÃÎÂÎ: ÇÎÌÁÈÐÎÂÀÍÍÛÅ ÂÎÅÍÍÛÅ, Áåðèëë ============ -->
+	<!-- ============ Ð›ÐžÐ“ÐžÐ’Ðž: Ð—ÐžÐœÐ‘Ð˜Ð ÐžÐ’ÐÐÐÐ«Ð• Ð’ÐžÐ•ÐÐÐ«Ð•, Ð‘ÐµÑ€Ð¸Ð»Ð» ============ -->
 	<specific_character id="fr_agr_lair_zombie_mil_1" team_default="1">
 		<name>GENERATE_NAME_herd</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -1655,10 +1655,10 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ËÎÃÎÂÎ: ÊÓËÜÒÈÑÒ-ÏÀÑÒÓÕ ============ -->
+	<!-- ============ Ð›ÐžÐ“ÐžÐ’Ðž: ÐšÐ£Ð›Ð¬Ð¢Ð˜Ð¡Ð¢-ÐŸÐÐ¡Ð¢Ð£Ð¥ ============ -->
 	<specific_character id="fr_agr_strike_cultist" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_nauchniy</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -1679,7 +1679,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ÏÐÅÄÀÒÅËÈ Ñ ÑÅÂÅÐÍÎÃÎ ÏÎÑÒÀ, Áåðèëë ============ -->
+	<!-- ============ ÐŸÐ Ð•Ð”ÐÐ¢Ð•Ð›Ð˜ Ð¡ Ð¡Ð•Ð’Ð•Ð ÐÐžÐ“Ðž ÐŸÐžÐ¡Ð¢Ð, Ð‘ÐµÑ€Ð¸Ð»Ð» ============ -->
 	<specific_character id="fr_agr_traitor_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -1742,7 +1742,7 @@
 	
 	
 	
-	<!-- ============ ÄÈÊÈÅ (6 âàðèàíòîâ, âûáîð ñëó÷àéíûé) ============ -->
+	<!-- ============ Ð”Ð˜ÐšÐ˜Ð• (6 Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð¾Ð², Ð²Ñ‹Ð±Ð¾Ñ€ ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ð¹) ============ -->
 	<specific_character id="fr_agr_wild_1" team_default="1">
 		<name>GENERATE_NAME_wild</name>
 		<icon>ui_npc_u_stalker_zombie1</icon>
@@ -1863,7 +1863,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ÑÒÀËÊÅÐÛ Â ËÅÑÓ (2 âàðèàíòà) ============ -->
+	<!-- ============ Ð¡Ð¢ÐÐ›ÐšÐ•Ð Ð« Ð’ Ð›Ð•Ð¡Ð£ (2 Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð°) ============ -->
 	<specific_character id="fr_agr_forest_stalker_1" team_default="1">
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_hood_2</icon>
@@ -1904,7 +1904,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ÕÎÐÓÑ Â ÂÀÃÎÍ×ÈÊÅ ============ -->
+	<!-- ============ Ð¥ÐžÐ Ð£Ð¡ Ð’ Ð’ÐÐ“ÐžÐÐ§Ð˜ÐšÐ• ============ -->
 	<specific_character id="fr_agr_horus_wagon" team_default="1">
 		<name>fr_agr_horus_booth_name</name>
 		<icon>icon_huy</icon>
@@ -1927,7 +1927,7 @@
 		<actor_dialog>fr_agr_horus_wagon</actor_dialog>
 	</specific_character>
 
-	<!-- ============ ÔÓËÃÐÈÌ ============ -->
+	<!-- ============ Ð¤Ð£Ð›Ð“Ð Ð˜Ðœ ============ -->
 	<specific_character id="fr_agr_fulgrim" team_default="1">
 		<name>fr_agr_fulgrim_name</name>
 		<icon>ui_npc_u_stalker_mo_exo</icon>
@@ -1952,10 +1952,10 @@
 		<actor_dialog>fr_agr_fulgrim_meet</actor_dialog>
 	</specific_character>
 
-	<!-- ============ ÌÀÑÒÅÐÀ ÎÐÄÅÍÀ (ñ Ôóëãðèìîì, 4 âàðèàíòà) ============ -->
+	<!-- ============ ÐœÐÐ¡Ð¢Ð•Ð Ð ÐžÐ Ð”Ð•ÐÐ (Ñ Ð¤ÑƒÐ»Ð³Ñ€Ð¸Ð¼Ð¾Ð¼, 4 Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð°) ============ -->
 	<specific_character id="fr_agr_order_master_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -1975,7 +1975,7 @@
 
 	<specific_character id="fr_agr_order_master_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -1995,7 +1995,7 @@
 
 	<specific_character id="fr_agr_order_master_3" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -2015,7 +2015,7 @@
 
 	<specific_character id="fr_agr_order_master_4" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -2033,10 +2033,10 @@
 #include "gameplay\character_criticals_5.xml"
 	</specific_character>
 
-	<!-- ============ ØÒÓÐÌÎÂÈÊÈ ÎÐÄÅÍÀ Ó ÁÀÇÛ (3 âàðèàíòà) ============ -->
+	<!-- ============ Ð¨Ð¢Ð£Ð ÐœÐžÐ’Ð˜ÐšÐ˜ ÐžÐ Ð”Ð•ÐÐ Ð£ Ð‘ÐÐ—Ð« (3 Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð°) ============ -->
 	<specific_character id="fr_agr_order_raider_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -2056,7 +2056,7 @@
 
 	<specific_character id="fr_agr_order_raider_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -2076,7 +2076,7 @@
 
 	<specific_character id="fr_agr_order_raider_3" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -2094,7 +2094,7 @@
 #include "gameplay\character_criticals_5.xml"
 	</specific_character>	
 	
-	<!-- ============ ÏÐÅÄÀÒÅËÈ ÍÀ ÁÀÇÅ (3 âàðèàíòà) ============ -->
+	<!-- ============ ÐŸÐ Ð•Ð”ÐÐ¢Ð•Ð›Ð˜ ÐÐ Ð‘ÐÐ—Ð• (3 Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð°) ============ -->
 	<specific_character id="fr_agr_base_traitor_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -2235,7 +2235,7 @@
 	
 	<!---------------------------STALKER GENERAL---------------------->
 	
-	<!-- ============ ËÀÃÅÐÜ: ÎÁÛ×ÍÛÅ ÑÒÀËÊÅÐÛ ============ -->
+	<!-- ============ Ð›ÐÐ“Ð•Ð Ð¬: ÐžÐ‘Ð«Ð§ÐÐ«Ð• Ð¡Ð¢ÐÐ›ÐšÐ•Ð Ð« ============ -->
 	<specific_character id="agr_stalker_general_default1" team_default="1">
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_hood_uzor</icon>
@@ -2266,6 +2266,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2301,6 +2302,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2336,6 +2338,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2371,6 +2374,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2406,6 +2410,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2441,6 +2446,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2513,6 +2519,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2547,6 +2554,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2581,6 +2589,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2615,6 +2624,7 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 		<actor_dialog>dm_help_wounded_medkit_dialog</actor_dialog>
@@ -2646,13 +2656,14 @@
 		</supplies>
 
 #include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
 
 		<start_dialog>fr_stalker_hello</start_dialog>
 	</specific_character>
 	
 	
 	
-	<!-- ============ ÐÀÇÂÅÄÊÀ ÑÅÐÎÃÎ ============ -->
+	<!-- ============ Ð ÐÐ—Ð’Ð•Ð”ÐšÐ Ð¡Ð•Ð ÐžÐ“Ðž ============ -->
 	<specific_character id="fr_agr_recon_leader" team_default="1">
 		<name>agr_recon_leader_name</name>
 		<icon>ui_npc_u_stalker_neytral_hood_9</icon>
@@ -2766,7 +2777,7 @@
 	</specific_character>	
 	
 	
-	<!-- ============ ÏÐÎÏÀÂØÈÉ ÐÀÇÂÅÄ×ÈÊ ============ -->
+	<!-- ============ ÐŸÐ ÐžÐŸÐÐ’Ð¨Ð˜Ð™ Ð ÐÐ—Ð’Ð•Ð”Ð§Ð˜Ðš ============ -->
 	<specific_character id="fr_agr_dead_scout" team_default="1">
 		<name>GENERATE_NAME_private</name>
 		<icon>ui_npc_u_soldier_obichniy</icon>
@@ -2793,7 +2804,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ============ ÇÎÌÁÈ, ÑÒÐÅËßÞÙÈÅ ÏÎ ÒÐÓÏÓ ============ -->
+	<!-- ============ Ð—ÐžÐœÐ‘Ð˜, Ð¡Ð¢Ð Ð•Ð›Ð¯Ð®Ð©Ð˜Ð• ÐŸÐž Ð¢Ð Ð£ÐŸÐ£ ============ -->
 	<specific_character id="fr_agr_zombie_shooter_1" team_default="1">
 		<name>GENERATE_NAME_herd</name>
 		<icon>ui_npc_u_stalker_zombie2</icon>
@@ -2847,7 +2858,7 @@
 	
 	
 	
-		<!-- ===== Ñåðûé ïîñëå ÝÌÈ ===== -->
+		<!-- ===== Ð¡ÐµÑ€Ñ‹Ð¹ Ð¿Ð¾ÑÐ»Ðµ Ð­ÐœÐ˜ ===== -->
 	<specific_character id="fr_agr_sery_emp" team_default="1">
 		<name>gar_seryi_name</name>
 		<icon>ui_npc_u_stalker_neytral_hood_4</icon>
@@ -2878,7 +2889,7 @@
 		<actor_dialog>fr_agr_sery_emp_truth</actor_dialog>
 	</specific_character>
 
-	<!-- ===== Âûæèâøèå Ñåðîãî ===== -->
+	<!-- ===== Ð’Ñ‹Ð¶Ð¸Ð²ÑˆÐ¸Ðµ Ð¡ÐµÑ€Ð¾Ð³Ð¾ ===== -->
 	<specific_character id="fr_agr_sery_surv_1" team_default="1">
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_balon_8</icon>
@@ -2929,7 +2940,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ===== Òðóïû ñòàëêåðîâ â ëàãåðå ===== -->
+	<!-- ===== Ð¢Ñ€ÑƒÐ¿Ñ‹ ÑÑ‚Ð°Ð»ÐºÐµÑ€Ð¾Ð² Ð² Ð»Ð°Ð³ÐµÑ€Ðµ ===== -->
 	<specific_character id="fr_agr_camp_dead_stalker_1" team_default="1">
 		<name>GENERATE_NAME_stalker</name>
 		<icon>ui_npc_u_stalker_neytral_balon_8</icon>
@@ -3112,7 +3123,7 @@
 	
 	
 	
-		<!-- ===== Ëàçàðåò: ðàíåíûå ===== -->
+		<!-- ===== Ð›Ð°Ð·Ð°Ñ€ÐµÑ‚: Ñ€Ð°Ð½ÐµÐ½Ñ‹Ðµ ===== -->
 	<specific_character id="fr_agr_laz_w1" team_default="1">
 		<name>GENERATE_NAME_private</name>
 		<icon>ui_npc_u_soldier_bandana</icon>
@@ -3218,7 +3229,7 @@
 	</specific_character>
 	
 	
-		<!-- ===== Ëàçàðåò: äåæóðíûé ===== -->
+		<!-- ===== Ð›Ð°Ð·Ð°Ñ€ÐµÑ‚: Ð´ÐµÐ¶ÑƒÑ€Ð½Ñ‹Ð¹ ===== -->
 	<specific_character id="fr_agr_laz_duty" team_default="1">
 		<name>fr_agr_laz_duty_name</name>
 		<icon>ui_npc_u_soldier_obichniy</icon>
@@ -3248,12 +3259,12 @@
 	</specific_character>
 
 
-	<!-- ===== Ïðåäàòåëè ó ñêëàäà: òåõíè÷åñêè Äîëã, âûãëÿäÿò êàê âîåííûå ===== -->
+	<!-- ===== ÐŸÑ€ÐµÐ´Ð°Ñ‚ÐµÐ»Ð¸ Ñƒ ÑÐºÐ»Ð°Ð´Ð°: Ñ‚ÐµÑ…Ð½Ð¸Ñ‡ÐµÑÐºÐ¸ Ð”Ð¾Ð»Ð³, Ð²Ñ‹Ð³Ð»ÑÐ´ÑÑ‚ ÐºÐ°Ðº Ð²Ð¾ÐµÐ½Ð½Ñ‹Ðµ ===== -->
 	<specific_character id="fr_agr_base_saboteur_1" team_default="1">
 		<name>GENERATE_NAME_private</name>
-		<icon>ui_npc_u_soldier_spetsnaz</icon>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
 		<map_icon x="1" y="1"></map_icon>
-		<bio>fr_agr_post_soldier_bio</bio>
+		<bio>fr_agr_post_sab_soldier_bio</bio>
 
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -3277,9 +3288,9 @@
 
 	<specific_character id="fr_agr_base_saboteur_2" team_default="1">
 		<name>GENERATE_NAME_private</name>
-		<icon>ui_npc_u_soldier_obichniy</icon>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
 		<map_icon x="1" y="1"></map_icon>
-		<bio>fr_agr_post_soldier_bio</bio>
+		<bio>fr_agr_post_sab_soldier_bio</bio>
 
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -3302,9 +3313,9 @@
 
 	<specific_character id="fr_agr_base_saboteur_3" team_default="1">
 		<name>GENERATE_NAME_private</name>
-		<icon>ui_npc_u_soldier_bandana_6</icon>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
 		<map_icon x="1" y="1"></map_icon>
-		<bio>fr_agr_post_soldier_bio</bio>
+		<bio>fr_agr_post_sab_soldier_bio</bio>
 
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -3327,9 +3338,9 @@
 
 	<specific_character id="fr_agr_base_saboteur_4" team_default="1">
 		<name>GENERATE_NAME_private</name>
-		<icon>ui_npc_u_soldier_bandana_5</icon>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
 		<map_icon x="1" y="1"></map_icon>
-		<bio>fr_agr_post_soldier_bio</bio>
+		<bio>fr_agr_post_sab_soldier_bio</bio>
 
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
 		<crouch_type>-1</crouch_type>
@@ -3350,7 +3361,7 @@
 #include "gameplay\character_criticals_5.xml"
 	</specific_character>
 
-	<!-- ===== Ïîäçåìêà: çàùèòíèêè ===== -->
+	<!-- ===== ÐŸÐ¾Ð´Ð·ÐµÐ¼ÐºÐ°: Ð·Ð°Ñ‰Ð¸Ñ‚Ð½Ð¸ÐºÐ¸ ===== -->
 	<specific_character id="fr_agr_und_def_1" team_default="1">
 		<name>GENERATE_NAME_sergeant</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -3508,7 +3519,7 @@
 #include "gameplay\character_criticals_5.xml"
 	</specific_character>
 
-	<!-- ===== Ïîäçåìêà: ïðåäàòåëè â âîåííîé ôîðìå (Îðäåí) ===== -->
+	<!-- ===== ÐŸÐ¾Ð´Ð·ÐµÐ¼ÐºÐ°: Ð¿Ñ€ÐµÐ´Ð°Ñ‚ÐµÐ»Ð¸ Ð² Ð²Ð¾ÐµÐ½Ð½Ð¾Ð¹ Ñ„Ð¾Ñ€Ð¼Ðµ (ÐžÑ€Ð´ÐµÐ½) ===== -->
 	<specific_character id="fr_agr_und_traitor_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -3631,10 +3642,10 @@
 #include "gameplay\character_criticals_6.xml"
 	</specific_character>
 
-	<!-- ===== Ïîäçåìêà: Îðäåí ===== -->
+	<!-- ===== ÐŸÐ¾Ð´Ð·ÐµÐ¼ÐºÐ°: ÐžÑ€Ð´ÐµÐ½ ===== -->
 	<specific_character id="fr_agr_und_cultist_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_hood_9</icon>
+		<icon>ui_npc_u_stalker_do_balon_7</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3659,7 +3670,7 @@
 
 	<specific_character id="fr_agr_und_cultist_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_mo_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_mask</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3682,7 +3693,7 @@
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>
 
-	<!-- ===== Ïîäçåìêà: ðàíåíûé ñåðæàíò ===== -->
+	<!-- ===== ÐŸÐ¾Ð´Ð·ÐµÐ¼ÐºÐ°: Ñ€Ð°Ð½ÐµÐ½Ñ‹Ð¹ ÑÐµÑ€Ð¶Ð°Ð½Ñ‚ ===== -->
 	<specific_character id="fr_agr_und_serg_w" team_default="1">
 		<name>fr_agr_und_sergeant_name</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -3716,10 +3727,10 @@
 	
 	
 	
-			<!-- ===== Ï-2: Ôàíàò, ìèíè-áîññ ===== -->
+			<!-- ===== ÐŸ-2: Ð¤Ð°Ð½Ð°Ñ‚, Ð¼Ð¸Ð½Ð¸-Ð±Ð¾ÑÑ ===== -->
 	<specific_character id="fr_agr_fanat_boss" team_default="1">
 		<name>esc_fanat_name</name>
-		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_fanat_boss_bio</bio>
 
@@ -3745,7 +3756,7 @@
 #include "gameplay\character_criticals_6.xml"
 	</specific_character>
 
-	<!-- ===== Ï-2: òðóï Ñåðîãî ñ êàðòàìè ===== -->
+	<!-- ===== ÐŸ-2: Ñ‚Ñ€ÑƒÐ¿ Ð¡ÐµÑ€Ð¾Ð³Ð¾ Ñ ÐºÐ°Ñ€Ñ‚Ð°Ð¼Ð¸ ===== -->
 	<specific_character id="fr_agr_sery_dead" team_default="1">
 		<name>gar_seryi_name</name>
 		<icon>ui_npc_u_stalker_neytral_hood_4</icon>
@@ -3776,7 +3787,7 @@
 	
 	
 	
-		<!-- ===== Îðäåí: íîâûå ìîäåëè ===== -->
+		<!-- ===== ÐžÑ€Ð´ÐµÐ½: Ð½Ð¾Ð²Ñ‹Ðµ Ð¼Ð¾Ð´ÐµÐ»Ð¸ ===== -->
 	<specific_character id="fr_agr_order_balon" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
 		<icon>ui_npc_u_stalker_do_balon_7</icon>
@@ -3926,7 +3937,7 @@
 	
 	
 	
-		<!-- ===== Øòóðì: Îðäåí ñ ÐÏÃ ===== -->
+		<!-- ===== Ð¨Ñ‚ÑƒÑ€Ð¼: ÐžÑ€Ð´ÐµÐ½ Ñ Ð ÐŸÐ“ ===== -->
 	<specific_character id="fr_agr_order_rpg" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
 		<icon>ui_npc_u_stalker_do_mask</icon>
@@ -3956,7 +3967,7 @@
 #include "gameplay\character_criticals_5.xml"
 	</specific_character>
 
-	<!-- ===== Øòóðì: ñíàéïåð Îðäåíà íà õîëìå ===== -->
+	<!-- ===== Ð¨Ñ‚ÑƒÑ€Ð¼: ÑÐ½Ð°Ð¹Ð¿ÐµÑ€ ÐžÑ€Ð´ÐµÐ½Ð° Ð½Ð° Ñ…Ð¾Ð»Ð¼Ðµ ===== -->
 	<specific_character id="fr_agr_order_sniper" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
 		<icon>ui_npc_u_stalker_do_nauchniy</icon>
@@ -3986,7 +3997,7 @@
 #include "gameplay\character_criticals_5.xml"
 	</specific_character>
 
-	<!-- ===== Øòóðì: ñåðæàíò-ñíàáæåíåö, ïîãèáàåò â êàáèíåòå ===== -->
+	<!-- ===== Ð¨Ñ‚ÑƒÑ€Ð¼: ÑÐµÑ€Ð¶Ð°Ð½Ñ‚-ÑÐ½Ð°Ð±Ð¶ÐµÐ½ÐµÑ†, Ð¿Ð¾Ð³Ð¸Ð±Ð°ÐµÑ‚ Ð² ÐºÐ°Ð±Ð¸Ð½ÐµÑ‚Ðµ ===== -->
 	<specific_character id="fr_agr_snab2" team_default="1">
 		<name>fr_agr_snab2_name</name>
 		<icon>ui_npc_u_soldier_spetsnaz</icon>
@@ -4008,7 +4019,6 @@
 			wpn_pm \n
 			ammo_9x18_fmj \n
 			fr_agr_maps_kuz \n
-			fr_agr_maps_part \n
 #include "gameplay\character_drugs.xml"
 		</supplies>
 
@@ -4017,7 +4027,7 @@
 	
 	
 	
-		<!-- ===== Øòóðì: áåññìåðòíûå ñîþçíèêè â «Áóëàòàõ» ===== -->
+		<!-- ===== Ð¨Ñ‚ÑƒÑ€Ð¼: Ð±ÐµÑÑÐ¼ÐµÑ€Ñ‚Ð½Ñ‹Ðµ ÑÐ¾ÑŽÐ·Ð½Ð¸ÐºÐ¸ Ð² Â«Ð‘ÑƒÐ»Ð°Ñ‚Ð°Ñ…Â» ===== -->
 	<specific_character id="fr_agr_as_kuznetsov" team_default="1">
 		<name>fr_agr_kuznetsov_name</name>
 		<icon>ui_npc_u_stalker_militari_antigas_2</icon>

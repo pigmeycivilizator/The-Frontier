@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="id_mp_money">
+		<text>Гроші</text>
+	</string>
+	<string id="mm_mp_pda_hunt">
+		<text>Бонус за КПК</text>
+	</string>
+	<string id="st_drink">
+		<text>випити</text>
+	</string>
+	<string id="st_mp_direct_ip">
+		<text>Прямий IP</text>
+	</string>
+	<string id="ui_mm_render_2">
+		<text>Рендер-2</text>
+	</string>
+	<string id="ui_pda_details">
+		<text># /деталі</text>
+	</string>
+	<string id="ui_st_btn_cancel">
+		<text>Скасувати</text>
+	</string>
+	<string id="ui_st_btn_no">
+		<text>Ні</text>
+	</string>
+	<string id="ui_st_btn_ok">
+		<text>ОК</text>
+	</string>
+	<string id="ui_st_btn_yes">
+		<text>Так</text>
+	</string>
+	<string id="ui_st_cant_run_r2">
+		<text>На вашому комп'ютері неможливо запустити другий рендер</text>
+	</string>
+	<string id="ui_st_conn_invalid_host">
+		<text>Помилка з'єднання: неправильний хост</text>
+	</string>
+	<string id="ui_st_conn_invalid_pass">
+		<text>Помилка з'єднання: неправильний пароль</text>
+	</string>
+	<string id="ui_st_conn_rejected_server">
+		<text>Помилка з'єднання: сервер розірвав з'єднання</text>
+	</string>
+	<string id="ui_st_conn_sess_full">
+		<text>Помилка з'єднання: сервер заповнений</text>
+	</string>
+	<string id="ui_st_days">
+		<text>дн.</text>
+	</string>
+	<string id="ui_st_error">
+		<text>Помилка</text>
+	</string>
+	<string id="ui_st_hours">
+		<text>год.</text>
+	</string>
+	<string id="ui_st_leave">
+		<text>Піти</text>
+	</string>
+	<string id="ui_st_mins">
+		<text>хв.</text>
+	</string>
+	<string id="ui_st_months">
+		<text>міс.</text>
+	</string>
+	<string id="ui_st_params">
+		<text>Параметри</text>
+	</string>
+	<string id="ui_st_secs">
+		<text>сек.</text>
+	</string>
+	<string id="ui_st_select_one_map">
+		<text>Будь ласка, виберіть хоча б одну карту</text>
+	</string>
+	<string id="ui_st_take_all">
+		<text>Взяти все</text>
+	</string>
+	<string id="ui_st_time_remains">
+		<text>Залишилося</text>
+	</string>
+	<string id="ui_st_trade">
+		<text>Торгувати</text>
+	</string>
+	<string id="ui_st_voting_disabled">
+		<text>Голосування вимкнено</text>
+	</string>
+	<string id="ui_st_your_items">
+		<text>Речі Роговця</text>
+	</string>
+	<string id="st_level">
+		<text>Рівень</text>
+	</string>
+	<string id="st_opening_stream">
+		<text>Відкриття потоку</text>
+	</string>
+	<string id="st_loading_cform">
+		<text>Завантаження форми об'єктів</text>
+	</string>
+	<string id="st_prefetching_objects">
+		<text>Кешування об'єктів</text>
+	</string>
+	<string id="st_creating_new_game">
+		<text>Створення нової гри</text>
+	</string>
+	<string id="st_loading_alife_simulator">
+		<text>Сервер: Завантаження симуляції життя</text>
+	</string>
+	<string id="st_server_connecting">
+		<text>Сервер: З'єднання</text>
+	</string>
+	<string id="st_loading_saved_game">
+		<text>Завантаження гри</text>
+	</string>
+	<string id="st_validating_cdkey">
+		<text>Перевірка ключа</text>
+	</string>
+	<string id="st_loading_ai_objects">
+		<text>Завантаження об'єктів ШІ</text>
+	</string>
+	<string id="st_client_connecting_to">
+		<text>Клієнт: З'єднання з</text>
+	</string>
+	<string id="st_client_spawning">
+		<text>Клієнт: Створення</text>
+	</string>
+	<string id="st_loading_textures">
+		<text>Завантаження текстур</text>
+	</string>
+	<string id="st_client_synchronising">
+		<text>Клієнт: Синхронізація</text>
+	</string>
+	<string id="st_server_starting">
+		<text>Сервер: Запуск</text>
+	</string>
+	<string id="st_loading_shaders">
+		<text>Завантаження шейдерів</text>
+	</string>
+	<string id="st_loading_geometry">
+		<text>Завантаження геометрії</text>
+	</string>
+	<string id="st_loading_spatial_db">
+		<text>Завантаження просторової бази</text>
+	</string>
+	<string id="st_loading_details">
+		<text>Завантаження детальних об'єктів</text>
+	</string>
+	<string id="st_loading_sectors_portals">
+		<text>Завантаження секторів і порталів</text>
+	</string>
+	<string id="ui_st_conn_version_differs">
+		<text>Помилка з'єднання: Версії не збігаються.</text>
+	</string>
+	<string id="ui_st_conn_cdkey_invalid">
+		<text>Помилка з'єднання: Неправильний CD-Key.</text>
+	</string>
+	<string id="ui_st_conn_cdkey_in_use">
+		<text>Помилка з'єднання: Цей CD-Key уже використовується.</text>
+	</string>
+	<string id="ui_st_conn_cdkey_disabled">
+		<text>Помилка з'єднання: Ваш CD-Key заблоковано. Зверніться до служби підтримки.</text>
+	</string>
+	<string id="ui_st_conn_new_patch">
+		<text>Доступний новий патч. \n Версія: %s\n %s\n Бажаєте завантажити його зараз?</text>
+	</string>
+	<string id="ui_st_conn_no_new_patch">
+		<text>Немає нових патчів</text>
+	</string>
+	<string id="st_game_paused">
+		<text>Пауза</text>
+	</string>
+	<string id="st_bolt">
+		<text>Болт</text>
+	</string>
+	<string id="st_items">
+		<text>Предмети</text>
+	</string>
+	<string id="st_video">
+		<text>Відео</text>
+	</string>
+	<string id="st_audio">
+		<text>Звук</text>
+	</string>
+	<string id="st_game">
+		<text>Гра</text>
+	</string>
+	<string id="st_controll">
+		<text>Керування</text>
+	</string>
+	<string id="ui_st_connecting_to_masterserver">
+		<text>Під'єднання до майстер-сервера</text>
+	</string>
+	<string id="mp_only_one_voting">
+		<text>Дозволено лише одне активне голосування</text>
+	</string>
+	<string id="ui_st_patch_download_success">
+		<text>Патч успішно завантажено. Встановити?</text>
+	</string>
+	<string id="ui_st_patch_download_error">
+		<text>Не вдалося завантажити патч.</text>
+	</string>
+
+	<string id="st_pda_change_spot_hint">
+		<text>Змінити текст позначки</text>
+	</string>
+	<string id="st_pda_delete_spot">
+		<text>Видалити позначку</text>
+	</string>
+
+	<string id="st_move">
+		<text>перенести</text>
+	</string>
+	<string id="st_move_all">
+		<text>перенести все</text>
+	</string>
+
+	<string id="st_move_to_slot_1">
+		<text>перемістити в перший слот</text>
+	</string>
+	<string id="st_move_to_slot_2">
+		<text>перемістити в другий слот</text>
+	</string>
+	<string id="st_attach_addon_to_wpn_in_slot_1">
+		<text>приєднати %s до %s у першому слоті</text>
+	</string>
+	<string id="st_attach_addon_to_wpn_in_slot_2">
+		<text>приєднати %s до %s у другому слоті</text>
+	</string>
+	
+	<string id="kb_cam_1">
+		<text>Вид від першої особи</text>
+	</string>
+	<string id="kb_cam_2">
+		<text>Вид від третьої особи</text>
+	</string>
+	<string id="kb_cam_3">
+		<text>Вид від третьої особи (freelook)</text>
+	</string>
+
+	<string id="kb_hide_hud">
+		<text>Сховати HUD</text>
+	</string>
+	<string id="kb_show_hud">
+		<text>Показати HUD</text>
+	</string>
+
+	<string id="inventory_item_use_or_drag">
+		<text>Підняти предмет ($$ACTION_USE$$) \n Перетягнути предмет (SHIFT+$$ACTION_USE$$)</text>
+	</string>
+	<string id="game_object_drag">
+		<text>Перетягнути предмет (SHIFT+$$ACTION_USE$$)</text>
+	</string>
+
+	<string id="st_press_any_key">
+		<text>Натисніть будь-яку клавішу, щоб перейти до гри</text>
+	</string>
+
+	<string id="ui_st_money_descr">
+		<text>РУБ</text>
+	</string>
+
+	<string id="discord_status_mm">
+		<text>У головному меню</text>
+	</string>
+
+</string_table>

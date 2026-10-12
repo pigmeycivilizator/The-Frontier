@@ -1034,9 +1034,16 @@
       <phrase id="12">
         <text>fr_snab_cr_12</text>
         <next>13</next>
+        <next>18</next>
       </phrase>
       <phrase id="13">
+        <precondition>agroprom.snab_has_belt_art</precondition>
         <text>fr_snab_cr_13</text>
+        <next>14</next>
+      </phrase>
+      <phrase id="18">
+        <precondition>agroprom.snab_no_belt_art</precondition>
+        <text>fr_snab_cr_13b</text>
         <next>14</next>
       </phrase>
       <phrase id="14">

@@ -1,0 +1,955 @@
+	
+<string id="fr_agr_soldier_intro_name">
+	<text>Рядовий Кравець</text>
+</string>
+<string id="fr_agr_soldier_intro_bio">
+	<text>Рядовий гарнізону НДІ Агропром. Поранений під час патрулювання, знятий з нарядів до кінця тижня.</text>
+</string>
+<string id="fr_agr_kuznetsov_name">
+	<text>Полковник Кузнецов</text>
+</string>
+<string id="fr_agr_kuznetsov_bio">
+	<text>Командир останньої великої бази Збройних Сил у Зоні. Служить тут з 2011 року.</text>
+</string>
+<string id="fr_agr_snab_name">
+	<text>Сержант Малевич</text>
+</string>
+<string id="fr_agr_snab_bio">
+	<text>Начальник складу. У Зоні п'ять років, пережив три бази. Знає всіх, хто возить сюди бодай щось.</text>
+</string>
+	
+<string id="agr_recon_leader_name">
+	<text>Тит</text>
+</string>	
+	
+	<string id="mutant_zombie_hand">
+		<text>Рука зомбі</text>
+	</string>
+	<string id="mutant_zombie_hand_description">
+		<text>Кисть зомбованого. Шкіра сіра й суха, як пергамент, нігті почорніли й потріскалися. Науковці охоче беруть такі зразки: по тканинах видно, що робить із людським тілом тривалий пси-вплив. Пахне відповідно.</text>
+	</string>	
+	
+	
+	
+	
+	<string id="aes_Monolit_master_bio">
+		<text>Хранитель угруповання "Моноліт". Краще триматися від нього подалі. Докладна інформація відсутня.</text>
+	</string>
+	<string id="aes_Monolit_rpg_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="aes_Monolit_sniper_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="aes_Monolit_sniper_gauss_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="aes_Monolit_specnaz_bio">
+		<text>Бойовик угруповання "Моноліт". Добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="aes_Soldier_commander_bio">
+		<text>Командир, що керує штурмом військових.</text>
+	</string>
+	<string id="aes_Soldier_military_bio">
+		<text>Військовий сталкер. Добре озброєний і дуже небезпечний. Докладна інформація недоступна.</text>
+	</string>
+	<string id="aes_Soldier_sniper_bio">
+		<text>Докладна інформація відсутня.</text>
+	</string>
+	<string id="aes_Soldier_specnaz_aes_bio">
+		<text>Армійський спецназ. Добре споряджений. Докладна інформація недоступна.</text>
+	</string>
+	<string id="aes_Soldier_specnaz_aes_name">
+		<text>Василь Невдаха</text>
+	</string>
+	<string id="aes_Soldier_specnaz_bio">
+		<text>Армійський спецназ. Добре споряджений. Докладна інформація недоступна.</text>
+	</string>
+	<string id="agr_krot_bio">
+		<text>Колишній диггер. Зі своєю групою однодумців лізе в усі покинуті лабораторії та бункери, до яких може дістатися.</text>
+	</string>
+	<string id="agr_krot_name">
+		<text>Кріт</text>
+	</string>
+	<string id="bar_arena_stalker">
+		<text>Один з учасників смертельних боїв на Арені. Докладна інформація відсутня.</text>
+	</string>
+	<string id="bar_arny_bio">
+		<text>Контрабандист зі стажем. Відомий тим, що за короткий час зумів вивезти із забороненої зони кілька сотень опудал мутантів.</text>
+	</string>
+	<string id="bar_arny_name">
+		<text>Арні</text>
+	</string>
+	<string id="bar_bar_guard_bio">
+		<text>Охоронець бару. Або, якщо хочете, тілоохоронець бармена. Про його теперішнє, як і про минуле, нічого не відомо.</text>
+	</string>
+	<string id="bar_bar_guard_name">
+		<text>Гарик</text>
+	</string>
+	<string id="bar_bar_guard2_bio">
+		<text>Брат-близнюк Гарика. Охоронець на вході до бару. Такий самий мовчазний, як і його брат.</text>
+	</string>
+	<string id="bar_bar_guard2_name">
+		<text>Жорик</text>
+	</string>
+	<string id="bar_barmen_bio">
+		<text>Не святий і не негідник, собі ціну знає, за що його й поважають сталкери. Ходять чутки, що він ховається в Зоні від свого темного минулого. Після того як потрапив в аномалію, почав накульгувати й вирішив змінити заняття. Облаштував бар під боком у Долгу, і той непомітно став головним місцем збору ветеранів Зони. Бармен має багато зв'язків як у самій Зоні, так і в зовнішньому світі.</text>
+	</string>
+	<string id="bar_barmen_name">
+		<text>Бармен</text>
+	</string>
+	<string id="bar_beast_name">
+		<text>Звір</text>
+	</string>
+	<string id="bar_drunk_bio">
+		<text>Вічно п'яний член угруповання Долг. Долг дав йому останню можливість залишитися в угрупованні, виконавши завдання, але він п'яний і не може його виконати.</text>
+	</string>
+	<string id="bar_drunk_name">
+		<text>Бром</text>
+	</string>
+	<string id="bar_hunter_bio">
+		<text>Добродушний веселун, єдина його проблема в тому, що він уміє стріляти тільки з мисливської рушниці. З іншого навіть не пробує. Нещодавно втрапив у халепу на Дикій території і загубив там свою родинну рушницю. Тепер тиняється в барі, сподіваючись, що хтось поверне йому рушницю.</text>
+	</string>
+	<string id="bar_hunter_name">
+		<text>Мисливець</text>
+	</string>
+	<string id="bar_informer_bio">
+		<text>Таємничий сталкер, який знає дуже багато. Торгує інформацією в барі.</text>
+	</string>
+	<string id="bar_informer_name">
+		<text>Інформатор</text>
+	</string>
+	<string id="bar_ivancov_bio">
+		<text>Керівник усіх каральних операцій і операцій із зачистки великих скупчень мутантів.</text>
+	</string>
+	<string id="bar_ivancov_name">
+		<text>Капітан Іванцов</text>
+	</string>
+	<string id="bar_kicenko_name">
+		<text>Сержант Киценко</text>
+	</string>
+	<string id="bar_lelik_bio">
+		<text>Тілоохоронець господаря Арени. Про його минуле відомо тільки погане, ненавидить своїх братів.</text>
+	</string>
+	<string id="bar_lelik_name">
+		<text>Льолик</text>
+	</string>
+	<string id="bar_lisiy_name">
+		<text>Лисий</text>
+	</string>
+	<string id="bar_petrenko_bio">
+		<text>Один із засновників Долгу і за сумісництвом головний ідеолог. Саме він розробив звід правил і завербував майже всіх ключових членів Долгу.</text>
+	</string>
+	<string id="bar_petrenko_name">
+		<text>Полковник Петренко</text>
+	</string>
+	<string id="bar_plichko_bio">
+		<text>Начальник охорони території Долгу.</text>
+	</string>
+	<string id="bar_plichko_name">
+		<text>Сержант Пличко</text>
+	</string>
+	<string id="bar_ryaboy_bio">
+		<text>Невідомий, що потрапив під дію Випалювача мізків.</text>
+	</string>
+	<string id="bar_ryaboy_name">
+		<text>Рябий</text>
+	</string>
+	<string id="bar_voronin_bio">
+		<text>Засновник угруповання Долг, який очолює його ось уже п'ять років.</text>
+	</string>
+	<string id="bar_voronin_name">
+		<text>Генерал Воронін</text>
+	</string>
+	<string id="cit_bandit_drunk_bio">
+		<text>Алкаш.</text>
+	</string>
+	<string id="cit_bandit_general_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_bandit_veteran_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_bandits_leader_bio">
+		<text>Один із бандитських ватажків. Добре озброєний і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_bandits_leader_name">
+		<text>Борзий</text>
+	</string>
+	<string id="cit_doctor_bio">
+		<text>Доктор.</text>
+	</string>
+	<string id="cit_doctor_name">
+		<text>Доктор</text>
+	</string>
+	<string id="cit_killer_exo_bio">
+		<text>Невідомий найманець. Добре озброєний і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_killer_general_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_killers_leader_bio">
+		<text>Ватажок угруповання найманців. Добре озброєний і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_killers_leader_name">
+		<text>Душман</text>
+	</string>
+	<string id="cit_vp_bio">
+		<text>Досвідчений сталкер. Докладна інформація відсутня.</text>
+	</string>
+	<string id="cit_vp_name">
+		<text>Василь Петрович</text>
+	</string>
+	<string id="dar_corpse_bio">
+		<text>Інформації немає.</text>
+	</string>
+	<string id="dar_explorer_bio">
+		<text>Досвідчений сталкер. Тримає вухо гостро.</text>
+	</string>
+	<string id="dar_explorer_name">
+		<text>Жека Дуплет</text>
+	</string>
+	<string id="dar_kalugin_name">
+		<text>Калугін П.І.</text>
+	</string>
+	<string id="ds_sergant_regular_bio">
+		<text>Сержант строкової служби ЗС України. Докладна інформація відсутня.</text>
+	</string>
+	<string id="ds_soldier_regular_bio">
+		<text>Рядовий солдат строкової служби ЗС України. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_bandit_novice_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_captain_bio">
+		<text>Капітан надстрокової служби ЗС України. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_fanat_bio">
+		<text>Після Вовка став лідером табору новачків. Цілеспрямований, агресивний, має серед новачків заслужений авторитет.</text>
+	</string>
+	<string id="esc_fanat_name">
+		<text>Фанат</text>
+	</string>
+	<string id="esc_fox_bio">
+		<text>Старий, обпалений Зоною одинак.</text>
+	</string>
+	<string id="esc_fox_name">
+		<text>Лис</text>
+	</string>
+	<string id="esc_killer_specnaz_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_petruha_bio">
+		<text>Тямущий новачок. Користується особливою прихильністю Вовка, який частенько посилає його на важливі завдання.</text>
+	</string>
+	<string id="esc_petruha_name">
+		<text>Петруха</text>
+	</string>
+	<string id="esc_provodnik_bio">
+		<text>Постать у своєму роді легендарна, кажуть, що він може провести в будь-яку точку Зони. Бере він дорого, але річ не тільки в грошах. Людей, які йому не до вподоби, він не поведе ні за які гроші. Ветеран, знає Зону вздовж і впоперек.</text>
+	</string>
+	<string id="esc_provodnik_name">
+		<text>Провідник</text>
+	</string>
+	<string id="esc_sergant_regular_bio">
+		<text>Сержант строкової служби ЗС України. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_shustryi_bio">
+		<text>Сталкер, якого прозвали шустрим за вміння бути непомітним і незамінним. Торговець іноді залучає його до делікатних доручень: простежити за кимось, щось підгледіти, підслухати.</text>
+	</string>
+	<string id="esc_shustryi_name">
+		<text>Шустрий</text>
+	</string>
+	<string id="esc_soldier_commander_bio">
+		<text>Майор, командує армійським постом біля мосту. Співпрацює зі сталкерами, стягуючи мито за прохід через міст.</text>
+	</string>
+	<string id="esc_soldier_commander_name">
+		<text>Майор Кузнецов</text>
+	</string>
+	<string id="esc_soldier_regular_bio">
+		<text>Рядовий солдат строкової служби ЗС України. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_specnaz_bio">
+		<text>Армійський спецназ. Добре споряджений. Докладна інформація недоступна.</text>
+	</string>
+	<string id="esc_specnaz_killer_bio">
+		<text>Невідомий найманець. Добре озброєний і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_stalker_novice_bio">
+		<text>Новачок. Недавно в Зоні. Докладна інформація відсутня.</text>
+	</string>
+	<string id="esc_tolik_bio">
+		<text>Просто сталкер.</text>
+	</string>
+	<string id="esc_tolik_name">
+		<text>Толік</text>
+	</string>
+	<string id="esc_wolf_bio">
+		<text>Лідер табору новачків. Старий сталкер, який зібрався на покій.</text>
+	</string>
+	<string id="esc_wolf_name">
+		<text>Вовк</text>
+	</string>
+	<string id="escape_trader_bio">
+		<text>Промишляв торгівлею змалку. У дитсадку продавав кольорові олівці. У школі торгував жувальною гумкою. В інституті збував легку наркоту. Коли з'явилася Зона, швидко змикитив, що на ній можна добре заробити. Славиться тим, що вміє налагодити добрі торговельні стосунки з клієнтами найрізнішого штибу.</text>
+	</string>
+	<string id="escape_trader_name">
+		<text>Сидорович</text>
+	</string>
+	<string id="gar_bandit_leader_bio">
+		<text>Має певний авторитет серед бандитів Зони. Поплічник Борова.</text>
+	</string>
+	<string id="gar_bandit_leader_name">
+		<text>Вася Кабан</text>
+	</string>
+	<string id="gar_dolg_blokpost_bio">
+		<text>Сталкер угруповання "Долг". Докладна інформація відсутня.</text>
+	</string>
+	<string id="gar_dolg_blokpost_leader_bio">
+		<text>Офіцер угруповання "Долг". Докладна інформація відсутня.</text>
+	</string>
+	<string id="gar_dolg_blokpost_leader_name">
+		<text>Прапор</text>
+	</string>
+	<string id="gar_dram_novice_bio">
+		<text>Новачок. Робить перші кроки в Зоні.</text>
+	</string>
+	<string id="gar_dram_novice_name">
+		<text>Юрик</text>
+	</string>
+	<string id="gar_hellcar_bio">
+		<text>Утік у Зону, ховаючись від правоохоронних органів. Сам-один намагається підтримувати в Зоні порядок так, як він його собі уявляє. Борець зі свавіллям. Жорстокий, але справедливий.</text>
+	</string>
+	<string id="gar_hellcar_name">
+		<text>Біс</text>
+	</string>
+	<string id="gar_newbie_bio">
+		<text>Новачок. Недавно в Зоні. Докладна інформація відсутня.</text>
+	</string>
+	<string id="gar_seryi_bio">
+		<text>Сталкер із брудним обличчям і не менш брудною біографією.</text>
+	</string>
+	<string id="gar_seryi_name">
+		<text>Сірий</text>
+	</string>
+	<string id="gar_stalker_regular_bio">
+		<text>Досвідчений сталкер. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Dolg_specnaz_bio">
+		<text>Бойовик угруповання "Долг". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Dolg_specnaz_cherep_bio">
+		<text>Командир загону спецназу угруповання "Долг". Зазвичай добре споряджений.</text>
+	</string>
+	<string id="mil_Dolg_specnaz_cherep_name">
+		<text>Череп</text>
+	</string>
+	<string id="mil_Dolg_specnaz_silence_bio">
+		<text>Бойовик угруповання "Долг". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Killer_informator_bio">
+		<text>Відомий на всю Зону інформатор і нишпорка.</text>
+	</string>
+	<string id="mil_Killer_informator_name">
+		<text>Ара</text>
+	</string>
+	<string id="mil_killer_master_bio">
+		<text>Невідомий найманець. Добре озброєний і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_killer_sniper_bio">
+		<text>Невідомий найманець. Схоже, у Зоні недавно. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Killer_specnaz_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Monolit_master_bio">
+		<text>Хранитель угруповання "Моноліт". Краще триматися від нього подалі. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Monolit_regular_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Stalker_master_bio">
+		<text>Один із ветеранів Зони. Цей сталкер знає Зону як свої п'ять пальців. Зазвичай добре споряджений і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Stalker_veteran_bio">
+		<text>Сталкер-ветеран. Можливо, добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_blockpost_leader_bio">
+		<text>Сталкер угруповання "Свобода". Командир Бар'єра. Людина, що згуртувала довкола себе тих, хто готовий гинути за спільну справу.</text>
+	</string>
+	<string id="mil_Svoboda_blockpost_leader_name">
+		<text>Кеп</text>
+	</string>
+	<string id="mil_Svoboda_bodyguard_bio">
+		<text>Охоронець "Лукаша", лідера угруповання "Свобода".</text>
+	</string>
+	<string id="mil_Svoboda_cook_bio">
+		<text>Кухар угруповання "Свобода". П'яниця і бешкетник, але готує чудово.</text>
+	</string>
+	<string id="mil_Svoboda_cook_name">
+		<text>Кухар</text>
+	</string>
+	<string id="mil_Svoboda_engineer_bio">
+		<text>Відомий у Зоні механік. З трактора може зібрати танк.</text>
+	</string>
+	<string id="mil_Svoboda_engineer_name">
+		<text>Шуруп</text>
+	</string>
+	<string id="mil_Svoboda_leader_bio">
+		<text>Лідер угруповання "Свобода".</text>
+	</string>
+	<string id="mil_Svoboda_leader_name">
+		<text>Лукаш</text>
+	</string>
+	<string id="mil_Svoboda_master_bio">
+		<text>Майстер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_master_Max_bio">
+		<text>Хранитель угруповання "Свобода". Фанатично відданий угрупованню. Чудово споряджений і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_master_Max_name">
+		<text>Макс</text>
+	</string>
+	<string id="mil_Svoboda_master_Ugrumiy_bio">
+		<text>Хранитель угруповання "Свобода". Чудово споряджений і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_master_Ugrumiy_name">
+		<text>Похмурий</text>
+	</string>
+	<string id="mil_Svoboda_regular_bio">
+		<text>Сталкер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_sniper_bio">
+		<text>Снайпер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_specnaz_bio">
+		<text>Бойовик угруповання "Свобода". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_stukach_bio">
+		<text>Сталкер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_stukach_name">
+		<text>Павлик</text>
+	</string>
+	<string id="mil_Svoboda_trader_bio">
+		<text>Відомий своєю жадібністю і непоступливістю, але кажуть, що в нього можна дістати що завгодно.</text>
+	</string>
+	<string id="mil_Svoboda_trader_name">
+		<text>Скнара</text>
+	</string>
+	<string id="mil_Svoboda_zombi_stalker_bio">
+		<text>Сталкер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="mil_Svoboda_zombi_stalker_name">
+		<text>Божевільний сталкер угруповання "Свобода"</text>
+	</string>
+	<string id="mil_Svoboda_zoneguard_bio">
+		<text>Бойовик угруповання "Свобода". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_followers_bomber_name">
+		<text>Саша Білий</text>
+	</string>
+	<string id="pri_followers_common_bio">
+		<text>Сталкер-ветеран. Можливо, добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_monolith_common_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_monolith_exo_bio">
+		<text>Елітний сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_monolith_leader_bio">
+		<text>Лідер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_monolith_leader_name">
+		<text>Харон</text>
+	</string>
+	<string id="pri_monolith_regular_bio">
+		<text>Рядовий сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_monolith_specnaz_bio">
+		<text>Сталкер зі спецназу угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_zombied_soldier_bio">
+		<text>Рядовий солдат. Докладна інформація відсутня.</text>
+	</string>
+	<string id="pri_zombied_soldier_name">
+		<text>Зомбований</text>
+	</string>
+	<string id="pri_zombied_stalker_bio">
+		<text>Один зі сталкерів, яким не пощастило.</text>
+	</string>
+	<string id="pri_zombied_stalker_name">
+		<text>Зомбований</text>
+	</string>
+	<string id="rad_dolg_master_bio">
+		<text>Майстер угруповання "Долг". Дуже добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_ecolog_bio">
+		<text>Науковець. Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_ecolog_guard_bio">
+		<text>Охорона науковців. Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_ecolog_guard_name">
+		<text>Асистент</text>
+	</string>
+	<string id="rad_ecolog_name">
+		<text>Асистент</text>
+	</string>
+	<string id="rad_monolith_general_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_monolith_specnaz_bio">
+		<text>Бойовик угруповання "Моноліт". Добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_specnaz_bio">
+		<text>Армійський спецназ. Добре споряджений. Докладна інформація недоступна.</text>
+	</string>
+	<string id="rad_stalker_master_bio">
+		<text>Один із ветеранів Зони. Цей сталкер знає Зону як свої п'ять пальців. Зазвичай добре споряджений і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_stalker_veteran_bio">
+		<text>Сталкер-ветеран. Можливо, добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_svoboda_master_bio">
+		<text>Майстер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="rad_zombied_general_bio">
+		<text>Один зі сталкерів, яким не пощастило.</text>
+	</string>
+	<string id="ros_ecolog_guard_bio">
+		<text>Співробітник мобільної наукової лабораторії. Докладна інформація відсутня.</text>
+	</string>
+	<string id="ros_freeman_bio">
+		<text>Науковець, експерт з аномальних явищ. Працював в Америці над секретними проєктами. Віднедавна вважався зниклим безвісти.</text>
+	</string>
+	<string id="ros_freeman_name">
+		<text>Фрімен</text>
+	</string>
+	<string id="ros_happy_bio">
+		<text>Мародер і вбивця. За його голову не раз оголошували винагороду. Колись був у добрих стосунках з Долгом, допоміг їм відбити теперішню територію. Тепер живе на Дикій території і зі своєю бандою грабує сталкерів-одинаків.</text>
+	</string>
+	<string id="ros_happy_name">
+		<text>Щасливчик</text>
+	</string>
+	<string id="ros_kruglov_bio">
+		<text>Доктор біологічних наук. За межами Зони вивчав патогенні мутації у тварин. До Зони вирушив, щоб дослідити мутації сліпих псів.</text>
+	</string>
+	<string id="ros_kruglov_name">
+		<text>Проф. Круглов</text>
+	</string>
+	<string id="ros_tiran_bio">
+		<text>Один із «героїв» угруповання Найманців. Ветеран, прострілений з усіх калібрів. Рідкісний псих і садист.</text>
+	</string>
+	<string id="ros_tiran_name">
+		<text>Тиран</text>
+	</string>
+	<string id="ros_volkodav_bio">
+		<text>Один із польових командирів "Найманців". Командир загону бойовиків, які називають себе "псами". Анархіст, зневажає будь-які закони, крім законів сили.</text>
+	</string>
+	<string id="ros_volkodav_name">
+		<text>Вовкодав</text>
+	</string>
+	<string id="sar_monolith_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sar_monolith_cristall_bio">
+		<text>Сталкер спецпідрозділу Моноліту - "Кристал", що відповідає за збереження самого Моноліту.</text>
+	</string>
+	<string id="sar2_arena_manager_name">
+		<text>Арні</text>
+	</string>
+	<string id="sar2_arena_savage_name">
+		<text>Звір</text>
+	</string>
+	<string id="sar2_bandit_leader_name">
+		<text>Вася "Кабан"</text>
+	</string>
+	<string id="sar2_bio">
+		<text>Психоматеріальний образ, створений "Монолітом".</text>
+	</string>
+	<string id="sar2_borov_name">
+		<text>Боров</text>
+	</string>
+	<string id="sar2_crazy_svoboda_name">
+		<text>Божевільний</text>
+	</string>
+	<string id="sar2_dolg_blokpost_leader_name">
+		<text>Прапор</text>
+	</string>
+	<string id="sar2_dolg_guard_commander_name">
+		<text>Начальник Охорони</text>
+	</string>
+	<string id="sar2_dolg_skull_name">
+		<text>"Череп"</text>
+	</string>
+	<string id="sar2_dolg_zastava_commander_name">
+		<text>Командир застави</text>
+	</string>
+	<string id="sar2_dram_novice_name">
+		<text>Юрик</text>
+	</string>
+	<string id="sar2_explorer_name">
+		<text>Жека "Дуплет"</text>
+	</string>
+	<string id="sar2_fanat_name">
+		<text>"Фанат"</text>
+	</string>
+	<string id="sar2_fox_name">
+		<text>"Лис"</text>
+	</string>
+	<string id="sar2_gordon_name">
+		<text>Гордон</text>
+	</string>
+	<string id="sar2_haron_name">
+		<text>Харон</text>
+	</string>
+	<string id="sar2_hellcar_name">
+		<text>"Біс"</text>
+	</string>
+	<string id="sar2_informator_name">
+		<text>Ара</text>
+	</string>
+	<string id="sar2_ivancov_name">
+		<text>Капітан Іванцов</text>
+	</string>
+	<string id="sar2_krot_name">
+		<text>Сталкер "Кріт"</text>
+	</string>
+	<string id="sar2_kruglov_name">
+		<text>Проф. Круглов</text>
+	</string>
+	<string id="sar2_kuznetsov_name">
+		<text>Майор Кузнецов</text>
+	</string>
+	<string id="sar2_lucky_name">
+		<text>Щасливчик</text>
+	</string>
+	<string id="sar2_petrenko_name">
+		<text>Петренко</text>
+	</string>
+	<string id="sar2_petruha_name">
+		<text>Жорик</text>
+	</string>
+	<string id="sar2_professor_name">
+		<text>Проф. Сахаров</text>
+	</string>
+	<string id="sar2_ryaboy_name">
+		<text>Рябий</text>
+	</string>
+	<string id="sar2_seryi_name">
+		<text>"Сірий"</text>
+	</string>
+	<string id="sar2_svoboda_blockpost_leader_name">
+		<text>"Кеп"</text>
+	</string>
+	<string id="sar2_svoboda_bodyguard_name">
+		<text>"Капець"</text>
+	</string>
+	<string id="sar2_svoboda_cook_name">
+		<text>"Кухар"</text>
+	</string>
+	<string id="sar2_svoboda_engeneer_name">
+		<text>Шуруп</text>
+	</string>
+	<string id="sar2_svoboda_leader_name">
+		<text>"Лукаш"</text>
+	</string>
+	<string id="sar2_svoboda_max_name">
+		<text>"Макс"</text>
+	</string>
+	<string id="sar2_svoboda_stukach_name">
+		<text>Павлик</text>
+	</string>
+	<string id="sar2_svoboda_trader_name">
+		<text>"Скнара"</text>
+	</string>
+	<string id="sar2_svoboda_ugrumyi_name">
+		<text>"Похмурий"</text>
+	</string>
+	<string id="sar2_tiran_name">
+		<text>Тиран</text>
+	</string>
+	<string id="sar2_tolik_name">
+		<text>Толік</text>
+	</string>
+	<string id="sar2_volkodav_name">
+		<text>Вовкодав</text>
+	</string>
+	<string id="sar2_voronin_name">
+		<text>Генерал Воронін</text>
+	</string>
+	<string id="sar2_wolf_name">
+		<text>"Вовк"</text>
+	</string>
+	<string id="sim_bandit_general_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_bandit_master_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_bandit_master_fraer_bio">
+		<text>Прийшов у Зону в пошуках пригод. Косить під героїв коміксів 60-х. Його називають по-різному: Бетменом, Мачо, Чорним Плащем, Бандеросом, і хоча те, що він уже два роки в Зоні й досі живий, говорить про багато що, всерйоз його досі не сприймають, і це його дуже зачіпає.</text>
+	</string>
+	<string id="sim_bandit_master_kocherga_bio">
+		<text>Лютий, злий, грубий, егоїстичний, жорстокий, безсердечний, холодний. Ніхто не знає, коли і як він потрапив до Зони. Його бояться й недолюблюють. У Зоні він просто живе, у нього немає ні майбутнього, ні минулого. Після однієї зі своїх численних вилазок у Зону втратив пам'ять і дуже багато чого забув. Не пам'ятає, звідки він, не пам'ятає свого справжнього імені, часто має провали в пам'яті. Наприклад, може забути нового знайомого за годину після знайомства і, сприйнявши його за ворога, вбити.</text>
+	</string>
+	<string id="sim_bandit_novice_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_bandit_veteran_bio">
+		<text>Невідомий сталкер. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_dolg_master_bio">
+		<text>Хранитель угруповання "Долг". Якщо ви їм не друг, краще їх уникати. Докладна інформація недоступна.</text>
+	</string>
+	<string id="sim_dolg_regular_bio">
+		<text>Сталкер угруповання "Долг". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_dolg_sniper_bio">
+		<text>Бойовик угруповання "Долг". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_dolg_veteran_barin_bio">
+		<text>Хам, підлабузник, лицемір, боягуз. Життєвим кредо Барина можна було б назвати фразу після нас - хоч потоп. З усього намагається мати зиск. А попри все це дуже честолюбний і образливий. До Зони приїхав, хоч як банально це звучить, по гроші. І ось уже другий рік у Зоні добуває матеріальні цінності будь-якими способами.</text>
+	</string>
+	<string id="sim_dolg_veteran_bio">
+		<text>Бойовик угруповання "Долг". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_dolg_veteran_prapor_bio">
+		<text>Це офіційний вербувальник СБУ. Часто сидить у барі. Про це знають усі, як і те, що коли стає вже зовсім скрутно, варто йти до нього. Щоправда, після такого кроку шлях назад, до чесних сталкерів, буде закритий.</text>
+	</string>
+	<string id="sim_ecolog_zob_bio">
+		<text>У повсякденному житті флегматик, емоцій не виявляє, спокійний. Проте від сильних вражень стає запальним і агресивним. Інтелігент. Матеріаліст, страшенно шкодує, що потрапив до Зони. Після закінчення медичного інституту його направили в Зону, де табору науковців був потрібен асистент нейрохірурга. Препарує мозок мутантів і досліджує їхні психокінетичні здібності. Чекає на пенсію і можливість жити в столиці, подалі від цього згубного місця.</text>
+	</string>
+	<string id="sim_fresh_Zombied_bio">
+		<text>Один зі сталкерів, яким не пощастило.</text>
+	</string>
+	<string id="sim_killer_general_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_killer_master_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_killer_sniper_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_killer_veteran_bio">
+		<text>Невідомий найманець. Можливо, добре озброєний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_monolith_master_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_monolith_regular_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_monolith_sniper_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_monolith_specnaz_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_soldier_commander_bio">
+		<text>Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_Soldier_master_bio">
+		<text>Військовий сталкер. Добре озброєний і дуже небезпечний. Докладна інформація недоступна.</text>
+	</string>
+	<string id="sim_soldier_regular_bio">
+		<text>Рядовий солдат. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_soldier_sniper_bio">
+		<text>Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_soldier_specnaz_bio">
+		<text>Армійський спецназ. Добре споряджений. Докладна інформація недоступна.</text>
+	</string>
+	<string id="sim_stalker_general_bio">
+		<text>Досвідчений сталкер. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_stalker_general_upir_bio">
+		<text>Неймовірно везучий сталкер. Багато разів його група опинялася на волосину від смерті, і щоразу він був єдиним, кому вдавалося врятуватися. Серед сталкерів має лиху славу "нещасливого талісмана". Вже деякий час ходить сам-один.</text>
+	</string>
+	<string id="sim_stalker_master_bio">
+		<text>Один із ветеранів Зони. Цей сталкер знає Зону як свої п'ять пальців. Зазвичай добре споряджений і дуже небезпечний. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_stalker_master_chuchelo_bio">
+		<text>Контрабандист зі стажем. Довго промишляв в Африці та Південній Америці. Історії про чорнобильських мутантів, що облетіли весь світ, привели його в Україну. За короткий час зумів вивезти із забороненої зони кілька сотень опудал мутантів, за що й отримав прізвисько "Опудало". У перервах між "роботою" в Зоні - успішний торговець. Любить костюми від Армані й краватки від Версаче, але зі стволів віддає перевагу радянським.</text>
+	</string>
+	<string id="sim_stalker_master_diador_bio">
+		<text>Колишній афганець. Під час однієї із засідок моджахедів раптово увірував у Бога. Після Афгану емігрує до Польщі, де вступає до духовної семінарії. Закінчивши семінарію, якийсь час проповідує у львівському католицькому храмі. Після вибуху на ЧАЕС записується добровольцем допомагати постраждалим. Останні кілька років проповідує на території Зони.</text>
+	</string>
+	<string id="sim_stalker_master_master_bio">
+		<text>У минулому слюсар із заводу "ХолодМаш". Після того як від нього пішла дружина, вирішив накласти на себе руки, а оскільки був людиною релігійною, то як оригінальний спосіб самогубства обрав Зону. Але вижив, за пару років обтерся і завдяки своїм професійним навичкам здобув серед сталкерів певний авторитет. Нині Майстер - найкомпетентніший слюсар у Зоні: ремонт обладнання й техніки, облаштування систем захисту бункерів угруповань і т. д. і т. п. - його царина. Йому відчинені будь-які двері; впливовий, простий, але грубуватий у спілкуванні.</text>
+	</string>
+	<string id="sim_stalker_master_polkan_bio">
+		<text>Колишній військовий сталкер, підполковник внутрішніх військ. Після однієї з операцій у глибині Зони лишився один з усього загону, зате знайшов докази того, що їх усіх просто-напросто підставили, послали на забій. Після цього вирішив не повертатися, інсценував власну смерть і пішов до сталкерів, щоб розбиратися з проблемою Зони нелегально. Мовчазний, циничний, цілеспрямований.</text>
+	</string>
+	<string id="sim_stalker_novice_bio">
+		<text>Новачок. Нещодавно в Зоні. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_stalker_novice_neumeha_bio">
+		<text>Незграбі 20 років. На Великій Землі в нього нічого й нікого не лишилося, тож він вирішив приїхати сюди. Їхати із Зони йому просто нікуди. У Зоні ледве зводить кінці з кінцями. Дуже багатьом сталкерам винен якісь гроші. У Зону ходить дуже часто, але ніколи сам, здебільшого прибивається до груп сталкерів. Та мало хто погоджується брати його, адже він лише зайвий тягар. Хабар збирає дуже рідко. Живе з подачок інших сталкерів, тому й увесь у боргах.</text>
+	</string>
+	<string id="sim_stalker_sniper_bio">
+		<text>Сталкер-ветеран. Можливо, добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_stalker_veteran_bio">
+		<text>Сталкер-ветеран. Можливо, добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_stalker_veteran_gusarov_bio">
+		<text>Олег "Демон" Гусаров. Колишній "чорний берет", служив у Білоцерківській бригаді Спецназу. Надстроковик, старший сержант, за фахом снайпер і підривник. За складом душі - "вовк-одинак". У Зону ніколи не бере напарників, воліючи діяти сам. Йому не раз пропонували вступити до кланів - і щоразу він навідріз відмовлявся саме з цієї причини.</text>
+	</string>
+	<string id="sim_stalker_veteran_umnik_bio">
+		<text>Студент фізфаку, кинув інститут на п'ятому курсі й подався в Зону на заробітки. Любить повипендрюватися своїми "науковими" знаннями і порозмірковувати на абстрактні філософські теми. За це випендрювання сталкери його й недолюблюють. Але загалом хлопець непоганий. Досі вірить у високі ідеали.</text>
+	</string>
+	<string id="sim_stalker_veteran_vorobey_bio">
+		<text>Горобцеві 27 років. Хитрий, далекоглядний, але іноді припускається найгрубіших помилок. Часом підлий. Загалом справляє двоїсте враження. Худий і блідий. До Зони прийшов із цікавості й пообіцяв собі - два місяці в Зоні - і додому. Але так тут і лишився. Під час першої своєї вилазки в Зону примудрився без приладів пройти полем, суцільно всіяним аномаліями, навіть не знаючи про них. Коли йому про це сказали, він довго не міг оговтатися. Відтоді святкує той день (9 жовтня) як свій другий день народження.</text>
+	</string>
+	<string id="sim_Svoboda_master_bio">
+		<text>Майстер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_Svoboda_regular_bio">
+		<text>Сталкер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_Svoboda_sniper_bio">
+		<text>Сталкер угруповання "Свобода". Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_Svoboda_specnaz_bio">
+		<text>Бойовик угруповання "Свобода". Зазвичай добре споряджений. Докладна інформація відсутня.</text>
+	</string>
+	<string id="sim_Svoboda_specnaz_leshii_bio">
+		<text>Лісовик, як прозвав його брат, прийшов у зону юним ідеалістом. Але кілька років життя на волосину від смерті зробили з нього цинічного реаліста. Вважає зону своїм домом, а тих, хто не витримав випробування зоною - негідними жити на Землі.</text>
+	</string>
+	<string id="sim_svoboda_specnaz_prut_bio">
+		<text>Пише про Зону нариси й оповідання під псевдонімом Аркадій. У минулому журналіст, прискіпливий, жорсткий, але справедливий. Користується певною повагою серед сталкерів.</text>
+	</string>
+	<string id="sim_zombied_master_bio">
+		<text>Один зі сталкерів, яким не пощастило.</text>
+	</string>
+	<string id="sim_zombied_novice_bio">
+		<text>Один зі сталкерів, яким не пощастило.</text>
+	</string>
+	<string id="sim_zombied_veteran_bio">
+		<text>Один зі сталкерів, яким не пощастило.</text>
+	</string>
+	<string id="val_bandit_bodyguard_bio">
+		<text>Бандит-охоронець. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_bandit_general_bio">
+		<text>Рядовий бандит. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_bandit_novice_bio">
+		<text>Бандит-новачок. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_bandit_veteran_bio">
+		<text>Досвідчений бандит. Сумнівна репутація. Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_borov_bio">
+		<text>Ватажок бандитів.</text>
+	</string>
+	<string id="val_borov_name">
+		<text>Боров</text>
+	</string>
+	<string id="val_dolg_common_bio">
+		<text>Сталкер угруповання "Долг". Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_monolith_common_bio">
+		<text>Сталкер угруповання "Моноліт". Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_prisoner_bio">
+		<text>Сталкер угруповання "Долг". Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_prisoner_name">
+		<text>Сергій Кудлатий</text>
+	</string>
+	<string id="val_pulia_bio">
+		<text>Сталкер угруповання "Долг". Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_pulia_name">
+		<text>Куля</text>
+	</string>
+	<string id="val_soldier_regular_bio">
+		<text>Рядовий солдат. Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_soldier_specnaz_bio">
+		<text>Армійський спецназ. Добре споряджений. Докладна інформація недоступна.</text>
+	</string>
+	<string id="val_stalker_general_bio">
+		<text>Досвідчений сталкер. Докладна інформація відсутня.</text>
+	</string>
+	<string id="val_stalker_novice_bio">
+		<text>Новачок. Нещодавно в Зоні. Докладна інформація відсутня.</text>
+	</string>
+	<string id="yan_ghost_name">
+		<text>Привид</text>
+	</string>
+	<string id="yan_saharov_bio">
+		<text>Ветеран досліджень Зони. Брав участь у перших експедиціях 2007 року.</text>
+	</string>
+	<string id="yan_saharov_name">
+		<text>Сахаров</text>
+	</string>
+	<string id="yan_semenov_bio">
+		<text>Науковий співробітник мобільної лабораторії. Докладна інформація відсутня.</text>
+	</string>
+	<string id="yan_semenov_name">
+		<text>Семенов</text>
+	</string>
+	<string id="yan_vasilyev_name">
+		<text>Васильєв</text>
+	</string>
+	<string id="zombie_name">
+		<text>Зомбований</text>
+	</string>
+	<string id="actor_name">
+		<text>Лейтенант Роговець</text>
+	</string>
+	<string id="sim_bandit_master_fraer_name">
+		<text>Фраєр</text>
+	</string>
+	<string id="sim_bandit_master_kocherga_name">
+		<text>Коцюба</text>
+	</string>
+	<string id="sim_dolg_veteran_barin_name">
+		<text>Барин</text>
+	</string>
+	<string id="sim_dolg_veteran_prapor_name">
+		<text>Прапор</text>
+	</string>
+	<string id="sim_ecolog_zob_name">
+		<text>Зоб</text>
+	</string>
+	<string id="sim_stalker_general_upir_name">
+		<text>Упир</text>
+	</string>
+	<string id="sim_stalker_master_chuchelo_name">
+		<text>Опудало</text>
+	</string>
+	<string id="sim_stalker_master_diador_name">
+		<text>Отець Діодор</text>
+	</string>
+	<string id="sim_stalker_master_master_name">
+		<text>Майстер</text>
+	</string>
+	<string id="sim_stalker_master_polkan_name">
+		<text>Полкан</text>
+	</string>
+	<string id="sim_stalker_novice_neumeha_name">
+		<text>Незграба</text>
+	</string>
+	<string id="sim_stalker_veteran_gusarov_name">
+		<text>Олег "Демон" Гусаров</text>
+	</string>
+	<string id="sim_stalker_veteran_umnik_name">
+		<text>Розумник</text>
+	</string>
+	<string id="sim_stalker_veteran_vorobey_name">
+		<text>Горобець</text>
+	</string>
+	<string id="sim_Svoboda_specnaz_leshii_name">
+		<text>Лісовик</text>
+	</string>
+	<string id="sim_svoboda_specnaz_prut_name">
+		<text>Прут</text>
+	</string>

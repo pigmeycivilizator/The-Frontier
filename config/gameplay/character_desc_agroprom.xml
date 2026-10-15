@@ -1269,7 +1269,7 @@
 		<snd_config>characters_voice\human_01\zombied\</snd_config>
 		<crouch_type>-1</crouch_type>
 		<class>fr_agr_brother</class>
-		<community>zombied</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
+		<community>monolith</community> <terrain_sect>stalker_zombied_terrain</terrain_sect>
 		<rank>600</rank>
 		<reputation>0</reputation>
 		<visual>actors\militari\stalker_militari_antigas_2</visual>
@@ -2154,6 +2154,108 @@
 		</supplies>
 #include "gameplay\character_criticals_4.xml"
 	</specific_character>		
+	
+	
+	
+	
+	
+	
+	<!-- ============ ÊÎÍÖÎÂÊÈ ============ -->
+	<specific_character id="fr_agr_end_pigmey" team_default="1">
+		<name>GENERATE_NAME_stalker</name>
+		<icon>ui_npc_u_stalker_sv_exoskeleton</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_order_bio</bio>
+		<snd_config>characters_voice\human_03\freedom\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_end_pigmey</class>
+		<community>freedom</community> <terrain_sect>stalker_freedom_terrain</terrain_sect>
+		<rank>2</rank>
+		<reputation>0</reputation>
+		<visual>actors\svoboda\stalker_sv_exoskeleton</visual>
+		<supplies>
+			[spawn] \n
+			wpn_sig550 \n
+			ammo_5.56x45_ss190 = 1 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_end_rogovets" team_default="1">
+		<name>GENERATE_NAME_private</name>
+		<icon>ui_npc_u_stalker_militari_antigas_2</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_und_soldier_bio</bio>
+		<snd_config>characters_voice\human_03\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_end_rogovets</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>6</rank>
+		<reputation>100</reputation>
+		<visual>actors\militari\stalker_militari_antigas_2</visual>
+		<supplies>
+			[spawn] \n
+			wpn_groza \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_end_horus" team_default="1">
+		<name>fr_agr_horus_booth_name</name>
+		<icon>icon_huy</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_horus_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_end_horus</class>
+		<community>monolith</community>
+		<rank>3</rank>
+		<reputation>0</reputation>
+		<visual>actors\bandit\stalker_bandit_veteran</visual>
+		<supplies>
+			[spawn] \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_end_fulgrim" team_default="1">
+		<name>fr_agr_fulgrim_name</name>
+		<icon>ui_npc_u_stalker_mo_exo</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_fulgrim_bio</bio>
+		<snd_config>characters_voice\human_03\monolith\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_end_fulgrim</class>
+		<community>monolith</community>
+		<rank>6</rank>
+		<reputation>0</reputation>
+		<visual>actors\monolit\stalker_mo_exo</visual>
+		<supplies>
+			[spawn] \n
+			wpn_desert_eagle \n
+			ammo_11.43x23_hydro = 1 \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>
+
+	<specific_character id="fr_agr_end_kuznetsov" team_default="1">
+		<name>fr_agr_kuznetsov_name</name>
+		<icon>ui_npc_u_soldier_beret</icon>
+		<map_icon x="1" y="1"></map_icon>
+		<bio>fr_agr_kuznetsov_bio</bio>
+		<snd_config>characters_voice\human_01\military\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<class>fr_agr_end_kuznetsov</class>
+		<community>military</community> <terrain_sect>stalker_military_terrain</terrain_sect>
+		<rank>5</rank>
+		<reputation>200</reputation>
+		<visual>actors\neytral\stalker_neytral_exoskeleton</visual>
+		<supplies>
+			[spawn] \n
+		</supplies>
+#include "gameplay\character_criticals_5.xml"
+	</specific_character>	
+	
 	
 	
 	
@@ -3719,6 +3821,8 @@
 		</supplies>
 
 #include "gameplay\character_criticals_5.xml"
+		<start_dialog>fr_horus_hello</start_dialog>
+
 
 		<actor_dialog>fr_agr_serg_final</actor_dialog>
 	</specific_character>

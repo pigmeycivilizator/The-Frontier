@@ -687,6 +687,7 @@ function snab_reward_gl(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_5.45x39_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
 	dialogs.relocate_item_section(first_speaker, "grenade_rgd5", "in")
 end
@@ -897,6 +898,7 @@ function brother_reward(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_fmj", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_11.43x23_hydro", "in")
@@ -1052,8 +1054,29 @@ function order_gear(first_speaker, second_speaker)
 	end
 end
 
--- финал Ордена: пока пусто, ролик добавишь сам
+-- финал Ордена: ролик (рестриктор вызывает через 10 сек после смерти Кузнецова)
 function order_end()
+	game.start_tutorial("fr_end_order")
+end
+
+-- финал отказа: выстрел, камера падает как при отключении выжигателя в X10
+function refuse_shot()
+	db.actor:hide_weapon()
+	level.disable_input()
+	level.hide_indicators()
+	play2d("weapons\\_boom\\mono\\frag\\close_distance_1")
+	level.add_cam_effector("camera_effects\\radar_stop.anm", 2506, false, "")
+end
+
+-- после затемнения: пока слайдов нет, выход в главное меню
+-- после затемнения: ролик концовки отказа, по окончании выход в меню
+function refuse_end()
+	game.start_tutorial("fr_end_refuse")
+end
+
+-- конец игры
+function end_game()
+	get_console():execute("disconnect")
 end
 
 -- ЭМИ: электроника мертва (КПК, фонарь, консоль, прицел)
@@ -1341,6 +1364,7 @@ function laz_reward(first_speaker, second_speaker)
 	if n == 4 then
 		dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
 		dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
+		dialogs.relocate_item_section(first_speaker, "grenade_f1", "in")
 	end
 end
 
@@ -1377,8 +1401,10 @@ function snab_final_gear(first_speaker, second_speaker)
 	dialogs.relocate_item_section(first_speaker, "wpn_groza", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_9x39_pab9", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_9x39_pab9", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_9x39_pab9", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_9x39_ap", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_9x39_ap", "in")
+	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")
 	dialogs.relocate_item_section(first_speaker, "ammo_vog-25", "in")

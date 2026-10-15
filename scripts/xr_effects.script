@@ -111,7 +111,13 @@ function fr_wall_boom(actor, npc)
 	agroprom.assault_wall_boom()
 end
 
+function fr_refuse_shot(actor, npc)
+	agroprom.refuse_shot()
+end
 
+function fr_refuse_end(actor, npc)
+	agroprom.refuse_end()
+end
 
 
 

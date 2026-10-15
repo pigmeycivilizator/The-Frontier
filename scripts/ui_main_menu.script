@@ -167,10 +167,6 @@ function main_menu:OnKeyboard(dik, keyboard_action)
 			if level.present() and db.actor_proxy.online and db.actor:alive() then
 				self:close_and_delete_menu()
 			end
-		elseif dik == DIK_keys.DIK_F1 then
-			ui_cheat_main.start_menu(self)
-		elseif dik == DIK_keys.DIK_N then --personal_test
-			xpcall(function() dofile(getFS():update_path("$game_scripts$", "personal_test.lua")) end, log1)
 		end
 	end
 

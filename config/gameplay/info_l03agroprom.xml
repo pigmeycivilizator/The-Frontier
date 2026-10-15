@@ -163,9 +163,7 @@
 	<info_portion id="fr_agr_snab_brother_start">
 		<task>task_fr_agr_brother</task>
 	</info_portion>
-	<info_portion id="fr_agr_brother_killed">
-		<task>task_fr_agr_brother_mg</task>
-	</info_portion>
+<info_portion id="fr_agr_brother_killed"></info_portion>
 	<info_portion id="fr_agr_brother_mg_taken"></info_portion>
 	<info_portion id="fr_agr_brother_done"></info_portion>
 
@@ -224,9 +222,10 @@
 		<task>task_fr_agr_strike</task>
 	</info_portion>
 	<info_portion id="fr_agr_strike_go"></info_portion>
-	<info_portion id="fr_agr_strike_cleared">
-		<task>task_fr_agr_strike_search</task>
-	</info_portion>
+<info_portion id="fr_agr_strike_cleared">
+	<task>task_fr_agr_strike_search</task>
+	<task>task_fr_agr_brother_mg</task>
+</info_portion>
 	<info_portion id="fr_agr_strike_note_taken"></info_portion>
 
 	<info_portion id="fr_agr_traitors_spawn"></info_portion>
@@ -457,8 +456,10 @@
 
 
 
-
-
+	<info_portion id="fr_agr_end_hatch"></info_portion>
+	<info_portion id="fr_agr_end_base"></info_portion>
+	<info_portion id="fr_agr_end_fulgrim_go"></info_portion>
+	<info_portion id="fr_agr_end_reporter"></info_portion>
 
 
 

@@ -357,3 +357,44 @@
 			</video_wnd>
 		</item>
 	</mov_refuse_osoznanie>
+
+
+	<fr_end_order>
+		<play_each_item>1</play_each_item>
+		<global_wnd x="0" y="0" width="1024" height="768">
+			<auto_static x="0" y="0" width="1024" height="768" stretch="1">
+				<window_name>back</window_name>
+				<texture>intro\intro_back</texture>
+			</auto_static>
+		</global_wnd>
+
+		<item type="video">
+			<sound>order_join</sound>
+			<pause_state>on</pause_state>
+			<can_be_stopped>off</can_be_stopped>
+			<function_on_stop>agroprom.end_game</function_on_stop>
+			<video_wnd x="0" y="0" width="1920" height="1080" stretch="1">
+				<texture x="0" y="1" width="1920" height="1078">order_join</texture>
+			</video_wnd>
+		</item>
+	</fr_end_order>
+
+	<fr_end_refuse>
+		<play_each_item>1</play_each_item>
+		<global_wnd x="0" y="0" width="1024" height="768">
+			<auto_static x="0" y="0" width="1024" height="768" stretch="1">
+				<window_name>back</window_name>
+				<texture>intro\intro_back</texture>
+			</auto_static>
+		</global_wnd>
+
+		<item type="video">
+			<sound>order_reject</sound>
+			<pause_state>on</pause_state>
+			<can_be_stopped>off</can_be_stopped>
+			<function_on_stop>agroprom.end_game</function_on_stop>
+			<video_wnd x="0" y="0" width="1920" height="1080" stretch="1">
+				<texture x="0" y="1" width="1920" height="1078">order_reject</texture>
+			</video_wnd>
+		</item>
+	</fr_end_refuse>

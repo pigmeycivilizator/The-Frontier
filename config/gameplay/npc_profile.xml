@@ -290,6 +290,28 @@
 	</character>
 	
 	
+	
+	
+	<character id="fr_agr_end_pigmey">
+		<class>fr_agr_end_pigmey</class>
+	</character>
+	<character id="fr_agr_end_rogovets">
+		<class>fr_agr_end_rogovets</class>
+	</character>
+	<character id="fr_agr_end_horus">
+		<class>fr_agr_end_horus</class>
+	</character>
+	<character id="fr_agr_end_fulgrim">
+		<class>fr_agr_end_fulgrim</class>
+	</character>
+	<character id="fr_agr_end_kuznetsov">
+		<class>fr_agr_end_kuznetsov</class>
+	</character>	
+	
+	
+	
+	
+	
 
 <!-- Escape -->
 	<character id="escape_trader">	

@@ -53,7 +53,7 @@
 	<num_text x="3" y="2" width="10" height="20">
 		<text font="letterica18" r="255" g="232" b="208"/>
 	</num_text>
-    <content_text x="15" y="2" width="410" height="20">
+    <content_text x="15" y="2" width="375" height="20">
       <text font="letterica18" r="255" g="232" b="208" align="l" complex_mode="1"/>
     </content_text>
   </question_item>
@@ -63,7 +63,7 @@
       <text font="graffiti22" r="238" g="153" b="26"  complex_mode="0"/>
     </name_caption>
 
-    <content_text x="17" y="22" width="408" height="10" complex_mode="1">
+    <content_text x="17" y="22" width="370" height="10" complex_mode="1">
       <text font="letterica18" r="216" g="186" b="140"/>
     </content_text>
   </other_answer_item>
@@ -73,7 +73,7 @@
       <text font="graffiti22" r="135" g="183" b="116" complex_mode="0"/>
     </name_caption>
 
-    <content_text x="17" y="22" width="408" height="10" complex_mode="1">
+    <content_text x="17" y="22" width="370" height="10" complex_mode="1">
       <text font="letterica18" r="255" g="232" b="208"/>
     </content_text>
   </actor_answer_item>

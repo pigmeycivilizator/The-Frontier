@@ -466,9 +466,11 @@
       <phrase id="11">
         <text>fr_serg_talk_11</text>
         <next>12</next>
+        <next>20</next>
       </phrase>
       <phrase id="12">
         <text>fr_serg_talk_12</text>
+        <dont_has_info>fr_agr_corpse_looted</dont_has_info>
         <next>13</next>
       </phrase>
       <phrase id="13">
@@ -479,11 +481,36 @@
         <text>fr_serg_talk_14</text>
         <give_info>fr_agr_serg_talk_done</give_info>
       </phrase>
+      <!-- игрок уже сам разобрался с кровососами до разговора -->
+      <phrase id="20">
+        <text>fr_serg_talk_20</text>
+        <has_info>fr_agr_corpse_looted</has_info>
+        <next>21</next>
+      </phrase>
+      <phrase id="21">
+        <text>fr_serg_talk_21</text>
+        <next>22</next>
+      </phrase>
+      <phrase id="22">
+        <text>fr_serg_rep_2</text>
+        <next>23</next>
+      </phrase>
+      <phrase id="23">
+        <text>fr_serg_talk_23</text>
+        <action>agroprom.krovosos_reward</action>
+        <next>24</next>
+      </phrase>
+      <phrase id="24">
+        <text>fr_serg_talk_14</text>
+        <give_info>fr_agr_krovosos_done</give_info>
+        <give_info>fr_agr_serg_talk_done</give_info>
+      </phrase>
     </phrase_list>
   </dialog>
 
   <!-- ================= СЕРЖАНТ: ДОКЛАД ================= -->
   <dialog id="fr_agr_serg_report">
+    <has_info>fr_agr_serg_talk_done</has_info>
     <has_info>fr_agr_corpse_looted</has_info>
     <dont_has_info>fr_agr_krovosos_done</dont_has_info>
     <phrase_list>
@@ -875,6 +902,7 @@
   <dialog id="fr_agr_north_ask">
     <has_info>fr_agr_serg_talk_done</has_info>
     <dont_has_info>fr_agr_north_start</dont_has_info>
+    <dont_has_info>fr_agr_north_checked</dont_has_info>
     <phrase_list>
       <phrase id="0">
         <text>fr_north_ask_0</text>

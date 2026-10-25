@@ -971,7 +971,7 @@
 		<snd_config>characters_voice\human_01\bandit\</snd_config>
 		<crouch_type>1</crouch_type>
 
-		<visual>actors\bandit\stalker_bandit_3</visual>
+		<visual>actors\bandit\stalker_bandit_8</visual>
 		<supplies>
 			[spawn] \n
 			wpn_oc33 \n

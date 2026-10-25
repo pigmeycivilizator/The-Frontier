@@ -192,6 +192,7 @@ end
 ----------------------------------------------------------------------------------------------------------------------
 function actor_binder:on_item_take (obj)
     level_tasks.proceed(self.object)
+    agroprom.on_item_take(obj)
     --game_stats.update_take_item (obj, self.object)
 	self.am:call("on_take", obj, sobj)
 end

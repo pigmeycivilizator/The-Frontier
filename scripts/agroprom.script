@@ -244,6 +244,20 @@ function north_items_found(actor, npc)
 	return true
 end
 
+-- подбор предметов в северном тоннеле: засада срабатывает в момент находки,
+-- даже если игрок пришёл туда раньше, чем взял задание у бойца
+function on_item_take(obj)
+	if not obj then return end
+	local sec = obj:section()
+	if sec ~= "fr_agr_maps_part" and sec ~= "fr_agr_cult_pda" then return end
+	local a = db.actor
+	if not a or a:has_info("fr_agr_north_checked") then return end
+	local other = (sec == "fr_agr_maps_part") and "fr_agr_cult_pda" or "fr_agr_maps_part"
+	if a:object(other) ~= nil then
+		a:give_info_portion("fr_agr_north_checked")
+	end
+end
+
 function und_requests_done(actor, npc)
 	local a = db.actor
 	if not a then return false end

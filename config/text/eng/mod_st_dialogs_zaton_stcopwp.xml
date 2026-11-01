@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="zat_b33_stalker_snag_share_package_dialog_113" override="replace">
+		<text>Well... oh! I don't even know if you've ever held a piece like this... An upgraded Kalash! An AK-105, to be exact: a 45-round mag and a rail for foreign scopes! I traded a Duty guy some medkits for it, I remember. Back then Freedom had wrecked their squad so bad the Duty guys were running low on supplies... Later this gun saved my life three times... Yeah, this one's definitely mine!</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_111" override="replace" >
+		<text>Here, the FNX-45 pistol! A great gun. Yeah, you still owe me 2800.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_112" override="replace">
+		<text>Here, the FNX-45! You owe me 2800 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_121" override="replace">
+		<text>Look, this is a Desert Eagle, with a red dot sight and a compensator. A killer piece! The remaining 2800 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_122" override="replace">
+		<text>Here's a Desert Eagle, with a red dot and a compensator. A killer pistol! Heavy, though... The remaining 2800 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_131" override="replace">
+		<text>A SIG Sauer P320 pistol chambered in .45 ACP. Made in a small batch on order from some unknown special unit. The remaining 2800 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_132" override="replace">
+		<text>Here, the SIG P320 .45 ACP pistol. You owe me 2800 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_211" override="replace">
+		<text>One second! There, the RPD! You owe me 28000 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_212" override="replace">
+		<text>Here: the RPD machine gun. You owe me 28000 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_221" override="replace">
+		<text>Here: the Barrett M98 Bravo! Look how big she is... Well, 28000 and she's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_222" override="replace">
+		<text>Sure. Here: the Barrett M98 Bravo, a powerful thing... The missing 28000 and she's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_231" override="replace">
+		<text>I believe this is exactly what you need. The PKP "Pecheneg"! 28000 and it's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_232" override="replace">
+		<text>Sure. The PKP "Pecheneg". For 28000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_311" override="replace">
+		<text>Here, an M4, tactical version. For 16000 this beauty is yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_312" override="replace">
+		<text>Here, the M4. You owe me 16000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_321" override="replace">
+		<text>Here, the Groza 5.45. For 16000 this beauty is yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_322" override="replace">
+		<text>Here, a Groza chambered in 5.45. You owe me 16000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_331" override="replace">
+		<text>Here: the VSS Vintorez, with a tactical grip and a cheek rest on the stock for easier aiming. 16000 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_332" override="replace">
+		<text>Sure. Here: the VSS Vintorez, tactical. For the missing 16000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_411" override="replace">
+		<text>Here: the SV-98! Well, 32000 and she's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_412" override="replace">
+		<text>Sure. Here: the SV-98... The missing 32000 and she's yours.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_421" override="replace">
+		<text>Here, the L96A1, also known as the AWP. Don't ask where I got it... You owe me 32000 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_422" override="replace">
+		<text>Uh-huh. The L96A1 sniper rifle. You owe me 32000 more.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_431" override="replace">
+		<text>Take it: an M24, brought in from far away! You owe me the remaining 32000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_get_order_432" override="replace">
+		<text>Look what I managed to get! An M24! You owe me the remaining 32000.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_12" override="replace">
+		<text>Heavy weapons.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_121" override="replace">
+		<text>No problem. It'll cost you 30000, and I'll need 2000 of it up front.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_122" override="replace">
+		<text>You turned down the previous order... So this one will cost you 26000, and I'll need 4000 up front.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_13" override="replace">
+		<text>Tactical weapons.</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_131" override="replace">
+		<text>Tactical? Well, I've got something in mind... The usual price is 20000, 4000 of it as a deposit. How about it?</text>
+	</string>
+	<string id="zat_b51_stalker_nimble_place_order_141" override="replace">
+		<text>I can get it for 36000, but you'll need to pay 4000 of it in advance.</text>
+	</string>
+</string_table>

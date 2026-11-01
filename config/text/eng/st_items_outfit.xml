@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+<!--   КОСТЮМЫ   --><!-- правлено SR -->
+
+<!-- (класс "0a") куртка -->
+	<string id="novice_outfit_name">
+		<text>Rookie jacket</text>
+	</string>
+	<string id="novice_outfit_description">
+		<text>Ordinary clothing of a beginner stalker. Protects its wearer from neither bullets nor anomalies, but is comfortable to wear. No built-in artifact containers.</text>
+	</string>
+	
+<!-- (класс "1") Ветер свободы -->
+	<string id="svoboda_light_outfit_name">
+		<text>"Wind of Freedom" suit</text>
+	</string>
+	<string id="svoboda_light_outfit_description">
+		<text>An extremely lightweight stalker suit made by the craftsmen of the Freedom faction. It is sewn from fabric treated with the "Horizon" compound, which greatly improves its protective properties under anomalous activity. Fitted with a built-in bulletproof vest and artifact containers.</text>
+	</string>
+	
+<!-- (класс "1а") Заря -->
+	<string id="stalker_outfit_name">
+		<text>"Sunrise" suit</text>
+	</string>
+	<string id="stalker_outfit_description">
+		<text>This stalker suit, made by folk craftsmen, combines two-layer rubberized fabric with a plexiglass lining and a built-in bulletproof vest. Even though the vest can be pierced by a pistol bullet, the suit is very common thanks to its low price and wide range of upgrade options. Fitted with built-in artifact containers.</text>
+	</string>
+	
+<!-- (класс "2а") СЕВА -->
+	<string id="scientific_outfit_name">
+		<text>"SEVA" suit</text>
+	</string>
+	<string id="scientific_outfit_description">
+		<text>Made at one of Kyiv's defense research institutes as an alternative to the stalkers' homemade suits. Although the built-in vest can only stop a pistol bullet, its protection from anomalous effects and radiation is rightly considered unmatched. Upgrade options and two built-in artifact containers have made this model popular among experienced stalkers.</text>
+	</string>
+
+<!-- (класс "хз") ССП-99 -->
+	<string id="ecolog_outfit_name">
+		<text>SSP-99 "Ecologist" suit</text>
+	</string>
+	<string id="ecolog_outfit_description">
+		<text>The SSP-99 "Ecologist" chemical protection suit, built for work in the Zone. Used by scientific expeditions and the eco-stalkers who work with them. Built-in air filtration and conditioning system. Not designed for combat. Although all working material of anomalous origin is used only for laboratory research, the suit has five artifact containers. Fitted with a second-generation night vision device.</text>
+	</string>
+
+<!-- (класс "3") Долга ПС5-М -->
+	<string id="dolg_outfit_name">
+		<text>PS5-M "Universal Protection"</text>
+	</string>
+	<string id="dolg_outfit_description">
+		<text>A modern model of the Duty suit. Better suited to stalker recruits who are used to relatively light suits. Unlike the PS3 series, it provides good protection from anomalous effects and can still stop a pistol bullet. Artifact containers can't be installed, but various auxiliary systems can.</text>
+	</string>
+
+<!-- (класс "1") ЧН-1 -->
+	<string id="csky_light_outfit_name">
+		<text>CS-1 body armor</text>
+	</string>
+	<string id="csky_light_outfit_description">
+		<text>This body armor was developed for search operations in areas with low anomalous activity. Fairly high-quality materials have improved its wear resistance. Equipped with an artifact container.</text>
+	</string>
+
+<!-- (класс "хз") ЧН-2 -->
+	<string id="csky_standart_outfit_name">
+		<text>CS-2 body armor</text>
+	</string>
+	<string id="csky_standart_outfit_description">
+		<text>Reinforced body armor and a built-in gas mask provide decent protection from both bullets and anomalous effects compared to earlier models. Overall, however, the wearer's protection is far from sufficient for serious expeditions to the center of the Zone. Equipped with an artifact container.</text>
+	</string>
+
+<!-- (класс "4") ЧН-3 -->
+	<string id="csky_heavy_outfit_name">
+		<text>CS-3a body armor</text>
+	</string>
+	<string id="csky_heavy_outfit_description">
+		<text>This was once the standard gear of Clear Sky assault squads. The destruction of the faction became a reminder to stalkers: even excellent gear can't guarantee safety inside the Zone's perimeter. This protective suit can not only stop a pistol bullet, but also provides good protection from anomalous effects. Fitted with a built-in artifact container.\n \n %c[255,1,255,255]Used with the "Sphere T1I" helmet%c[default]\n</text>
+	</string>
+	
+<!-- (класс "4") Страж свободы -->
+	<string id="svoboda_heavy_outfit_name">
+		<text>"Guardian of Freedom" suit</text>
+	</string>
+	<string id="svoboda_heavy_outfit_description">
+		<text>Essentially an army bulletproof vest reworked by the craftsmen of the Freedom faction: a successful combination of combat and anomaly protection. The built-in vest made of armor plates and multilayer Kevlar can stop more than just a pistol bullet. To protect against anomalous effects, the suit's fabric is impregnated with the "Sovereign" compound. Fitted with an artifact container.</text>
+	</string>
+	
+<!-- (класс "5") Берилл-5М -->
+	<string id="specops_outfit_name">
+		<text>"Berill-5M" body armor</text>
+	</string>
+	<string id="specops_outfit_description">
+		<text>A PSZ-5 series army bulletproof vest with beryllium coating, modified for work in the Zone. Designed for assault operations in areas with elevated background radiation, but not very effective under high anomalous activity. Can't be fitted with artifact containers.\n \n %c[255,1,255,255]Used with a steel helmet or the "Sphere B12"%c[default]\n</text>
+	</string>
+
+<!-- (класс "5а") Булат -->
+	<string id="military_outfit_name">
+		<text>"Bulat" body armor</text>
+	</string>
+	<string id="military_outfit_description">
+		<text>Modern army body armor for assault operations in areas of anomalous activity. Components: a PSZ-5a series heavy bulletproof vest, an anomaly protection coverall and a compensation suit. Provides excellent protection from bullets and shrapnel while staying comfortable and barely restricting the wearer's mobility. Can't be fitted with artifact containers.\n \n %c[255,1,255,255]Used with the "Sphere B12" helmet%c[default]\n</text>
+	</string>
+	
+<!-- (класс "5а") броня Долга -->
+	<string id="dolg_heavy_outfit_name">
+		<text>PSZ-9d "Duty Armor"</text>
+	</string>
+	<string id="dolg_heavy_outfit_description">
+		<text>An early model of the Duty suit: a PSZ-5a series spec ops bulletproof vest adapted for use in the Zone. Can stop a rifle bullet, but it is very bulky and offers almost no protection from anomalous effects. Artifact containers can't be installed, but various auxiliary systems can.\n \n %c[255,1,255,255]Used with the "D-Sphere" helmet%c[default]\n</text>
+	</string>
+	
+<!-- (класс "6а") экзоскелет -->
+	<string id="exo_outfit_name">
+		<text>Exoskeleton</text>
+	</string>
+	<string id="exo_outfit_description">
+		<text>An experimental military exoskeleton prototype. It never went into mass production because of its extremely high cost. Even so, since it can greatly increase the wearer's mobility, it's in demand, so it's quietly produced in small batches. Fitted with a built-in artifact container.</text>
+	</string>
+	
+<!--    ШЛЕМЫ    -->
+
+<!-- противогаз  -->
+	<string id="st_helm_respirator">
+		<text>Gas mask</text>
+	</string>
+	<string id="st_helm_respirator_descr">
+		<text>A standard gas mask designed to filter radioactive dust and toxic substances out of the air. Widely used by rookies and veterans of every faction alike, since nothing can replace it. Offers no protection from bullets, shrapnel or physical impact.</text>
+	</string>
+	
+<!-- купол  -->
+	<string id="st_helm_protective">
+		<text>"Zaslon" helmet</text>
+	</string>
+	<string id="st_helm_protective_descr">
+		<text>A light helmet with a sealed visor, designed to protect the face from some anomalous effects. Judging by the technology, it was developed by the same defense research institute as the SEVA suit, presumably for use together with army protective suits.</text>
+	</string>
+	
+<!-- стальной  -->
+	<string id="st_helm_hardhat">
+		<text>Steel helmet</text>
+	</string>
+	<string id="st_helm_hardhat_descr">
+		<text>A standard army steel helmet. Offers no protection from anomalies or radiation, but can deflect a glancing bullet. In the Zone it was in demand only during the first clashes between factions.</text>
+	</string>
+
+<!-- тактический  -->
+	<string id="st_helm_tactic">
+		<text>"Sphere T1I" helmet</text>
+	</string>
+	<string id="st_helm_tactic_descr">
+		<text>A tactical helmet with no markings of any kind. Designed to give a unit commander as much tactical information as possible once the right electronics are installed. It has a reinforced design and is also fitted with multilayer Kevlar protection, a respirator and a first-generation night vision device.</text>
+	</string>
+	
+<!-- боевой  -->
+	<string id="st_helm_battle">
+		<text>"Sphere B12" helmet</text>
+	</string>
+	<string id="st_helm_battle_descr">
+		<text>A fabric-covered aluminum-titanium helmet with pockets for steel armor plates and an armored mask. Usually supplied with PSZ-class spec ops body armor. Fairly popular in the Zone thanks to its respirator, built-in night vision device and good head protection. Electronics can be installed.</text>
+	</string>
+
+<!--    М П    -->
+	<string id="mp_scientific_outfit_name">
+		<text>"SEVA" suit</text>
+	</string>
+	<string id="mp_scientific_outfit_description">
+		<text>Designed for research work in the Zone. Fitted with an outer insulating coating and a closed-cycle breathing system, which make it excellent protection from anomalous effects. However, its resistance to physical damage is low, so the wearer is very vulnerable to enemy fire. Fitted with a built-in artifact container.</text>
+	</string>
+	<string id="mp_military_outfit_name">
+		<text>Army body armor</text>
+	</string>
+	<string id="mp_military_outfit_description">
+		<text>Army body armor made for assault operations. Provides excellent protection from jacketed bullets and shrapnel without reducing the wearer's mobility. Can be pierced by armor-piercing rounds.</text>
+	</string>
+	<string id="mp_exo_outfit_name">
+		<text>Exoskeleton</text>
+	</string>
+	<string id="mp_exo_outfit_description">
+		<text>The exoskeleton gives its wearer excellent protection from bullets and shrapnel, but noticeably reduces mobility. Can be pierced by armor-piercing rounds.</text>
+	</string>
+
+	
+<!---------------------------------------------------------------------------------------------------------------->
+<!--------------------------------- ОПИСАНИЯ НЕДОСТАЮЩИХ КОСТЮМОВ ------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------->
+
+<!--- BANDIT'S OUTFITS --->
+<!-- (класс "0a") куртка -->
+	<string id="bandit_outfit_name">
+		<text>Leather jacket</text>
+	</string>
+	<string id="bandit_outfit_description">
+		<text>Traditional bandit clothing: a leather jacket with sewn-in armor plates. Gives its wearer some protection from harmful effects, though still far from enough for the harsh conditions of the Zone. Fitted with a built-in artifact container.</text>
+	</string>
+<!-- (класс "0a") плащ -->
+	<string id="bandit_brownrain_outfit_name">
+		<text>Bandit coat (brown)</text>
+	</string>
+	<string id="bandit_brownrain_outfit_description">
+		<text>A stylish bandit leather coat with sewn-in armor plates. Gives its wearer slightly more protection from harmful effects than a jacket, though still far from enough for the harsh conditions of the Zone. Fitted with a built-in artifact container.</text>
+	</string>
+<!-- (класс "0a") плащ -->
+	<string id="bandit_blackrain_outfit_name">
+		<text>Bandit coat (black)</text>
+	</string>
+	<string id="bandit_blackrain_outfit_description">
+		<text>A stylish bandit leather coat with sewn-in armor plates. Gives its wearer slightly more protection from firearms and the Zone's harmful effects than a jacket, though still far from enough for the harsh conditions of the Zone. Fitted with a built-in artifact container.</text>
+	</string>
+<!-- (класс "1a") Закат -->
+	<string id="bandit_light_outfit_name">
+		<text>"Sunset" suit</text>
+	</string>
+	<string id="bandit_light_outfit_description">
+		<text>A homemade variety of stalker suit. Essentially a light army bulletproof vest with extra protection from anomalous activity. Has a built-in artifact container.</text>
+	</string>
+	
+<!--- MERC'S OUTFITS --->
+<!-- (класс "1a") Солдат удачи -->
+	<string id="merc_outfit_name">
+		<text>Mercenary suit</text>
+	</string>
+	<string id="merc_outfit_description">
+		<text>A variety of stalker suit. The set includes a light bulletproof vest with extra protection from anomalous activity. Has a built-in artifact container.</text>
+	</string>
+<!-- (класс "1a") Джентельмен удачи -->
+	<string id="exo_merc_outfit_name">
+		<text>Mercenary exoskeleton</text>
+	</string>
+	<string id="exo_merc_outfit_description">
+		<text>A foreign-made exoskeleton model. An assault variant with increased bullet and blast protection and standard protection from anomalous effects.</text>
+	</string>
+	
+<!--- SOLDIER'S OUTFITS --->
+<!-- (класс "2") армейская разгрузка -->
+	<string id="soldier_outfit_name">
+		<text>Army bulletproof vest</text>
+	</string>
+	<string id="soldier_outfit_description">
+		<text>A soldier's standard gear: a light army bulletproof vest. Protects fairly well against pistol bullets and shrapnel. Ineffective against anomalous and other effects. Artifact containers can't be installed.</text>
+	</string>
+	
+<!--- DOLG'S OUTFITS --->
+<!-- (класс "2а") научный костюм Долга -->
+	<string id="dolg_scientific_outfit_name">
+		<text>PSZ-9Md "Universal Protection"</text>
+	</string>
+	<string id="dolg_scientific_outfit_description">
+		<text>An excellent protective suit for the Zone. Stalkers value it for combining excellent anomaly protection with bullet protection. Components: a PSZ-9d coverall, a closed-cycle breathing system and a built-in anomalous field suppression system. Provides solid protection from bullets and shrapnel.</text>
+	</string>
+<!-- (класс "6б") экзо Долг -->
+	<string id="exo_dolg_outfit_name">
+		<text>"Duty" exoskeleton</text>
+	</string>
+	<string id="exo_dolg_outfit_description">
+		<text>A special exoskeleton model for the Duty faction. Stronger materials have improved protection from physical damage and increased the suit's own wear resistance.</text>
+	</string>
+	
+<!--- FREEDOM'S OUTFITS --->
+<!-- (класс "1") Свобода -->
+	<string id="svoboda_outfit_name">
+		<text>"Freedom" suit</text>
+	</string>
+	<string id="svoboda_outfit_description">
+		<text>A standard stalker suit made by the craftsmen of the Freedom faction. Has a built-in artifact container.</text>
+	</string>
+<!-- (класс "2a") научный костюм свободы -->
+	<string id="svoboda_scientific_outfit_name">
+		<text>Freedom scientific suit</text>
+	</string>
+	<string id="svoboda_scientific_outfit_description">
+		<text>This armored suit was made by Freedom's craftsmen specifically for scientific research in the Zone. A closed-cycle breathing system and special impregnation of the materials provide excellent protection from radiation and harmful anomalous effects. However, the built-in vest can be pierced even by a pistol bullet, so the suit is no good for active combat.</text>
+	</string>
+<!-- (класс "6а") экзо Свобода -->
+	<string id="exo_freedom_outfit_name">
+		<text>"Freedom" exoskeleton</text>
+	</string>
+	<string id="exo_freedom_outfit_description">
+		<text>A special exoskeleton model for the Freedom faction. Lighter materials have reduced the suit's weight and increased its wear resistance.</text>
+	</string>
+
+<!--- NEUTRAL'S OUTFITS --->
+<!-- (класс "6а") Штурм -->
+	<string id="neutral_assault_outfit_name">
+		<text>"Assault" body armor</text>
+	</string>
+	<string id="neutral_assault_outfit_description">
+		<text>A lightweight version of the exoskeleton, made using its armor plates. There is no hydraulic system. The vest protects well against small arms, and the built-in gas mask and rubberized fabric coverall provide good protection from anomalous effects. Fitted with a built-in artifact container.</text>
+	</string>
+
+<!--- MONOLITH'S OUTFITS --->
+<!-- (класс "2а") научный костюм монолита -->
+	<string id="monolith_scientific_outfit_name">
+		<text>Monolith scientific suit</text>
+	</string>
+	<string id="monolith_scientific_outfit_description">
+		<text>Like most of Monolith's creations, the technology is unknown. It has been established that it includes unknown materials. They are lighter than their counterparts and protect very well from radiation. Has a closed-cycle breathing system.</text>
+	</string>
+<!-- (класс "4") Монолит-2 -->
+	<string id="monolith_outfit_name">
+		<text>"Monolith-2" suit</text>
+	</string>
+	<string id="monolith_outfit_description">
+		<text>The vest can stop a pistol bullet. The outer shell consists of two layers. Can protect its wearer from many anomalous effects and radiation. Has an artifact container.\nTechnology unknown.\n \n %c[255,1,255,255]Used with a gas mask%c[default]\n</text>
+	</string>
+<!-- (класс "6") Монолит-Ш -->
+	<string id="monolith_assault_outfit_name">
+		<text>"Monolith Assault" body armor</text>
+	</string>
+	<string id="monolith_assault_outfit_description">
+		<text>Standard gear of Monolith assault squads, made using exoskeleton armor plates. The vest protects well against small arms, and the built-in gas mask and coverall of unknown fabric provide good protection from anomalous effects. Fitted with a built-in artifact container.\nTechnology unknown.</text>
+	</string>
+<!-- (класс "6б") экзо Монолит -->
+	<string id="exo_mono_outfit_name">
+		<text>"Monolith" exoskeleton</text>
+	</string>
+	<string id="exo_mono_outfit_description">
+		<text>The Monolith faction's exoskeleton. Protects well from all kinds of effects. Wears out slowly.\nTechnology unknown.</text>
+	</string>
+	
+<!--- SCIENTIFIC'S OUTFITS --->
+<!-- (класс "0а") Эколог -->
+	<string id="protection_outfit_name">
+		<text>SSP-99M suit</text>
+	</string>
+	<string id="protection_outfit_description">
+		<text>A high-quality modification of the SSP-99 "Ecologist" suit, with added torso protection from bullets and shrapnel. Designed to equip the guards of scientific expeditions. Effective protection from radiation and biological anomalies. Resistant to chemically aggressive environments and other effects harmful to the body. Although all working material of anomalous origin is used only for laboratory research, the suit has five artifact containers. Fitted with a second-generation night vision device.</text>
+	</string>
+
+<!--------------------------------------------------------------------------------------------------------------->
+<!--------------------------------- ОПИСАНИЯ УНИКАЛЬНЫХ КОСТЮМОВ ------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------------->
+	
+<!--- STALKER MEDIC OUTFITS --->
+	<string id="stalker_medic_outfit_name">
+		<text>"Sunrise" medical suit</text>
+	</string>
+	<string id="stalker_medic_outfit_description">
+		<text>A modified "Sunrise" suit. A combination of two-layer rubberized fabric with a plexiglass lining and a built-in bulletproof vest. Even though the vest can be pierced by a pistol bullet, the suit is very common thanks to its low price and wide range of upgrade options. Fitted with built-in artifact containers. Has healing properties.</text>
+	</string>
+
+</string_table>

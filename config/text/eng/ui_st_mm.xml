@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<!-- MAIN MENU -->
-	<!-- First screen (game not loaded) -->
+	<!-- ГЛАВНОЕ МЕНЮ -->
+	<!-- Первый экран (игра не загружена) -->
 	<string id="ui_mm_newgame">
 		<text>New game</text>
 	</string>
@@ -250,9 +250,6 @@
 	<string id="ui_mm_dof_zoom_param">
 		<text>DOF intensity when aiming</text>
 	</string>
-	<string id="ui_mm_dof_zoom_far">
-		<text>Far edge dof effect</text>
-	</string>
 	<string id="ui_mm_dof_zoom_near">
 		<text>Near border dof effect</text>
 	</string>
@@ -295,9 +292,6 @@
 	<string id="st_opt_taa">
 		<text>TAA</text>
 	</string>
-	<string id="ui_mm_r2_aa_mode">
-		<text>Antialiasing mode (R2)</text>
-	</string>	
 	<string id="ui_mm_r2_sun">
 		<text>Sun Shadow</text>
 	</string>
@@ -389,7 +383,7 @@
 	</string>
 	<string id="ui_mm_r2_rain_drops">
 		<text>Drops on glass</text>
-	</string>	
+	</string>
 	<string id="ui_mm_r2_mask">
 		<text>Helmet</text>
 	</string>
@@ -444,14 +438,8 @@
 	<string id="ui_mm_r2_gbuffer_opt">
 		<text>Shader optimization</text>
 	</string>
-	<string id="ui_mm_ssample">
-		<text>Anti-aliasing on static lighting</text>
-	</string>	
 	<string id="ui_mm_msaa">
 		<text>MSAA</text>
-	</string>
-	<string id="ui_mm_fxaa">
-		<text>FXAA</text>
 	</string>
 	<string id="ui_mm_switch_torch">
 		<text>AI uses flashlights</text>
@@ -464,12 +452,9 @@
 	</string>
 	<string id="ui_mm_r_aa_mode">
 		<text>Anti-aliasing</text>
-	</string>
+	</string>	
 	<string id="ui_mm_cas">
 		<text>Sharpness after anti-aliasing</text>
-	</string>
-	<string id="ui_mm_r2_aa">
-		<text>Antialiasing (R2)</text>
 	</string>	
 	<string id="ui_mm_r2_gi">
 		<text>Global illumination</text>
@@ -543,10 +528,6 @@
 
 	<string id="r_sslr_enable">
 		<text>Reflections in water and puddles</text>
-	</string>
-
-	<string id="ui_mm_rs_mt_texload">
-		<text>Multithreaded texture loading</text>
 	</string>
 
 	<string id="ui_mm_3d_scopes_fps_factor">
@@ -641,10 +622,10 @@
 	</string>
 	<string id="ui_mm_3d_scopes">
 		<text>3D Scopes</text>
-	</string>	
+	</string>
 	<string id="ui_mm_aim_toggle">
 		<text>Aiming by pressing/holding</text>
-	</string>	
+	</string>
 	<string id="ui_mm_switch_slot">
 		<text>Switching the slot using the mouse wheel</text>
 	</string>
@@ -727,9 +708,6 @@
 	<string id="video_settings_name_17">
 		<text>Frequency 60Hz-rs_refresh_60hz</text>
 	</string>
-	<string id="video_settings_name_18">
-		<text>Anti-aliasing on dynamic lighting - r2_aa</text>
-	</string>
 	<string id="video_settings_name_19">
 		<text>Type of Anti-aliasing - r2_aa_mode</text>
 	</string>
@@ -765,9 +743,6 @@
 	</string>
 	<string id="ui_mm_r2_sun_quality">
 		<text>Soft shadows from the sun</text>
-	</string>
-	<string id="video_settings_name_30">
-		<text>Volume ray type - r2_sunshafts_mode</text>
 	</string>
 	<string id="video_settings_name_31">
 		<text>Motion blur intensity - r2_mblur</text>
@@ -914,9 +889,6 @@
 	<string id="video_settings_desc_9">
 		<text>This setting includes bullet marks on bodies.</text>
 	</string>
-	<string id="video_settings_desc_10">
-		<text>This setting adjusts the quality of the game engine's full-screen anti-aliasing effect on static lighting.</text>
-	</string>
 	<string id="video_settings_desc_11">
 		<text>This setting enables objects to cast shadows from sunlight. On weak PCs, disabling this setting can give a serious speed boost.</text>
 	</string>
@@ -938,11 +910,8 @@
 	<string id="video_settings_desc_17">
 		<text>This setting causes the game to always use a video mode with a screen refresh rate of 60 Hertz. This setting is useful for owners of monitors whose game does not correctly determine the refresh rate of the screen when running. However, it is recommended to enable this setting only if you have such a problem. In some rare cases, enabling this setting may cause lags in full-screen mode.</text>
 	</string>
-	<string id="video_settings_desc_18">
-		<text>This setting enables shader smoothing on dynamic lighting.</text>
-	</string>
 	<string id="video_settings_desc_19">
-        <text>This setting switches the anti-aliasing type. Available options are NVIDIA DLSS (Deep learning super sampling), AMD FSR2 (FidelityFX Super Resolution 2), TAA (Temporal anti-aliasing), SMAA (Subpixel Morphological AntiAliasing). \n \nNVIDIA DLSS (Deep Learning Super Sampling) is a revolutionary AI-powered rendering technology that improves graphics quality by using specialized tensor cores in GeForce RTX graphics cards. The technology became available in desktop and mobile graphics cards with the arrival of the RTX20 series. Anti-aliasing using DLSS produces results superior in quality to MSAA 8x, without causing performance drops. \n \nFSR is a less demanding and lower quality analogue from AMD. FSR 2.0 is supported by all AMD video cards from the RX 400 series and newer, as well as NVIDIA video cards from the 1000 series.</text>
+		<text>This setting switches the anti-aliasing type. Available options are NVIDIA DLSS (Deep learning super sampling), AMD FSR2 (FidelityFX Super Resolution 2), TAA (Temporal anti-aliasing), SMAA (Subpixel Morphological AntiAliasing). \n \nNVIDIA DLSS (Deep Learning Super Sampling) is a revolutionary AI-powered rendering technology that improves graphics quality by using specialized tensor cores in GeForce RTX graphics cards. The technology became available in desktop and mobile graphics cards with the arrival of the RTX20 series. Anti-aliasing using DLSS produces results superior in quality to MSAA 8x, without causing performance drops. \n \nFSR is a less demanding and lower quality analogue from AMD. FSR 2.0 is supported by all AMD video cards from the RX 400 series and newer, as well as NVIDIA video cards from the 1000 series.</text>
 	</string>
 	<string id="video_settings_desc_20">
 		<text>""</text>
@@ -973,9 +942,6 @@
 	</string>
 	<string id="video_settings_desc_29">
 		<text>This setting adjusts the rendering of volumetric (more often solar) rays on dust in the air.</text>
-	</string>
-	<string id="video_settings_desc_30">
-		<text>This setting switches the type of volumetric beams. You can choose the option from Crysis or the option from STALKER: Clear Sky. ATTENTION! Volumetric rays from a clear Sky can significantly reduce performance.</text>
 	</string>
 	<string id="video_settings_desc_31">
 		<text>This setting includes the effect of softening the edge of water surfaces. When it is turned on, the water at the edge of reservoirs will gradually gain transparency up to complete invisibility, which eliminates the effect of a sharp and highly noticeable border between water and land.</text>

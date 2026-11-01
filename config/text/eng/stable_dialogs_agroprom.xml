@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!--==================== ПРИВЕТСТВИЯ ====================-->
+<string id="fr_mil_soldier_hello_0">
+	<text>Good day, Lieutenant, sir.</text>
+</string>
+<string id="fr_start_soldier_hello_0">
+	<text>Thirty-five percent... Hey, Doc, think they'll cut us too? Honestly, I'd haul ass outta here without a second thought.</text>
+</string>
+<string id="fr_mil_officer_hello_0">
+	<text>Go ahead, Lieutenant.</text>
+</string>
+<string id="fr_agr_kuz_hello_0">
+	<text>I'm listening, Rogovets.</text>
+</string>
+<string id="fr_agr_snab_hello_0">
+	<text>What do you want?</text>
+</string>
+<string id="fr_agr_sergeant_hello_0">
+	<text>Well, look at that. A living soul.</text>
+</string>
+<string id="fr_stalker_hello_0">
+	<text>What do you want, soldier?</text>
+</string>
+<string id="fr_fanat_hello_0">
+	<text>Greetings, brother.</text>
+</string>
+<string id="fr_horus_hello_0">
+	<text>...</text>
+</string>
+<string id="fr_recon_hello_0">
+	<text>Freeze! Not one more step!</text>
+</string>
+<!--==================== СОСЛУЖИВЕЦ У РАДИО ====================-->
+<string id="fr_agr_soldier_intro_2">
+	<text>Hold still. A pseudodog's gonna cut you way before they do if you keep daydreaming on patrol.</text>
+</string>
+<string id="fr_agr_soldier_intro_3">
+	<text>There was no dog out there, LT, I'm telling you... It was... fuck knows what it was. Something grey, between the trees. I look, it's standing there. I blink, it's gone. And then something cracked to my left...</text>
+</string>
+<string id="fr_agr_soldier_intro_4">
+	<text>Something grey, you say...</text>
+</string>
+<string id="fr_agr_soldier_intro_5">
+	<text>Yeah! My buddy swears it's just hallucinations from no sleep. But here's what I think: I haven't slept right since basic, and I've never seen anything like that.</text>
+</string>
+<string id="fr_agr_soldier_intro_6">
+	<text>Did you report it to the colonel?</text>
+</string>
+<string id="fr_agr_soldier_intro_7">
+	<text>Hell yeah, I did! And that bastard wrote me up for it, said I go out on patrol drunk. I haven't touched a bottle in a month, for the record! How the hell did he even get promoted, huh? I just wanna get out of this hole already...</text>
+</string>
+<string id="fr_agr_soldier_intro_8">
+	<text>I see. Are you in pain?</text>
+</string>
+<string id="fr_agr_soldier_intro_9">
+	<text>Yeah, but it's nothing...</text>
+</string>
+<string id="fr_agr_soldier_intro_10">
+	<text>You stay in bed till the end of the week. Come see me in 3 days, I'll give you more painkillers. No patrols, don't strain that arm. Got it?</text>
+</string>
+<string id="fr_agr_soldier_intro_11">
+	<text>Got it, Doc, thank you. Maybe I'll play some cards with the guys... How about you, wanna join us?</text>
+</string>
+<string id="fr_agr_soldier_intro_12">
+	<text>No, thanks, I'm busy today. Take care, soldier.</text>
+</string>
+
+<!--==================== КУЗНЕЦОВ: ПРИКАЗ ====================-->
+<string id="fr_agr_kuz_brief_0">
+	<text>Lieutenant Rogovets reporting, Colonel.</text>
+</string>
+<string id="fr_agr_kuz_brief_1">
+	<text>At ease, soldier. How's that patrolman's wound? Nothing serious, I hope?</text>
+</string>
+<string id="fr_agr_kuz_brief_2">
+	<text>No, sir. I gave him first aid and painkillers, he'll live, but...</text>
+</string>
+<string id="fr_agr_kuz_brief_3">
+	<text>When can he return to duty? Today? Tomorrow?</text>
+</string>
+<string id="fr_agr_kuz_brief_4">
+	<text>Um... Well, he needs to rest at least until the end of the week, physical strain could...</text>
+</string>
+<string id="fr_agr_kuz_brief_5">
+	<text>But he can at least stand guard? Just stand by the sandbags?</text>
+</string>
+<string id="fr_agr_kuz_brief_6">
+	<text>Without a rifle, maybe. If he holds a pistol in his left hand, I think he could manage. Though then I'd have to prescribe him more meds, morphine and so on... which, by the way, we're running out of. I sent you a request about medical supplies a week ago...</text>
+</string>
+<string id="fr_agr_kuz_brief_7">
+	<text>Supplies... There won't be any supplies, Lieutenant. They're cutting everything: vehicles, people, provisions. Remember the last time they brought us consumables? 2 months ago. And the last time they sent reinforcements to this base? Six months ago. Ever since this crisis started back on the Big Land, our troubles started too. Only I think we're in an even deeper shit than those guys in their offices. And you know what... Those headquarters assholes used to nag us every single day: asking for the impossible, always demanding some kind of "results". And now they've just gone quiet. Once a month a radiogram comes in, with a list of supplies or people to cut, and that's it... Like nobody needs us here anymore, you understand?</text>
+</string>
+<string id="fr_agr_kuz_brief_8">
+	<text>I understand...</text>
+</string>
+<string id="fr_agr_kuz_brief_9">
+	<text>So, why did I even call you here... Son of a bitch, my head's been splitting for weeks now, I can't think straight about anything...</text>
+</string>
+<string id="fr_agr_kuz_brief_10">
+	<text>Have you been taking my pills?</text>
+</string>
+<string id="fr_agr_kuz_brief_11">
+	<text>To hell with your pills, they're useless! Fine, back to business. I'll keep it short: we're not completely fucked yet, but we will be very soon if we do nothing. As you may have noticed yourself, the number of people at this base goes down every day. On top of the regular losses in skirmishes with mutants and people, now our soldiers are going missing. They can just up and leave their post at any moment, for no reason at all! And sometimes whole checkpoints stop answering my calls. I don't even send squads to check anymore, there's a chance they won't report back either. Cases of nervous breakdowns in the garrison are on the rise too, but you must know that already, being the medic.</text>
+</string>
+<string id="fr_agr_kuz_brief_12">
+	<text>...</text>
+</string>
+<string id="fr_agr_kuz_brief_13">
+	<text>Long story short, we have a critical shortage of personnel. So I have to take extreme measures. Rogovets, I know you have a lot of experience behind you: you took part in Operation Fairway, you were in Pripyat, and even after getting hit by the strongest psy-emission, you made it out alive. We critically need your experience if we want to survive. So here are your orders: as of today, you're not just medical service, I'm transferring you to the infantry. You'll carry out combat missions as part of other assault teams. I need every gun I can get, and on top of that, you've got a head that's been through Pripyat.</text>
+</string>
+<string id="fr_agr_kuz_brief_14">
+	<text>Commander, sir, I've never even...</text>
+</string>
+<string id="fr_agr_kuz_brief_15">
+	<text>You'll keep your medic duties, nothing to be done about that, we don't have any other experienced doctors here. We'll cut your routine rounds down to once a day instead of twice, and the rest of the time you're on duty. Is that clear?</text>
+</string>
+<string id="fr_agr_kuz_brief_16">
+	<text>Colonel, sir...</text>
+</string>
+<string id="fr_agr_kuz_brief_17">
+	<text>You'll get your gear from the quartermaster, he's sitting in the warehouse counting the ammo for the 20th time. Once you've got your gear, report to your post, and I'll contact you later about your first assignment.</text>
+</string>
+<string id="fr_agr_kuz_brief_18">
+	<text>Colonel, sir! I'm not fit for this at all! That's exactly why I'm a medic, because I'm a lousy shot, and-and just in general! In Pripyat, because of me... the whole team almost died, I... I'll just be a burden to the men. I'd better stay at the base, make medicine here... It'll be easier for the guys if I stay at the base instead of getting in their way.</text>
+</string>
+<string id="fr_agr_kuz_brief_19">
+	<text>Now you listen to me, Lieutenant. I know this isn't easy, but it's hard on all of us right now. I know your Pripyat story, I read Degtyarev's reports. And your experience is exactly what we need. Something is going on here... something nobody understands. Constant headaches, for me and the other men, a lot of them hear some kind of screams and see strange lights coming from the swamps, and some soldiers just dissolve into the fog, leaving all their belongings and weapons behind... I don't know what it is, and I don't want to know. But you've seen... things like that in Pripyat. So you'll take a look. Do you understand now?</text>
+</string>
+<string id="fr_agr_kuz_brief_20">
+	<text>I... I understand, Colonel.</text>
+</string>
+<string id="fr_agr_kuz_brief_21">
+	<text>And about the other men, you can walk around the base, ask them what they think about all this devilry. Every one of them will tell you how hard and rough it is here. No, I'm serious, talk to the men. As far as I know, you were a bit detached from reality even before Pripyat, and now you've completely shut yourself in, after that psy-strike. Talking will do you good... Alright, we've chatted long enough. Carry on with your orders!</text>
+</string>
+<string id="fr_agr_kuz_brief_22">
+	<text>Yes, sir!</text>
+</string>
+
+<!--==================== КУЗНЕЦОВ: ВОПРОСЫ ====================-->
+<string id="fr_agr_kuz_q_0">
+	<text>Permission to speak, Colonel?</text>
+</string>
+<string id="fr_agr_kuz_q_1">
+	<text>Granted.</text>
+</string>
+<string id="fr_agr_kuz_q_10">
+	<text>What's even going on back on the Big Land? The radio just mumbles the same thing over and over, nobody can make sense of it.</text>
+</string>
+<string id="fr_agr_kuz_q_11">
+	<text>The radio won't tell you the truth. But I'll tell you what I see on paper and in practice. In six months, 3 of our generals "retired for health reasons". Healthy men, I knew two of them personally, they were some of the few honest officers left. The Deputy Minister of Defense, same story. Somebody is methodically taking out the people who were responsible for the Zone... and their seats are taken by people who don't need us here. The cuts aren't about saving money, Lieutenant. Somebody is clearing out the Zone. For what, don't ask me, I don't know.</text>
+</string>
+<string id="fr_agr_kuz_q_20">
+	<text>And what happened to the other bases? We weren't the only one.</text>
+</string>
+<string id="fr_agr_kuz_q_21">
+	<text>That's just it, there were others. The Cordon checkpoint was shut down this winter, they called it "optimization". Yeah, they took the most effective checkpoint of them all and "optimized" it. Bullshit... The base in the Dark Valley, at the factory: the whole garrison abandoned their positions, left the vehicles behind, and nobody ever made contact again... Familiar symptoms, huh?.. The outpost near Yantar, by the scientists' mobile bunker, after that... incident... no, I don't even want to remember it. The rest of the checkpoints and outposts in the Zone, a similar story. Cut, fallen in battle, gone missing. We're the last major base of the Armed Forces in the Zone. On paper there are five of us left, but in reality it's just me, talking to the void on the radio.</text>
+</string>
+<string id="fr_agr_kuz_q_30">
+	<text>Colonel, sir, have you ever... thought about leaving yourself?</text>
+</string>
+<string id="fr_agr_kuz_q_31">
+	<text>I have... Back in '11, at the Cordon, when I was still doing field assignments, I thought: I'll serve my time and then leave. I served my way up to colonel. And you know what I realized? There's nowhere to go. On the Big Land I'm just a crazy soldier from the Chernobyl hole that nobody wants to listen to. Here at least somebody needs me... That's enough, Lieutenant, drop it.</text>
+</string>
+<string id="fr_agr_kuz_q_40">
+	<text>No more questions.</text>
+</string>
+<string id="fr_agr_kuz_q_41">
+	<text>Then don't just stand there, soldier, get to work!</text>
+</string>
+
+<!--==================== СНАБЖЕНЕЦ: СНАРЯЖЕНИЕ ====================-->
+<string id="fr_agr_snab_gear_0">
+	<text>Good day. I'm here for my gear.</text>
+</string>
+<string id="fr_agr_snab_gear_1">
+	<text>Wha?! Ah, it's you, Rogovets. What the hell do you need gear for? You know we've got a total ammo shortage? And a people shortage too.</text>
+</string>
+<string id="fr_agr_snab_gear_2">
+	<text>I can help with the second one, that's why I'm here. Didn't the colonel tell you?</text>
+</string>
+<string id="fr_agr_snab_gear_3">
+	<text>Tell me what? Ah, shit, right, they put you in the infantry. Sorry, I forgot. So much going on... you forget your own name in this hole. Alright, hang on, let's find you something...</text>
+</string>
+<string id="fr_agr_snab_gear_4">
+	<text>Is the gear situation that bad?</text>
+</string>
+<string id="fr_agr_snab_gear_5">
+	<text>Bingo. If only it were that simple, Lieutenant... Alright, here, take it. Not much, but it'll do for you. You've already got armor, which is good, 'cause I've got nothing but torn rags.</text>
+</string>
+<string id="fr_agr_snab_gear_6">
+	<text>Thanks anyway, see you...</text>
+</string>
+<string id="fr_agr_snab_gear_7">
+	<text>Hey, where are you going? I'm not done yet. Did the colonel give you an assignment?</text>
+</string>
+<string id="fr_agr_snab_gear_8">
+	<text>Well, he's supposed to contact me, why?</text>
+</string>
+<string id="fr_agr_snab_gear_9">
+	<text>Ah, I see, go then. Later, when you're done, drop by, there's a problem I need to sort out, your help would come in handy. That's it, go on, get outta here.</text>
+</string>
+
+<!--==================== СНАБЖЕНЕЦ: ВОПРОСЫ ====================-->
+<string id="fr_agr_snab_q_0">
+	<text>Got a minute?</text>
+</string>
+<string id="fr_agr_snab_q_1">
+	<text>One minute, yeah. Two, no.</text>
+</string>
+<string id="fr_agr_snab_q_10">
+	<text>What do you think is going on at this base? Off the record.</text>
+</string>
+<string id="fr_agr_snab_q_11">
+	<text>Off the record? It's a fucking mess, Doc, only it's a sneaky one, slippery as hell. A regular mess is when people shoot, when creatures crawl out of every crack, when your convoy gets sent into an anomaly field... But here it's quiet. People evaporate and leave all their stuff behind: armor, gun, letters, money. MONEY, you get it?! Where does a man go without his money and his gun? And the most interesting part: the rats. For six months they chewed through my warehouse, and now I haven't seen a single one in a month. Rats are the first to know when the ship's going down. Draw your own conclusions.</text>
+</string>
+<string id="fr_agr_snab_q_20">
+	<text>Where did you even get your contacts in the Zone?</text>
+</string>
+<string id="fr_agr_snab_q_21">
+	<text>Heh, I've lived long, traded a lot, and kept my nose out of other people's business. How do you think garrisons in the Zone get their supplies when the General Staff forgets about them? Through contacts like these. Half the "army" warehouses in the Zone go through the same hands as the stalkers' loot, and not for the first year. I'll tell you more: we had channels with Duty too, back when there was a Duty. Ammo for canned food, canned food for artifacts, artifacts to the Big Land... That's it, forget what you heard. Inventory time.</text>
+</string>
+<string id="fr_agr_snab_q_30">
+	<text>Have you been serving here long?</text>
+</string>
+<string id="fr_agr_snab_q_31">
+	<text>A year here, but I've been stuck in the Zone itself for 5 years now. I've outlasted three bases already: everybody got rotated out, and I always stayed. And you know why? I've got nobody on the Big Land, but here I've got a warehouse. Here I'm needed, without me they'd strip the place clean in a week. Or you dumbasses would run out of ammo, and who'd get you supplies under the table then? Who'd sign you out new gear when you come back with a gun beat to hell again? A fool, huh? Hah, I remember my little brother, a machine gunner, he used to tell me that all the time, kept telling me to drop it all, quit and go back to the Big Land... Alright, go, Doc, your minute's up.</text>
+</string>
+<string id="fr_agr_snab_q_40">
+	<text>Alright, I'll go.</text>
+</string>
+<string id="fr_agr_snab_q_41">
+	<text>See you. And close the door, there's a draft.</text>
+</string>
+
+<!--==================== СООБЩЕНИЯ НА КПК ====================-->
+<string id="fr_agr_msg_hq">
+	<text>Lieutenant Rogovets, report to HQ immediately for new orders. Colonel Kuznetsov.</text>
+</string>
+
+<string id="fr_agr_msg_underground">
+	<text>Rogovets, your first assignment: go down into the tunnels under our base. Check on the garrison there and help them if needed.</text>
+</string>
+
+<string id="fr_agr_soldier_intro_bio">
+	<text>Private of the Agroprom Research Institute garrison. Wounded on patrol, relieved of duty until the end of the week.</text>
+</string>
+<string id="fr_agr_kuznetsov_bio">
+	<text>Commander of the last major Armed Forces base in the Zone. Has served here since 2011.</text>
+</string>
+<string id="fr_agr_snab_bio">
+	<text>Head of the warehouse. Five years in the Zone, outlived three bases. Knows everyone who brings anything at all out here.</text>
+</string>
+
+
+<string id="fr_serg_talk_0">
+	<text>Good day. They sent me from the base...</text>
+</string>
+<string id="fr_serg_talk_1">
+	<text>Well, obviously not from Mars! Who are you?</text>
+</string>
+<string id="fr_serg_talk_2">
+	<text>Lieutenant Rogovets, field medic.</text>
+</string>
+<string id="fr_serg_talk_3">
+	<text>Hm, don't remember you. Well, I don't visit the infirmary much, that's probably why. What are you here for?</text>
+</string>
+<string id="fr_serg_talk_4">
+	<text>The colonel sent me to check on your condition and find out if you need any help.</text>
+</string>
+<string id="fr_serg_talk_5">
+	<text>Help? Tell him to give us more ammo and some grub! Fuck, once every 2 weeks they toss a crate down the stairs, not even a "hello", and we're starving down here, for the record!</text>
+</string>
+<string id="fr_serg_talk_6">
+	<text>It's like that for everyone right now, not just you.</text>
+</string>
+<string id="fr_serg_talk_7">
+	<text>And I don't give a shit about "everyone", got it? All I care about is my men, who eat one loaf of bread for the whole day. And you can't go upstairs and ask, they write you up right away for leaving your post. Fuckin' bastards.</text>
+</string>
+<string id="fr_serg_talk_8">
+	<text>...</text>
+</string>
+<string id="fr_serg_talk_9">
+	<text>Eh, alright, man, sorry I yelled at you. My nerves are shot in this hole. You wanted to check on the guys?</text>
+</string>
+<string id="fr_serg_talk_10">
+	<text>Yes. The colonel also ordered me to help you with your urgent problems, but I'm kind of...</text>
+</string>
+<string id="fr_serg_talk_11">
+	<text>We've got problems up to our necks, the old man shouldn't worry too much... So, about the guys: you can go around to each of them here and ask how everyone's feeling, and then decide how to help them and what meds to prescribe. And about the problems... Recently some creature attacked a patrol and dragged one of our guys into the northern part of the underground. I sent the guys to get him back, but in the end they burned through a ton of ammo and came back empty-handed. Now the men are too scared shitless to go there. Their excuse is that there's more than one mutant down there. Bullshit, if you ask me. So I'm giving this job to you: show these crybabies how to deal with the Zone's filth. Put a bullet in the head of the thing that killed our comrade, and report back to me.</text>
+</string>
+<string id="fr_serg_talk_12">
+	<text>I'm... not sure I'm right for this job, Sergeant. The last time I fired a gun was back in Pripyat, and even then blindly, without really aiming...</text>
+</string>
+<string id="fr_serg_talk_13">
+	<text>Oh, so you were in Pripyat too?! From Fairway or something? Then this'll be a piece of cake for you! I sent a mark to your PDA where the missing soldier's signal was last seen, the mutant's sitting somewhere around there. Oh, and one more thing: the men keep complaining to me about their problems, and I can't help them, for obvious reasons. Since you came down here anyway, ask the guys what they need. And I'll give you something as a reward, deal?</text>
+</string>
+<string id="fr_serg_talk_14">
+	<text>Eh... Deal. See you, Sergeant.</text>
+</string>
+
+<string id="fr_serg_rep_0">
+	<text>Goddammit, I'm never going in there again!</text>
+</string>
+<string id="fr_serg_rep_1">
+	<text>You alright, Lieutenant? We heard shots and screams...</text>
+</string>
+<string id="fr_serg_rep_2">
+	<text>Because your men were right, there's more than one mutant there! Two bloodsuckers attacked me. One of them was wounded, sitting by the body, I finished it off quick. But the second one jumped out when I'd already relaxed and started examining your soldier. It's a miracle it didn't kill me...</text>
+</string>
+<string id="fr_serg_rep_3">
+	<text>Well, it all worked out in the end, huh? Here, take a pack of armor-piercing rounds, don't be too down. I'll send the guys for the body, no need for him to rot there, at least we'll bury him like a human being. Thanks for the help.</text>
+</string>
+<string id="fr_serg_rep_4">
+	<text>*mumbles something unintelligible in reply*</text>
+</string>
+<string id="fr_serg_talk_20">
+	<text>Wait, Sergeant. I think I've already met that thing...</text>
+</string>
+<string id="fr_serg_talk_21">
+	<text>So that was you making all that noise?! We heard shots and screams, thought we'd lost another one... You alright, Lieutenant?</text>
+</string>
+<string id="fr_serg_talk_23">
+	<text>Well, look at you, Doc! Here, take a pack of armor-piercing rounds, you earned it. I'll send the guys for the body, at least we'll bury him like a human being. And since you're here: the men keep complaining to me about their problems, and I can't help them. Ask the guys what they need, and I'll give you something as a reward, deal?</text>
+</string>
+
+<string id="fr_serg_q_0">
+	<text>Sergeant, a couple of questions, if you don't mind.</text>
+</string>
+<string id="fr_serg_q_1">
+	<text>I never mind, I've got nobody down here to talk to except the rats. Ask away.</text>
+</string>
+<string id="fr_serg_q_10">
+	<text>How long have you been down here?</text>
+</string>
+<string id="fr_serg_q_11">
+	<text>God knows what month it is. They promised rotation in six weeks. Yeah, right. After that I stopped counting days, what's the point? My guys have forgotten what daylight looks like, half of them have an eye twitch from this darkness. Two of them already sleep with a flashlight on, they can't do it otherwise. Just burns through the batteries. I sent a request upstairs: "hold on, no reserves". So we're holding on. By our teeth now, brother, but we're holding on.</text>
+</string>
+<string id="fr_serg_q_20">
+	<text>What even lives in this underground?</text>
+</string>
+<string id="fr_serg_q_21">
+	<text>It used to be rats and a couple of bloodsuckers, we knew every one of them like the neighbors in our building. But this last month... new sounds showed up. Not mutant sounds. I've learned mutants over all this time like the alphabet: what scrapes where, who breathes where. Something else. Either water singing somewhere, or... Look, you're the doctor here. Tell me honestly: can a whole squad lose their minds at once? The same way? All hearing the same thing at the same time?</text>
+</string>
+<string id="fr_serg_q_22">
+	<text>It can happen. Usually psy-emission is to blame. Maybe a controller has moved in?</text>
+</string>
+<string id="fr_serg_q_23">
+	<text>Maybe... Or maybe we really are hearing something? They gave all of us psy-blockers back when a controller lived here, before some stalker took it down. We thought a new one would come. We drank that crap, doesn't help for shit, and those sounds just got louder.</text>
+</string>
+<string id="fr_serg_q_30">
+	<text>Why don't you go down to the lower levels?</text>
+</string>
+<string id="fr_serg_q_31">
+	<text>Because I lost 4 men down there, and I'm not planning to lose any more. Something weird has settled in down there, soldier. There were no screams, no shooting, nothing at all. Just silence. How the fuck do 4 well-armed men just up and vanish without a sound?</text>
+</string>
+<string id="fr_serg_q_32">
+	<text>You just haven't been to the surface in a while if you're asking that...</text>
+</string>
+<string id="fr_serg_q_40">
+	<text>Do you know where the way down to the lower levels is?</text>
+</string>
+<string id="fr_serg_q_41">
+	<text>I know, but you won't get there. Not because I said so. That way down just doesn't exist anymore. After a group of our men went missing down there, I ordered that passage blown up, so nothing could crawl out of it. I don't know about other routes down. Word is, the local diggers might know secret ways into that hell... But my advice to you, as one serviceman to another: don't go there. The colonel has already lost several groups in those tunnels, and he tried to send ours too. There's evil sitting down there, waiting for something... But what?</text>
+</string>
+<string id="fr_serg_q_50">
+	<text>That's all, thanks.</text>
+</string>
+<string id="fr_serg_q_51">
+	<text>Take care, Doc. Drop by if it gets too depressing up there.</text>
+</string>
+
+<string id="fr_pistol_ask_0">
+	<text>Hello, soldier, need any help?</text>
+</string>
+<string id="fr_pistol_ask_1">
+	<text>Well, actually, there is one thing. See, me and the guys went out on patrol, and mutants attacked us... Well, you probably know already. Some invisible thing dragged one of us off somewhere, the rest ran for it, and I ran after them. Man, I was so ashamed of myself after... It was just pure animal fear, and a voice in my head screamed that I had to run. Never had anything like that before... And when I came to my senses, I realized I'd dropped my award pistol. It means a lot to me, I've been carrying that gun for so many years... I'm too scared to go back there, and the guys will tell me to piss off if I ask them, so could you find that pistol and bring it back to me? I think it's somewhere in the tunnel north of here, some anomalies have popped up there recently, I can't say more precisely.</text>
+</string>
+<string id="fr_pistol_ask_2">
+	<text>In an anomaly field, you say... Alright, wait here, I'll try to get it.</text>
+</string>
+<string id="fr_pistol_ret_0">
+	<text>Here's your pistol.</text>
+</string>
+<string id="fr_pistol_ret_1">
+	<text>Thank you so much, brother! I don't even know how to thank you... Oh, I know, here, take some grenades. Blowing them up down here is a lost cause anyway, God forbid we bury ourselves alive in these tunnels... Good luck, brother!</text>
+</string>
+
+<string id="fr_north_ask_0">
+	<text>Hey there, need any help?</text>
+</string>
+<string id="fr_north_ask_1">
+	<text>Hm... There is something. It's nothing urgent, more like my curiosity acting up... A while ago I was on watch while everybody was sleeping, and I heard strange sounds from the northern part of the underground: long, drawn-out wailing, like somebody was singing church hymns. And then screams and gunshots. Scared the hell out of me, I couldn't sleep the whole next day. I'm telling you, it wasn't mutants, no mutant "sings" like that. Go check it out, would you? And I'll slip you something not exactly legal for us servicemen in return, deal?</text>
+</string>
+<string id="fr_north_ask_2">
+	<text>*tenses up* You know, after what you just said, I don't really feel like going there. Though I don't have much else to do... Show me where to go.</text>
+</string>
+<string id="fr_north_ret_0">
+	<text>This place of yours... is like a train station.</text>
+</string>
+<string id="fr_north_ret_1">
+	<text>What happened down there?</text>
+</string>
+<string id="fr_north_ret_2">
+	<text>I found 2 bodies: some digger, and a stalker from some unknown faction. Creepy suit he had on... On him I found a PDA with these audio recordings, here, listen.</text>
+</string>
+<string id="fr_north_ret_3">
+	<text>*listens* Brrr, what a voice. I wonder what he could've been looking for down there?... Find anything else?</text>
+</string>
+<string id="fr_north_ret_4">
+	<text>Yes, on the digger I found part of some area maps, they show some regions of the Zone's South. That's probably what this... someone was after. Oh, and then his "battle brothers" attacked me, I had to kill them.</text>
+</string>
+<string id="fr_north_ret_5">
+	<text>Oh, now that's interesting! Hand over the maps, I'll pass them on to command, this should interest the colonel. And you've got a reward coming. Sooo, let me just... Here, look! Picked it up by the electros yesterday. Just shh, don't show it around too much. We don't exactly love artifacts in the army. Slip it in your pocket quietly and go on your way.</text>
+</string>
+<string id="fr_north_ret_6">
+	<text>And... what makes you think I won't report this to the higher-ups?</text>
+</string>
+<string id="fr_north_ret_7">
+	<text>Because I know that after just 10 minutes of wearing this trinket, you won't want to part with it. That's it, don't hang around here too much. My respects.</text>
+</string>
+
+<string id="fr_agr_und_soldier_bio">
+	<text>Soldier of the Agroprom Research Institute underground garrison.</text>
+</string>
+<string id="fr_agr_und_pistol_name">
+	<text>Private Vulfov</text>
+</string>
+<string id="fr_agr_und_north_name">
+	<text>Private Teslya</text>
+</string>
+<string id="fr_agr_und_sergeant_name">
+	<text>Sergeant Slobodenyuk</text>
+</string>
+<string id="fr_agr_und_sergeant_bio">
+	<text>Head of the underground garrison. Has been stuck down there for months, no rotation.</text>
+</string>
+<string id="fr_agr_dead_soldier_name">
+	<text>Soldier's corpse</text>
+</string>
+<string id="fr_agr_dead_digger_name">
+	<text>Digger's corpse</text>
+</string>
+<string id="fr_agr_dead_digger_bio">
+	<text>A digger stalker. Died fighting back.</text>
+</string>
+<string id="fr_agr_cultist_name">
+	<text>Unknown stalker</text>
+</string>
+<string id="fr_agr_cultist_bio">
+	<text>An unfamiliar suit model. Faction cannot be identified.</text>
+</string>
+
+<string id="fr_agr_cult_pda_name">
+	<text>Unknown stalker's PDA</text>
+</string>
+<string id="fr_agr_cult_pda_desc">
+	<text>A battered PDA taken from a body. Its memory holds a single audio recording: "This is the end... I'm not long for this world... But I've fulfilled my mission: I caught up with the stalker who stole part of the maps right from under our noses... I finished him off. Their whole group... finished off. But... I got hurt myself... I can feel the light of my soul fading. A pity... that I'll never see the Liberation of the Zone... My battle brothers, if you hear this... then tell... tell Fulgrim that I did it..."</text>
+</string>
+<string id="fr_agr_maps_part_name">
+	<text>Old Exclusion Zone maps</text>
+</string>
+<string id="fr_agr_maps_part_desc">
+	<text>Old maps of some regions of the Exclusion Zone. Looks like the digger got them from some lab or underground. There are blood stains on some of the pages.</text>
+</string>
+
+<string id="wc_ask">
+	<text>How are you feeling, soldier? Any complaints?</text>
+</string>
+<string id="wc_give">
+	<text>Here.</text>
+</string>
+<string id="wc_give_nothing">
+	<text>Good to hear. Take care.</text>
+</string>
+<string id="wc_later">
+	<text>I don't have any right now. I'll bring some when I find them.</text>
+</string>
+<string id="wc_thx">
+	<text>Thanks a lot, Doc. At least somebody here cares about people. Here, take this, I've got some extra.</text>
+</string>
+<string id="wc_thx_nothing">
+	<text>Take care, Lieutenant. Oh, wait, here, it's just lying around anyway.</text>
+</string>
+
+<string id="wc_need_1">
+	<text>Still alive, I guess. Just ripped my back open on some rebar climbing down from the tower. A couple of bandages would be nice, it's already stuck to my jacket.</text>
+</string>
+<string id="wc_need_2">
+	<text>Cut my hand hauling crates. No big deal, but it keeps bleeding. Got a bandage?</text>
+</string>
+<string id="wc_need_3">
+	<text>My knee. Can't bend it properly for the second day now, and I'm due on watch. Got a medkit?</text>
+</string>
+<string id="wc_need_4">
+	<text>Got hit by shrapnel when somebody popped a grenade in the tunnel. Two medkits would be great, Doc. I'm not greedy, I just have a lot of holes.</text>
+</string>
+<string id="wc_need_5">
+	<text>LT, I haven't slept for two days, I'm shaking all over, and something's pressing in my side. I need an army one, the regular ones don't do anything.</text>
+</string>
+<string id="wc_need_6">
+	<text>Think I caught a dose on my rounds yesterday. The dosimeter was clicking like crazy, and I didn't notice right away. Some anti-rad would help.</text>
+</string>
+<string id="wc_need_7">
+	<text>I'm healthy, Doc. I just haven't slept a wink for I don't know how many nights. It's not medicine I need here... you get me. Got anything?</text>
+</string>
+<string id="wc_need_8">
+	<text>Healthy as a horse, Doc. Except my ears are ringing from all this silence. Better check on those guys over there, they're walking around grey in the face.</text>
+</string>
+
+<string id="fr_agr_tip_sergeant">
+	<text>Oh-ho, it's been a while since anyone from the surface came down here. Come on over, brother, let's talk.</text>
+</string>
+
+
+<string id="fr_serg_q_33">
+	<text>Maybe so. Any more questions?</text>
+</string>
+
+
+<!--==================== КУЗНЕЦОВ: ДОКЛАД ИЗ ПОДЗЕМКИ ====================-->
+<string id="fr_kuz_back_0">
+	<text>Mission accomplished, Colonel.</text>
+</string>
+<string id="fr_kuz_back_1">
+	<text>Aha, excellent. Any trouble with the "underground" guys?</text>
+</string>
+<string id="fr_kuz_back_2">
+	<text>There were some, but we...</text>
+</string>
+<string id="fr_kuz_back_3">
+	<text>Well, that's great. Now listen up, I've got a new assignment for you. A boring one this time: go down to our quartermaster, take 3 crates of supplies from him and deliver them to our checkpoints. We barely have any supplies, of course, but our men need them desperately right now. I know it's dangerous going alone, but we have no other choice, I can't send more people with you. If you sense anything strange, run straight back to the base.</text>
+</string>
+<string id="fr_kuz_back_4">
+	<text>Understood, I'll be going then...</text>
+</string>
+<string id="fr_kuz_back_5">
+	<text>Hold on, I'm not done... *lowers his voice* Also take a special case from the quartermaster, tell him it's on my orders. After you finish the job, don't come back to the base, head straight to the stalker camp. Talk to their leader there, Seriy, and give him this case, he won't ask any unnecessary questions.</text>
+</string>
+<string id="fr_kuz_back_6">
+	<text>Hm, alright. And what's in this case?</text>
+</string>
+<string id="fr_kuz_back_7">
+	<text>That's none of your business. The less you know, the better you sleep. *raises his voice* Are your orders clear, Lieutenant? Then move out, I'll contact you when you're done.</text>
+</string>
+<string id="fr_kuz_back_8">
+	<text>Yes, sir!</text>
+</string>
+
+<!--==================== СНАБЖЕНЕЦ: ЯЩИКИ И СДЕЛКА ====================-->
+<string id="fr_snab_cr_0">
+	<text>Hello again, I'm here for the checkpoint supplies.</text>
+</string>
+<string id="fr_snab_cr_1">
+	<text>Uh-huh, the old man told me already. Yeah, what a shitshow, at this rate we'll be jumping on the enemy with knives, the ammo shortage is at 70%. Here, take it and get outta here...</text>
+</string>
+<string id="fr_snab_cr_2">
+	<text>Thanks, but there's one more thing... A personal request from the colonel, he said you'd understand...</text>
+</string>
+<string id="fr_snab_cr_3">
+	<text>What?! I don't get it, what request? Hold on, let me remember... Hmmm... Ah, that's probably what he meant. Fuck, couldn't he just say what he needs? Like I'm supposed to remember who's got what personal request, ugh.</text>
+</string>
+<string id="fr_snab_cr_4">
+	<text>And what's in this container? The colonel said it's for...</text>
+</string>
+<string id="fr_snab_cr_5">
+	<text>How should I know? Kuznetsov told me not to look inside, so I didn't, I've got enough on my plate. And I don't recommend you do either, unless you want your ass handed to you. By the way, you reminded me of something, good thing you dropped by. Remember I told you about a job, before you went down to the underground?</text>
+</string>
+<string id="fr_snab_cr_6">
+	<text>Yeah, what job?</text>
+</string>
+<string id="fr_snab_cr_7">
+	<text>Ahem... I don't know if I'm talking to the right person, but... Well, since I've started... I've mentioned a hundred times that we're screwed on ammo, and I don't like sitting on my hands and watching us die with empty mags. So I decided to take the situation into my own hands, since command doesn't give a damn about us. I reached out to some of my contacts in the Zone, and I managed to arrange an ammo supply for our garrison. And today the first deal with the suppliers is supposed to happen. They're supposed to haul in a big batch of ammo, and if all goes well, there'll only be more deliveries in the future.</text>
+</string>
+<string id="fr_snab_cr_8">
+	<text>Hm, that... actually sounds pretty good! What's the catch, Sergeant?</text>
+</string>
+<string id="fr_snab_cr_9">
+	<text>The catch is, I made the deal with bandits.</text>
+</string>
+<string id="fr_snab_cr_10">
+	<text>Uh, what?!</text>
+</string>
+<string id="fr_snab_cr_11">
+	<text>Keep it down! So listen here: there won't be any deal. I can't stand that criminal scum, and I'm not going to do any business with them. I told them we'd bring 25 grand in cash and make the exchange today. But it's all much simpler: the only thing waiting for them here will be lead. And that's where I need your help...</text>
+</string>
+<string id="fr_snab_cr_12">
+	<text>Wait, wait, this is way the hell outside regulations! Have you completely lost your mind, making deals with bandits? And what makes you think I won't tell Kuznetsov about this? Why did you ask me for help, of all people?</text>
+</string>
+	<string id="fr_snab_cr_13b">
+		<text>Because you were in the underground and saw with your own eyes how the guys live down there: a loaf a day and half a mag per man. You're a doctor, you know what happens when people have nothing to eat and nothing to shoot back with. And you won't go snitching, I can read people like a book. Our garrison is in a situation where we can't be too picky about who we deal with and who we don't. Whether it's by the regulations or not doesn't bother me much. What bothers me is that tomorrow, if a wave of mutants comes at us, we'll have nothing to shoot with. So I'm solving the problem however I can. Any more questions?</text>
+	</string>
+<string id="fr_snab_cr_13">
+	<text>Because I noticed an interesting trinket on your belt. You should hide your artifact better, it sticks out too much. And if you're carrying around not-quite-legal stuff, then you understand yourself that we have to use every advantage, even a small one, to survive. And our garrison is in a situation where we can't be too picky about who we deal with and who we don't. Whether it's by the regulations or not doesn't bother me much. What bothers me is that tomorrow, if a wave of mutants comes at us, we'll have nothing to shoot with. So I'm solving the problem however I can. Any more questions?</text>
+</string>
+<string id="fr_snab_cr_14">
+	<text>No, sir...</text>
+</string>
+<string id="fr_snab_cr_15">
+	<text>Then here's your task: in a few hours the bandits are supposed to show up at the meeting point, I'll contact you when they're there. Your job is simple: kill them, take the ammo and come back to me. As a reward I can throw you a scope, deal?</text>
+</string>
+<string id="fr_snab_cr_16">
+	<text>Deal. Is that all?</text>
+</string>
+<string id="fr_snab_cr_17">
+	<text>Yeah, that's all, you can go. Wait for my signal.</text>
+</string>
+
+<!--==================== СНАБЖЕНЕЦ: ДОКЛАД ПО БАНДИТАМ ====================-->
+<string id="fr_snab_bd_0">
+	<text>I've got bad news...</text>
+</string>
+<string id="fr_snab_bd_1">
+	<text>Why's that all of a sudden? Where are the ammo crates?</text>
+</string>
+<string id="fr_snab_bd_2">
+	<text>They didn't have any crates. What's more, they set up an ambush for me themselves. They never planned any exchange, they came to kill right away.</text>
+</string>
+<string id="fr_snab_bd_3">
+	<text>Damn them! I knew nothing good would come from them...</text>
+</string>
+<string id="fr_snab_bd_4">
+	<text>Then why'd you go for the exchange? Tried to scam bandits, hah..</text>
+</string>
+<string id="fr_snab_bd_5">
+	<text>Hey, don't you get smart with me! Though you're right, of course, it's my own fault. At least they didn't get you too bad. Alright, whichever way you look at it, we didn't lose anything, and we made the Zone a little bit cleaner, so you did earn your reward. I promised you a scope, right? Lemme see what I've got...</text>
+</string>
+<string id="fr_snab_bd_6">
+	<text>....</text>
+</string>
+<string id="fr_snab_bd_7">
+	<text>Here, pick one: the 1P78 "Kashtan" with 3x magnification, for long range, or the OKP-7 with no magnification, good for close-range firefights.</text>
+</string>
+<string id="fr_snab_bd_80">
+	<text>The 1P78 "Kashtan".</text>
+</string>
+<string id="fr_snab_bd_81">
+	<text>The OKP-7.</text>
+</string>
+<string id="fr_snab_bd_9">
+	<text>Alright, take it. Even though our plan didn't work out, I'm still grateful you agreed to help. So, now I have to do inventory all over again... Huh, why are you standing there? Dismissed, soldier.</text>
+</string>
+
+<!--==================== БЛОКПОСТ 1 ====================-->
+<string id="fr_post1_0">
+	<text>Hello, soldier. I brought you supplies from command.</text>
+</string>
+<string id="fr_post1_1">
+	<text>Good day, Lieutenant, sir. Finally, somebody bothered to do it. Oh, I know you, you're the medic from the main base!</text>
+</string>
+<string id="fr_post1_2">
+	<text>Yeah, that's me. Glad I could help, I'll be moving on...</text>
+</string>
+<string id="fr_post1_3">
+	<text>Wait! The last time we were at the infirmary was several months ago, and we get all kinds of injuries almost every day. Don't leave your fellow soldiers in trouble: check my men for wounds and give them meds if you have any.</text>
+</string>
+<string id="fr_post1_4">
+	<text>Hm... Alright, but only if it's quick, I still need to stop by the other posts.</text>
+</string>
+<string id="fr_post1_5">
+	<text>I promise it won't take long. And to make it more fun for you, here, take this, a TOZ-34 over-under. We took it from some stalker, he looked way too suspicious to us. It'd just be gathering dust in the warehouse, now it'll serve you instead.</text>
+</string>
+
+<!-- осмотр бойцов поста 1, текстов в документе нет, реплики мои -->
+<string id="wc_p1_need_1">
+	<text>Nothing serious, LT, ripped my hand on the barbed wire while we were patching the passage. Just need a bandage.</text>
+</string>
+<string id="wc_p1_need_2">
+	<text>Took a tumble off the tower the day before yesterday, scraped up my whole shoulder. Bandaged it myself, but it's already festering. A couple of fresh bandages would help.</text>
+</string>
+<string id="wc_p1_need_3">
+	<text>It's this cough, Doc. Third week now. During the day it's bearable, but at night nobody can sleep because of me. A medkit would help, there's gotta be something in there for this.</text>
+</string>
+<string id="wc_p1_need_4">
+	<text>Last week I chased a dog down into the lowland, and the counter was clicking like crazy down there. I've been nauseous ever since. Got any anti-rad?</text>
+</string>
+<string id="wc_p1_need_5">
+	<text>Got my finger pinched by a rifle stock, the nail came off. Funny, I know, but it's hard to shoot. Wrap it up, will you?</text>
+</string>
+<string id="wc_p1_need_6">
+	<text>My side hurts, Doc. Not sharp, just a dull pain, all the time. Maybe I bruised it when I fell into a trench. Got a medkit?</text>
+</string>
+
+<!--==================== БЛОКПОСТ 2 ====================-->
+<string id="fr_post2_0">
+	<text>Good day, need some ammo? The colonel's feeling generous today.</text>
+</string>
+<string id="fr_post2_1">
+	<text>Oh, thanks, brother, we've been waiting for you for a long time. Now, how can I thank you...</text>
+</string>
+<string id="fr_post2_2">
+	<text>I don't need anything, trust me...</text>
+</string>
+<string id="fr_post2_3">
+	<text>Come on, we don't mind. Here, take a couple of VOGs, none of us has a grenade launcher anyway, maybe at least you'll get one.</text>
+</string>
+<string id="fr_post2_4">
+	<text>Thanks anyway... Wait, what's that noise?</text>
+</string>
+
+<!--==================== БЛОКПОСТ 3 ====================-->
+<string id="fr_post3_0">
+	<text>Hello, Lieutenant Rogovets here, delivering your ammo.</text>
+</string>
+<string id="fr_post3_1">
+	<text>Yeah, yeah, hand it over... Shit, why the hell did they give us 5.45s? All our guns take 7.62, don't they know that? Ah, screw it, you can keep them, we don't need 'em for shit anyway.</text>
+</string>
+<string id="fr_post3_2">
+	<text>Thanks.</text>
+</string>
+
+<!--==================== ХОРУС В БУДКЕ ====================-->
+<string id="fr_horus_b_0">
+	<text>Hey. What are you doing sitting here alone? The camp's a stone's throw away, it'll be safer there than out here.</text>
+</string>
+<string id="fr_horus_b_1">
+	<text>Greetings, serviceman. Well... I'm resting. The camp is noisy. People are always dividing something: loot, canned food, their fears. But here it's quiet. You can hear...</text>
+</string>
+<string id="fr_horus_b_2">
+	<text>Hear... what?</text>
+</string>
+<string id="fr_horus_b_3">
+	<text>The Zone... You're on business, I can see. Going to Seriy, I bet. Seriy's a good man, only tired. You're all tired here... A hard day for you today, Lieutenant?</text>
+</string>
+<string id="fr_horus_b_4">
+	<text>How do you know I'm a lieutenant?</text>
+</string>
+<string id="fr_horus_b_5">
+	<text>Your bearing. And the way you walk... like a man many owe their lives to, while he himself owes nothing to anyone. A medic, are you?</text>
+</string>
+<string id="fr_horus_b_6">
+	<text>Good guess.</text>
+</string>
+<string id="fr_horus_b_7">
+	<text>Well, well. Patching people up is a good thing. Only here's what I've learned in the Zone, serviceman: patching people up is like painting this booth. The boards are rotten. Sometimes, to save something, you don't patch it, you replace it. Entirely.</text>
+</string>
+<string id="fr_horus_b_8">
+	<text>...A philosopher, I see. Alright, take care. Don't sit here too long, it's a restless place.</text>
+</string>
+<string id="fr_horus_b_9">
+	<text>Restless, yes... It's nothing. Everything in the Zone has one chance to change, Lieutenant. Places and people alike... Go on, they're waiting for you.</text>
+</string>
+
+<!--==================== СЕРЫЙ: ПЕРВАЯ ВСТРЕЧА ====================-->
+<string id="fr_sery_m_0">
+	<text>Greetings, stalker.</text>
+</string>
+<string id="fr_sery_m_1">
+	<text>Well, hello there, soldier boy. Don't see your kind around here often. You here on business, or what?</text>
+</string>
+<string id="fr_sery_m_2">
+	<text>On business. You're Seriy, right? I've got something for you... *lowers his voice* from the colonel.</text>
+</string>
+<string id="fr_sery_m_3">
+	<text>Hm, from Kuznetsov? Alright, spit it out, what does that old geezer want from me? I still remember him squeezing money out of me at the Cordon for passing under the bridge. That nagging "five hundred, pay up" of his still rings in my ears...</text>
+</string>
+<string id="fr_sery_m_4">
+	<text>This time he's giving you money. Or something better, I'm not sure myself. Anyway, he asked me to give you this case, said you'd understand without words.</text>
+</string>
+<string id="fr_sery_m_5">
+	<text>Well, well! You've got me curious. Alright, hand it over, let's see what we've got here... So... Aha... Uh-huh... I get it. Alright, soldier, you've done your job, you're free to go. And if you're interested in some small side jobs, I can offer you a couple, or ask the guys around the camp.</text>
+</string>
+
+<!--==================== СЕРЫЙ: ВОПРОСЫ ====================-->
+<string id="fr_sery_q_0">
+	<text>I've got a couple of questions for you.</text>
+</string>
+<string id="fr_sery_q_1">
+	<text>Well, I'm a lousy talker, but I'll do my best to answer. What do you want to know?</text>
+</string>
+<string id="fr_sery_q_10">
+	<text>Tell me, what's new in the Zone lately?</text>
+</string>
+<string id="fr_sery_q_11">
+	<text>New? Hm... What can I tell you that hasn't been told a hundred times... Heard about Yantar? No? Something blew up there, about a year ago. So hard you could hear it all the way at the Cordon. Don't know what exactly it was, but it wiped out every living thing there. Whatever it was, being there became... scary. I sent a squad there once, for recon, and they came back almost crying from fear. And I've heard the same from other stalkers, so I'll take their word for it. But the strangest thing is, after that boom, people started seeing strange stalkers around the Zone, wearing suits nobody's ever seen before. And they say these guys walk around humming something under their breath... like some kind of church hymns, only really creepy and incomprehensible... It's all one murky story, in short. I don't recommend you poke your nose in there, soldier boy, unless you want to join them.</text>
+</string>
+<string id="fr_sery_q_20">
+	<text>Listen, back when I used to listen to the radio, I loved tuning in to the "100 Rads" frequency, they always played great tracks. But now I can't catch it at all, just static. Do you know why?</text>
+</string>
+<string id="fr_sery_q_21">
+	<text>Well, there's no Bar anymore, and nobody's running that frequency.</text>
+</string>
+<string id="fr_sery_q_22">
+	<text>Uh... What do you mean, there's no Bar?!</text>
+</string>
+<string id="fr_sery_q_23">
+	<text>Oh-ho-ho, where have you been the last couple of years, bro?</text>
+</string>
+<string id="fr_sery_q_24">
+	<text>In Pripyat, then on the Big Land. I don't know much about how things work in the Zone now...</text>
+</string>
+<string id="fr_sery_q_25">
+	<text>No surprise there. Don't tell me you haven't heard about Varta either? Hah, you're something else! Alright, then listen to this story: about 2 years ago, right when they were shutting down the Brain Scorcher, a huge scandal broke out in Duty. Their general back then, Voronin, went completely rotten: sent his own men to the slaughter, did some business with bandits, and was a real piece of shit. It all came out when somebody leaked the info of one of the bandits he was working with. Obviously, a lot of people in Duty weren't happy. The faction basically split in two. One part stayed loyal to Voronin, and the other broke away and decided to create a "new and righteous Duty". They called themselves Varta and went off to the Valley to build up their new faction. And it was led by General Voronin's own son, imagine the family drama there, huh?</text>
+</string>
+<string id="fr_sery_q_26">
+	<text>Interesting...</text>
+</string>
+<string id="fr_sery_q_27">
+	<text>It gets even more interesting. For a while Varta was gaining strength, and you know, I liked those guys! Unlike Duty, they actually brought order wherever they were, they weren't arrogant bastards, and they respected ordinary stalkers. They even made peace with Freedom, can you imagine?! At some point it seemed like Varta and Duty would see eye to eye and make up... But no. Duty got weaker every day, and one fine day the son decided to finish off the father: he gathered a huge squad and marched on Rostok. The slaughter that day was terrible. Even though Shaggy, Varta's leader, gave everyone a chance to leave who didn't want to die for Duty's rotten ideals, many stayed. Even some free stalkers who were resting there at the time joined the defense of the Bar. But it was no use: all the defenders fell that day, and General Voronin, rumor has it, was shot by his own son. And that was the end of the "100 Rads" Bar. Varta, of course, didn't stop stalkers from taking Rostok back and reopening the place... But nobody dared. Since then the factory has become one of the most dangerous places south of the Brain Scorcher. The whole place is littered with anomalies, mutants and corpses from that very slaughter. Even seasoned stalkers try to steer clear of that dead place. And Varta itself... vanished. A lot of people saw them going back to the Dark Valley, but then... They disappeared off the face of the earth. Left their main base, pulled all their patrols and checkpoints, took their gear... and left. Where to? Nobody knows. Though I do have some guesses... But let's talk about that another time.</text>
+</string>
+<string id="fr_sery_q_28">
+	<text>I really missed a lot...</text>
+</string>
+<string id="fr_sery_q_30">
+	<text>And who's that guy sitting outside your base?</text>
+</string>
+<string id="fr_sery_q_31">
+	<text>What guy? All of us stay within this building, nobody sticks their nose out. Could be one of Fanatic's people, of course, but I really doubt it.</text>
+</string>
+<string id="fr_sery_q_32">
+	<text>He's sitting by the campfire, right here around the corner. He seemed strange to me, too...</text>
+</string>
+<string id="fr_sery_q_33">
+	<text>What's the guy's name?</text>
+</string>
+<string id="fr_sery_q_34">
+	<text>No idea, he didn't introduce himself. A guy around 50-60, in a cloak, with a beard, I think. Talks in riddles, kept dodging the subject.</text>
+</string>
+<string id="fr_sery_q_35">
+	<text>Hm... Don't know anybody like that. And I'm not picking up anyone new on my PDA contacts either. Maybe you imagined it?</text>
+</string>
+<string id="fr_sery_q_40">
+	<text>What are you doing here?</text>
+</string>
+<string id="fr_sery_q_41">
+	<text>Trying to survive, what else! We're diggers, soldier. We dig through junk piles, undergrounds and catacombs, trying to haul out anything of value. And lately we've also been, part-time, fighters for justice. After what happened at the Bar and at Yantar, the Zone basically split in two. Rarely does anyone try to go further, up North, let alone come back. And down South, lately, there's such shit going on, you can't even imagine...</text>
+</string>
+<string id="fr_sery_q_42">
+	<text>Actually, I can. The colonel told me that all the military posts and bases in the Zone are dealing with a ton of problems right now. And ours is no exception.</text>
+</string>
+<string id="fr_sery_q_43">
+	<text>Well, it's not just you. So we're trying to fight this... something. We help stalkers survive when we can. "Fighting the darkness", goddammit. So far without much success, though, and with heavy losses...</text>
+</string>
+<string id="fr_sery_q_44">
+	<text>And what keeps you here personally? Why not just leave for the Big Land?</text>
+</string>
+<string id="fr_sery_q_45">
+	<text>Hm... I used to live at the Garbage, tried to be a kind of link between the Bar and the rest of the South. Only that drew a lot of attention from the local bandits, we had constant skirmishes with them. Once they drove us into such a hole... If it weren't for the help of one Duty guy, Bullet, we'd have croaked for sure, broke as we were. He helped us a lot back then. And then my friend Mole called me here. He used to run the stalkers here and was counting on my help. And since he disappeared on one of the runs to Yantar, now I'm in charge here. I can't just walk away without doing my duty... Heh, Bullet taught me that: stay true to your goal and don't stray from the path. So until we clear Agroprom of the "darkness", I'm not leaving. Although, looking at how things are going, nobody's getting out of here alive... Nobody except those who control the "darkness" itself...</text>
+</string>
+<string id="fr_sery_q_50">
+	<text>No more questions.</text>
+</string>
+<string id="fr_sery_q_51">
+	<text>I won't keep you, serviceman.</text>
+</string>
+
+<!--==================== СООБЩЕНИЯ ====================-->
+<string id="fr_agr_tip_camp_warn">
+	<text>Hey, army boy, sure, we've got a truce, but don't you try anything funny. Keep quiet, and you won't have any trouble.</text>
+</string>
+<string id="fr_agr_tip_bandits_signal">
+	<text>Lieutenant, our clients are in place, your move now. I'll be waiting for you with the goodies</text>
+</string>
+
+<!--==================== ПРЕДМЕТЫ ====================-->
+<string id="fr_agr_supply_box_name">
+	<text>Supply crate</text>
+</string>
+<string id="fr_agr_supply_box_desc">
+	<text>An army crate with ammo and medical supplies for the garrison checkpoints.</text>
+</string>
+<string id="fr_agr_kuz_case_name">
+	<text>Colonel's case</text>
+</string>
+<string id="fr_agr_kuz_case_desc">
+	<text>A sealed case. The colonel told you to give it to Seriy and not to ask what's inside.</text>
+</string>
+<string id="fr_agr_bandit_pda_name">
+	<text>Bandit's PDA</text>
+</string>
+<string id="fr_agr_bandit_pda_desc">
+	<text>A worn PDA. One entry in the notes: "Man, can you fuckin' believe this. They put me out for a meet with the army like some total sucker. Vasyan says, just stand there, shoot the shit, they'll bring the cash, and we'll be around the corner. And if the soldiers start shooting first, who catches it? That's right, me, motherfucker! They're sitting in the bushes jerking off, and they stuck me out here like a fuckin' moron in an open field. 25 grand, they say, we'll split it between everybody. Yeah, right, they'll split it. If I get whacked, there's more for them. No ammo for these pigs, obviously, nobody was ever gonna give 'em any. They show up with the cash, we waste everybody, grab the dough and bail. If only I live that long, fuck..."</text>
+</string>
+<string id="fr_agr_pastukh_pda_name">
+	<text>Unknown stalker's PDA</text>
+</string>
+<string id="fr_agr_pastukh_pda_desc">
+	<text>A PDA in the same strange casing as the suit. Inside is a single recording, dictated in an even, calm voice: "Day twelve. Leading the burnt-out to the third post, as ordered. There are seven of them, then they gave me three more. They're quiet. They feel no fear and no pain, they just go wherever I look. I used to think this was cruel. Now I understand: it's mercy. They've already given everything they could, and Horus found them one last use. The task is not to take the post. The task is to watch. Who shoots, who runs, who freezes and listens. The brother said that at every post there's at least one who hears. Don't touch him. Mark him. The soldiers there are angry and hungry, but anger is just fear that hasn't found where to go yet. Someday it will. We'll wait. Liberation will come for everyone..."</text>
+</string>
+
+<!--==================== ИМЕНА И БИО ====================-->
+<string id="fr_agr_post_sab_soldier_bio">
+	<text>Boy of da baze garrizun. WAAAAGH!</text>
+</string>
+<string id="fr_agr_post_soldier_bio">
+	<text>Soldier of an Agroprom Research Institute garrison checkpoint.</text>
+</string>
+<string id="fr_agr_post_chief_bio">
+	<text>Head of an Agroprom Research Institute garrison checkpoint.</text>
+</string>
+<string id="fr_agr_bandit_bio">
+	<text>Bandit.</text>
+</string>
+<string id="fr_agr_zombie_bio">
+	<text>Zombified.</text>
+</string>
+<string id="fr_agr_sery_bio">
+	<text>Head of the diggers at the factory. Used to live at the Garbage.</text>
+</string>
+<string id="fr_agr_horus_booth_name">
+	<text>...</text>
+</string>
+<string id="fr_agr_horus_booth_bio">
+	<text>...</text>
+</string>
+
+
+<string id="fr_agr_sery">
+	<text>Seriy</text>
+</string>
+<string id="fr_agr_post1_chief">
+	<text>Checkpoint 1</text>
+</string>
+<string id="fr_agr_post2_chief">
+	<text>Checkpoint 2</text>
+</string>
+<string id="fr_agr_post3_chief">
+	<text>Checkpoint 3</text>
+</string>
+<string id="fr_agr_bandit_bait">
+	<text>Meeting place with the bandits</text>
+</string>
+
+<string id="fr_agr_recon_leader">
+	<text>Recon squad</text>
+</string>
+<string id="fr_agr_fanat">
+	<text>Fanatic</text>
+</string>
+<string id="fr_agr_fanat_box">
+	<text>Fanatic's group stash</text>
+</string>
+
+
+<!--==================== СЕРЫЙ: РАБОТА ====================-->
+<string id="fr_sery_job_0">
+	<text>How can I help you?</text>
+</string>
+<string id="fr_sery_job_1">
+	<text>There's one little problem here. Not long ago a group of my people went down into the depths of the Agroprom underground, looking for something... The guys never came back, we waited 3 days for them. But we managed to pick up a weak signal coming from the upper levels of the underground. We never dared to check it, though, didn't want to show our faces around you guys more than we have to... Maybe you know something about it?</text>
+</string>
+<string id="fr_sery_job_2">
+	<text>Actually, I was there recently, and I saw the body of a digger, probably one of yours. He died shooting it out with some stalkers I don't know. I've never seen suits like the ones they were wearing in my life, not even the Monolith fanatics have those. The dead man's buddies attacked me soon after and nearly finished me off. On one of them I found a PDA with audio recordings. Listen.</text>
+</string>
+<string id="fr_sery_job_3">
+	<text>Yeah, too bad about the guys. How many have I gotten killed already, huh?... I send people to their deaths and sit here acting like a big shot... Alright, I'll reflect later. Here, take this, thanks for avenging the guys. And hand over the PDA, I'll try to dig some useful info out of it. And for now... I've got one more request for you.</text>
+</string>
+<string id="fr_sery_job_4">
+	<text>Go on.</text>
+</string>
+<string id="fr_sery_job_5">
+	<text>I've heard about these unknown stalkers for a long time, and it's not the first time I've lost people to their guns. Me and the guys keep trying to crack their riddle: who they are, what they want, who's in charge, and so on down the list. I think these questions bother you military guys too. I'd bet my teeth your commanders have run into these bastards more than once. So by helping us, you'll help yourself. We managed to find out a few things, but far from everything. The main info will come from our scouts, who are about to come back from dead Yantar. Can you meet them and escort them to the base? They absolutely have to survive, every man counts here. Can you handle it?</text>
+</string>
+<string id="fr_sery_job_6">
+	<text>Why not send your own people? You're ready to trust a soldier?</text>
+</string>
+<string id="fr_sery_job_7">
+	<text>Ahem... There's a good reason for that, I'll tell you if you come back with my people. That's it, go on, they'll be there soon. I sent the coordinates to your PDA.</text>
+</string>
+
+<!--==================== РАЗВЕДЧИК ====================-->
+<string id="fr_recon_0">
+	<text>Don't shoot, stalker! I'm from Seriy, I'm on your side...</text>
+</string>
+<string id="fr_recon_1">
+	<text>Hah, and why the hell should I believe you?! What if you're one of those... crazies with the "eyes"...</text>
+</string>
+<string id="fr_recon_2">
+	<text>I can contact him, he'll confirm it. Seriy said you need an escort to the base, said you've got important info on the unknown stalkers.</text>
+</string>
+<string id="fr_recon_3">
+	<text>Hm... Well, he's got a point. Hah, didn't think he did business with the military, but since we're already in this deep shit, it'd be a sin not to... Alright, soldier, you've convinced me. Heading to the base?</text>
+</string>
+<string id="fr_recon_4">
+	<text>Lead the way, stalker... Uh, guys, what are you doing? Lower your gu...</text>
+</string>
+
+<!--==================== СЕРЫЙ: ДОКЛАД ПО РАЗВЕДКЕ ====================-->
+<string id="fr_sery_rc_0">
+	<text>What the hell was that setup just now?!</text>
+</string>
+<string id="fr_sery_rc_1">
+	<text>Get a grip, soldier boy! Gun down, and stop yelling! What happened out there? Where are the scouts?!</text>
+</string>
+<string id="fr_sery_rc_2">
+	<text>Your "scouts" attacked me!</text>
+</string>
+<string id="fr_sery_rc_3">
+	<text>Wha?...</text>
+</string>
+<string id="fr_sery_rc_4">
+	<text>There were four of them. I came up to talk to one, everything seemed fine, we were about to leave, and then the other three opened fire on us. The guy I was talking to was killed instantly, and only by some miracle I managed to take out the rest.</text>
+</string>
+<string id="fr_sery_rc_5">
+	<text>Goddammit... And what about the PDA? He should've had a PDA on him!</text>
+</string>
+<string id="fr_sery_rc_6">
+	<text>That PDA's fucked, one of the bullets went straight through it. Here, have a look.</text>
+</string>
+<string id="fr_sery_rc_7">
+	<text>Oh, fuck me... One setup after another! And more losses in the squad, damn it... Alright, sorry I yelled, my nerves are at the limit already. Take this, a little compensation for your trouble.</text>
+</string>
+<string id="fr_sery_rc_8">
+	<text>No offense taken. Now tell me everything you know about this new faction, why I was attacked, and what the hell is going on here?</text>
+</string>
+<string id="fr_sery_rc_9">
+	<text>They call themselves "the Order". They showed up in the Zone recently. About a year ago people started seeing them in large numbers in the south, though rumors about these "cultists" were going around back in '12. They recruit people from all the factions of the Zone: Freedom, Loners, Bandits, Varta. That last one has most likely gone over to them entirely. Serious guys, they shoot without warning, to kill. Their goals... who the hell knows what their goals are, they don't put up posters with their slogans. But they're not your typical fanatics, like the ones you might've seen in Monolith or Sin. They're... sane, or something. Most of them joined voluntarily, and they serve not because some mysterious miracle machine is frying their brains, but of their own free will.</text>
+</string>
+<string id="fr_sery_rc_10">
+	<text>What a mess...</text>
+</string>
+<string id="fr_sery_rc_11">
+	<text>Looks like my scouts fell victim to their indoctrination and decided to go over to the Order's side. God, how long were they serving them? Since they were sent on the mission? That's months of them...</text>
+</string>
+<string id="fr_sery_rc_12">
+	<text>Now I get why you didn't want to send your people. You were afraid of betrayal. Only you were looking in the wrong direction, it turns out.</text>
+</string>
+<string id="fr_sery_rc_13">
+	<text>Couldn't have said it better. Bottom line: the Order is a serious threat... not just to us or you, but to the whole Zone as such, its laws, its order and its rules. And if we sit on our hands, we'll lose for sure. We have to do something, or they'll crush us like pathetic bugs...</text>
+</string>
+<string id="fr_sery_rc_14">
+	<text>...</text>
+</string>
+<string id="fr_sery_rc_15">
+	<text>Tell me, Lieutenant, we're not the only ones who've started noticing strange things around Agroprom, are we? Terrible wailing from the swamps, people going missing, headaches of all kinds, more zombie activity, panic attacks... I'm right, aren't I?</text>
+</string>
+<string id="fr_sery_rc_16">
+	<text>Yes, it's not just you. Our whole garrison is moping and raving like the end of the world is coming tomorrow... You know, I'm actually a medic by trade, they only recently transferred me to the infantry. And in all my time on the job I've never seen anything like it. And the most interesting part: for no apparent reason. Something is definitely wrong here, but I just can't figure out what exactly.</text>
+</string>
+<string id="fr_sery_rc_17">
+	<text>That's what we've been trying to figure out for months now. Can't say we've had much success... There used to be about fifty of us at this base, and now... well, you can see for yourself how many of us are left. Those guys are far from the first to fall under the Order's influence, and I'm afraid they're far from the last.</text>
+</string>
+<string id="fr_sery_rc_18">
+	<text>Hm... We've had cases where soldiers left their post or just dissolved into the darkness. Only later they were seen alive, in the distance, and as soon as someone tried to get closer, they'd quickly walk away. Looks like you've got something similar...</text>
+</string>
+<string id="fr_sery_rc_19">
+	<text>Listen, if we want to do something about this, we need to figure out if the "fallen" have any signs, symptoms maybe, call it what you want. If we find out what pushes them to betray, maybe we can prevent it in the future. Those guys coming from Yantar were from Fanatic's group. He's here, in the next building. Try asking him about the dead guys, maybe he noticed something strange in how they acted.</text>
+</string>
+<string id="fr_sery_rc_20">
+	<text>That makes sense, I'll go talk to him.</text>
+</string>
+
+<!--==================== ФАНАТ ====================-->
+<string id="fr_fanat_0">
+	<text>Hello. Are you Fanatic? Seriy sent me, he said you could tell me about your guys... the ones coming from Yantar.</text>
+</string>
+<string id="fr_fanat_1">
+	<text>I've heard about the mess already, the whole camp's buzzing. So you're that army doctor. And I can see it's been a long day for you. How are you holding up, Lieutenant?</text>
+</string>
+<string id="fr_fanat_2">
+	<text>I've been better, to be honest. So, about your guys?</text>
+</string>
+<string id="fr_fanat_3">
+	<text>They were good lads. All four of them were mine, I trained them myself back when I was at the Cordon. Calm, not greedy, didn't talk too much. A shame, of course. But you know... everyone in the Zone finds their place. Some sooner, some later. So they found theirs.</text>
+</string>
+<string id="fr_fanat_4">
+	<text>Hm... That's a peculiar way to talk about the dead.</text>
+</string>
+<string id="fr_fanat_5">
+	<text>And how else should I talk about them? Tears won't raise the dead. I've been here a very long time, I've learned to accept things as they come. And they always come the right way, Lieutenant, even when it seems like they don't... Better tell me how things are at your base. There are all sorts of rumors going around. They say your people are leaving?</text>
+</string>
+<string id="fr_fanat_60">
+	<text>%c[fr_control]That's classified information, stalker, I can't answer that.</text>
+</string>
+<string id="fr_fanat_61">
+	<text>%c[fr_chaos]Yeah, they're leaving. Sometimes lone patrols, and sometimes whole squads go missing. Downright mystical.</text>
+</string>
+<string id="fr_fanat_70">
+	<text>I see. Well, you army guys are tough. You're tough yourself, I can see. You've been walking around so much today and you're still on your feet. That's good. That'll come in handy.</text>
+</string>
+<string id="fr_fanat_71">
+	<text>Don't be sad, soldier, everything will work out. It's always been like that in the Zone: first it's a total shitshow, and then it's good... And you army guys are tough anyway. You're tough yourself, I can see. You've been walking around so much today and you're still on your feet. That's good. That'll come in handy.</text>
+</string>
+<string id="fr_fanat_8">
+	<text>...Come in handy for what?</text>
+</string>
+<string id="fr_fanat_9">
+	<text>For life, what else. *smirks* Alright, I won't keep you, Seriy's waiting, I suppose. Oh, listen, wait a second. Since you're walking between the base and us anyway... I've got a five-minute job, good for both of us. Interested?</text>
+</string>
+<string id="fr_fanat_10">
+	<text>What kind of job?</text>
+</string>
+<string id="fr_fanat_11">
+	<text>Seriy threw us a job, and before it we need to restock our gear. And my lads, may they rest... they left a stash in the underground before they left. On the upper level, not far from the anomaly tunnel. You probably know it, you've been there. If I go poking around there, well, you understand, your soldiers won't take it well. But you're one of them, you're allowed. Bring it back and we'll split it fair and square: half for you for the legwork, half for me for the tip. Deal?</text>
+</string>
+<string id="fr_fanat_12">
+	<text>Hm, makes sense... And what's in the stash?</text>
+</string>
+<string id="fr_fanat_13">
+	<text>Ammo and meds, a little of everything, enough for our group. Maybe a gun's lying there, I don't remember anymore. I sent the mark to your PDA. Only, Lieutenant... don't make too much noise down there, alright?</text>
+</string>
+<string id="fr_fanat_14">
+	<text>What do you mean, don't make noise? Is somebody down there?</text>
+</string>
+<string id="fr_fanat_15">
+	<text>Who could be down there. Rats and darkness. It's just an omen we have, us diggers: don't make noise in echoing places. The Zone loves silence. See you, Lieutenant.</text>
+</string>
+
+<string id="fr_fanat_q_0">
+	<text>Will you tell me a bit about yourself?</text>
+</string>
+<string id="fr_fanat_q_1">
+	<text>Not much to tell, I'm a simple man. Well, ask away, if you're curious.</text>
+</string>
+<string id="fr_fanat_q_10">
+	<text>How's life here in the camp?</text>
+</string>
+<string id="fr_fanat_q_11">
+	<text>Life's alright. We've got a roof, the loot keeps coming, Seriy's a fair man, he won't wrong you for nothing. Others whine: not enough food, it's scary, they want to go home. But why whine? You always want to go home, but none of us has a home, that's why we're all sitting in the Zone. Everything's running its course. Everything's... going the right way, Lieutenant.</text>
+</string>
+<string id="fr_fanat_q_20">
+	<text>You're from the Cordon, right? How did you end up here?</text>
+</string>
+<string id="fr_fanat_q_21">
+	<text>From the Cordon, yeah. After Wolf, I carried the village on my back, led the rookies, taught them not to walk into anomalies. Good times, only empty. Then I realized it's not for me, wiping kids' snotty noses. I wanted... meaning, I guess. A real cause. Joined up with Seriy, and here... I found what I was looking for, you could say. More than I was looking for.</text>
+</string>
+<string id="fr_fanat_q_30">
+	<text>Haven't noticed anything strange around here?</text>
+</string>
+<string id="fr_fanat_q_31">
+	<text>Strange? No, I guess not. The Zone's the Zone, it's always been strange, from day one. People are afraid because they don't understand. And once you understand, there's nothing to be afraid of. Nothing at all.</text>
+</string>
+<string id="fr_fanat_q_40">
+	<text>Alright, thanks.</text>
+</string>
+<string id="fr_fanat_q_41">
+	<text>Anytime. I'm here.</text>
+</string>
+
+<string id="fr_fanat_st_0">
+	<text>Here's the crate, found it, picked it up, no problems. It's quiet down there... Too quiet, even.</text>
+</string>
+<string id="fr_fanat_st_1">
+	<text>Well, it's a dead-end underground, what's there to make noise? Hand it over, let me open it... Done. Look, I'll let you pick from this crate: restock your ammo, or take some meds. Pick one.</text>
+</string>
+<!-- выбор награды: в документе текста нет, реплики мои -->
+<string id="fr_fanat_st_20">
+	<text>I'll take the meds.</text>
+</string>
+<string id="fr_fanat_st_21">
+	<text>Give me the ammo.</text>
+</string>
+<string id="fr_fanat_st_3">
+	<text>That's good. You know how to listen, Lieutenant, that's rare. You'll go far. Here, and something on top, a little gift from me. Now my group is ready for the trip.</text>
+</string>
+<string id="fr_fanat_st_4">
+	<text>Thanks. Though wouldn't you need it more?</text>
+</string>
+<string id="fr_fanat_st_5">
+	<text>No, soldier, where we're going, we won't need artifacts at all. Go in peace.</text>
+</string>
+
+<!--==================== ПРЕДМЕТЫ ====================-->
+<string id="fr_agr_recon_pda_name">
+	<text>Scout's PDA</text>
+</string>
+<string id="fr_agr_recon_pda_desc">
+	<text>PDA of a stalker from Seriy's group. During the firefight it was pierced by a large-caliber bullet and, in effect, destroyed. The data is unreadable, the device is beyond repair.</text>
+</string>
+<string id="fr_agr_fanat_box_name">
+	<text>Fanatic's cache</text>
+</string>
+<string id="fr_agr_fanat_box_desc">
+	<text>A crate the stalker group stashed before leaving. Inside are ammo and medical supplies.</text>
+</string>
+
+
+<string id="fr_agr_north_gate">
+	<text>Northern checkpoint</text>
+</string>
+<string id="fr_agr_dead_scout">
+	<text>Scout</text>
+</string>
+
+
+
+
+<!--==================== КУЗНЕЦОВ: ДОКЛАД ПО РАЗВЕДЧИКУ ====================-->
+<string id="fr_kuz_rep_0">
+	<text>Reporting in, Colonel.</text>
+</string>
+<string id="fr_kuz_rep_1">
+	<text>What have you got? Did you find the PDA?</text>
+</string>
+<string id="fr_kuz_rep_2">
+	<text>Yes and no. The scout really was dead, he was killed by zombified stalkers.</text>
+</string>
+<string id="fr_kuz_rep_3">
+	<text>Zombies here? Are you... sure?</text>
+</string>
+<string id="fr_kuz_rep_4">
+	<text>I saw their kind in Pripyat. Only these were different... I don't even know how to describe it properly. The "old" zombies had no purpose in mind: just leftover motor skills, scraps of habits, an empty stare. The shells of former people just wandered around the Zone, a truly pathetic sight. But the ones I met here... They're aggressive, tough killing machines. When I was approaching the scout, the zombies kept shooting at his body, nonstop... They riddled the poor kid completely, there wasn't a single spot left untouched. As if someone gave them an order, and they kept carrying it out to the very end.</text>
+</string>
+<string id="fr_kuz_rep_5">
+	<text>Damn it...</text>
+</string>
+<string id="fr_kuz_rep_6">
+	<text>The PDA, as you've probably guessed, was ruined by the hail of bullets.</text>
+</string>
+<string id="fr_kuz_rep_7">
+	<text>If what you're saying is true, then we're deep in the shit, Lieutenant... And this isn't the first time you've run into zombies like that in combat, is it?</text>
+</string>
+<string id="fr_kuz_rep_8">
+	<text>Affirmative. When I was helping the third checkpoint, a group of those creatures attacked us. We fought them off, but that's not the main thing. They had a "leader".</text>
+</string>
+<string id="fr_kuz_rep_9">
+	<text>What do you mean?</text>
+</string>
+<string id="fr_kuz_rep_10">
+	<text>After the fight I found a stalker from a faction I don't know. I've run into ones like him before, in the underground beneath our base. I assume you know they show up here often too... This stalker acted unusual in combat: he was clearly conscious, and, it seemed to me, he was commanding those zombies. He was their "shepherd".</text>
+</string>
+<string id="fr_kuz_rep_11">
+	<text>Hm... That explains a lot... So the zombies that attacked the scout got their orders from the same kind of shepherd?</text>
+</string>
+<string id="fr_kuz_rep_12">
+	<text>I'm leaning toward that theory. But I didn't see anyone nearby. I think the "shepherd" gave the order and left. What happened to the "herd" after that didn't interest him.</text>
+</string>
+<string id="fr_kuz_rep_13">
+	<text>So that's why they kept following the order even after the scout was dead, there were no other instructions... Understood, Lieutenant, that clears a lot up. Do you know anything about their faction?</text>
+</string>
+<string id="fr_kuz_rep_14">
+	<text>The stalker Seriy, from the factory, told me about them. Name: the Order. Goals unknown, numbers unknown too, but I think more than a hundred. Organized like a conscious cult. Actively recruiting fighters, aggressive. He promised to tell me more if I keep helping him.</text>
+</string>
+<string id="fr_kuz_rep_15">
+	<text>*lowers his voice* Fuck... Fucked-up cultists, that's all we needed... *raises his voice* Fine, then you take care of this. The stalkers clearly know more about them than we do, so let them share that knowledge with you. As soon as you figure something out, come straight to me. And in the meantime I'll try to deal with the zombie problem, before they flood all of Agroprom. We'll try to figure out where they're coming from... And you're dismissed for now, Rogovets.</text>
+</string>
+<string id="fr_kuz_rep_16">
+	<text>Colonel, sir, one more thing...</text>
+</string>
+<string id="fr_kuz_rep_17">
+	<text>Go ahead.</text>
+</string>
+<string id="fr_kuz_rep_18">
+	<text>What happened to the northern checkpoint? I thought we were supposed to have guards there, but there's nobody there...</text>
+</string>
+<string id="fr_kuz_rep_19">
+	<text>What?!</text>
+</string>
+<string id="fr_kuz_rep_20">
+	<text>Well... at the northern checkpoint... there are no people.</text>
+</string>
+<string id="fr_kuz_rep_21">
+	<text>Motherfucking son of a bitch... Are you ABSOLUTELY sure about that?!</text>
+</string>
+<string id="fr_kuz_rep_22">
+	<text>Absolutely, Colonel.</text>
+</string>
+<string id="fr_kuz_rep_23">
+	<text>*heavy sigh* It just keeps getting worse... Now this plague has reached the main base too. What the fuck are you supposed to do... Might as well start tearing my hair out from despair...</text>
+</string>
+<string id="fr_kuz_rep_24">
+	<text>...</text>
+</string>
+<string id="fr_kuz_rep_25">
+	<text>Alright, Rogovets, don't just stand there like a post, this isn't your concern anymore. You can drop by the quartermaster, he was looking for you, I think... *starts muttering to himself* I'll have to send another squad there, from the reserve, to plug the hole in the defense. But who? And is it even worth it? Everyone's headed down the same road anyway...</text>
+</string>
+
+<!--==================== СООБЩЕНИЯ ====================-->
+<string id="fr_agr_tip_scout">
+	<text>Rogovets, you're at the stalker camp right now, so you're the closest: west of that complex my scout's signal went dead, he was carrying important intel for me. I don't have much hope, so your job is to take the PDA from him... off him, and bring it to the base.</text>
+</string>
+<!-- мысли на пустом посту: в документе текста нет, реплика моя -->
+<string id="fr_agr_th_north_empty">
+	<text>The post is empty... No guards, no signs of a fight. Where did they all go?</text>
+</string>
+
+<!--==================== ПРЕДМЕТЫ И БИО ====================-->
+<string id="fr_agr_scout_pda_name">
+	<text>Scout's PDA</text>
+</string>
+<string id="fr_agr_scout_pda_desc">
+	<text>A military scout's PDA. Riddled with bullets, the data can't be recovered.</text>
+</string>
+<string id="fr_agr_dead_scout_bio">
+	<text>Scout of the Agroprom Research Institute garrison.</text>
+</string>
+
+
+
+<!--==================== СНАБЖЕНЕЦ: НАГРАДА И БРАТ ====================-->
+<string id="fr_snab_rw_0">
+	<text>Hello, you wanted to see me?</text>
+</string>
+<string id="fr_snab_rw_1">
+	<text>Yeah, let's get straight to business. First: the colonel ordered me to give you a small reward for doing your assignments well, keep it up. And now, about my request. I'll keep it short. About a week ago one of our patrols went missing, and my little brother was in it... I lost hope very quickly and soon accepted that he was dead. But now I keep hearing more and more often that zombies are showing up more and more. And a thought crept into my head: what if my little brother isn't dead, but is still wandering out there, among them... You haven't by any chance seen... any of ours among the zombies?</text>
+</string>
+<string id="fr_snab_rw_2">
+	<text>No, I haven't. I'd definitely recognize my patients.</text>
+</string>
+<string id="fr_snab_rw_3">
+	<text>Hm... Lieutenant, if you see any, then... well, you know what's usually done with them, but... if you see any of the "former" guys, and you see one of them with a heavy machine gun... then lay his soul to rest, please. As proof, bring me back that machine gun. I have to be sure he won't wander the Zone for the rest of his life as an empty shell of himself... Nobody deserves that fate.</text>
+</string>
+<string id="fr_snab_rw_4">
+	<text>I understand, Sergeant. I'll do as you ask.</text>
+</string>
+
+<!--==================== СНАБЖЕНЕЦ: ПУЛЕМЁТ БРАТА ====================-->
+<string id="fr_snab_br_0">
+	<text>It's about the machine gun.</text>
+</string>
+<string id="fr_snab_br_1">
+	<text>Yeah, yeah, thank you, Lieutenant... Hand it over. Let's sort out your reward now...</text>
+</string>
+<string id="fr_snab_br_2">
+	<text>You're not even going to ask how I found it, who I took it from?</text>
+</string>
+<string id="fr_snab_br_3">
+	<text>I won't ask. I know where you got it, I heard Kuznetsov's orders. I've known for a long time that my little brother... that he's not alive, but... hope dies last, right? That's enough, I don't want to think about it any more than I have to...</text>
+</string>
+<string id="fr_snab_br_4">
+	<text>I understand, I'm sorry.</text>
+</string>
+<string id="fr_snab_br_5">
+	<text>Well, his machine gun will serve us, the living, loyally and faithfully, agreed? And so you don't get sad, here, take a Kriss Vector and all the ammo we have for it. Now leave me alone, please...</text>
+</string>
+
+<!--==================== СЕРЫЙ: ПОСЛЕ ПАТРУЛЕЙ ====================-->
+<string id="fr_sery_bk_0">
+	<text>I'm back.</text>
+</string>
+<string id="fr_sery_bk_1">
+	<text>Took you long enough, soldier boy. What happened over there? You flew out of that building like you'd been scalded and ran off somewhere, I didn't even get a chance to shout anything. And then shooting started all around...</text>
+</string>
+<string id="fr_sery_bk_2">
+	<text>Colonel's orders, there was another attack... I wanted to go back to Fanatic and talk to him again, but...</text>
+</string>
+<string id="fr_sery_bk_3">
+	<text>You're too late, friend, Fanatic already left on my job, should've come sooner. Did you manage to find out anything from him at least?</text>
+</string>
+<string id="fr_sery_bk_4">
+	<text>You know... not much. He mentioned his guys in a few words, then dodged the question and started asking me questions himself. Then he even sent me to fetch a stash, even split the reward with me. Long story short, I didn't learn anything useful.</text>
+</string>
+<string id="fr_sery_bk_5">
+	<text>That's lousy, brother, lousy...</text>
+</string>
+<string id="fr_sery_bk_6">
+	<text>Listen, how long has Fanatic been with you? I don't want to sound paranoid and accuse everyone of betrayal, but... I don't like him. He's too... sickly sweet and calm. Everyone else here is on pins and needles, but this guy...</text>
+</string>
+<string id="fr_sery_bk_7">
+	<text>Long enough for me to trust him with half the group. I've known him since the Cordon, we came to the Zone around the same time. Fate split us up, but after the shake-up in '12, after Duty's beating down in the South... We got back together and settled here. He's a simple, calm guy, that's what I like about him, he keeps his composure even in a situation like this.</text>
+</string>
+<string id="fr_sery_bk_8">
+	<text>It's just that I felt uneasy around him... You know, I've been to Pripyat. The guys joke that I came back shell-shocked. I was under psy-strikes a couple of times and survived. And ever since this... devilry started here, that Pripyat "gut feeling" of mine just won't go away... And what about...</text>
+</string>
+<string id="fr_sery_bk_9">
+	<text>*gets a PDA signal* Oh, wait, I think I know what this is... Yes, excellent! Right, I need to set this up now... Listen, soldier boy, I've got one small request for you: go to our radio operator, get 3 PVM-14 devices from him and come back to me, I'll tell you what to do with them. Trust me, this will help us in the fight against the Order!</text>
+</string>
+<string id="fr_sery_bk_10">
+	<text>I don't like these sudden requests. Alright, I'll be right back.</text>
+</string>
+
+<!--==================== РАЦИЯ: ПАТРУЛИ ====================-->
+<string id="fr_agr_tip_sos_1">
+	<text>SOS, SOS, this is the 2nd patrol, we need help, we're under attack!</text>
+</string>
+<string id="fr_agr_tip_sos_2">
+	<text>This is the 3rd squad, we've been attacked by zombies, we need help!</text>
+</string>
+<string id="fr_agr_tip_sos_3">
+	<text>1st here, a wave of zombies is moving toward us, send reinforcements!</text>
+</string>
+<string id="fr_agr_tip_patA_wiped">
+	<text>...we're done... don't come here....</text>
+</string>
+<string id="fr_agr_tip_patB_wiped">
+	<text>There are too many of them....</text>
+</string>
+<string id="fr_agr_tip_patC_wiped">
+	<text>Hold on, men... We have t...</text>
+</string>
+<string id="fr_agr_tip_patrols_done">
+	<text>We fought them off, men, good work. Not without losses, but we fought them off. The survivors fell back to the base.</text>
+</string>
+
+<!--==================== МЫСЛИ ====================-->
+<string id="fr_agr_th_patD_empty">
+	<text>The camp is empty. No casings, no blood. Am I too late?.. Or were they never here at all. Quiet... Like at the northern post.</text>
+</string>
+
+<!--==================== ПРЕДМЕТЫ ====================-->
+<string id="fr_agr_pastukh2_pda_name">
+	<text>Cultist's PDA</text>
+</string>
+<string id="fr_agr_pastukh2_pda_desc">
+	<text>Points 1-4 on schedule. The herd is fresh, just came in from Fulgrim yesterday. Total expenditure is acceptable. After that, to the cache in the trailer at the factory, to restock. And how did those stalker idiots not spot me from the windows? And the cache is important, it resupplies our groups here...</text>
+</string>
+
+
+
+<!-- ==================== СЕРЫЙ: МЁРТВЫЙ РАДИСТ ==================== -->
+<string id="fr_sery_rd_0">
+	<text>Are you all fucking out of your minds here or what?!</text>
+</string>
+<string id="fr_sery_rd_1">
+	<text>What are you talking about?</text>
+</string>
+<string id="fr_sery_rd_2">
+	<text>Your radio operator is dead! The body's already gone cold, I found no signs of violence. The devices weren't on him.</text>
+</string>
+<string id="fr_sery_rd_3">
+	<text>How could this... How long has he been like this?..</text>
+</string>
+<string id="fr_sery_rd_4">
+	<text>I don't know, but at least a few hours.</text>
+</string>
+<string id="fr_sery_rd_5">
+	<text>Fuck... How many have I gotten killed like this... And now the devices are gone. This is a total disaster!</text>
+</string>
+<string id="fr_sery_rd_6">
+	<text>What was your plan exactly? Why do you need these devices?</text>
+</string>
+<string id="fr_sery_rd_7">
+	<text>We wanted to pull off some tricks with the radio towers at Agroprom, and then we'd be able to pick up the Order's PDA signals from a long distance. The devices would've let us do that, but now... No, there's always hope! Listen, LT, he was definitely murdered, he couldn't have just...</text>
+</string>
+<string id="fr_sery_rd_8">
+	<text>I understand it wasn't a heart attack. But I didn't see any bullet or knife wounds either. I don't rule out a psy-strike.</text>
+</string>
+<string id="fr_sery_rd_9">
+	<text>Shit... Listen, the killer couldn't have gone far, he's still somewhere around Agroprom. I'm sure he's from the Order, only they could pull off something like this and take the devices without drawing attention. Your job is to track him down and finish him off. If you find the devices, come straight to me. In the meantime I'll contact my people and try to find that bastard too.</text>
+</string>
+<string id="fr_sery_rd_10">
+	<text>Just don't let our patrols see you. We're in a nasty mood these days.</text>
+</string>
+
+<!-- ==================== КАПИТАН АКЕРАН ==================== -->
+<string id="fr_akeran_tk_0">
+	<text>Captain, sir, Lieutenant Rogovets. Reporting for duty.</text>
+</string>
+<string id="fr_akeran_tk_1">
+	<text>Ah, the medic... I've heard about you. They say you're carrying everyone's load around here: dragging patrols out, roaming the factory with stalkers. Good thing you came, an extra gun won't hurt today.</text>
+</string>
+<string id="fr_akeran_tk_2">
+	<text>What do we know about the enemy?</text>
+</string>
+<string id="fr_akeran_tk_3">
+	<text>Not much. They've dug in at a fortified point by the road to Yantar. Twenty to thirty zombies there, maybe more. Recon saw someone in a robe among them, looks like their shepherd. And... they saw ours. In uniform.</text>
+</string>
+<string id="fr_akeran_tk_4">
+	<text>Ours?</text>
+</string>
+<string id="fr_akeran_tk_5">
+	<text>Former ours. Don't pity them, Lieutenant, nothing can help them anymore. Here's how we work: we move as one group, push from the front, take out the shepherd first, without him the herd turns into a mob. You stay close to me, don't wander off. And if any of my guys get hit, you patch them up on the move. Questions?</text>
+</string>
+<string id="fr_akeran_tk_6">
+	<text>No questions.</text>
+</string>
+<string id="fr_akeran_tk_7">
+	<text>Then let's go. Squad, forward! Move out!</text>
+</string>
+<string id="fr_akeran_tk_8">
+	<text>Copy that!</text>
+</string>
+
+<!-- ==================== КУЗНЕЦОВ: ДОКЛАД ==================== -->
+<string id="fr_kuz_st_0">
+	<text>Colonel, sir...</text>
+</string>
+<string id="fr_kuz_st_1">
+	<text>Speak.</text>
+</string>
+<string id="fr_kuz_st_2">
+	<text>I joined Captain Akeran's group, and we started the assault. At first everything went according to plan: we advanced smoothly, pushed the zombies back without much trouble. In the center of their camp stood another shepherd, and around him was an escort of... our former soldiers. Zombified too, they acted like the rest. Not without losses, but we killed them all.</text>
+</string>
+<string id="fr_kuz_st_3">
+	<text>Go on.</text>
+</string>
+<string id="fr_kuz_st_4">
+	<text>The captain ordered us to search the bodies. On the shepherd I found a note, and at that very second I felt a psy-effect, the same as in Pripyat. I'm resistant to that, I came to quickly. And then Akeran saw soldiers coming toward us. The same ones who went missing from the northern post.</text>
+</string>
+<string id="fr_kuz_st_5">
+	<text>.....</text>
+</string>
+<string id="fr_kuz_st_6">
+	<text>He called out to them, he was even glad... And then a voice sounded in my head: "Fulfill your purpose!" And the "lost ones" opened fire. The captain was killed first. We managed to kill them, but the losses are heavy...</text>
+</string>
+<string id="fr_kuz_st_7">
+	<text>*long pause* I put them on the missing list... I thought, we'll find the bodies, I'll write to their mothers: "died in the line of duty"... And what am I supposed to write now, Lieutenant? "Your son gunned down our garrison and was then killed by his own"? Right under our noses... They're stealing soldiers right from under our noses, and sending back... this... And Akeran. He was a good officer.</text>
+</string>
+<string id="fr_kuz_st_8">
+	<text>Colonel, sir, one more thing. The voice... the one that talked about "purpose". I heard it too. It spoke to me as well. I just... didn't get up.</text>
+</string>
+<string id="fr_kuz_st_9">
+	<text>And what does that mean, medic?</text>
+</string>
+<string id="fr_kuz_st_10">
+	<text>I don't know, Colonel. Maybe there was a thin layer between me and the fallen... or maybe Pripyat did this to me. I can't say for sure. And there's this, the note. Read it. They knew we were coming. The camp by the road was bait.</text>
+</string>
+<string id="fr_kuz_st_11">
+	<text>*reads* ...Need the reserve on the northern post... though what reserve... It doesn't matter anyway... we're all going to die here.</text>
+</string>
+<string id="fr_kuz_st_12">
+	<text>Colonel, sir?..</text>
+</string>
+<string id="fr_kuz_st_13">
+	<text>As you were. Now, here are your orders, Lieutenant. We need to pull every reserve we have back to the base. Enough feeding these bastards piece by piece. If they want to destroy us, let them come and try! I'll give the order to shut down all our operations at Agroprom, in a few hours all units will fall back here, to the main base. And I'm giving you a special assignment. You've built a good rapport with the stalkers at the factory, it seems... I don't care how, but you have to bring them here. Tell Seriy to pack up his camp and bring his group to us. We'll provide everything we can. Is your task clear?</text>
+</string>
+<string id="fr_kuz_st_14">
+	<text>Crystal clear. Permission to ask: why do we need them here?</text>
+</string>
+<string id="fr_kuz_st_15">
+	<text>We have a common enemy, that should already be enough. On our own they'll just pick us off or turn us to their side, and the more guns we have here, the better. What's more, I need to ask Seriy a few questions personally. The main thing is to buy time... Now, why are you still here? Carry out your orders!</text>
+</string>
+<string id="fr_kuz_st_16">
+	<text>Yes, sir!</text>
+</string>
+
+<!-- ==================== РАДИО: ОТПРАВИТЕЛИ ==================== -->
+<string id="fr_agr_from_kuz">
+	<text>Colonel Kuznetsov</text>
+</string>
+<string id="fr_agr_from_akeran">
+	<text>Captain Akeran</text>
+</string>
+<string id="fr_agr_from_rog">
+	<text>Lieutenant Rogovets</text>
+</string>
+<string id="fr_agr_from_voice">
+	<text>???</text>
+</string>
+
+<!-- ==================== РАДИО: ТЕКСТЫ ==================== -->
+<string id="fr_agr_rd_kuz_call_1">
+	<text>All posts, this is Colonel Kuznetsov. We've established where the zombie attacks were coming from: they've taken the fortified point by the road to Yantar. Our task is to strike back and destroy the enemy.</text>
+</string>
+<string id="fr_agr_rd_kuz_call_2">
+	<text>Captain Akeran's squad will handle the sweep. All soldiers in the vicinity, I order you to join the strike group. Good luck, boys.</text>
+</string>
+<string id="fr_agr_rd_akeran_clear">
+	<text>Excellent work, men, the enemy is destroyed! Search the bodies, there might be something important.</text>
+</string>
+<string id="fr_agr_rd_akeran_1">
+	<text>I see movement... What's that... ours?.. Hey, it's the guys from the northern checkpoint!</text>
+</string>
+<string id="fr_agr_rd_akeran_2">
+	<text>Guys, where the hell have you been?!</text>
+</string>
+<string id="fr_agr_th_voice">
+	<text>%c[fr_chaos]Fulfill your purpose!</text>
+</string>
+<string id="fr_agr_rd_akeran_3">
+	<text>Hey, what are you doing?! Lower your weap-...</text>
+</string>
+<string id="fr_agr_rd_rog_1">
+	<text>Colonel, sir, this is Lieutenant Rogovets, over.</text>
+</string>
+<string id="fr_agr_rd_kuz_1">
+	<text>Report, Lieutenant.</text>
+</string>
+<string id="fr_agr_rd_rog_2">
+	<text>Captain Akeran's squad and I attacked the zombie camp and destroyed it. But soon after that we were hit from behind, and by our own!</text>
+</string>
+<string id="fr_agr_rd_rog_3">
+	<text>It was the missing soldiers from the northern checkpoint. The captain is KIA, the squad took heavy losses...</text>
+</string>
+<string id="fr_agr_rd_rog_4">
+	<text>What are your orders, Colonel?</text>
+</string>
+<string id="fr_agr_rd_rog_5">
+	<text>Colonel, sir, over?..</text>
+</string>
+<string id="fr_agr_rd_kuz_2">
+	<text>.........Return to base, Lieutenant.</text>
+</string>
+
+<!-- ==================== МЫСЛЬ У ТРУПА РАДИСТА ==================== -->
+<string id="fr_agr_th_radist">
+	<text>Dead... No blood, no wounds. And the devices aren't on him.</text>
+</string>
+
+<!-- ==================== КАПИТАН ==================== -->
+<string id="fr_agr_akeran_name">
+	<text>Captain Akeran</text>
+</string>
+<string id="fr_agr_akeran_bio">
+	<text>Commander of the Agroprom Research Institute garrison assault group. An experienced officer, not his first year in the Zone.</text>
+</string>
+
+<!-- ==================== ПРЕДМЕТЫ ==================== -->
+<string id="fr_agr_strike_note_name">
+	<text>Shepherd's note</text>
+</string>
+<string id="fr_agr_strike_note_desc">
+	<text>A sheet of paper folded in four, covered in even, almost calligraphic handwriting:\n\nTo the shepherd of the herd by the road.\nKeep the herd at the point. The soldiers will come, the colonel will not stand for it. Let all he can gather come, do not hinder them. Your flesh will become your last service to the Order, and it will be accepted.\nKeep the radio operator's devices on you. The brother will collect them afterward.\nThe warriors from the northern outpost await the Voice. When the Voice calls, they will fulfill their purpose.\nThe Eye sees.</text>
+</string>
+<string id="fr_agr_pvm14_name">
+	<text>PVM-14 device</text>
+</string>
+<string id="fr_agr_pvm14_desc">
+	<text>A compact receiver-repeater in a protected casing. Seriy planned to mount these on the old radio relay towers. There were three of them, and all three turned up on the shepherd.</text>
+</string>
+
+
+
+<string id="fr_agr_brother">
+	<text>Machine gunner's body</text>
+</string>
+
+
+<!-- ==================== СЕРЫЙ: ВЫШКИ ==================== -->
+<string id="fr_sery_ord_0">
+	<text>Is it just me, or are there fewer of you every time I come here?</text>
+</string>
+<string id="fr_sery_ord_1">
+	<text>You're observant. In other times I'd chalk it up to the Zone, but now... The guys just vanish for good. Or they step outside the camp perimeter, and that's it, they don't answer calls. But enough of the poetry. I heard gunfire north of the factory, what kind of party did you have over there?</text>
+</string>
+<string id="fr_sery_ord_2">
+	<text>A lot happened. I can't share the details, military secret. But I've got something interesting, especially for you... *shows the devices*</text>
+</string>
+<string id="fr_sery_ord_3">
+	<text>No way! Where did you get them?! From whom?</text>
+</string>
+<string id="fr_sery_ord_4">
+	<text>Long story, but in short: the Order had them, just like you thought.</text>
+</string>
+<string id="fr_sery_ord_5">
+	<text>Excellent! Those bastards paid for the death of our radio operator... But this is only the beginning of our revenge! Now we need to install these devices...</text>
+</string>
+<string id="fr_sery_ord_6">
+	<text>Not so fast, stalker. I have orders from Colonel Kuznetsov: all stalkers in the Agroprom area must immediately pack up their camps and report to our base to reinforce the garrison. This is for your own safety, so I'm asking you to comply and not ask unnecessary questions...</text>
+</string>
+<string id="fr_sery_ord_7">
+	<text>Hah, orders for us, simple stalkers? Are you out of your mind, soldier boy?.. Look at us now, the army's inviting stalkers under its wing. You know, any other day I'd laugh my ass off. But not today. Sorry, Lieutenant, but I can't. At least not until I've done my duty, until I finish what I started...</text>
+</string>
+<string id="fr_sery_ord_8">
+	<text>What are you talking about?</text>
+</string>
+<string id="fr_sery_ord_9">
+	<text>Those devices we've been looking for so long... They're the key to our victory over the Order, understand! With them we'll see them all... Every cultist, their every step. I... no, WE have to do this, Lieutenant. And you're going to help us.</text>
+</string>
+<string id="fr_sery_ord_10">
+	<text>Seriy, I have orders...</text>
+</string>
+<string id="fr_sery_ord_11">
+	<text>I don't give a shit about your orders! I already did my time in the army, none of your people gets to boss me around anymore! Understand, if we do this, it'll only be better for you! We'll share the software with you that'll track their coordinates. The Order will crumble in the blink of an eye! Trust me, soldier...</text>
+</string>
+<string id="fr_sery_ord_12">
+	<text>*deep sigh* And what exactly do you want to do?</text>
+</string>
+<string id="fr_sery_ord_13">
+	<text>There are three long-range radio relay towers at Agroprom, standing since Soviet times. There used to be lots of those all over the Zone, but after so many years only a few survived. These towers are line-of-sight, the antennas face each other, that's how the signal was sent. When the Union fell, the towers went silent, but the hardware's still standing! The masts are intact, the feeders... well, the power cables... are alive in places. I checked.</text>
+</string>
+<string id="fr_sery_ord_14">
+	<text>And what do your devices have to do with it?</text>
+</string>
+<string id="fr_sery_ord_15">
+	<text>Every PDA, even in sleep mode, leaks signal: service packets, a beacon, syncing, all kinds of crap. A weak signal, a hundred or two meters. But if you hang our device on a tower, it works like an ear: picks up that noise, amplifies it through the tower's antenna array and sends it to my terminal. One tower is one ear. Two, and you can roughly figure out the direction. And three, set up in a triangle: triangulation, Lieutenant, ever learn that in school? Three ears hear one PDA from three sides, and our little program calculates the point. A kilometer of coverage, accurate to a couple of meters.</text>
+</string>
+<string id="fr_sery_ord_16">
+	<text>And what if they don't carry PDAs?</text>
+</string>
+<string id="fr_sery_ord_17">
+	<text>You're catching on. Only they're all former stalkers. And what stalker goes around without a PDA? They're people, after all. Seduced, but still people... They need communication themselves, coordination. How else do you run an army? So their strength will become their weakness. Get it now?</text>
+</string>
+<string id="fr_sery_ord_18">
+	<text>...Alright. Let's say so. I still don't like this idea. But on the other hand, it could actually work... What do you need from me?</text>
+</string>
+<string id="fr_sery_ord_19">
+	<text>One antenna is right here, at the base. The second is in the forest, not far from your base. The third is in the swamp, mounted right on top of a trailer. Keep the devices for now, you got them. My guys are preparing the masts here and in the forest right now, testing the feeders. As soon as they're done, we'll mount them. And you get the swamp, with the third device. As soon as they're all running and the towers sync up, we'll have a full view of the whole Agroprom area, and then...</text>
+</string>
+<string id="fr_sery_ord_20">
+	<text>What is it?</text>
+</string>
+<string id="fr_sery_ord_21">
+	<text>You hear that?.. Somebody's walking under the base. But I haven't sent anyone yet... This is bad news.</text>
+</string>
+<string id="fr_sery_ord_22">
+	<text>I don't hear anyth-</text>
+</string>
+
+<!-- ==================== ХОРУС В ВАГОНЧИКЕ ==================== -->
+<string id="fr_horus_wg_0">
+	<text>And who the hell are you? Freeze, hands up, don't move!</text>
+</string>
+<string id="fr_horus_wg_1">
+	<text>Easy, easy, serviceman. Don't wave your gun around in a cramped space, you'll hit the antenna, and you still need it.</text>
+</string>
+<string id="fr_horus_wg_2">
+	<text>Wait... It's you? You were sitting by the campfire, at the factory! What are you doing here, how did you even get in here?</text>
+</string>
+<string id="fr_horus_wg_3">
+	<text>I was sitting there. And you were in a hurry. You're all in a hurry. Stalkers, soldiers, bandits... You don't know where you're going yourselves, but you're in a hurry. I let you go back then because you weren't ready to listen yet. And now, I see, the day has worn you down.</text>
+</string>
+<string id="fr_horus_wg_4">
+	<text>Who the fuck are you? Answer me!</text>
+</string>
+<string id="fr_horus_wg_5">
+	<text>We haven't met. No, wait, that's a lie. I know you, Lieutenant Rogovets. You don't know me. Yet.</text>
+</string>
+<string id="fr_horus_wg_6">
+	<text>How do you know me?</text>
+</string>
+<string id="fr_horus_wg_7">
+	<text>Lower your rifle. If I wanted to kill you, you'd never have made it to this trailer. You walked through my swamps, through my anomalies, under my eyes. And you made it here in one piece. Think about why.</text>
+</string>
+<string id="fr_horus_wg_8">
+	<text>...You're one of them. The Order.</text>
+</string>
+<string id="fr_horus_wg_9">
+	<text>One of them? Heh... No, serviceman, I'm not one of them. I am them. My name is Horus. The name won't tell you anything, but you've already heard it, you just didn't know you were hearing it.</text>
+</string>
+<string id="fr_horus_wg_10">
+	<text>Horus... That dead cultist in the underground, he talked about some Fulgrim...</text>
+</string>
+<string id="fr_horus_wg_11">
+	<text>Fulgrim is mine. Like that fallen brother, like the ones who shot at your checkpoint, like the ones who came back from the northern post. All mine. You've understood everything right, Lieutenant, you're a smart man, only very quiet. Quiet all your life.</text>
+</string>
+<string id="fr_horus_wg_12">
+	<text>You... You were waiting here on purpose? You knew I'd come?</text>
+</string>
+<string id="fr_horus_wg_13">
+	<text>I knew. Seriy's a clever one, he came up with a good thing. Three towers, triangulation, every cultist like a firefly on the map... He's even almost right. Install your device, I won't get in your way.</text>
+</string>
+<string id="fr_horus_wg_14">
+	<text>Sure, and then what? You shoot me in the back, and that's it?</text>
+</string>
+<string id="fr_horus_wg_15">
+	<text>If I wanted to shoot you in the back, I already would have. That's not why I'm here. I came to talk. You feel it yourself, that things here aren't so simple. You feel more than the others, you've felt it ever since Pripyat. You're just afraid to admit it to yourself.</text>
+</string>
+<string id="fr_horus_wg_16">
+	<text>Don't try to mess with my head, I don't fall for that!</text>
+</string>
+<string id="fr_horus_wg_17">
+	<text>In the clearing. When your men grabbed their heads. You heard the voice. You heard ME. And you didn't get up.</text>
+</string>
+<string id="fr_horus_wg_18">
+	<text>...</text>
+</string>
+<string id="fr_horus_wg_19">
+	<text>Do you know how many people have heard me in two years? Hundreds. All of them heard and went. And you stood there with your rifle and watched your own shoot at your own. That's when I decided I had to talk to you in person. People like you are rare. People like you aren't thrown away.</text>
+</string>
+<string id="fr_horus_wg_20">
+	<text>You... you wanted to get into my head. Like you did with them.</text>
+</string>
+<string id="fr_horus_wg_21">
+	<text>I didn't want to, I tried. But I couldn't... You'd have made an excellent fighter, if you hadn't spent your whole life patching up people who don't give a damn about you.</text>
+</string>
+<string id="fr_horus_wg_22">
+	<text>I don't care what you think of me. You killed the radio operator. You slaughtered the checkpoints. You're... a bastard.</text>
+</string>
+<string id="fr_horus_wg_23">
+	<text>Me? Lieutenant, let's be honest, since it's just the two of us in this tin can. Who transferred you to the infantry? A doctor who shoots worse than a recruit? Who sent you alone, with crates, all over Agroprom, knowing people were disappearing? Who told you to deliver the case and not ask what was inside? You didn't ask. But I'll tell you. Artifacts were in there. Payment. Your colonel bought people from Seriy so they'd go down below. To where several squads had already disappeared before. Those poor servicemen stayed down there, you'll see them yet. Then he sent the stalkers, and they're lying down there too. And now he'll send you... Do you understand, serviceman? You've already been sold. They just haven't written the check yet.</text>
+</string>
+<string id="fr_horus_wg_24">
+	<text>You're lying...</text>
+</string>
+<string id="fr_horus_wg_25">
+	<text>Check it. Ask Seriy what was in the case. Ask where Fanatic's group went. Just come back alive to ask.</text>
+</string>
+<string id="fr_horus_wg_26">
+	<text>........What do you want from me?</text>
+</string>
+<string id="fr_horus_wg_27">
+	<text>Finally, the right question! Tell me, soldier, what do YOU want? Not what's written in your oath. Your own. All these years in the Zone you've been patching up people who call you a burden. They say it to your face: medic, wimp, step aside, don't get in the men's way. In Pripyat you almost got your team killed, and you still sleep with that. Nobody listens to you. Not the colonel, not the sergeant in the underground, not this stalker with his antennas. And do you know who heard you for the first time in all these years? I did. Through the swamp, through half a kilometer, through your Pripyat pain, I heard you.</text>
+</string>
+<string id="fr_horus_wg_28">
+	<text>...</text>
+</string>
+<string id="fr_horus_wg_29">
+	<text>I'll give you what you've never had. Strength. Not this tin can in your hands, real strength. People who will follow you and never ask why. A voice that people listen to. You won't be patching rotten boards, you'll be building something new. And you'll never have to ask permission to breathe from a colonel who has already written you off.</text>
+</string>
+<string id="fr_horus_wg_30">
+	<text>You want me... to betray my own?</text>
+</string>
+<string id="fr_horus_wg_31">
+	<text>Your own? Lieutenant, look around! Your generals sell out their soldiers, your superiors cut you down like cattle, because someone up there decided the Zone isn't needed anymore. Your colonel pays with artifacts for other people's lives. Where are your own here? Your own are the ones who stood firm, the ones who heard and didn't go. People like you. And people like me.</text>
+</string>
+<string id="fr_horus_wg_32">
+	<text>Haven't I already killed enough of your fighters? Why are you even talking to me?</text>
+</string>
+<string id="fr_horus_wg_33">
+	<text>Most of them, the wild ones and the zombies, are expendable to me. Those who believed, but not sincerely... Those who listened with half an ear... Or those who refused to believe, or betrayed us. And the living fighters of the Order who fell fighting you... Clearly they turned out weaker than you. And if they're weaker than you, what use are they to the Order? If you accept my offer, you'll pay for their deaths tenfold.</text>
+</string>
+<string id="fr_horus_wg_34">
+	<text>And if I refuse?</text>
+</string>
+<string id="fr_horus_wg_35">
+	<text>Then you'll install your device, come down from the swamp, and watch everything you defended today crumble in your hands. Not because I want to punish you, not at all. Because it's already crumbling, you just haven't watched it to the end yet. I'm offering you not to wait for the end. I'm offering you to make it.</text>
+</string>
+<string id="fr_horus_wg_36">
+	<text>...</text>
+</string>
+<string id="fr_horus_wg_37">
+	<text>I won't pressure you. I never pressure, it's your commanders who pressure. I just ask and offer. But only once. Will you come with me?</text>
+</string>
+<string id="fr_horus_wg_38">
+	<text>%c[fr_chaos]I.......... will come.</text>
+</string>
+<string id="fr_horus_wg_39">
+	<text>...I wasn't wrong about you. Leave the device, you won't need it anymore. Let Seriy believe in his triangulation a little longer, he doesn't have long left to believe. Go, Lieutenant. They're waiting for you... They've been waiting a long time.</text>
+</string>
+<string id="fr_horus_wg_40">
+	<text>Where to?..</text>
+</string>
+<string id="fr_horus_wg_41">
+	<text>To where you'll finally be heard. Go.</text>
+</string>
+<string id="fr_horus_wg_42">
+	<text>%c[fr_control]No.</text>
+</string>
+<string id="fr_horus_wg_43">
+	<text>...No?</text>
+</string>
+<string id="fr_horus_wg_44">
+	<text>No. I'm Lieutenant Rogovets, a military doctor, and I'm loyal to my oath. And I've seen the price people pay for your "strength". Mindless zombies in the clearing who have no purpose left... Or savages with blood in their eyes, with wild, insatiable rage and fury, whose only purpose is to kill... No, Horus, I don't need that. Not for any strength.</text>
+</string>
+<string id="fr_horus_wg_45">
+	<text>...A pity. Truly a pity, soldier, I rarely say that.</text>
+</string>
+<string id="fr_horus_wg_46">
+	<text>You'll live. Now get out of my way!</text>
+</string>
+<string id="fr_horus_wg_47">
+	<text>I don't make offers twice, Rogovets. Remember that. The next time we meet, I won't be offering.</text>
+</string>
+<string id="fr_horus_wg_48">
+	<text>I said, get out of my way!</text>
+</string>
+
+<!-- ==================== ФУЛГРИМ ==================== -->
+<string id="fr_agr_fulgrim_hello_0">
+	<text>Greetings, battle brother. I'm glad to see you've made the right choice.</text>
+</string>
+<string id="fr_fulgrim_mt_1">
+	<text>What do I have to do?</text>
+</string>
+<string id="fr_fulgrim_mt_2">
+	<text>The Prophet said you're the one we need. He was right. Not everyone could mow down so many of the "burnt-out" and stay alive. Take this. It's the best thing you've ever worn.</text>
+</string>
+<string id="fr_fulgrim_mt_3">
+	<text>I... This is excellent gear.</text>
+</string>
+<string id="fr_fulgrim_mt_4">
+	<text>The best. Now fulfill your purpose. Destroy the base together with us. Not one of them may leave alive. The colonel is yours personally. So said Horus.</text>
+</string>
+<string id="fr_fulgrim_mt_5">
+	<text>...Understood. Let's move out.</text>
+</string>
+
+<!-- ==================== СООБЩЕНИЯ ==================== -->
+<string id="fr_agr_rd_raid_1">
+	<text>What the fuck, who the hell are these guys?! HEL...</text>
+</string>
+<string id="fr_agr_rd_raid_2">
+	<text>Fuck, not a second of peace! Guys, take defensive positions, move! Soldier, don't waste time, get up on the roof and install the first device yourself, we'll cover you!</text>
+</string>
+<string id="fr_agr_rd_raid_north">
+	<text>Even more of these fucking lunatics, coming from the north!</text>
+</string>
+<string id="fr_agr_rd_t1_done_1">
+	<text>Buddy, there's a crazy number of monsters here, help us out!</text>
+</string>
+<string id="fr_agr_rd_t1_done_2">
+	<text>Good work, LT, but don't relax: we got an SOS from the guys in the forest, the ones who were supposed to activate the second tower, mutants attacked them.</text>
+</string>
+<string id="fr_agr_rd_t1_done_3">
+	<text>Run over there quick and help them, and we'll finish off these lunatics in the meantime.</text>
+</string>
+<string id="fr_agr_rd_t2_thanks">
+	<text>Thanks for coming! Now we'll kick their asses!</text>
+</string>
+<string id="fr_agr_rd_t2_done_1">
+	<text>Excellent, soldier, excellent: we've got a signal from the second tower. Just one little thing left: hook up the last one, the third, out in the swamp.</text>
+</string>
+<string id="fr_agr_rd_t2_done_2">
+	<text>Looks like we've fought off these savages, so once you install the last device, come over to us at the base, we'll show you the full power of our new technology!</text>
+</string>
+
+<!-- ==================== МЫСЛИ ==================== -->
+<string id="fr_agr_th_tower_set">
+	<text>The device is in place. Now I have to hold out until it starts up.</text>
+</string>
+<string id="fr_agr_th_order_burn">
+	<text>%c[fr_chaos]One chance. One will. Let it burn.</text>
+</string>
+
+<!-- ==================== ИМЕНА, БИО, МЕТКИ ==================== -->
+<string id="fr_agr_wild_bio">
+	<text>A former stalker. Nothing in his eyes but rage.</text>
+</string>
+<string id="fr_agr_forest_bio">
+	<text>A stalker from Seriy's camp.</text>
+</string>
+<string id="fr_agr_horus_name">
+	<text>Horus</text>
+</string>
+<string id="fr_agr_horus_bio">
+	<text>Knows more than he should.</text>
+</string>
+<string id="fr_agr_fulgrim_name">
+	<text>Fulgrim</text>
+</string>
+<string id="fr_agr_fulgrim_bio">
+	<text>Commander of the Order's masters.</text>
+</string>
+<string id="fr_agr_order_bio">
+	<text>A fighter of the Order.</text>
+</string>
+<string id="fr_agr_tower1_hint">
+	<text>Antenna on the roof</text>
+</string>
+<string id="fr_agr_tower2_hint">
+	<text>Antenna in the forest</text>
+</string>
+<string id="fr_agr_tower3_hint">
+	<text>Antenna in the swamp</text>
+</string>
+<string id="fr_agr_fulgrim_hint">
+	<text>Meeting point</text>
+</string>
+
+
+
+<!-- ==================== МЫСЛИ РОГОВЦА ==================== -->
+<string id="fr_agr_th_medbay">
+	<text>The infirmary. Bandages for a week, painkillers for a couple of days. Who's going to treat anyone if I go down myself?</text>
+</string>
+<string id="fr_agr_th_gate">
+	<text>The rifle's heavier than I remember. Or my hands are out of practice... Alright, Lieutenant, orders are orders.</text>
+</string>
+<string id="fr_agr_th_under_in">
+	<text>Damp and dark, like a crypt. The last time I went underground was back in Pripyat... Don't think about it. Not now.</text>
+</string>
+<string id="fr_agr_th_under_out">
+	<text>Air at last. Never thought I'd be this glad to breathe this rotten air.</text>
+</string>
+<string id="fr_agr_th_post2">
+	<text>Just a dozen of those things, and the post is already running out of ammo. A crate for a week... If they even get that week.</text>
+</string>
+<string id="fr_agr_th_post3">
+	<text>Zombies? Here?... I haven't seen them since Pripyat... But these are angrier, faster, tougher. And that stalker too... As if he was leading them.</text>
+</string>
+<string id="fr_agr_th_horus_booth">
+	<text>Strange guy. Calm voice, but he looked at me like he knew more about me than I do.</text>
+</string>
+<string id="fr_agr_th_recon_back">
+	<text>The stalkers shot one of their own. And this morning they sat at the same campfire... Something about this place breaks people. I just hope it doesn't break me.</text>
+</string>
+<string id="fr_agr_th_scout_body">
+	<text>Just a kid. How old was he, twenty? Twenty-two?.. How am I going to tell Kuznetsov?</text>
+</string>
+<string id="fr_agr_th_hq_kuz">
+	<text>The colonel's holding his head again, he's in really bad shape. The pills don't help anymore... I'll have to examine him properly. If he lets me...</text>
+</string>
+<string id="fr_agr_th_patrols_back">
+	<text>First the checkpoints, now the patrols. A whole camp vanished like it was never there... They're picking us off one by one.</text>
+</string>
+<string id="fr_agr_th_akeran">
+	<text>The captain asked them to lower their weapons. And they answered with a burst... Rest in peace, warrior.</text>
+</string>
+<string id="fr_agr_th_forest_dead">
+	<text>Two of them didn't make it. Late again, Doc...</text>
+</string>
+<string id="fr_agr_th_swamp">
+	<text>It's so quiet I can hear my heart beating. And it keeps feeling like someone's watching my back.</text>
+</string>
+<string id="fr_agr_th_order_road">
+	<text>%c[fr_chaos]Just this morning I was bandaging these guys. And now I'm going to kill them. And I feel... calm?... Finally, I'm free.</text>
+</string>
+
+<!-- ==================== ШТУРМ БАЗЫ: БЫВШИЕ СОСЛУЖИВЦЫ ==================== -->
+<string id="fr_agr_rd_order_1">
+	<text>Rogovets?! You bastard... I supplied you, and you're with them?! You're dead, got it?!</text>
+</string>
+<string id="fr_agr_rd_order_2">
+	<text>Lieutenant... You too... I vouched for you to HQ, you son of a bitch... Come on then, come here. Let's see what they taught you.</text>
+</string>
+<string id="fr_agr_rd_order_3">
+	<text>Doc... you stitched me up the day before yesterday... Why?..</text>
+</string>
+
+
+<string id="fr_agr_th_emp_1">
+	<text>Fuck... What happened? I blacked out after installing the device...</text>
+</string>
+<string id="fr_agr_th_emp_2">
+	<text>All the electronics are fucking dead. PDA, flashlight, radio, nothing works... It's all because of that antenna!</text>
+</string>
+<string id="fr_agr_th_emp_3">
+	<text>I need to get back to Seriy, now.</text>
+</string>
+
+
+
+
+
+
+	<!-- ===== Серый после ЭМИ ===== -->
+	<string id="fr_agr_sery_emp_hello_0">
+		<text>Freeze! Hands up! ...Rogovets, that you? You're alive?</text>
+	</string>
+	<string id="fr_sery_emp_1">
+		<text>Easy, easy, lower your gun! I'm alive, damn it... Seriy, what's going on here...</text>
+	</string>
+	<string id="fr_sery_emp_2">
+		<text>Are you alone?</text>
+	</string>
+	<string id="fr_sery_emp_3">
+		<text>Alone. What the fuck happened here?</text>
+	</string>
+	<string id="fr_sery_emp_4">
+		<text>A lot. Listen carefully, I don't have the strength to repeat myself. Right after you left, we fought off those savages almost immediately. They had rage to spare, but they died from a couple of shots. We killed them all, we'd already cleaned up the main building, and then your guys showed up. About seven of them, in military uniforms, with patches, the whole deal. They said the colonel ordered all stalkers to pack up and move under the walls of the base. And we believed them. You'd offered us the same thing yourself a couple of hours before, who'd expect a trick, especially when we have a truce? Yeah, right, fucking hell... Trusted them, and look where it got me...</text>
+	</string>
+	<string id="fr_sery_emp_5">
+		<text>Goddammit... Those weren't soldiers, were they?</text>
+	</string>
+	<string id="fr_sery_emp_6">
+		<text>What the fuck does it matter now who they were? As soon as we turned around and started packing our things, a storm of fire came down on us. Your "comrades" shot to kill, sparing no one. I got lucky: a few poor bastards were standing in front of me, they took the first volley, and by some miracle I ran off and took cover behind the crates. We fought them off, but I lost a lot of people... In fact, all the survivors are standing in front of you right now.</text>
+	</string>
+	<string id="fr_sery_emp_7">
+		<text>Fuck it all... Those were traitors, like the ones from the northern checkpoint. Horus managed to convert them to his faith. So they were sitting at the base all this time and heard the colonel's order too... How many more of them do we have?</text>
+	</string>
+	<string id="fr_sery_emp_8">
+		<text>I've got a feeling there's more Order at your base by now than actual garrison... So, what about you? Did you install the third device?</text>
+	</string>
+	<string id="fr_sery_emp_9">
+		<text>I did. Seriy, there... There was a man there. He was waiting for me in the trailer, he didn't show up on the PDA. He knew about the towers, he knew about your triangulation... He... he invited me to join him. To join the Order.</text>
+	</string>
+	<string id="fr_sery_emp_10">
+		<text>I take it that was Horus himself. Son of a bitch... You're in deep shit if the leader of those fanatics himself has his eye on you. You... shot him, right?</text>
+	</string>
+	<string id="fr_sery_emp_11">
+		<text>I thought so, yes. Only in his place there was the body of an ordinary zombie.</text>
+	</string>
+	<string id="fr_sery_emp_12">
+		<text>Yeah... And then what?</text>
+	</string>
+	<string id="fr_sery_emp_13">
+		<text>I hooked up the device, and it immediately zapped me, I blacked out. When I came to, there was thick fog outside, and all the electronics were dead: PDA, flashlight, radio...</text>
+	</string>
+	<string id="fr_sery_emp_14">
+		<text>Uh-huh... Ours too, all at once. Apparently, the very second you turned that damn thing on. It's all because of those fucking devices... You think the Order stole them from us, kept them for half a day and didn't tweak anything in them? Looks like they did something so that instead of sending a signal, it made an EMP, one so strong it covered all of Agroprom.</text>
+	</string>
+	<string id="fr_sery_emp_15">
+		<text>We handed them victory on a silver platter...</text>
+	</string>
+	<string id="fr_sery_emp_16">
+		<text>We're idiots, Lieutenant. We wanted to see, to watch their every step... And in the end we plunged ourselves into darkness.</text>
+	</string>
+	<string id="fr_sery_emp_17">
+		<text>We couldn't have known.</text>
+	</string>
+	<string id="fr_sery_emp_18">
+		<text>What does it matter now whether we could or not?... Listen, I have one last request for you. Our last hope is Fanatic's group, five people. I sent them to the railway tunnel this morning on your colonel's job, their time was up before sunset. There's no contact, and it looks like there won't be. My two won't go there, I won't let them, they're all I have left. Go, try to find them.</text>
+	</string>
+	<string id="fr_sery_emp_19">
+		<text>Will you finally tell me why the hell they went there, and on our money too?</text>
+	</string>
+	<string id="fr_sery_emp_20">
+		<text>If you come back, I'll tell you. I can already guess what happened to them, but still... Hope dies last, or however they say it in the movies? And be careful, soldier: we didn't kill all the Order guys, some of them managed to retreat. Keep your eyes open.</text>
+	</string>
+
+	<!-- ===== Исповедь Серого ===== -->
+	<string id="fr_sery_tr_0">
+		<text>I have VERY bad news.</text>
+	</string>
+	<string id="fr_sery_tr_1">
+		<text>Let me guess: everyone's dead, yours and mine?...</text>
+	</string>
+	<string id="fr_sery_tr_2">
+		<text>Worse. You had an Order mole sitting in the next building this whole time.</text>
+	</string>
+	<string id="fr_sery_tr_3">
+		<text>...What?</text>
+	</string>
+	<string id="fr_sery_tr_4">
+		<text>Fanatic shot his own group in the back. I didn't find him among the bodies. The passage in the tunnel was blown up, you can't get further. Looks like he killed his own and went on, down below. You've been nursing a snake in your bosom...</text>
+	</string>
+	<string id="fr_sery_tr_5">
+		<text>You know what I thought when you asked about him this morning? "What a Pripyat paranoid, sees traitors everywhere"... Hah, "long enough to trust him with half the group", that's what I said?... Long enough to hand half the group over to him for slaughter, damn it...</text>
+	</string>
+	<string id="fr_sery_tr_6">
+		<text>You couldn't have known.</text>
+	</string>
+	<string id="fr_sery_tr_7">
+		<text>I could... I should have! I'm the fucking leader of the group, I'm supposed to sense these things! He... he changed after the trip to Yantar. I thought he'd grown up, but it turns out... Alright, Lieutenant, it doesn't matter anymore. It's time to answer all your questions... I'll start with that case, I guess.</text>
+	</string>
+	<string id="fr_sery_tr_8">
+		<text>There were artifacts in it?</text>
+	</string>
+	<string id="fr_sery_tr_9">
+		<text>How did you...?</text>
+	</string>
+	<string id="fr_sery_tr_10">
+		<text>Horus told me. At first I didn't believe him, but now...</text>
+	</string>
+	<string id="fr_sery_tr_11">
+		<text>He told you right. Your people confiscate artifacts from our people every day, and by regulations you're supposed to either destroy them or hand them over to the scientists. But, as you can see, your old man was in no hurry to do that. Looks like after what happened at Yantar, shipping artifacts to other mobile bunkers became too expensive and slow, and destroying them... impractical. So Kuznetsov decided to make some money off it, kept such valuable cargo right in your warehouse. He was probably hoping to sell the goods off at a good price someday and set himself up for a comfortable retirement, but something didn't work out...</text>
+	</string>
+	<string id="fr_sery_tr_12">
+		<text>And he gave that container to you. For a favor?</text>
+	</string>
+	<string id="fr_sery_tr_13">
+		<text>We're diggers, experts in all kinds of undergrounds, and that's exactly the skill Kuznetsov needed so badly. Why do you think he's kept the garrison here for months and hasn't announced an evacuation with things the way they are? Deep in the underground lies something the Order and the army have been fighting over for months. Maps.</text>
+	</string>
+	<string id="fr_sery_tr_14">
+		<text>What maps?</text>
+	</string>
+	<string id="fr_sery_tr_15">
+		<text>Area maps. Down below, on the second level of the underground, there's... an archive, or a stash, hell knows what to call it. It's not just maps: crawlways, trails, passages that aren't on any ordinary maps. The Zone on them is different. The archive's supposedly old, the paper's still Soviet... but all the marks and trails are fresh, literally a month old. And they work.</text>
+	</string>
+	<string id="fr_sery_tr_16">
+		<text>A true miracle of the Zone. And why does Kuznetsov need them?</text>
+	</string>
+	<string id="fr_sery_tr_17">
+		<text>I suppose he doesn't want them falling into the Order's hands. Imagine what power the cultists would have if they took the whole archive?</text>
+	</string>
+	<string id="fr_sery_tr_18">
+		<text>Wait, wait, the whole archive? What do you mean?</text>
+	</string>
+	<string id="fr_sery_tr_19">
+		<text>The papers were scattered all over P-2, that's what we called the lower level of the Agroprom underground. The Order managed to carry out a small part, but lost too many fighters doing it. Your guys tried too, you saw the result in the tunnel. That's why Kuznetsov turned to us: we'd been down there before and miraculously made it out alive. He paid, we went down and collected as many papers as we could. That container was far from the first, but I hoped it would be the last...</text>
+	</string>
+	<string id="fr_sery_tr_20">
+		<text>How much did you manage to get out?</text>
+	</string>
+	<string id="fr_sery_tr_21">
+		<text>Enough. The Order started throwing a wrench in our works way too often, our losses grew, sometimes they managed to intercept our people. But we kept going anyway. Now there's only one stack of maps left in P-2: the last one, but the most important. In short, without it, all the rest is just toilet paper.</text>
+	</string>
+	<string id="fr_sery_tr_22">
+		<text>Dumb question, but why didn't you get it out right away?</text>
+	</string>
+	<string id="fr_sery_tr_23">
+		<text>It's at the very end of the underground, as far as I know. Go down to P-2 even once, and you'll understand why we never made it that far.</text>
+	</string>
+	<string id="fr_sery_tr_24">
+		<text>And now what?</text>
+	</string>
+	<string id="fr_sery_tr_25">
+		<text>Fanatic and the Order are surely in P-2 right now, looking for a way to the last part of the maps. I won't let him. For once in my whole life I'll go forward, in the front row.</text>
+	</string>
+	<string id="fr_sery_tr_26">
+		<text>The three of you are going down into the underground? That's suicide.</text>
+	</string>
+	<string id="fr_sery_tr_27">
+		<text>No, Lieutenant, it's my duty. I've buried four groups with other people's hands, there won't be a fifth. If the Zone wants to take me, let it take me personally.</text>
+	</string>
+	<string id="fr_sery_tr_28">
+		<text>.....</text>
+	</string>
+	<string id="fr_sery_tr_29">
+		<text>It was a pleasure doing business with you, Rogovets. An honest soldier in the Zone is a rare thing. Here, take this, my last gift. I took it from one of the wild ones.</text>
+	</string>
+	<string id="fr_sery_tr_30">
+		<text>Thank you, Seriy.</text>
+	</string>
+	<string id="fr_sery_tr_31">
+		<text>And one more thing: it's pitch black outside right now, you won't get anywhere like that. Our shared stash had a few suits with old night-vision goggles, still Soviet. There's barely any electronics in them, they should work even after the EMP. The stash is in the building where Fanatic was staying, in the middle of the anomaly field, under the iron table. Well, this is where our paths part. I don't recommend sticking around here: the Order will surely step up its attacks while the EMP is still in effect. Farewell, soldier.</text>
+	</string>
+	<string id="fr_sery_tr_32">
+		<text>Farewell, stalker.</text>
+	</string>
+
+	<string id="fr_agr_tip_patrol_thanks">
+		<text>Rogovets, this one's for you personally. The guys you pulled out made it back to base. Not all of them, but they made it back. Thank you, Lieutenant, from the bottom of my heart. Drop by the quartermaster, we put together a crate of goodies for you.</text>
+	</string>
+	<string id="fr_agr_tip_patrol_thanks_all">
+		<text>Rogovets, this one's for you personally. All three patrols made it back, not a single KIA. Do you even understand what you've done?... If we get out of this, I'll put you up for an award. Drop by the quartermaster, we put together a crate of goodies for you.</text>
+	</string>
+
+
+	<!-- ===== Мысли: ЭМИ, тоннель, форпосты ===== -->
+	<string id="fr_agr_th_tun_mil_1">
+		<text>Ours... Elite spec ops, they got sent to the most dangerous places. They never made it...</text>
+	</string>
+	<string id="fr_agr_th_tun_mil_2">
+		<text>But why didn't the colonel mention this?... Was he hiding it?</text>
+	</string>
+	<string id="fr_agr_th_tun_st_1">
+		<text>And here are the stalkers. I need to examine all of them, figure out what happened.</text>
+	</string>
+	<string id="fr_agr_th_tun_st_2">
+		<text>Entry wound... in the back. This one too. Point-blank, from two meters.</text>
+	</string>
+	<string id="fr_agr_th_tun_st_3">
+		<text>Fourth, fifth... And where's the last one? Where's Fanatic?</text>
+	</string>
+	<string id="fr_agr_th_tun_st_4">
+		<text>All of them shot in the back, I don't see any Order bodies, the passage down is caved in... Fuck, I think I get it...</text>
+	</string>
+	<string id="fr_agr_th_tun_st_5">
+		<text>I need to get back to Seriy, now.</text>
+	</string>
+	<string id="fr_agr_th_night">
+		<text>Night already?... How long was I in that tunnel?</text>
+	</string>
+
+	<string id="fr_agr_call_1">
+		<text>%c[fr_radio]Lieutenant... Lieutenant Rogovets, this is the third checkpoint. We need help. Can you hear me? Help us, Lieutenant...</text>
+	</string>
+	<string id="fr_agr_th_call1_1">
+		<text>The third... Wait, the radio doesn't work... And the PDA's still dead...</text>
+	</string>
+	<string id="fr_agr_th_call1_2">
+		<text>I should check it out anyway. I need to get to the passage to the Garbage.</text>
+	</string>
+	<string id="fr_agr_th_p3_1">
+		<text>Two... three... And where are the rest? No signs of a fight, no casings... As if they just got up and left.</text>
+	</string>
+	<string id="fr_agr_th_p3_2">
+		<text>So quiet... Too quiet.</text>
+	</string>
+
+	<string id="fr_agr_call_2">
+		<text>%c[fr_chaos]This is the second checkpoint! We're under attack by mutants, requesting help!</text>
+	</string>
+	<string id="fr_agr_th_call2_1">
+		<text>No-no-no! That's not the radio. The radio's dead, and I'm not deaf, the first time too...</text>
+	</string>
+	<string id="fr_agr_th_call2_2">
+		<text>If there's even one of them alive there, I have to help. Am I a fucking medic or what?!</text>
+	</string>
+	<string id="fr_agr_th_p2_1">
+		<text>Ours... In our uniform, with our guns. He led me here on purpose.</text>
+	</string>
+
+	<string id="fr_agr_tip_kuz_signal_1">
+		<text>...all perso... nnel... ortre... this is Colonel Kuznetsov...</text>
+	</string>
+	<string id="fr_agr_tip_kuz_signal_2">
+		<text>All personnel on the grounds of the Agroprom Research Institute, return to the main base immediately. I repeat: combat alert, everyone to the base immediately, defensive perimeter per plan "Fortress".</text>
+	</string>
+
+
+
+
+
+
+	<!-- ===== Раненые в лазарете: общий hello ===== -->
+	<string id="fr_agr_laz_wounded_hello_0">
+		<text>Doc... Help me...</text>
+	</string>
+
+	<!-- ===== Раненые в лазарете: реплики игрока ===== -->
+	<string id="fr_agr_laz_a_0">
+		<text>Hang in there, soldier. Let me take a look.</text>
+	</string>
+	<string id="fr_agr_laz_a_heal">
+		<text>[Army medkit and bandage] Hold on, I'll treat it now. This will hurt.</text>
+	</string>
+	<string id="fr_agr_laz_a_refuse">
+		<text>I'm sorry, brother... There's nothing I can do.</text>
+	</string>
+	<string id="fr_agr_laz_a_wait">
+		<text>Hold on a bit, I'll be right back.</text>
+	</string>
+
+	<!-- ===== Раненые в лазарете ===== -->
+	<string id="fr_agr_laz_w1_1">
+		<text>It burns... Everything burns, like my skin was torn off alive...</text>
+	</string>
+	<string id="fr_agr_laz_w1_thanks">
+		<text>It's easing up... Thank you. I thought that was it, I was done fighting.</text>
+	</string>
+
+	<string id="fr_agr_laz_w2_1">
+		<text>My eyes... Fuuuck, I can't see anything! The fire hit me right in the face...</text>
+	</string>
+	<string id="fr_agr_laz_w2_thanks">
+		<text>I can see... Blurry, but I can see! Thank you, brother, I'll never forget it.</text>
+	</string>
+
+	<string id="fr_agr_laz_w3_1">
+		<text>The blast threw me off the tower... I can't feel my legs...</text>
+	</string>
+	<string id="fr_agr_laz_w3_thanks">
+		<text>Oh... That's better. My legs seem to be there. Thanks, Doc.</text>
+	</string>
+
+	<string id="fr_agr_laz_w4_1">
+		<text>I ran to put out the fire, like an idiot... My hands, look what happened to my hands...</text>
+	</string>
+	<string id="fr_agr_laz_w4_thanks">
+		<text>Thank you... At least I can hold a rifle again.</text>
+	</string>
+
+
+
+	<!-- ===== Кузнецов: план ===== -->
+	<string id="fr_agr_kuz_plan_0">
+		<text>Lieutenant Rogovets reporting, Colonel.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_1">
+		<text>Report. What was the shooting by the depot?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_2">
+		<text>Four of them. One was planting a charge under the armory wall, three were keeping watch. The guard at the gate saw them hanging around the fuel tanks before the explosion. I realized right away that the traitors were still on the base, planning their next act of sabotage, and that's what led me to the depot. And they showed up on the PDA... strangely. Their profiles stood out from the overall picture. All the conspirators are dead.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_3">
+		<text>Hm... Of course I'm glad to hear that, Lieutenant... But there are about 40 people on the base right now, are you sure there are no more traitors?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_4">
+		<text>I can't be 100% sure, but I haven't seen any more suspicious soldiers.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_5">
+		<text>I'm not sure either. Well, at least we managed to expose some of them, thanks for that. But just in case, keep your back to the wall, you can expect anything from these scumbags. Alright, enough of that. What about the stalkers?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_6">
+		<text>The camp is gone. People in our uniforms came to them, with your order word for word, and opened fire. Seriy and 2 other stalkers survived, the rest are KIA. He refused to come with me and headed to the lower levels of the Agroprom underground, for the maps.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_7">
+		<text>...So you already know.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_8">
+		<text>I know, Colonel. About the case, about the artifacts, about the archive. About 6 of our men lying down there, in heavy armor. And about you paying for it with confiscated goods you were supposed to destroy by regulations.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_9">
+		<text>Seriy told you?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_10">
+		<text>He did, and... somebody else.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_11">
+		<text>Well, since everybody knows everything... Yes, I was stockpiling. Ever since Yantar fell, I was stockpiling. At first for myself. I thought I'd finish my service, sell it and go somewhere without all this. But then headquarters stopped answering, the supplies ran out, and I realized these artifacts were the only thing I could still use to pay anyone for anything. Those soldiers you saw, they're far from the only ones. Before them I'd already lost 2 groups down there. The best ones, damn it... That's when I realized it's better to pay money for other people's deaths than to lose my own. Especially since Seriy and his stalkers crawl around the undergrounds all the time, they're better at it than we are. And for a while they really did manage to bring us parts of the maps. Not all of them, I'll be honest, but better than nothing.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_12">
+		<text>Why didn't you tell anyone what was really going on?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_13">
+		<text>What for? The men were already on edge, and this way they'd have started deserting outright... Well, why are you looking at me like that? Go on, judge me, tell me how wrong I am, and blah-blah-blah...</text>
+	</string>
+	<string id="fr_agr_kuz_plan_14">
+		<text>I won't.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_15">
+		<text>...And why's that?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_16">
+		<text>Because at least you were paying for something. Others would just send soldiers to an endless slaughter without a second thought. In our situation there was no other choice.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_17">
+		<text>That's right, soldier. Thanks for understanding... Alright, enough of that. Let's get to the plan. What do we have right now? No contact with the Big Land for two days, no fuel, a little over 40 combat-ready men, basically no vehicles, the enemy has us completely surrounded, visibility close to zero... Lousy, don't you think? Was it like this for you guys in Pripyat?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_18">
+		<text>Even worse, it was a branch of hell on Earth. And back then we had no hope, but here...</text>
+	</string>
+	<string id="fr_agr_kuz_plan_19">
+		<text>Right, soldier. The only thing we have left lies down below. If the Order takes the last part of the maps, everything we've been dying for these past weeks was for nothing. We need that last part no matter what... That's why you're going down there.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_20">
+		<text>I... I'm starting to get used to it, Colonel.</text>
+	</string>
+	<string id="fr_agr_kuz_plan_21">
+		<text>You've been walking the surface all day, carrying out the most dangerous assignments and surviving where whole squads died. I wasn't wrong about you after all... Don't worry, you won't go alone, our underground garrison will go with you. I tried to contact the sergeant, but no fucking luck, there's no signal underground. So you'll tell him about the mission in person. Drop by the quartermaster one last time, he'll give you our best gear... Lieutenant Rogovets, are you ready to carry out the mission?</text>
+	</string>
+	<string id="fr_agr_kuz_plan_22">
+		<text>Yes, sir!</text>
+	</string>
+	<string id="fr_agr_kuz_plan_23">
+		<text>Get to it. In the meantime I'll organize the defense, the cultists clearly won't keep us waiting long and will show up here soon. Good luck, soldier.</text>
+	</string>
+
+	<!-- ===== Снабженец: снаряга ===== -->
+	<string id="fr_agr_snab_fin_0">
+		<text>Hello, I'm here for...</text>
+	</string>
+	<string id="fr_agr_snab_fin_1">
+		<text>Yeah, the colonel already told me. Here, take it. The last spec ops combat kit, we were saving it for a rainy day. It's got the newest night vision built in, it shouldn't have been hit by the EMP. And a Groza on top of that. Not much ammo, though, so sorry about that. Worst case, smash 'em in the face with the stock, heh-heh.</text>
+	</string>
+	<string id="fr_agr_snab_fin_2">
+		<text>Thanks. As I recall, this morning you said you didn't have any armor except torn rags?...</text>
+	</string>
+	<string id="fr_agr_snab_fin_3">
+		<text>Hah, you didn't forget. And what was I supposed to do, just hand over our last set of armor to you, a wimpy medic? Or mention it and then tell you to fuck off?</text>
+	</string>
+	<string id="fr_agr_snab_fin_4">
+		<text>Fair enough.</text>
+	</string>
+	<string id="fr_agr_snab_fin_5">
+		<text>That's what I'm saying. That's it, go on, don't hang around here, you've got a mission. And I think I'll hand out the remaining ammo and head to the barricades. Oh, it's been a long time since I picked up a saber...</text>
+	</string>
+
+
+
+
+	<!-- ===== Дежурный: встреча ===== -->
+	<string id="fr_agr_laz_duty_0">
+		<text>Medic, finally!</text>
+	</string>
+	<string id="fr_agr_laz_duty_1">
+		<text>Report, soldier, what happened here?</text>
+	</string>
+	<string id="fr_agr_laz_duty_2">
+		<text>Somebody blew up the fuel depot! These guys were nearby, wounded. Two more KIA, they're still lying over there...</text>
+	</string>
+	<string id="fr_agr_laz_duty_3">
+		<text>Damn it... What about these guys? What's their condition?</text>
+	</string>
+	<string id="fr_agr_laz_duty_4">
+		<text>Uh, I don't know, I'm not a medic! They're in really bad shape, critical, probably. And I've got no meds at all...</text>
+	</string>
+	<string id="fr_agr_laz_duty_5">
+		<text>I had some. Step aside.</text>
+	</string>
+
+	<!-- ===== Дежурный: доклад ===== -->
+	<string id="fr_agr_laz_rep_0">
+		<text>I helped whoever I could.</text>
+	</string>
+	<string id="fr_agr_laz_rep_1">
+		<text>Uh-huh. Too bad not everyone. Well, thanks anyway, Doc. Here, take this.</text>
+	</string>
+	<string id="fr_agr_laz_rep_2">
+		<text>You've got hands of gold, brother! Thank you so much! Here, take this.</text>
+	</string>
+	<string id="fr_agr_laz_rep_3">
+		<text>It's my duty. Tell me about the explosion in detail.</text>
+	</string>
+	<string id="fr_agr_laz_rep_4">
+		<text>I was on duty at the main entrance. Couldn't see a fucking thing: pitch-black darkness, and on top of that all the electronics died, they only just came back. I didn't notice any outsiders, but...</text>
+	</string>
+	<string id="fr_agr_laz_rep_5">
+		<text>But...?</text>
+	</string>
+	<string id="fr_agr_laz_rep_6">
+		<text>Fuck, I just don't believe it! It can't be...</text>
+	</string>
+	<string id="fr_agr_laz_rep_7">
+		<text>Talk, soldier.</text>
+	</string>
+	<string id="fr_agr_laz_rep_8">
+		<text>Ahem... Basically, out of the corner of my eye I saw a couple of our guys hanging around the fuel tanks. I didn't look closely at what exactly they were doing, I just saw them nearby. They hung around there for about 5 minutes, then left, and 5 minutes later, the explosion... I just imagined it, right? We don't have any traitors... We're all... comrades, right?</text>
+	</string>
+	<string id="fr_agr_laz_rep_9">
+		<text>If only that were true. Get some rest, soldier, there's a hard night ahead.</text>
+	</string>
+
+
+
+
+	<string id="fr_agr_serg_fin_0">
+		<text>Sergeant, wake up!</text>
+	</string>
+	<string id="fr_agr_serg_fin_1">
+		<text>Lieutenant?... You... hah... You again. Who else, of course...</text>
+	</string>
+	<string id="fr_agr_serg_fin_2">
+		<text>Quiet, don't waste your breath. Let me look... Shrapnel. Fuck... the lung is hit.</text>
+	</string>
+	<string id="fr_agr_serg_fin_3">
+		<text>I figured that out without you... Fu-u-uck... It hurts so bad... My own guys did this to me... Those idiots threw a grenade... in an enclosed, goddamn, space. I told them... told them not to throw them... only made it worse... morons...</text>
+	</string>
+	<string id="fr_agr_serg_fin_4">
+		<text>[Scientific medkit] Alright, lie still, don't move. This will hurt, but you'll live. Hold on.</text>
+	</string>
+	<string id="fr_agr_serg_fin_5">
+		<text>Argh... fuck... You...</text>
+	</string>
+	<string id="fr_agr_serg_fin_6">
+		<text>Breathe. That's it. Better now?</text>
+	</string>
+	<string id="fr_agr_serg_fin_7">
+		<text>Better... You're a goddamn wizard... Wait, what the hell are you even doing here?</text>
+	</string>
+	<string id="fr_agr_serg_fin_8">
+		<text>The colonel's orders. I was supposed to take your squad and go down to P-2, for the maps. Not meant to be, from the looks of it.</text>
+	</string>
+	<string id="fr_agr_serg_fin_9">
+		<text>What about my guys?!</text>
+	</string>
+	<string id="fr_agr_serg_fin_10">
+		<text>I saved who I could, but the losses are heavy. Gather all the survivors and go back to the base, Sergeant, there's nothing for you down there.</text>
+	</string>
+	<string id="fr_agr_serg_fin_11">
+		<text>Yeah, yeah... Just let me catch my breath a bit...</text>
+	</string>
+	<string id="fr_agr_serg_fin_12">
+		<text>Tell me, what happened here?</text>
+	</string>
+	<string id="fr_agr_serg_fin_13">
+		<text>Can't you see for yourself? An attack and a total rout... Lieutenant, they... They didn't come, they were always here. It's like they came out of the ground... And some of ours turned out to be traitors too... Opened fire on us from behind without a second thought. Scumbags, just animals... Who are they, Rogovets?!</text>
+	</string>
+	<string id="fr_agr_serg_fin_14">
+		<text>Long story. All you need to know: if you see people with "eyes" on their suits, shoot to kill.</text>
+	</string>
+	<string id="fr_agr_serg_fin_15">
+		<text>I figured that much out after what happened... Listen, you need to go down, right? So listen: when all this started, I saw some stalkers walk past us, right through the fight. Three of them. Not shooting, not hiding, they just walked past. One in front, so calm, and then down below. I marked it on your PDA.</text>
+	</string>
+	<string id="fr_agr_serg_fin_16">
+		<text>Seriy... So he made it. I'll go after him. Don't stay here, head straight upstairs. And blow up the damn passage behind you.</text>
+	</string>
+	<string id="fr_agr_serg_fin_17">
+		<text>And what about you?!</text>
+	</string>
+	<string id="fr_agr_serg_fin_18">
+		<text>I'll find another way, I'm sure there is one. The main thing is, don't let these bastards get behind us.</text>
+	</string>
+	<string id="fr_agr_serg_fin_30">
+		<text>I... I've got nothing, I'm sorry. I can't pull you through with a regular medkit, Sergeant. The shrapnel's in your lung, you...</text>
+	</string>
+	<string id="fr_agr_serg_fin_31">
+		<text>I get it, Doc, I'm not new here. Don't be sad. At least somebody was honest with me today... Rogovets... Take care of my guys...</text>
+	</string>
+	<string id="fr_agr_serg_fin_32">
+		<text>I'll do everything I can. Goodbye.</text>
+	</string>
+
+
+
+	<string id="fr_agr_laz_duty_name">
+		<text>Private Skriptovich</text>
+	</string>
+
+	<string id="fr_agr_th_fuel">
+		<text>Fuck! That's the fuel depot... Our fuel is fucked. I hope nobody got hurt...</text>
+	</string>
+
+	<string id="fr_agr_tip_laz_call">
+		<text>Medic, goddammit, where the hell are you?! Get to the infirmary ON THE DOUBLE, I've got half a squad here with burns!</text>
+	</string>
+	<string id="fr_agr_tip_sab_1">
+		<text>Rogovets, what's all that shooting in the yard?!</text>
+	</string>
+	<string id="fr_agr_tip_sab_2">
+		<text>Taking out the trash. We've got traitors on the base.</text>
+	</string>
+	<string id="fr_agr_tip_sab_3">
+		<text>Hm.... Come up to my office.</text>
+	</string>
+
+	<string id="fr_agr_tip_und_sos_1">
+		<text>SOS, SOS, we're under attack! They're coming from all sides, we need help!</text>
+	</string>
+	<string id="fr_agr_tip_und_sos_2">
+		<text>Where are they coming from... Hey, soldier, I'm on your side, don't shoot!</text>
+	</string>
+	<string id="fr_agr_tip_und_sos_3">
+		<text>I'm hit, goddammit...</text>
+	</string>
+
+
+
+
+	<!-- ===== Мысли: П-2 ===== -->
+	<string id="fr_agr_th_p2_enter">
+		<text>Pitch black... And so quiet I can hear my heart beating.</text>
+	</string>
+	<string id="fr_agr_th_p2_mil">
+		<text>Ours... They've been lying here a long time. Must be those two groups the colonel talked about.</text>
+	</string>
+	<string id="fr_agr_th_p2_st">
+		<text>Seriy's guys, those two from the camp... So he's somewhere nearby too.</text>
+	</string>
+	<string id="fr_agr_th_p2_sery">
+		<text>Seriy... He made it after all, all the way to the end. He just couldn't get out. The maps should be on him. So many people died for these papers...</text>
+	</string>
+	<string id="fr_agr_th_p2_voice">
+		<text>%c[fr_chaos]Kill them all, every last one!</text>
+	</string>
+	<string id="fr_agr_th_p2_fanat">
+		<text>Footsteps behind me... Heavy ones. Someone's coming.</text>
+	</string>
+	<string id="fr_agr_th_p2_up">
+		<text>It's started... The base, the colonel, the guys... I have to get upstairs, fast!</text>
+	</string>
+
+	<string id="fr_agr_fanat_boss_bio">
+		<text>A former stalker from Seriy's group. Gunned down his own in the tunnel and went over to the Order.</text>
+	</string>
+
+
+
+	<!-- ===== Штурм: сообщения ===== -->
+	<string id="fr_agr_tip_as_start">
+		<text>Zombies, coming from all sides! Everyone who can, to the main entrance, move!</text>
+	</string>
+	<string id="fr_agr_tip_as_kuz_1">
+		<text>Rogovets, you alive? Did you find it?!</text>
+	</string>
+	<string id="fr_agr_tip_as_rog_1">
+		<text>Found it, Colonel. I've got everything.</text>
+	</string>
+	<string id="fr_agr_tip_as_kuz_2">
+		<text>Excellent!! If we survive, I'll put you up for an award. Listen: the guys are trying to fix the chopper. There's enough fuel in the tank for one flight, if they get the engine started.</text>
+	</string>
+	<string id="fr_agr_tip_as_kuz_3">
+		<text>We have to hold out as long as we can, we need to buy our technicians more time. Defensive positions, men!</text>
+	</string>
+	<string id="fr_agr_tip_as_north">
+		<text>North entrance, the enemy's breaking through!... Jesus fucking Christ, what the hell are those?!</text>
+	</string>
+	<string id="fr_agr_tip_as_wall_1">
+		<text>They're blowing up the walls, enemy in the rear!</text>
+	</string>
+	<string id="fr_agr_tip_as_wall_2">
+		<text>Traitors on the base, I repeat, traitors on...</text>
+	</string>
+	<string id="fr_agr_tip_as_snp_1">
+		<text>I see the Order's main force, coming from the northeast. Opening fire...</text>
+	</string>
+	<string id="fr_agr_tip_as_snp_2">
+		<text>Fuck, our sniper's down! Rogovets, get up on the roof, you're taking his place!</text>
+	</string>
+	<string id="fr_agr_tip_as_rpg">
+		<text>RPG!!! TAKE COVER!!</text>
+	</string>
+	<string id="fr_agr_tip_as_heli_1">
+		<text>Fucking hell... Our evac is screwed... Malevich! You there?!</text>
+	</string>
+	<string id="fr_agr_tip_as_heli_2">
+		<text>Here... still alive.</text>
+	</string>
+	<string id="fr_agr_tip_as_heli_3">
+		<text>The chopper's fucked, we're not getting out by air. Go up to my office and take all the maps from my desk, THAT'S AN ORDER!</text>
+	</string>
+	<string id="fr_agr_tip_as_heli_4">
+		<text>Yes, sir!</text>
+	</string>
+	<string id="fr_agr_tip_as_snab_1">
+		<text>What've you got, Sergeant?</text>
+	</string>
+	<string id="fr_agr_tip_as_snab_2">
+		<text>Got the documents, coming do... Son of a... Snipers on the hill...</text>
+	</string>
+	<string id="fr_agr_tip_as_snab_3">
+		<text>Fuck, Sergeant! Rogovets, take out the snipers and get the documents from the sergeant!</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_1">
+		<text>I've got the maps, Colonel!</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_2">
+		<text>Listen to me carefully, soldier... We won't win this fight... We've got 80% casualties, lots of KIA... I'm wounded myself... I order you to drop everything and fall back immediately...</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_3">
+		<text>Negative! I won't leave you all here.</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_4">
+		<text>Wake up, Lieutenant! There are over a hundred of them, and there's maybe 15 of us left at best. The Order's main force is advancing, all of them in heavy armor, with machine guns...</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_5">
+		<text>Colonel, sir...</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_6">
+		<text>As you were! Rogovets, the most important thing right now is the maps. That's what dozens of good men died for, and if they fall into the hands of these... scumbags... Then it was all for nothing.</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_7">
+		<text>You can jump over the south wall... Get out that way. I marked a safe route on your PDA. Head for the hatch... There's an underground tunnel there, it'll take you to the Cordon...</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_8">
+		<text>Remember, Lieutenant, the maps MUST NOT fall into their hands. It's the only thing that made any sense today... And me... I'm going into my last fight...</text>
+	</string>
+	<string id="fr_agr_tip_as_fin_9">
+		<text>MEN, LET'S CLEAR THE WAY FOR THE LIEUTENANT. OPEN FIRE ON THE ENEMY WITH EVERYTHING WE'VE GOT!</text>
+	</string>
+
+	<!-- ===== Штурм: спасённые ===== -->
+	<string id="fr_agr_tip_rep_laz_good">
+		<text>Doc, this is the infirmary duty officer! The guys you patched up are back in the fight, we're holding the infirmary. Thank you, brother!</text>
+	</string>
+	<string id="fr_agr_tip_rep_laz_some">
+		<text>Doc, it's the duty officer! The ones you pulled through are armed again. Not all of them, of course... But we're holding!</text>
+	</string>
+	<string id="fr_agr_tip_rep_laz_none">
+		<text>Doc... It's the duty officer. I'm holding the infirmary alone. None of the ones they brought in made it...</text>
+	</string>
+	<string id="fr_agr_tip_rep_und_serg_held">
+		<text>Lieutenant, it's the sergeant from the underground! We came up and blew the passage, like you said. Almost all the guys are with me, we're holding our sector!</text>
+	</string>
+	<string id="fr_agr_tip_rep_und_serg_lost">
+		<text>Lieutenant, it's the sergeant from the underground! We came up, blew the passage. Only a couple of men with me... But we're holding!</text>
+	</string>
+	<string id="fr_agr_tip_rep_und_noserg_held">
+		<text>Lieutenant, this is the underground garrison! The sergeant's gone... We blew the passage behind us so these bastards can't hit us from behind. We're holding our sector!</text>
+	</string>
+	<string id="fr_agr_tip_rep_und_noserg_lost">
+		<text>Lieutenant... There's only two of us left from the underground. The sergeant's dead. We blew the passage... There's nobody else.</text>
+	</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string id="agr_factory_krot_start_0">
+		<text>Thanks for your help, stalker! If you hadn't shown up, I'd be a dead man by now.</text>
+	</string>
+	<string id="agr_factory_krot_start_10001">
+		<text>I am looking for information about Strelok, maybe you know something?</text>
+	</string>
+	<string id="agr_factory_krot_start_10002">
+		<text>How do I get into the basement?</text>
+	</string>
+	<string id="agr_factory_krot_start_15001">
+		<text>Strelok's secret stash?</text>
+	</string>
+	<string id="agr_factory_krot_start_15002">
+		<text>Thanks for the information.</text>
+	</string>
+	<string id="agr_factory_krot_start_1501">
+		<text>Yes, I heard about that. They even say he used to "work" in these parts and Strelok's stash is in the local basements. Rumor has it that his group's base was here too.</text>
+	</string>
+	<string id="agr_factory_krot_start_1502">
+		<text>This is one of the many exits which will lead you into the interconnected basements. Once you're in there, you're on your own - I don't have a map and the basement network is huge and confusing.</text>
+	</string>
+	<string id="agr_factory_krot_start_2">
+		<text>I'm looking for info on Strelok. Seriy told me you know something about him.</text>
+	</string>
+	<string id="agr_factory_krot_start_30001">
+		<text>Thank you.</text>
+	</string>
+	<string id="agr_factory_krot_start_3001">
+		<text>Yeah, we looked for it too but couldn't find it. I'll send you some info about it. That's everything we have on the stash.</text>
+	</string>
+	<string id="agr_factory_stalker_about_0">
+		<text>What's going on here?</text>
+	</string>
+	<string id="agr_factory_stalker_about_1">
+		<text>We're fighting, or more specifically, camping out like sitting ducks. Talk to Mole if you want to know more - he's the leader.</text>
+	</string>
+	<string id="agr_factory_stalker_start_0">
+		<text>Man, that was a fight and a half - you wouldn't wish something like that on your worst enemy. Those army boys are getting pretty cocky!</text>
+	</string>
+	<string id="agr_krot_about_agroprom_0">
+		<text>Where is the Agroprom Research Institute?</text>
+	</string>
+	<string id="agr_krot_about_agroprom_10">
+		<text>Not far from here. Follow the road to the West and you'll come to the Institute's gates.</text>
+	</string>
+	<string id="agr_krot_about_agroprom_100">
+		<text>I hear the military have set up a base there, right?</text>
+	</string>
+	<string id="agr_krot_about_agroprom_120">
+		<text>Thanks for the information.</text>
+	</string>
+	<string id="agr_krot_about_agroprom_20">
+		<text>Yeah, there's a military base. I'm not sure how many of them there are exactly but it's at least a platoon. They're well-armed and you've got no chance of breaking through - they'll take you down before you can say "hello, comrades". The best way of getting in is during the night 'cause the base is well-guarded during the day - they got checkpoints everywhere and anyway, I heard a deserter-soldier from that base is hiding in the marshes. If you can find him I'm sure you can shake some useful info out of him.</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_0">
+		<text>What's going on?</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_100">
+		<text>Me and my boys found a nice little area full of artifacts but those army bastards attacked us for some reason. I don't know what the hell they wanted from us...</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_200">
+		<text>Yeah, I've heard about him. I think he used to "make his living" in this area - it's quite a good place, actually. He left a long time ago; I don't know when it was exactly and I've got no clue where he was headed. That's everything I can tell you.</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_2000">
+		<text>You weren't waiting here for no reason, were you? Otherwise why would the Spetsnaz show up here?</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_250">
+		<text>OK, I know something about Strelok.</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_2500">
+		<text>Yeah? I really need to know that!</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_3500">
+		<text>If you lied to me, I'll find you and finish what the soldiers couldn't!</text>
+	</string>
+	<string id="agr_krot_actor_hasnot_met_seriy_400">
+		<text>I'm not lying. I know that nobody trusts anyone here so you have little choice.</text>
+	</string>
+	<string id="agr_krot_actor_met_seriy_100">
+		<text>Seriy? Well, OK, listen. They say Strelok used to sneak around here. On top of that, his stash is somewhere around here below ground. I heard his group even has its base here. We also looked for the stash but we found jack shit. I'll give you the info about the stash, maybe you'll be luckier. This is everything we have on the stash.</text>
+	</string>
+	<string id="agr_krot_actor_met_seriy_2000">
+		<text>What else do you know?</text>
+	</string>
+	<string id="agr_krot_actor_met_seriy_250">
+		<text>I don't know anything else. I told you everything I knew and now you have to work it out on your own. Good luck to you.</text>
+	</string>
+	<string id="agr_krot_help_0">
+		<text>Help me, stalker!!!</text>
+	</string>
+	<string id="agr_krot_help_10">
+		<text>OK.</text>
+	</string>
+	<string id="agr_ratcatcher_start_0">
+		<text>Don't shoot, man!</text>
+	</string>
+	<string id="agr_stalker_esc_0">
+		<text>What are you doing?</text>
+	</string>
+	<string id="agr_stalker_esc_20">
+		<text>I'm coming back from the factory which is a bit further down the road. I don't know how but the army found out about our group. I didn't wait for them to show up and took off as quickly as I could. I hope our boys got out of there 'cause otherwise they won't be alive for much longer - you saw the choppers yourself.</text>
+	</string>
+	<string id="agr_stalker_esc_300">
+		<text>I see, thanks.</text>
+	</string>
+	<string id="agr_stalker_esc_400">
+		<text>I see, thanks.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_0">
+		<text>I've got a couple of questions.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_10">
+		<text>What do you want to know?</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_1000">
+		<text>Anything interesting in the area?</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_120">
+		<text>How much do you need?</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_130">
+		<text>Here, take the money. Now tell me where it is.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_131">
+		<text>Piss off!</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_140">
+		<text>Thank you.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_20">
+		<text>Yeah, there are a couple of places but you'll have to share some of your wealth, buddy.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_21">
+		<text>It used to be pretty quiet but now the army has got all excited and started wasting everyone. They smoked the bandits out recently and I hear some managed to escape into the catacombs.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_30">
+		<text>Thirty, deal?</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_40">
+		<text>The exit from the railway tunnel is nearby. It's fairly safe in the dead end. At least nobody has been eaten while sleeping...yet.  Also, to the Northwest of the factory you'll find a marsh with a wagon in it.  But be careful, there's a shitload of radiation around it, so it's best to approach it from the western side. Oh, and one more thing: a soldier has been spotted there. He's likely to be from the military base at the Institute. The poor bastard is probably crazy - he's been there for a couple of days and I doubt he'll survive much longer on his own.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher_9999">
+		<text>Bye!</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_0">
+		<text>Anything interesting happening here?</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_1">
+		<text>Do you know about Ratcatcher? The info will cost you 30.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_11">
+		<text>Deal.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_111">
+		<text>We have a local hero around here called Ratcatcher. He lives in the marshes. The man bred so many rats in the collectors that they'll soon eat those army bastards.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_1111">
+		<text>Great. Thanks.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_1112">
+		<text>Tell me more about the collectors.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_11121">
+		<text>Collectors are your standard shit-stinking sewers that take waste from the Institute and dumps it in the nearest water reservoir. </text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_111211">
+		<text>Great. See you and take care of yourself.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_12">
+		<text>I know that already. Thanks.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_121">
+		<text>I don't have anything else to tell you.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_13">
+		<text>I don't have enough cash.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_14">
+		<text>I'm not interested.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_3">
+		<text>Anything interesting happening here?</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_31">
+		<text>Nothing. Absolutely nothing.</text>
+	</string>
+	<string id="agr_stalker_talk_about_ratcatcher1_311">
+		<text>I see. Bye!</text>
+	</string>
+	<string id="agr_stalker_talk_level_0">
+		<text>Tell me about this place.</text>
+	</string>
+	<string id="agr_stalker_talk_level_1">
+		<text>This is the area around the Agroprom Research Institute. The Institute itself is to the Southwest. The factory, which served as the Institute's technical production facility, is to the North. The buildings have been abandoned for a long time and there's nothing to be found there, but the army has been searching there very actively recently.</text>
+	</string>
+	<string id="agr_stalker_talk_level_2">
+		<text>Tell me more about the Institute.</text>
+	</string>
+	<string id="agr_stalker_talk_level_21">
+		<text>There are loads of legends about the Institute. Before the accident in 1986 the only thing here was the Institute of Crop Selection and Genetics. The area where the factory is now was used for experimental crop fields. After the accident, they closed the Institute and burned the fields. Then they remembered about it, they whitewashes the building, put up a fence around it and built some barracks. I don't know what they did at the Institute but they didn't have any shortage of funding, that's for sure.</text>
+	</string>
+	<string id="agr_stalker_talk_level_3">
+		<text>Tell me more about the factory.</text>
+	</string>
+	<string id="agr_stalker_talk_level_31">
+		<text>The factory was built at the end of the 80s. They said it was going to be used to build and test machines that could treat soil affected by radiation. As far as I know, nobody ever saw a single machine come out of that plant. It's totally empty now, which makes it a favorite spot for stalkers. I hear the place is pretty safe as long as you avoid the dark corners.</text>
+	</string>
+	<string id="agr_stalker_talk_level_4">
+		<text>Thank you.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_0">
+		<text>What are you doing?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_10">
+		<text>I'm hiding here, I don't want no trouble.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_100">
+		<text>Who are you hiding from?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_120">
+		<text>Catacombs?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_130">
+		<text>Do you know where they keep documents at the Institute?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_140">
+		<text>What are you going to do now?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_141">
+		<text>What are you going to do now?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_20">
+		<text>I am from the recon unit. They sent us into the catacombs to see what's going on below the base. It's hell down there, I'm telling you. I was the only one to get out of there... everyone else is probably dead by now. I don't want to go back to the base - those bastards are always using us to plug up all the holes in this damn Zone.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_30">
+		<text>Underground tunnels. They go from the Institute to the area around it - I'll show you the entrances. I don't have maps of the catacombs themselves.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_40">
+		<text>At the HQ. It's on the third floor of the Institute. That's where they keep those damn papers. But it's a mission getting there. By day, the area is teaming with patrols but not as much at night. I'll tell you this for free: if you wanna get inside you'll have to go through the catacombs - you stand no chance at the gate.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks_50">
+		<text>Hmm. I don't know. I am a deserter according to the military code and I need to get out of the Zone somehow. When we first got here there was a Zaporozhets in the garage that was almost working. I brought it back to life in half an hour but that damn captain took it for himself claiming he should have it according to the code. He drove it along this road and dumped it in the rain by the gate. If only I could get that car - making a run for it is much safer on wheels!</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_0">
+		<text>Hello.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_01">
+		<text>What's up?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_011">
+		<text>Tell me about the collector. How do I get inside? Where are the exits and entrances?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_0111">
+		<text>It's dangerous inside the collector. There are six entrances and two of them are in the area around the Institute where the military have set up a base. That area is patrolled and the captain keeps the patrol schedule in his armory.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_01111">
+		<text>How do you know all that?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_011111">
+		<text>The rats told me.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_0111111">
+		<text>I see. Bye! Good luck to you.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_012">
+		<text>Nothing. See you.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_013">
+		<text>Who are you?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_0134">
+		<text>I live here, if you can call this a life. I breed rats in the collector to annoy the military at the Institute.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_0135">
+		<text>I am Ratcatcher.</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_01351">
+		<text>What are you doing in this marsh?</text>
+	</string>
+	<string id="agr_swamp_ratcatcher_talks1_123">
+		<text>Oh... I get it.... well, I'm from another story. Ha-ha-ha...</text>
+	</string>
+</string_table>

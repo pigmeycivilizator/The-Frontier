@@ -1,0 +1,873 @@
+	
+	
+	
+	<string id="task_fr_agr_to_hq">
+		<text>Go to HQ</text>
+	</string>
+	<string id="task_fr_agr_to_hq_1">
+		<text>Talk to Colonel Kuznetsov</text>
+	</string>
+	<string id="task_fr_agr_to_hq_artcl">
+		<text>Colonel Kuznetsov has summoned me to HQ for new orders.</text>
+	</string>
+
+	<string id="task_fr_agr_gear">
+		<text>Collect gear</text>
+	</string>
+	<string id="task_fr_agr_gear_1">
+		<text>Collect gear from the quartermaster</text>
+	</string>
+	<string id="task_fr_agr_gear_artcl">
+		<text>The colonel has transferred me to the infantry. I need to collect my gear from the quartermaster at the warehouse.</text>
+	</string>
+
+	<string id="task_fr_agr_underground">
+		<text>Check on the underground squad</text>
+	</string>
+	<string id="task_fr_agr_underground_1">
+		<text>Go down into the underground and check on the squad</text>
+	</string>
+	<string id="task_fr_agr_underground_artcl">
+		<text>First assignment: go down into the tunnels under the base, check on the garrison and help them if needed.</text>
+	</string>
+	
+	
+	<string id="fr_agr_snab">
+		<text>Sergeant Malevich</text>
+	</string>
+	<string id="fr_agr_kuznetsov">
+		<text>Colonel Kuznetsov</text>
+	</string>
+	
+	<string id="task_fr_agr_underground_1">
+		<text>Go down into the underground and check on the squad</text>
+	</string>
+	<string id="task_fr_agr_underground_2">
+		<text>Help out your fellow soldiers</text>
+	</string>
+
+	<string id="task_fr_agr_sergeant">
+		<text>Underground garrison</text>
+	</string>
+	<string id="task_fr_agr_sergeant_1">
+		<text>Talk to the sergeant</text>
+	</string>
+	<string id="task_fr_agr_sergeant_2">
+		<text>Check on every soldier</text>
+	</string>
+	<string id="task_fr_agr_sergeant_artcl">
+		<text>The commander of the underground squad asked me to examine his men and help them however I can.</text>
+	</string>
+
+	<string id="task_fr_agr_krovosos">
+		<text>Deal with the monster</text>
+	</string>
+	<string id="task_fr_agr_krovosos_1">
+		<text>Find the soldier's body and kill the mutant</text>
+	</string>
+	<string id="task_fr_agr_krovosos_2">
+		<text>Return to the sergeant</text>
+	</string>
+	<string id="task_fr_agr_krovosos_artcl">
+		<text>The creature that dragged a soldier into the northern part of the underground is still there.</text>
+	</string>
+
+	<string id="task_fr_agr_pistol">
+		<text>Find the soldier's pistol</text>
+	</string>
+	<string id="task_fr_agr_pistol_1">
+		<text>Find the pistol in the tunnel with the electros and return it to the soldier</text>
+	</string>
+	<string id="task_fr_agr_pistol_artcl">
+		<text>A soldier dropped his award pistol in a tunnel that is now full of anomalies.</text>
+	</string>
+
+	<string id="task_fr_agr_north">
+		<text>Find out what was bothering the soldier</text>
+	</string>
+	<string id="task_fr_agr_north_1">
+		<text>Check the northern part of the underground</text>
+	</string>
+	<string id="task_fr_agr_north_2">
+		<text>Return to the soldier</text>
+	</string>
+	<string id="task_fr_agr_north_artcl">
+		<text>The soldier heard singing from the northern part of the underground, and then screams and gunfire.</text>
+	</string>
+
+	<string id="task_fr_agr_back">
+		<text>Return to base</text>
+	</string>
+	<string id="task_fr_agr_back_1">
+		<text>Go up to the surface and report to the colonel</text>
+	</string>
+	<string id="task_fr_agr_back_artcl">
+		<text>My business in the underground is done, time to go up.</text>
+	</string>
+	
+	
+	
+	<string id="fr_agr_und_sergeant">
+		<text>Sergeant Slobodenyuk</text>
+	</string>
+	<string id="fr_agr_dead_soldier">
+		<text>Missing soldier</text>
+	</string>
+	<string id="fr_agr_und_pistol">
+		<text>Soldier who lost his pistol</text>
+	</string>
+	<string id="fr_agr_dead_digger">
+		<text>Place to scout</text>
+	</string>
+	<string id="fr_agr_und_north">
+		<text>Sentry</text>
+	</string>	
+	
+	<string id="task_fr_agr_crates">
+		<text>Collect the crates from the quartermaster</text>
+	</string>
+	<string id="task_fr_agr_crates_1">
+		<text>Collect the crates</text>
+	</string>
+	<string id="task_fr_agr_crates_artcl">
+		<text>The colonel ordered me to collect three supply crates for the checkpoints and a special case for Seriy from the quartermaster.</text>
+	</string>
+
+	<string id="task_fr_agr_signal">
+		<text>Wait for the signal</text>
+	</string>
+	<string id="task_fr_agr_signal_1">
+		<text>Wait for the quartermaster's signal</text>
+	</string>
+	<string id="task_fr_agr_signal_artcl">
+		<text>The quartermaster has arranged a "deal" with the bandits and will get in touch when they're in place.</text>
+	</string>
+
+	<string id="task_fr_agr_posts">
+		<text>Deliver the crates to the checkpoints</text>
+	</string>
+	<string id="task_fr_agr_posts_1">
+		<text>Checkpoint 1</text>
+	</string>
+	<string id="task_fr_agr_posts_2">
+		<text>Checkpoint 2</text>
+	</string>
+	<string id="task_fr_agr_posts_3">
+		<text>Checkpoint 3</text>
+	</string>
+	<string id="task_fr_agr_posts_artcl">
+		<text>Three supply crates need to be delivered to the garrison checkpoints.</text>
+	</string>
+
+	<string id="task_fr_agr_bandits">
+		<text>Deal with the bandits</text>
+	</string>
+	<string id="task_fr_agr_bandits_1">
+		<text>Go to the meeting point and deal with the bandits</text>
+	</string>
+	<string id="task_fr_agr_bandits_2">
+		<text>Return to the sergeant</text>
+	</string>
+	<string id="task_fr_agr_bandits_artcl">
+		<text>The bandits have arrived at the meeting place. I need to kill them all and take the ammo.</text>
+	</string>
+
+	<string id="task_fr_agr_to_sery">
+		<text>Go to the stalker base</text>
+	</string>
+	<string id="task_fr_agr_to_sery_1">
+		<text>Talk to Seriy</text>
+	</string>
+	<string id="task_fr_agr_to_sery_artcl">
+		<text>The colonel's case has to be handed over to Seriy, the head of the stalkers at the factory.</text>
+	</string>
+	
+	
+	<string id="task_fr_agr_recon">
+		<text>Meet the stalker scouts</text>
+	</string>
+	<string id="task_fr_agr_recon_1">
+		<text>Meet the stalker group</text>
+	</string>
+	<string id="task_fr_agr_recon_2">
+		<text>Return to Seriy</text>
+	</string>
+	<string id="task_fr_agr_recon_artcl">
+		<text>Seriy's scouts are coming back from Yantar with important information about the unknown stalkers. I need to meet them and escort them to the camp.</text>
+	</string>
+
+	<string id="task_fr_agr_fanat">
+		<text>Talk to Fanatic</text>
+	</string>
+	<string id="task_fr_agr_fanat_1">
+		<text>Ask Fanatic about his group</text>
+	</string>
+	<string id="task_fr_agr_fanat_artcl">
+		<text>The dead scouts were from Fanatic's group. Seriy asks me to question him: maybe he noticed something strange in how they behaved.</text>
+	</string>
+
+	<string id="task_fr_agr_fanat_stash">
+		<text>Find and collect Fanatic's stash</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_1">
+		<text>Find the stash</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_2">
+		<text>Return to Fanatic</text>
+	</string>
+	<string id="task_fr_agr_fanat_stash_artcl">
+		<text>Fanatic's group left a cache on the upper level of the underground, not far from the anomalous tunnel. Fanatic promised to split the contents fifty-fifty.</text>
+	</string>	
+	<string id="task_fr_agr_scout">
+		<text>Find the missing soldier</text>
+	</string>
+	<string id="task_fr_agr_scout_1">
+		<text>Find the soldier</text>
+	</string>
+	<string id="task_fr_agr_scout_2">
+		<text>Return to base</text>
+	</string>
+	<string id="task_fr_agr_scout_artcl">
+		<text>West of the stalker complex, the signal of the colonel's scout went dead. I need to find him and take the PDA with important information.</text>
+	</string>
+
+	<string id="task_fr_agr_kuz_report">
+		<text>Talk to Kuznetsov</text>
+	</string>
+	<string id="task_fr_agr_kuz_report_1">
+		<text>Report to the colonel</text>
+	</string>
+	<string id="task_fr_agr_kuz_report_artcl">
+		<text>The scout is dead, his PDA is destroyed. I need to report what happened to the colonel.</text>
+	</string>	
+	
+	<string id="task_fr_agr_snab_reward">
+		<text>Talk to the quartermaster</text>
+	</string>
+	<string id="task_fr_agr_snab_reward_1">
+		<text>Talk to the quartermaster</text>
+	</string>
+	<string id="task_fr_agr_snab_reward_artcl">
+		<text>The colonel said the quartermaster was looking for me.</text>
+	</string>
+
+	<string id="task_fr_agr_brother">
+		<text>Lay a zombie's soul to rest</text>
+	</string>
+	<string id="task_fr_agr_brother_1">
+		<text>Kill the zombie with the unique machine gun</text>
+	</string>
+	<string id="task_fr_agr_brother_2">
+		<text>Take the machine gun</text>
+	</string>
+	<string id="task_fr_agr_brother_3">
+		<text>Return the machine gun to the quartermaster</text>
+	</string>
+	<string id="task_fr_agr_brother_artcl">
+		<text>The quartermaster's little brother went missing with his patrol a week ago. If he's among the zombies, he'll have a heavy machine gun. I need to lay him to rest and bring the machine gun back to his brother.</text>
+	</string>
+
+<string id="task_fr_agr_brother_mg">
+	<text>Return the brother's machine gun</text>
+</string>
+<string id="task_fr_agr_brother_mg_artcl">
+	<text>The quartermaster's brother was among the zombies. There's no helping him anymore, but at least I can take his machine gun to the quartermaster.</text>
+</string>
+
+	<string id="task_fr_agr_patrols">
+		<text>Help the patrols fight off the attacks</text>
+	</string>
+	<string id="task_fr_agr_patrols_1">
+		<text>Help patrol 1</text>
+	</string>
+	<string id="task_fr_agr_patrols_2">
+		<text>Help patrol 2</text>
+	</string>
+	<string id="task_fr_agr_patrols_3">
+		<text>Help patrol 3</text>
+	</string>
+	<string id="task_fr_agr_patrols_4">
+		<text>Help patrol 4</text>
+	</string>
+	<string id="task_fr_agr_patrols_artcl">
+		<text>Several garrison patrols requested help at the same time: they've been attacked by zombies.</text>
+	</string>
+
+	<string id="task_fr_agr_back_sery">
+		<text>Return to Seriy</text>
+	</string>
+	<string id="task_fr_agr_back_sery_1">
+		<text>Talk to Seriy</text>
+	</string>
+	<string id="task_fr_agr_back_sery_artcl">
+		<text>The patrols fought them off. Time to go back to Seriy: he promised to tell me more about the Order.</text>
+	</string>
+
+	<string id="task_fr_agr_devices">
+		<text>Install the device</text>
+	</string>
+	<string id="task_fr_agr_devices_1">
+		<text>Get the devices from the stalker radio operator</text>
+	</string>
+	<string id="task_fr_agr_devices_2">
+		<text>Return to Seriy</text>
+	</string>
+	<string id="task_fr_agr_devices_artcl">
+		<text>Seriy asked me to get three PVM-14 devices from the radio operator and come back to him.</text>
+	</string>	
+	
+	
+	
+	<string id="fr_agr_patA_zone">
+		<text>First patrol</text>
+	</string>
+	<string id="fr_agr_patB_zone">
+		<text>Second patrol</text>
+	</string>
+	<string id="fr_agr_patC_zone">
+		<text>Third patrol</text>
+	</string>		
+	<string id="fr_agr_patD_zone">
+		<text>Fourth patrol</text>
+	</string>
+	<string id="fr_agr_dead_radist">
+		<text>Radio operator</text>
+	</string>	
+	
+<!-- ==================== ПОДСКАЗКИ МЕТОК ==================== -->
+<string id="fr_agr_akeran">
+	<text>Captain Akeran</text>
+</string>
+<string id="fr_agr_strike_zone">
+	<text>Zombie lair</text>
+</string>
+<string id="fr_agr_strike_cultist">
+	<text>Cultist's body</text>
+</string>	
+	
+	
+<string id="task_fr_agr_find_devices">
+	<text>Find Seriy's devices</text>
+</string>
+<string id="task_fr_agr_find_devices_1">
+	<text>Find the PVM-14 devices</text>
+</string>
+<string id="task_fr_agr_find_devices_artcl">
+	<text>Seriy's radio operator is dead, the PVM-14 devices are gone. Seriy is sure this is the Order's doing and that the killer is still somewhere in Agroprom. I need to find him and get the devices back.</text>
+</string>
+
+<string id="task_fr_agr_strike">
+	<text>Counterstrike</text>
+</string>
+<string id="task_fr_agr_strike_1">
+	<text>Meet up with the assault group</text>
+</string>
+<string id="task_fr_agr_strike_2">
+	<text>Clear out the zombie lair</text>
+</string>
+<string id="task_fr_agr_strike_artcl">
+	<text>Colonel Kuznetsov found out where the zombies are coming from: they've taken the fortified point by the road to Yantar. Captain Akeran's squad is leading the sweep. I need to join him and destroy the lair.</text>
+</string>
+
+<string id="task_fr_agr_strike_search">
+	<text>Search the bodies</text>
+</string>
+<string id="task_fr_agr_strike_search_1">
+	<text>Search the cultist's body</text>
+</string>
+<string id="task_fr_agr_strike_search_artcl">
+	<text>Captain Akeran ordered us to search the bodies. Among the dead was a shepherd in a robe. If anyone has something important, it's him.</text>
+</string>
+
+<string id="task_fr_agr_traitors">
+	<text>Kill the traitors</text>
+</string>
+<string id="task_fr_agr_traitors_1">
+	<text>Eliminate the soldiers from the northern checkpoint</text>
+</string>
+<string id="task_fr_agr_traitors_artcl">
+	<text>The missing soldiers from the northern checkpoint came back and opened fire on their own. Captain Akeran is dead. They have to be stopped.</text>
+</string>
+
+<string id="task_fr_agr_strike_back">
+	<text>Return to base</text>
+</string>
+<string id="task_fr_agr_strike_back_1">
+	<text>Report to Colonel Kuznetsov</text>
+</string>
+<string id="task_fr_agr_strike_back_artcl">
+	<text>The colonel ordered me back to base. I need to report everything that happened by the road to Yantar.</text>
+</string>
+
+<string id="task_fr_agr_sery_order">
+	<text>Talk to Seriy</text>
+</string>
+<string id="task_fr_agr_sery_order_1">
+	<text>Go to Seriy</text>
+</string>
+<string id="task_fr_agr_sery_order_artcl">
+	<text>Kuznetsov is pulling all forces to the main base. I need to convince Seriy to pack up the camp and bring the stalkers to the military.</text>
+</string>	
+	
+	
+<!-- ===== Квест 28 ===== -->
+<string id="task_fr_agr_tower1">
+	<text>Install the first device</text>
+</string>
+<string id="task_fr_agr_tower1_1">
+	<text>Install the device on the roof</text>
+</string>
+<string id="task_fr_agr_tower1_2">
+	<text>Hold out until it activates</text>
+</string>
+<string id="task_fr_agr_tower1_artcl">
+	<text>Seriy's camp has been attacked by wild cultists. The stalkers are holding the line, and I need to get up on the roof, install the first device on the antenna and hold out until it starts up.</text>
+</string>
+
+<!-- ===== Квест 29 ===== -->
+<string id="task_fr_agr_tower2">
+	<text>Install the second device</text>
+</string>
+<string id="task_fr_agr_tower2_1">
+	<text>Install the device in the forest</text>
+</string>
+<string id="task_fr_agr_tower2_2">
+	<text>Hold out until it activates</text>
+</string>
+<string id="task_fr_agr_tower2_artcl">
+	<text>Seriy's stalkers who were preparing the second tower in the forest are being attacked by mutants. I need to come to their aid, install the second device and hold the position until it starts up.</text>
+</string>
+
+<!-- ===== Квест 30 ===== -->
+<string id="task_fr_agr_tower3">
+	<text>Install the third device</text>
+</string>
+<string id="task_fr_agr_tower3_1">
+	<text>Install the device at the trailer in the swamp</text>
+</string>
+<string id="task_fr_agr_tower3_artcl">
+	<text>Two towers are working. The third one is left: the antenna on the trailer in the middle of the swamp. I need to get there, install the last device and return to Seriy.</text>
+</string>
+
+<!-- ===== Квест 52 ===== -->
+<string id="task_fr_agr_order_meet">
+	<text>Accept your fate</text>
+</string>
+<string id="task_fr_agr_order_meet_1">
+	<text>Go to the meeting point</text>
+</string>
+<string id="task_fr_agr_order_meet_artcl">
+	<text>I told Horus "yes". Someone is waiting for me not far from the trailer, toward the base.</text>
+</string>
+
+<!-- ===== Квест 53 ===== -->
+<string id="task_fr_agr_order_kill">
+	<text>Destroy the military base</text>
+</string>
+<string id="task_fr_agr_order_kill_1">
+	<text>Kill Colonel Kuznetsov</text>
+</string>
+<string id="task_fr_agr_order_kill_artcl">
+	<text>Fulgrim gave me the Order's gear. Together with his fighters I must take the base. Not one of them may leave alive. The colonel is mine personally.</text>
+</string>	
+	
+	
+	
+	
+	<string id="task_fr_agr_to_camp">
+		<text>Get to the stalker camp</text>
+	</string>
+	<string id="task_fr_agr_to_camp_1">
+		<text>Find Seriy at the stalker camp</text>
+	</string>
+	<string id="task_fr_agr_to_camp_artcl">
+		<text>what are you staring at, the electronics were dead</text>
+	</string>
+
+	<string id="task_fr_agr_tunnel">
+		<text>Go to the railway tunnel</text>
+	</string>
+	<string id="task_fr_agr_tunnel_1">
+		<text>Go to the tunnel</text>
+	</string>
+	<string id="task_fr_agr_tunnel_2">
+		<text>Return to Seriy</text>
+	</string>
+	<string id="task_fr_agr_tunnel_artcl">
+		<text>still dead</text>
+	</string>
+
+	<string id="task_fr_agr_post3">
+		<text>Get to checkpoint 3</text>
+	</string>
+	<string id="task_fr_agr_post3_1">
+		<text>Get to checkpoint 3, by the passage to the Garbage</text>
+	</string>
+	<string id="task_fr_agr_post3_2">
+		<text>Find out what happened</text>
+	</string>
+	<string id="task_fr_agr_post3_artcl">
+		<text>wow, you're a stubborn one</text>
+	</string>
+
+	<string id="task_fr_agr_post2">
+		<text>Get to checkpoint 2</text>
+	</string>
+	<string id="task_fr_agr_post2_1">
+		<text>Get to checkpoint 2, east of the forest</text>
+	</string>
+	<string id="task_fr_agr_post2_2">
+		<text>Find out what happened</text>
+	</string>
+	<string id="task_fr_agr_post2_artcl">
+		<text>we're competing for a png picture on a website....</text>
+	</string>
+
+	<string id="task_fr_agr_to_base">
+		<text>Get to the base</text>
+	</string>
+	<string id="task_fr_agr_to_base_1">
+		<text>Reach the base</text>
+	</string>
+	<string id="task_fr_agr_to_base_artcl">
+		<text>Comms are back. Colonel Kuznetsov has declared a combat alert: all soldiers return to base immediately, defense per plan "Fortress".</text>
+	</string>	
+	
+	
+	
+		<string id="task_fr_agr_lazaret">
+		<text>Go to the infirmary</text>
+	</string>
+	<string id="task_fr_agr_lazaret_1">
+		<text>Reach the infirmary</text>
+	</string>
+	<string id="task_fr_agr_lazaret_2">
+		<text>Help the soldiers</text>
+	</string>
+	<string id="task_fr_agr_lazaret_3">
+		<text>Talk to the duty officer</text>
+	</string>
+	<string id="task_fr_agr_lazaret_artcl">
+		<text>Someone blew up our fuel depot. There are wounded with burns in the infirmary, the duty officer is urgently calling for me.</text>
+	</string>
+
+	<string id="task_fr_agr_saboteurs">
+		<text>Find the traitors on the base</text>
+	</string>
+	<string id="task_fr_agr_saboteurs_1">
+		<text>Find and deal with the traitors</text>
+	</string>
+	<string id="task_fr_agr_saboteurs_artcl">
+		<text>Before the explosion, some of our own were hanging around the fuel tanks, most likely traitors. I need to find them before they commit another act of sabotage. They're still somewhere on the base, and something must set them apart from the others. Their PDA profile, maybe?</text>
+	</string>
+
+	<string id="task_fr_agr_kuz_plan">
+		<text>Talk to Kuznetsov</text>
+	</string>
+	<string id="task_fr_agr_kuz_plan_1">
+		<text>Talk to the colonel</text>
+	</string>
+	<string id="task_fr_agr_kuz_plan_artcl">
+		<text>The colonel is waiting for my report in his office.</text>
+	</string>
+
+	<string id="task_fr_agr_snab_final">
+		<text>Collect gear from the quartermaster</text>
+	</string>
+	<string id="task_fr_agr_snab_final_1">
+		<text>Collect the gear</text>
+	</string>
+	<string id="task_fr_agr_snab_final_artcl">
+		<text>The colonel is sending me down for the last part of the maps. The quartermaster will give me the best gear left on the base.</text>
+	</string>
+
+	<string id="task_fr_agr_und_final">
+		<text>Go down into the Agroprom underground</text>
+	</string>
+	<string id="task_fr_agr_und_final_1">
+		<text>Go down into the underground</text>
+	</string>
+	<string id="task_fr_agr_und_final_2">
+		<text>Talk to the sergeant</text>
+	</string>
+	<string id="task_fr_agr_und_final_artcl">
+		<text>I need to go down into the underground, find the sergeant and go to P-2 with the underground garrison for the last part of the maps.</text>
+	</string>
+
+	<string id="task_fr_agr_und_help">
+		<text>Help the underground garrison</text>
+	</string>
+	<string id="task_fr_agr_und_help_1">
+		<text>Fight off the Order's attack</text>
+	</string>
+	<string id="task_fr_agr_und_help_artcl">
+		<text>The Order has attacked the underground garrison, and there were traitors among our own. I need to fight off the attack while there's still someone left of the garrison.</text>
+	</string>
+
+	<string id="task_fr_agr_to_p2">
+		<text>Go down to P-2</text>
+	</string>
+	<string id="task_fr_agr_to_p2_1">
+		<text>Go down to P-2</text>
+	</string>
+	<string id="task_fr_agr_to_p2_artcl">
+		<text>Seriy and his stalkers went down to P-2. The last part of the maps is somewhere there. I have to hurry.</text>
+	</string>
+	<string id="fr_agr_p2_gate_hint">
+		<text>Way down to P-2</text>
+	</string>
+
+	<!-- ===== КПК сержанта ===== -->
+	<string id="fr_agr_serg_pda_name">
+		<text>Sergeant's PDA</text>
+	</string>
+	<string id="fr_agr_serg_pda_descr">
+		<text>PDA of the underground garrison sergeant. Last entry:\n\n"Didn't expect a setup like this... To die at the hands of my own. The private's an idiot. Told him a hundred times to hand all the grenades over to me, so we don't blow anything up down here, God forbid. He didn't listen... Now I'm lying here bleeding out, and my men are dying at the hands of traitors and... I don't even know who else. Heh, maybe I imagined it... But I saw some stalkers walk right past the fight. Not shooting, not hiding, just walked past. One in front, so calm, and then down below... I must be delirious already... Looks like I won't last long, this is the end..."</text>
+	</string>
+	
+	
+	
+	<string id="task_fr_agr_find_maps">
+		<text>Find the archive maps</text>
+	</string>
+	<string id="task_fr_agr_find_maps_1">
+		<text>Find the area maps</text>
+	</string>
+	<string id="task_fr_agr_find_maps_artcl">
+		<text>Seriy went down to P-2 for the last part of the maps. If he made it, he should have the maps on him.</text>
+	</string>
+
+	<string id="task_fr_agr_kill_fanat">
+		<text>Kill Fanatic</text>
+	</string>
+	<string id="task_fr_agr_kill_fanat_1">
+		<text>Kill Fanatic</text>
+	</string>
+	<string id="task_fr_agr_kill_fanat_artcl">
+		<text>Fanatic, the one who gunned down his own group in the tunnel, has come for the maps. He won't leave here alive.</text>
+	</string>
+
+	<string id="task_fr_agr_to_surface">
+		<text>Return to the surface</text>
+	</string>
+	<string id="task_fr_agr_to_surface_1">
+		<text>Return to base</text>
+	</string>
+	<string id="task_fr_agr_to_surface_artcl">
+		<text>The Order has started the assault. The base, the colonel, the guys... I need to get up there as fast as possible. The exit is at the other end of the tunnel.</text>
+	</string>
+	<string id="fr_agr_p2_exit_hint">
+		<text>Exit to the surface</text>
+	</string>
+
+	<!-- ===== Последняя часть карт ===== -->
+	<string id="fr_agr_maps_final_name">
+		<text>Area maps</text>
+	</string>
+	<string id="fr_agr_maps_final_descr">
+		<text>The last part of the archive maps from P-2. Too many people died for these sheets of paper.</text>
+	</string>	
+	
+	
+	
+		<string id="task_fr_agr_wave1">
+		<text>First wave</text>
+	</string>
+	<string id="task_fr_agr_wave1_1">
+		<text>Fight off the first wave</text>
+	</string>
+	<string id="task_fr_agr_wave1_artcl">
+		<text>The Order has started the assault. Zombies are climbing into the base from all sides.</text>
+	</string>
+
+	<string id="task_fr_agr_hold">
+		<text>Hold out</text>
+	</string>
+	<string id="task_fr_agr_hold_1">
+		<text>Hold the line</text>
+	</string>
+	<string id="task_fr_agr_hold_artcl">
+		<text>The technicians are trying to fix the helicopter: there's enough fuel for one flight. We have to hold out as long as we can.</text>
+	</string>
+
+	<string id="task_fr_agr_wave2">
+		<text>Second wave</text>
+	</string>
+	<string id="task_fr_agr_wave2_1">
+		<text>Destroy the wild ones at the north entrance</text>
+	</string>
+	<string id="task_fr_agr_wave2_artcl">
+		<text>The north entrance is being breached. By something that used to be human.</text>
+	</string>
+
+	<string id="task_fr_agr_wave3">
+		<text>Third wave</text>
+	</string>
+	<string id="task_fr_agr_wave3_1">
+		<text>Take the sniper position</text>
+	</string>
+	<string id="task_fr_agr_wave3_2">
+		<text>Fight off the Order's attack</text>
+	</string>
+	<string id="task_fr_agr_wave3_artcl">
+		<text>The Order's main force is coming from the northeast. Our sniper is down, his spot on the roof is mine now.</text>
+	</string>
+
+	<string id="task_fr_agr_snipers">
+		<text>Kill the enemy snipers</text>
+	</string>
+	<string id="task_fr_agr_snipers_1">
+		<text>Kill the snipers</text>
+	</string>
+	<string id="task_fr_agr_snipers_2">
+		<text>Take the maps</text>
+	</string>
+	<string id="task_fr_agr_snipers_artcl">
+		<text>The sergeant who was taking the maps from the colonel's office was taken out by a sniper on the hill. I need to eliminate the snipers and get the documents.</text>
+	</string>
+
+	<string id="task_fr_agr_escape">
+		<text>Escape</text>
+	</string>
+	<string id="task_fr_agr_escape_1">
+		<text>Leave the base</text>
+	</string>
+	<string id="task_fr_agr_escape_2">
+		<text>Get to the hatch</text>
+	</string>
+	<string id="task_fr_agr_escape_artcl">
+		<text>The colonel ordered me to leave. Through the hole in the south wall, to the hatch, and from there through the underground tunnel to the Cordon. The maps must not fall into the Order's hands.</text>
+	</string>
+
+	<string id="fr_agr_roof_hint">
+		<text>Sniper position</text>
+	</string>
+	<string id="fr_agr_wall_hint">
+		<text>Hole in the south wall</text>
+	</string>
+	<string id="fr_agr_hatch_hint">
+		<text>Hatch</text>
+	</string>
+
+	<!-- ===== Карты полковника ===== -->
+	<string id="fr_agr_maps_kuz_name">
+		<text>Colonel's maps</text>
+	</string>
+	<string id="fr_agr_maps_kuz_descr">
+		<text>Area maps from Colonel Kuznetsov's desk, all the parts collected over the past weeks. Among them is the one once taken from the digger's body.</text>
+	</string>
+	<string id="fr_agr_snab2_name">
+		<text>Sergeant Malevich</text>
+	</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string id="agr_find_ghost">
+		<text>Find out what happened to Ghost</text>
+	</string>
+	<string id="agr_gunslinger_cache">
+		<text>Strelok's stash</text>
+	</string>
+	<string id="agr_help_krot">
+		<text>Save Mole</text>
+	</string>
+	<string id="agr_help_krot_0">
+		<text>Help Mole fight off the soldiers</text>
+	</string>
+	<string id="agr_help_krot_1">
+		<text>Kill the soldiers</text>
+	</string>
+	<string id="agr_help_krot_2">
+		<text>Save Mole</text>
+	</string>
+	<string id="agr_help_stalkers">
+		<text>Help the stalkers</text>
+	</string>
+	<string id="agr_help_stalkers_0">
+		<text>Help the stalkers fight off the soldiers</text>
+	</string>
+	<string id="agr_help_stalkers_1">
+		<text>Kill the soldiers</text>
+	</string>
+	<string id="agr_help_stalkers_2">
+		<text>Help the stalkers fight off the soldiers</text>
+	</string>
+	<string id="agr_krot">
+		<text>Meet the stalkers</text>
+	</string>
+	<string id="agr_meet_krot_band">
+		<text>Get information about Strelok</text>
+	</string>
+	<string id="agr_meet_krot_band_0">
+		<text>Get information from Mole</text>
+	</string>
+	<string id="agr_meet_krot_band_1">
+		<text>Meet Mole's group</text>
+	</string>
+	<string id="agr_meet_krot_band_2">
+		<text>Get info from Mole</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache">
+		<text>Find Strelok's group's stash</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_0">
+		<text>Find Strelok's group's stash</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_1">
+		<text>Find the stash</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_2">
+		<text>Find information about Strelok in the stash</text>
+	</string>
+	<string id="agroprom_find_gunslinger_cache_3">
+		<text>Find the way out of the underground</text>
+	</string>
+	<string id="agroprom_find_stalker_phantom">
+		<text>Find Ghost</text>
+	</string>
+	<string id="agroprom_find_stalker_phantom_0">
+		<text>Ghost knows where Strelok is.</text>
+	</string>
+	<string id="agroprom_get_military_documents">
+		<text>Find the militaries' documents</text>
+	</string>
+	<string id="agroprom_get_military_documents_0">
+		<text>Agroprom Research Institute</text>
+	</string>
+	<string id="agroprom_get_military_documents_1">
+		<text>Steal the militaries' documents</text>
+	</string>
+	<string id="agroprom_get_military_documents_2">
+		<text>Take the documents to the Barkeep</text>
+	</string>

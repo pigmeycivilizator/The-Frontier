@@ -1,10 +1,12 @@
-; рупор на базе НИИ отключён (патч): без музыки, тревоги и сирены.
+; рупор на базе НИИ: молчит всю игру, кроме штурма.
+; сирена: от начала штурма (fr_agr_assault_start) до выхода с базы (fr_agr_base_left).
 ; старые секции оставлены только ради старых сохранений:
-; каждая из них сразу переводит рупор в тишину.
+; каждая из них сразу переводит рупор в ph_idle@off.
 [logic]
 active = ph_idle@off
 
 [ph_idle@off]
+on_info = {+fr_agr_assault_start -fr_agr_base_left} ph_sound@siren
 
 [ph_idle@start]
 on_info = ph_idle@off
@@ -29,4 +31,4 @@ on_info = ph_idle@off
 [ph_sound@siren]
 snd = siren
 looped = true
-on_info = ph_idle@off
+on_info = {+fr_agr_base_left} ph_idle@off

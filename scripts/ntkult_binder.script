@@ -11,6 +11,6 @@ function ntk_cmd()
 	cmd("r2_exp_donttest_shad off")
 	cmd("r_terrain_parallax_enable off")
 	cmd("hud_fov 0.7")
-	cmd("r2_sun_lumscale 2")
+	cmd("r2_sun_lumscale 1.3") -- Rubezh: was 2 (rollback: set back to 2)
 	cmd("g_dof_zoom off")
 end

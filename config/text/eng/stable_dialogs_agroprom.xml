@@ -2144,7 +2144,7 @@
 		<text>Thank you, Seriy.</text>
 	</string>
 	<string id="fr_sery_tr_31">
-		<text>And one more thing: it's pitch black outside right now, you won't get anywhere like that. Our shared stash had a few suits with old night-vision goggles, still Soviet. There's barely any electronics in them, they should work even after the EMP. The stash is in the building where Fanatic was staying, in the middle of the anomaly field, under the iron table. Well, this is where our paths part. I don't recommend sticking around here: the Order will surely step up its attacks while the EMP is still in effect. Farewell, soldier.</text>
+		<text>And one more thing: the moon's bright tonight, but flashlights died with the EMP, and in the shadows or inside buildings you won't see a damn thing. Our shared stash had a few suits with old night-vision goggles, still Soviet. There's barely any electronics in them, they should work even after the EMP. If you want, you can take one. The stash is in the building where Fanatic was staying, in the middle of the anomaly field, under the iron table. Well, this is where our paths part. I don't recommend sticking around here: the Order will surely step up its attacks while the EMP is still in effect. Farewell, soldier.</text>
 	</string>
 	<string id="fr_sery_tr_32">
 		<text>Farewell, stalker.</text>
@@ -2551,6 +2551,12 @@
 	</string>
 	<string id="fr_agr_th_p2_up">
 		<text>It's started... The base, the colonel, the guys... I have to get upstairs, fast!</text>
+	</string>
+	<string id="fr_agr_th_refuse_1">
+		<text>Fuck, I'm hit... Goddamn sniper...</text>
+	</string>
+	<string id="fr_agr_th_refuse_2">
+		<text>I won't... I won't let them have the maps...</text>
 	</string>
 
 	<string id="fr_agr_fanat_boss_bio">

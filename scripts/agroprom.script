@@ -453,10 +453,23 @@ function set_story_weather(period, weather, hold)
 end
 
 
+-- Сюжетная ночь: с выхода из тоннеля (fr_agr_tunnel_checked) и до конца игры на Агропроме
+-- держится одна погода. Копия np_clear3 с осветлённой ночью (weathers\default_fr_night.ltx).
+local STORY_NIGHT = "default_fr_night"
+
+-- Вызывается из level_weathers.select_weather: вход на уровень, загрузка сейва, смена часа.
+-- В подземке и на П-2 не срабатывает, там остаётся обычный indoor.
+function story_weather(now)
+	if level.name() ~= "l03_agroprom" then return false end
+	if not has_alife_info("fr_agr_tunnel_checked") then return false end
+	level.set_weather(STORY_NIGHT, now == true)
+	return true
+end
+
+
 -- 1. Старт, диалог с раненым бойцом. 07:30, пасмурное утро без дождя
 function weather_start(a, b)
 	get_console():execute("hud_draw 1")
-	get_console():execute("hud_crosshair 1")
 	set_story_weather("3_alpha", "np_alpha3", 3)
 end
 
@@ -481,12 +494,12 @@ end
 -- 5. Выход из тоннеля. 23:00, ясная ночь (игрок ещё без ПНВ)
 function weather_tunnel_exit(a, b)
 	set_game_time(23, 0)
-	set_story_weather("1_good", "np_clear3", 2)
+	level.set_weather(STORY_NIGHT, true)
 end
 
--- 6. После разговора с Серым. Гроза, без ПНВ почти ничего не видно
+-- 6. После разговора с Серым. Грозы больше нет, после тоннеля погода одна (story_weather).
+-- Вызов зашит в спавн, поэтому функция оставлена пустой.
 function weather_dark(a, b)
-	set_story_weather("4_bad", "np_cloudy", 4)
 end
 
 
@@ -642,6 +655,8 @@ local THOUGHT_SILENT = {
 	fr_agr_th_order_road = true,
 	fr_agr_call_2 = true,
 	fr_agr_call_1 = true,
+	fr_agr_th_refuse_1 = true,
+	fr_agr_th_refuse_2 = true,
 }
 
 local function thought_show(text, seconds)
@@ -1070,8 +1085,14 @@ function refuse_shot()
 	db.actor:hide_weapon()
 	level.disable_input()
 	level.hide_indicators()
-	play2d("weapons\\_boom\\mono\\frag\\close_distance_1")
+	play2d("weapons\\_gunfire\\mono\\trg\\Close_1")
 	level.add_cam_effector("camera_effects\\radar_stop.anm", 2506, false, "")
+
+	-- мысли во время падения: через 1.5 и 9 сек после выстрела (затемнение начинается на 10.5 сек)
+	local t1 = time_global() + 1500
+	level.add_call(function() return time_global() >= t1 end, function() thought("fr_agr_th_refuse_1", 6) end)
+	local t2 = time_global() + 9000
+	level.add_call(function() return time_global() >= t2 end, function() thought("fr_agr_th_refuse_2", 6) end)
 end
 
 -- после затемнения: пока слайдов нет, выход в главное меню
@@ -1103,7 +1124,6 @@ function emp_devices_on()
 	level.unblock_action(key_bindings.kCONTACTS)
 	level.unblock_action(key_bindings.kCONSOLE)
 	level.unblock_action(key_bindings.kTORCH)
-	get_console():execute("hud_crosshair 1")
 end
 
 -- Забрать КПК у игрока и отключить интерфейс
@@ -1238,6 +1258,7 @@ function emp_end()
 	if not a or a:has_info("fr_agr_emp_end") then return end
 	a:give_info_portion("fr_agr_emp_end")
 	emp_devices_on()
+	get_console():execute("hud_crosshair 1")
 	get_console():execute("hud_draw 1")
 	play2d("fr\\agroprom\\radio_static")
 end
@@ -1494,7 +1515,7 @@ local SID_SNIPER_BOX = 260
 
 local SNIPER_GUN  = "wpn_svd"            -- СВД с ночным прицелом из пака
 local SNIPER_AMMO = "ammo_7.62x54_7h1"
-local SNIPER_SCOPE = "1pn93-4"
+local SNIPER_SCOPE = "pso1m2"
 local SHOT_SND    = "weapons\\_gunfire\\mono\\trg\\Close_1"  -- поставь звук СВД
 
 local function give_info_once(info)

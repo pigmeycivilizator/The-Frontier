@@ -227,6 +227,8 @@ end
 -- end
 -- End moon phases functional.
 function WeatherManager:select_weather(now)
+	-- Rubezh: story night on Agroprom after the tunnel (see agroprom.story_weather)
+	if agroprom.story_weather(now) then return end
 	local weather = xr_logic.pick_section_from_condlist(db.actor, db.actor, self.weather_list)
     -- Breaking down outdoor weather to stated periods. 
     if not self:IsIndoor(weather) then

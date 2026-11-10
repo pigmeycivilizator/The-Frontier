@@ -453,7 +453,7 @@
 
 	<specific_character id="fr_agr_dead_cultist" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_mask_1</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -479,7 +479,7 @@
 
 	<specific_character id="fr_agr_cultist_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -507,7 +507,7 @@
 
 	<specific_character id="fr_agr_cultist_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_balon_7</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -533,7 +533,7 @@
 
 	<specific_character id="fr_agr_cultist_3" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_mask</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -1142,7 +1142,7 @@
 
 	<specific_character id="fr_agr_pastukh" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -1235,7 +1235,7 @@
 	
 	<specific_character id="fr_agr_pastukh_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_balon_7</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 
@@ -1663,7 +1663,7 @@
 	<!-- ============ ЛОГОВО: КУЛЬТИСТ-ПАСТУХ ============ -->
 	<specific_character id="fr_agr_strike_cultist" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="3" y="0"></map_icon>
 		<bio>fr_agr_cultist_bio</bio>
 		<snd_config>characters_voice\human_03\monolith\</snd_config>
@@ -3757,7 +3757,7 @@
 	<!-- ===== Подземка: Орден ===== -->
 	<specific_character id="fr_agr_und_cultist_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_balon_7</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3782,7 +3782,7 @@
 
 	<specific_character id="fr_agr_und_cultist_2" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_mask</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3904,7 +3904,7 @@
 		<!-- ===== Орден: новые модели ===== -->
 	<specific_character id="fr_agr_order_balon" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_balon_7</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3933,7 +3933,7 @@
 
 	<specific_character id="fr_agr_order_mask" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_mask</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3962,7 +3962,7 @@
 
 	<specific_character id="fr_agr_order_mask_1" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_mask_1</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -3992,7 +3992,7 @@
 
 	<specific_character id="fr_agr_order_nauchniy" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -4054,7 +4054,7 @@
 		<!-- ===== Штурм: Орден с РПГ ===== -->
 	<specific_character id="fr_agr_order_rpg" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_mask</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 
@@ -4084,7 +4084,7 @@
 	<!-- ===== Штурм: снайпер Ордена на холме ===== -->
 	<specific_character id="fr_agr_order_sniper" team_default="1">
 		<name>GENERATE_NAME_chaos</name>
-		<icon>ui_npc_u_stalker_do_nauchniy</icon>
+		<icon>ui_npc_u_stalker_do_exoskeleton</icon>
 		<map_icon x="1" y="1"></map_icon>
 		<bio>fr_agr_order_bio</bio>
 

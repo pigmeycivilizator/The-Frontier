@@ -1155,7 +1155,6 @@
     <phrase_list>
       <phrase id="0">
         <text>fr_post1_0</text>
-        <precondition>agroprom.has_crate</precondition>
         <next>1</next>
       </phrase>
       <phrase id="1">
@@ -1365,7 +1364,6 @@
     <phrase_list>
       <phrase id="0">
         <text>fr_post2_0</text>
-        <precondition>agroprom.has_crate</precondition>
         <next>1</next>
       </phrase>
       <phrase id="1">
@@ -1397,7 +1395,6 @@
     <phrase_list>
       <phrase id="0">
         <text>fr_post3_0</text>
-        <precondition>agroprom.has_crate</precondition>
         <next>1</next>
       </phrase>
       <phrase id="1">

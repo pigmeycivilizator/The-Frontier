@@ -71,7 +71,7 @@
 	<text>Lieutenant Rogovets reporting, Colonel.</text>
 </string>
 <string id="fr_agr_kuz_brief_1">
-	<text>At ease, soldier. How's that patrolman's wound? Nothing serious, I hope?</text>
+	<text>At ease, Lieutenant. How's that patrolman's wound? Nothing serious, I hope?</text>
 </string>
 <string id="fr_agr_kuz_brief_2">
 	<text>No, sir. I gave him first aid and painkillers, he'll live, but...</text>
@@ -638,7 +638,7 @@
 	<text>The OKP-7.</text>
 </string>
 <string id="fr_snab_bd_9">
-	<text>Alright, take it. Even though our plan didn't work out, I'm still grateful you agreed to help. So, now I have to do inventory all over again... Huh, why are you standing there? Dismissed, soldier.</text>
+	<text>Alright, take it. Even though our plan didn't work out, I'm still grateful you agreed to help. So, now I have to do inventory all over again... Huh, why are you standing there? Off you go, Lieutenant, don't get in my way.</text>
 </string>
 
 <!--==================== ÁËÎÊÏÎÑÒ 1 ====================-->
@@ -2328,13 +2328,13 @@
 		<text>Because at least you were paying for something. Others would just send soldiers to an endless slaughter without a second thought. In our situation there was no other choice.</text>
 	</string>
 	<string id="fr_agr_kuz_plan_17">
-		<text>That's right, soldier. Thanks for understanding... Alright, enough of that. Let's get to the plan. What do we have right now? No contact with the Big Land for two days, no fuel, a little over 40 combat-ready men, basically no vehicles, the enemy has us completely surrounded, visibility close to zero... Lousy, don't you think? Was it like this for you guys in Pripyat?</text>
+		<text>That's right, Lieutenant. Thanks for understanding... Alright, enough of that. Let's get to the plan. What do we have right now? No contact with the Big Land for two days, no fuel, a little over 40 combat-ready men, basically no vehicles, the enemy has us completely surrounded, visibility close to zero... Lousy, don't you think? Was it like this for you guys in Pripyat?</text>
 	</string>
 	<string id="fr_agr_kuz_plan_18">
 		<text>Even worse, it was a branch of hell on Earth. And back then we had no hope, but here...</text>
 	</string>
 	<string id="fr_agr_kuz_plan_19">
-		<text>Right, soldier. The only thing we have left lies down below. If the Order takes the last part of the maps, everything we've been dying for these past weeks was for nothing. We need that last part no matter what... That's why you're going down there.</text>
+		<text>Right, Rogovets. The only thing we have left lies down below. If the Order takes the last part of the maps, everything we've been dying for these past weeks was for nothing. We need that last part no matter what... That's why you're going down there.</text>
 	</string>
 	<string id="fr_agr_kuz_plan_20">
 		<text>I... I'm starting to get used to it, Colonel.</text>
